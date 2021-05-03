@@ -42,8 +42,8 @@ const Header = () => {
           showReveal ? "reveal-header " : ""
         }`}
       >
-        <Container fluid={gContext.theme.headerFluid}>
-          <nav className="navbar site-navbar offcanvas-active navbar-expand-lg  px-0">
+        <Container>
+          <nav className="navbar site-navbar offcanvas-active navbar-expand-lg  px-0" id="header-nav">
             {/* <!-- Brand Logo--> */}
             <div className="brand-logo mt-3 mt-md-0">
               <Logo />
