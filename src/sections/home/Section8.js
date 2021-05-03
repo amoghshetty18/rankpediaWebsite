@@ -247,7 +247,8 @@ const Section8 = ({ className, ...rest }) => {
           </div>
         </div>
       </div>
-    </div>
+    </div>     
+    
         
         
       </div>
