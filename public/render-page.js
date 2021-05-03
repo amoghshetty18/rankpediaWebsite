@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("D:\\rankpedia-gatsby\\node_modules\\@reach\\router\\index.js"), require("D:\\rankpedia-gatsby\\node_modules\\lodash\\merge.js"), require("react"), require("react-dom/server"), require("react-helmet"));
+		module.exports = factory(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\node_modules\\@reach\\router\\index.js"), require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\node_modules\\lodash\\merge.js"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["D:\\rankpedia-gatsby\\node_modules\\@reach\\router\\index.js", "D:\\rankpedia-gatsby\\node_modules\\lodash\\merge.js", "react", "react-dom/server", "react-helmet"], factory);
+		define("lib", ["C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\node_modules\\@reach\\router\\index.js", "C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\node_modules\\lodash\\merge.js", "react", "react-dom/server", "react-helmet"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("D:\\rankpedia-gatsby\\node_modules\\@reach\\router\\index.js"), require("D:\\rankpedia-gatsby\\node_modules\\lodash\\merge.js"), require("react"), require("react-dom/server"), require("react-helmet"));
+		exports["lib"] = factory(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\node_modules\\@reach\\router\\index.js"), require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\node_modules\\lodash\\merge.js"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else
-		root["lib"] = factory(root["D:\\rankpedia-gatsby\\node_modules\\@reach\\router\\index.js"], root["D:\\rankpedia-gatsby\\node_modules\\lodash\\merge.js"], root["react"], root["react-dom/server"], root["react-helmet"]);
+		root["lib"] = factory(root["C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\node_modules\\@reach\\router\\index.js"], root["C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\node_modules\\lodash\\merge.js"], root["react"], root["react-dom/server"], root["react-helmet"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -62973,7 +62973,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAAAcCAYAAAB8
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAAAcCAMAAABLelHJAAAAAXNSR0IB2cksfwAAAn9QTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Lau0ZAAAANV0Uk5TABU9SUgWFDAJHCkgDAQ1VR0PS0ELAVHf+/zyc2b4vB8KYsPw+fSajPfmRsq6EkD2//5tocsNqf2wOtgIl3+0AwXWdFTqt54egH5vAvpeGYKligbSsoXprWnbIrMbGEeWecXAbEIHL/MkDoPcgSyNLU+bTjRQTGGVUxOITTmgMo+jXe/NJ1lD00RjkaTtvVrPYLngqo71Zc7Re4ZbK+c8aHxumdCiN4nZcFe164SYrzaTUtrHrsnx7J3inKg7n7u/F5JFdXoja+VWZyqUwXgx6BBf7sR9TGz15AAABANJREFUeJy1lolfDGEYx98ouia2msyqqG0jRzWTGPcOlWiXVK6okBa52twbFgnlyE05SiL3zbrlvuX8gzzPO7Mzy2cT0vP51Pt73ued5/sez7szhBCvTp0V8/YhaF26+hLNfP38AwIJYYK6dSeeTRccEtpKSDM2rAenl61nuJw/IrJXb1c4KtoQY4ztQ5i+cfp+/T1m8Bug5wbGt8VJSOQVE5JYuWsQzycPVjBDRAwNJcOwHT7CU4aROGKUPGmwVjijXRjeQFdjkpgx4ATL0bECncFQkoJtqo+nDGkYGocqffyECRlmzxyLypmI7qTMyVmx4CTRYPZwkGLOlKkkfRrgpnvMMYPjeWMKqk6CIOSaPHNUTNxM8KRZAk+XkEGDeYgcmG9iCCkYnTzbz2MG3zlzC+dJqIpgdG4r61HOhuNyreDNX8BxvMZZqAcZLg+0FrvP1JxtlVxHwQbScmOlRTB68W/X0yNzSTR6S5eMX2ZxcUpsEXj6pcttiq2Azu4rbbZVxemr1wzqu9ZOM/hhyIsEpJT1hNH9VtoSiG4ddAXTNRI7Pr5e4WzQwA7Rxdkor03PuWwTdG4Gtzx6Cy7UmFaBD2zF0DZC50R3ZgvRbYeuyEqaL9zCcZYMhVOlcZLUfdvB/2I7kQOtZZfSsRs3rBpVJYlQh+0hZC8e8j4GTw9Lab9d5ogOhm4ryzDSAZVzMNKIkotEc+fAA4doSAzTOIdFkVaQKB4hJLAGK6sIov1x5bXK+Rg3Hj2GnONlU8tOqJy6+pO4F0PqwRoS3TmHTm1uaERxmlU5Z7KazoIob2o6B8POY/p9JiJdgPZivlpvwiXk1MIF4H+ttwZUUTHunMu+hK1bAKLQpHJgL65gvUl0a0INuCAHuYrzu8Zq92cVFusUdY/dOFSG/sS5DsJ0A8RNjQN2i9fujw0fHWcqxSUuVeuaj8sDXbz/Dzne2LX9t5yo2+A4ve/A/7usxmnE2igR/5BT0DaHhOE9vAd/sSXaPeXvo67i289Rfw+yC5VUD1g3zmrUpf+BM83HrJCC9TST8SHROHo8KvOednIegRAeX5ujLKiZZkrLpl4qdRbje+1Josap/xfOVvnZZmXnivCE9EWy85SGbuEePhNUjCXoXzi6Iz9xKuLAabTKTgBeA/45yhcqRhgp0eDLcqfT+YpyXoO6C6IaWucz7LoNYjdw3mBPiDyv6TEiz11QOE2Y6a3ikHf3k3Ny6PTf58hW8+FjsRyztrS0OOjL2jwfZACIeAcIGvYHUQH7EA9ti+t7Iqi6qttCWft8As7Zzy4OYXR2Oy0RaGWLau1j4q/suVZPHWmDcwHzqc3vrXbbF/xxKetwjIRvoK95Hc6p+GYwfPuuHvQPw3iVHCKtpbcAAAAASUVORK5CYII="
+module.exports = "data:image/png;base64,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"
 
 /***/ }),
 
@@ -64066,10 +64066,9 @@ const Header = () => {
     className: `site-header ${gContext.theme.headerClassName} px-7 px-lg-10 dynamic-sticky-bg site-header--absolute site-header--sticky
 
         ${showScrolling ? "scrolling" : ""} ${showReveal ? "reveal-header " : ""}`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
-    fluid: gContext.theme.headerFluid
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: "navbar site-navbar offcanvas-active navbar-expand-lg  px-0"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+    className: "navbar site-navbar offcanvas-active navbar-expand-lg  px-0",
+    id: "header-nav"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "brand-logo mt-3 mt-md-0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Logo__WEBPACK_IMPORTED_MODULE_8__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -64229,90 +64228,109 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "menuItems", function() { return menuItems; });
 const menuItems = [{
-  name: "demos",
-  label: "Demos",
-  items: [{
-    name: "",
-    label: "Home 01"
-  }, {
-    name: "home-2",
-    label: "Home 02"
-  }, {
-    name: "home-3",
-    label: "Home 03"
-  }, {
-    name: "home-4",
-    label: "Home 04"
-  }, {
-    name: "home-5",
-    label: "Home 05"
-  }, {
-    name: "home-6",
-    label: "Home 06"
-  }]
-}, {
-  name: "pages",
-  label: "pages",
-  items: [{
-    name: "about",
-    label: "About Us"
-  }, {
-    name: "careers",
-    label: "Careers",
-    items: [{
-      name: "career",
-      label: "Career"
-    }, {
-      name: "career-details",
-      label: "Career Details"
-    }]
-  }, {
-    name: "utility",
-    label: "Utility",
-    items: [{
-      name: "pricing",
-      label: "Pricing & Plan"
-    }, {
-      name: "contact",
-      label: "Contact"
-    }, {
-      name: "faq",
-      label: "FAQ"
-    }, {
-      name: "comingsoon",
-      label: "Coming soon"
-    }, {
-      name: "terms",
-      label: "Terms & Conditions"
-    }, {
-      name: "404",
-      label: "404 Page"
-    }]
-  }, {
-    name: "account",
-    label: "Account",
-    items: [{
-      name: "signin",
-      label: "Sign In"
-    }, {
-      name: "signin-image",
-      label: "Sign In Image"
-    }, {
-      name: "signup",
-      label: "Sign Up"
-    }, {
-      name: "signup-image",
-      label: "Sign Up Image"
-    }, {
-      name: "reset-pass",
-      label: "Reset Password"
-    }]
-  }]
-}, {
-  name: "https://uxtheme.net/product-support/",
-  label: "Support",
+  name: "#",
+  label: "Aboutus",
   isExternal: true
-}];
+}, {
+  name: "#",
+  label: "Classes",
+  items: [{
+    name: "https://drive.google.com/drive/folders/1TMn_ZQ1jHDccCJMs0rUDYyCfkuo7IW1i?usp=sharing",
+    label: "Class 8",
+    isExternal: true
+  }, {
+    name: "https://drive.google.com/drive/folders/1UzVFzfWU3tlPfPHI60BuHbK9YpgrJTel?usp=sharing",
+    label: "Class 9",
+    isExternal: true
+  }, {
+    name: "https://drive.google.com/drive/folders/1FUy7SVXzclaX7odateqEa0QpcPpYU1Ps?usp=sharing",
+    label: "Class 10",
+    isExternal: true
+  }]
+}, {
+  name: "#",
+  label: "Study materials",
+  items: [{
+    name: "https://drive.google.com/drive/folders/1TMn_ZQ1jHDccCJMs0rUDYyCfkuo7IW1i?usp=sharing",
+    label: "Class 8",
+    isExternal: true
+  }, {
+    name: "https://drive.google.com/drive/folders/1UzVFzfWU3tlPfPHI60BuHbK9YpgrJTel?usp=sharing",
+    label: "Class 9",
+    isExternal: true
+  }, {
+    name: "https://drive.google.com/drive/folders/1FUy7SVXzclaX7odateqEa0QpcPpYU1Ps?usp=sharing",
+    label: "Class 10",
+    isExternal: true
+  }]
+}, {
+  name: "https://medium.com/rankpedia",
+  label: "Blogs",
+  isExternal: true
+}, {
+  name: "#",
+  label: "Contact",
+  isExternal: true
+}, {
+  name: "#",
+  label: "QuizWizz",
+  isExternal: true
+} // {
+//          name: "demos",
+//          label: "Demos",
+//          items: [
+//            { name: "", label: "Home 01" },
+//            { name: "home-2", label: "Home 02" },
+//            { name: "home-3", label: "Home 03" },
+//            { name: "home-4", label: "Home 04" },
+//            { name: "home-5", label: "Home 05" },
+//            { name: "home-6", label: "Home 06" },
+//          ],
+//        },
+//        {
+//          name: "pages",
+//          label: "pages",
+//          items: [
+//            { name: "about", label: "About Us" },
+//            {
+//              name: "careers",
+//              label: "Careers",
+//              items: [
+//                { name: "career", label: "Career" },
+//                { name: "career-details", label: "Career Details" },
+//              ],
+//            },
+//            {
+//              name: "utility",
+//              label: "Utility",
+//              items: [
+//                { name: "pricing", label: "Pricing & Plan" },
+//                { name: "contact", label: "Contact" },
+//                { name: "faq", label: "FAQ" },
+//                { name: "comingsoon", label: "Coming soon" },
+//                { name: "terms", label: "Terms & Conditions" },
+//                { name: "404", label: "404 Page" },
+//              ],
+//            },
+//            {
+//              name: "account",
+//              label: "Account",
+//              items: [
+//                { name: "signin", label: "Sign In" },
+//                { name: "signin-image", label: "Sign In Image" },
+//                { name: "signup", label: "Sign Up" },
+//                { name: "signup-image", label: "Sign Up Image" },
+//                { name: "reset-pass", label: "Reset Password" },
+//              ],
+//            },
+//          ],
+//        },
+//        {
+//          name: "https://uxtheme.net/product-support/",
+//          label: "Support",
+//          isExternal: true,
+//        },
+];
 
 /***/ }),
 
@@ -64661,7 +64679,7 @@ const Logo = ({
     to: "/",
     className: `${className}`
   }, rest), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_image_logo_main_black_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    src: _assets_image_logo_main_white_png__WEBPACK_IMPORTED_MODULE_3___default.a,
     alt: "",
     className: "light-version-logo"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -65144,9 +65162,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "@reach/router":
-/*!*******************************************************************************!*\
-  !*** external "D:\\rankpedia-gatsby\\node_modules\\@reach\\router\\index.js" ***!
-  \*******************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** external "C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\node_modules\\@reach\\router\\index.js" ***!
+  \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -65155,9 +65173,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__reach_router__;
 /***/ }),
 
 /***/ "lodash/merge":
-/*!***********************************************************************!*\
-  !*** external "D:\\rankpedia-gatsby\\node_modules\\lodash\\merge.js" ***!
-  \***********************************************************************/
+/*!****************************************************************************************************!*\
+  !*** external "C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\node_modules\\lodash\\merge.js" ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
