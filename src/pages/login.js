@@ -14,9 +14,9 @@ const Login = () => {
           headerLogoClassName: "mx-auto text-center",
           headerButton: (
             <>
-              <button className="btn btn btn-blue-3 header-btn1 head-login">
+          <a href="/login">   <button className="btn btn btn-blue-3 header-btn1 head-login">
                 Login
-              </button>
+              </button> </a> 
 
             
             </>

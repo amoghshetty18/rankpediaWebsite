@@ -4,7 +4,7 @@ import logoW from "../../assets/image/logo-main-white.png";
 
 export const menuItems = [
   {
-    name: "#",
+    name: "/about",
     label: "Aboutus",
     isExternal: true,
   },

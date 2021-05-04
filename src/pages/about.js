@@ -19,9 +19,9 @@ const PricingPage = () => {
           headerClassName: "site-header--menu-right",
           headerButton: (
             <>
-              <button className="btn btn btn-blue-3 header-btn1 head-login">
+            <a href="/login">  <button className="btn btn btn-blue-3 header-btn1 head-login">
                 Login
-              </button>
+              </button> </a> 
 
               {/* <div class="header-btn  ml-auto ml-lg-5 mr-6 mr-lg-0 d-none d-xs-block" id="login-tpr">
             <a class="btn bggr gr-text-9 d-none d-xs-inline-flex " href="#">
