@@ -241,7 +241,7 @@ const Section4 = ({ className, ...rest }) => {
             <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <h2 class="title gr-text-3 mb-6 engag" >Enriching Results with the Power of Data</h2>
               <p class="gr-text-8 clscls">Experience the power of data like never before. Gain insights on your progress, strengths and weaknesses with daily, weekly or monthly reports, giving you the ability to know where you gain and lack compared to your peers.</p>
-              <a href="" class="btn btn-red mx-auto gtstrdr">Get Started</a>
+              <a href="#" class="btn btn-red mx-auto gtstrdr">Get Started</a>
             </div>
             <div class="content-widget">
               <div class="row">

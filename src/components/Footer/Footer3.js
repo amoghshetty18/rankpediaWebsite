@@ -20,7 +20,7 @@ const Footer = ({ className, ...rest }) => {
               <div class="single-footer mb-13 mb-lg-9">
                 <p class="footer-title gr-text-11 mb-7">Company</p>
                 <ul class="footer-list list-unstyled">
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/about.html"  >About us</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/about"  >About us</a></li>
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Class/Courses</a></li>
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Study Material</a></li>
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="https://medium.com/rankpedia">Blog</a></li>
@@ -41,7 +41,7 @@ const Footer = ({ className, ...rest }) => {
               <div class="single-footer mb-13 mb-lg-9">
                 <p class="footer-title gr-text-11 mb-7">Support</p>
                 <ul class="footer-list list-unstyled">
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/contact.html">Contact us</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="#">Contact us</a></li>
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Help desk</a></li>
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="">FAQ</a></li>
                 </ul>

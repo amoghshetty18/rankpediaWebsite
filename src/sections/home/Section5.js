@@ -242,7 +242,7 @@ const Section5 = ({ className, ...rest }) => {
                 <h2 class="title gr-text-3 mb-6 engag">Prepare Better</h2>
                 <p class="gr-text-8 clscls">Simple learning, Comprehensive Preparation.</p>
                 <p class="gr-text-8 clscls">Be better prepared for any exam with comprehensive assessments and quizzes.</p>
-                  <a href="" class="btn btn-red mx-auto gtstrdr">Get Started</a>
+                  <a href="#" class="btn btn-red mx-auto gtstrdr">Get Started</a>
               </div>
               <div class="content-widget">
                 <div class="row mb-n9">

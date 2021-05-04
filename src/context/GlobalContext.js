@@ -11,9 +11,9 @@ export const themeConfigDefault = {
   headerFluid: true,
   headerButton: (
     <>
-      <Link to="/#" className="btn heading-default-color gr-hover-text-primary">
+      {/* <Link to="/#" className="btn heading-default-color gr-hover-text-primary">
         + Submit New Job
-      </Link>
+      </Link> */}
     </>
   ),
   headerClassName: "site-header--menu-logo-middle",

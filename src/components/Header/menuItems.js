@@ -1,6 +1,10 @@
+import React, { useState, useContext } from "react";
+import { Link } from "gatsby";
+import logoW from "../../assets/image/logo-main-white.png";
+
 export const menuItems = [
   {
-    name: "#",
+    name: "/about",
     label: "Aboutus",
     isExternal: true,
   },
@@ -35,8 +39,11 @@ export const menuItems = [
   {
     name: "#",
     label: "QuizWizz",
-    isExternal: true,
+    isExternal: false,
    },
+
+
+
   // {
   //          name: "demos",
   //          label: "Demos",
