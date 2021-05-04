@@ -8161,7 +8161,84 @@ button:focus {
     line-height: 26px;
 }
 
+// start of about us page
+#about-banner-image
+{
+  background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1620050314/hero-img-min_xigpve.jpg");
+  width: auto;
+}
+.team-section
+{
+  padding: 0 15px 0 0;
+}
+.Ourteamheading
+{
+  color: #FFFFFF;
+  // font-family: "Roboto";
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: -1.8px;
+  line-height: 48px;
+}
+.OurteamContent
+{
+  color: #FFFFFF;
+  font-size: 20px;
+  letter-spacing: -0.24px;
+  line-height: 28px;
+  text-align: center
+}
+.teaminfostyling
+{
+  text-align: left;
+  padding:25px 0 0 15px;
+}
+.membername
+{
+  color: #FFFFFF;
+  // font-family: 'Roboto';
+  font-size: 20px;
+  letter-spacing: -0.48px;
+  line-height: 20px;
+}
+.memberposition
+{
+  color: #FFFFFF;
+  // font-family: "Helvetica Neue";
+  font-size: 18px;
+  letter-spacing: -0.21px;
+  line-height: 18px;
 
+}
+.Service-heading
+{
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+  line-height: 20px;
+}
+// End of about us page
 
+.footerstyling
+{
+  background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1620129434/Footer_BG-min_mr0dfl.png");
+  width: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footerrightsection
+{
+  text-align: right;
+}
 
-
+@media (max-width: 768px)
+{
+  .teaminfostyling
+  {
+    text-align: center;
+  }
+  .footerrightsection
+  {
+    text-align: center;
+  }
+}
