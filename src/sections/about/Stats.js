@@ -4,90 +4,93 @@ import LazyLoad from "react-lazyload";
 
 const Stats = () => {
   return (
-    <div className="bg-default-3 pt-13 pt-md-18 pt-lg-23 pb-5 pb-md-9 pb-lg-23">
+    <div className="fact-section bg-default-4  pt-13 pt-lg-18 pb-7 pb-lg-17">
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center"  data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           {/* Single Counter */}
-          <div className="col-lg-3 col-md-3 col-xs-6">
+          <div className="col-lg-3 col-md-6 col-sm-6 mb-9 mb-lg-0">
             <div
-              className="mb-11 mb-lg-0"
-              data-aos="fade-up"
-              data-aos-duration={300}
+              className="single-fact text-center px-md-9 px-lg-6 px-xl-11"
+              // data-aos="fade-up"
+              // data-aos-duration={300}
             >
-              <h2 className="font-size-12 mb-5">
-                <LazyLoad>
+              <h2 className="title mb-7 gr-text-3 abt-num">
+                {/* <LazyLoad>
+                  <span className="counter">
+                    <CountUp duration={3} end={100} />+
+                  </span>
+                </LazyLoad> */}
+                100+
+              </h2>
+
+              <p className="gr-text-8 mb-0 abt-pnm">
+               Active Students
+              </p>
+            </div>
+          </div>
+          {/* End Single Counter */}
+          {/* Single Counter */}
+          <div className="col-lg-3 col-md-6 col-sm-6 mb-9 mb-lg-0">
+            <div
+              className="single-fact text-center px-md-9 px-lg-6 px-xl-11"
+              // data-aos="fade-up"
+              // data-aos-duration={600}
+            >
+              <h2 className="title mb-7 gr-text-3 abt-num">
+                {/* <LazyLoad>
                   <span className="counter">
                     <CountUp duration={3} end={10} />
                   </span>
-                </LazyLoad>
+                  +
+                </LazyLoad> */}
+                10+
               </h2>
-
-              <p className="heading-default-color mb-0 font-size-5">
-                Team Members
+              <p className="gr-text-8 mb-0 abt-pnm">
+               School collabration
               </p>
             </div>
           </div>
           {/* End Single Counter */}
           {/* Single Counter */}
-          <div className="col-lg-3 col-md-3 col-xs-6">
+          <div className="col-lg-3 col-md-6 col-sm-6 mb-9 mb-lg-0">
             <div
-              className="mb-11 mb-lg-0"
-              data-aos="fade-up"
-              data-aos-duration={600}
+              className="single-fact text-center px-md-9 px-lg-6 px-xl-11"
+              // data-aos="fade-up"
+              // data-aos-duration={900}
             >
-              <h2 className="font-size-12 mb-5">
-                <LazyLoad>
-                  <span className="counter">
-                    <CountUp duration={3} end={45} />
-                  </span>
-                  K
-                </LazyLoad>
-              </h2>
-              <p className="heading-default-color mb-0 font-size-5">
-                Monthly Active Users
+              <h3 className="title mb-7 gr-text-3 abt-num">
+                {/* <LazyLoad>
+                   <span className="counter">
+                    <CountUp duration={3} end={40} />
+                  </span> 
+                  40+
+                </LazyLoad> */}
+              40+
+              </h3>
+              <p className="gr-text-8 mb-0 abt-pnm">
+                Active teachers
               </p>
             </div>
           </div>
           {/* End Single Counter */}
           {/* Single Counter */}
-          <div className="col-lg-3 col-md-3 col-xs-6">
+          <div className="col-lg-3 col-md-6 col-sm-6 mb-9 mb-lg-0">
             <div
-              className="mb-11 mb-lg-0"
-              data-aos="fade-up"
-              data-aos-duration={900}
+              className="single-fact text-center px-md-9 px-lg-6 px-xl-11"
+              // data-aos="fade-up"
+              // data-aos-duration={1200}
             >
-              <h2 className="font-size-12 mb-5">
-                <LazyLoad>
+              <h2 className="title mb-7 gr-text-3 abt-num">
+                {/* <LazyLoad> 
                   <span className="counter">
-                    <CountUp duration={3} end={81} />
+                    <CountUp duration={3} end={100} />
                   </span>
-                  K
-                </LazyLoad>
+                  100+
+                {/* </LazyLoad> */}
+                100+
               </h2>
-              <p className="heading-default-color mb-0 font-size-5">
-                Solved Tickets
-              </p>
-            </div>
-          </div>
-          {/* End Single Counter */}
-          {/* Single Counter */}
-          <div className="col-lg-3 col-md-3 col-xs-6">
-            <div
-              className="mb-11 mb-lg-0"
-              data-aos="fade-up"
-              data-aos-duration={1200}
-            >
-              <h2 className="font-size-12 mb-5">
-                <LazyLoad>
-                  $
-                  <span className="counter">
-                    <CountUp duration={3} end={93} />
-                  </span>
-                  K
-                </LazyLoad>
-              </h2>
-              <p className="heading-default-color mb-0 font-size-5">
-                Monthly Saved by The Users
+              <p className="gr-text-8 mb-0 abt-pnm">
+                Learning practices
               </p>
             </div>
           </div>
