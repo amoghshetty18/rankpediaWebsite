@@ -62786,7 +62786,7 @@ module.exports = warning;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAH6ADAAQAAAABAAAAHwAAAABTT/fMAAAEgklEQVRIDZ1WzWtcVRQ/5943k4+xwUptJiGtiYvWGMEPtAXFrt2Iq4pNCP3QjeBCkZaCm6CCLvwLXJSqmFFiceWyILrwA62lUk1AqRFtJzFYmyYz8/LePcffncmkTea9N5MeSN6bc+45v3e+L9M67T6y0m+NfZVUTxDxbiJtilKfbLtJXfWiRjJRntnxS9rB4pHKSWZzVETeWnigZ4amWPxZ4/8VxysHrMmdZ5M/vR1gicMvnOozWcDePhM9ykHXmLFBqThXOdM/WS54vvEes/JZAI+pC8HqwGOTJ41rPxm6fmyxdNeCN5RGQ4e1B+ijJA6mHZtc71F2fVP+vDEcvMZBfhThS9Pfwocf6iIncvpqaXBpi7Dlp5pwDxSGVQEOx9St4VvMi/2T1ZGASY57RqfENk8I99eLUjifpbN3XHf+GdGy2HCETdfdKusY/iM42GmcezvoNMe3gFAmrJ/RDHtXWmjw+dVnNbCvRxwWi4H8hwOBarz5nP/NZhzg7XO8ockGYQurlnLfbPBue/GFq2xK8LSAoiC2OVhHYUt026n1VxUCeOfEbNGJ8XwlWrmSpIXCfQlVXdC4s/ppDw5v0Ql1LLZMuubmrs/cc2MreP+kFshVDzHqkdD/nup5hodplA1uIJZ4Hp68A5so8ByrcxeTjEkNUc7zmxLXCiyiwibGh5xCb41qUthhhAfGK6lJ9xNMXO3T8nTvC0mAmbxj2j0Qrl5g25UKXp9w6UZ8DOWHdHm6ZLBWGUUsRhr9nXwuG1wiBV1IVs3mqjEPwWsM//Scp4OjstEuZWfNr9kwyVLMsoPJklvc1ILDFkJbuRvG5YeLE6tDNkbX9vTM/nGW/eDYRLtO6A5bqT7INmi4qb7W9Kksr72BVPBGhfI+y9FXpIbVqlSj6iHofLsJGT9y1dXnOOj+EK21HmNfKwSN7LGdCt4AUD9LDaHlVOK/VLoThwum2kE2GALic9U5ped8w4ZSIwX6+2KJFjfYzZcpHxZ6pBFi37XNv+aB9GcH4F65HsYf8WyZCXtmqQjxsPp9vU3qENzD2++SbIe2OoIVOYCNkyTO5LUHb2yyFZG1uSRLRvRhjFDfl0niTF5bcL/JQPOuUJtPsXTgToC9rbbgGJE4pnNLZ+692QJ+WPPMPNaun1v01hntwZFtBPT7JAP9uXAIwvuy5neSXpPXHlxixW0ElZ5AMd2PfO+6k2Krjw+YTJ/8CLlq9A+L/S0Bmjgnj5EfLtsmryI3DYJ6qZHXVgvMAQYMXyn3Xf67VYr2E3oiid+WxxaZ1FPGCb/bGB4JDvj1oPQzvf94yw3QX5uUef92iw1rFt8WzYbUO20Wyj3nsLM/wGLAN2wdzexnW8si8Z6ZtZW9GOYoti3X4gy3cav1mzIkx2/8+zEvG/qSY7X5VyiuvgeTS36JNAiwEq6Jk0tJ9pwx+3HN6uvMc9jy9SPRZXLxxLVPej/3NuvVvvARr16d7j0Za+VJXBinfSWikEjELRnmchJ4YHgfLCaJNvOQOhxbJopfrlDt6Wul3nPNA/8D0IXSCP3a3JYAAAAASUVORK5CYII="
+module.exports = "data:image/png;base64,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"
 
 /***/ }),
 
@@ -62971,9 +62971,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAAAcCAYAAAB8
   !*** ./src/assets/image/logo-main-white.png ***!
   \**********************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "data:image/png;base64,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"
+module.exports = __webpack_require__.p + "static/logo-main-white-8dc0bf3815ce10a9153a5d70a9bd5407.png";
 
 /***/ }),
 
@@ -64094,7 +64094,57 @@ const Header = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Offcanvas__WEBPACK_IMPORTED_MODULE_5__["default"], {
     show: gContext.visibleOffCanvas,
     onHideOffcanvas: gContext.toggleOffCanvas
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NestedMenu__WEBPACK_IMPORTED_MODULE_7__["default"], null))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NestedMenu__WEBPACK_IMPORTED_MODULE_7__["default"], null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "popup1",
+    class: "overlay"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "popup"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    class: "close",
+    href: "#"
+  }, "\xD7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./image/l4/png/crown1.png",
+    class: "popup-crown"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "QuizWizz"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: ""
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    class: "popup-para"
+  }, "Enter your details below to lorem ipsum Sed ut perspiciatis unde"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    action: "",
+    id: "rmdts"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    class: "firstname",
+    for: "fname"
+  }, "Student name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    class: "plchldr",
+    name: "fname",
+    placeholder: "eg. John Doe"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    class: "firstname",
+    for: "fname"
+  }, "School name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    class: "plchldr",
+    name: "fname",
+    placeholder: "eg. Hogwarts Public School"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    class: "firstname",
+    for: "fname"
+  }, "Grade"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    id: "cars",
+    name: "cars"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "volvo"
+  }, "Class 8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "saab"
+  }, "Class 9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "fiat"
+  }, "Class 10")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    class: "pop-submit",
+    type: "submit",
+    value: "Submit"
+  }))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -64227,6 +64277,14 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "menuItems", function() { return menuItems; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _assets_image_logo_main_white_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/image/logo-main-white.png */ "./src/assets/image/logo-main-white.png");
+/* harmony import */ var _assets_image_logo_main_white_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_image_logo_main_white_png__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
 const menuItems = [{
   name: "#",
   label: "Aboutus",
@@ -64274,7 +64332,7 @@ const menuItems = [{
 }, {
   name: "#",
   label: "QuizWizz",
-  isExternal: true
+  isExternal: false
 } // {
 //          name: "demos",
 //          label: "Demos",
@@ -64581,7 +64639,7 @@ const Layout = ({
   }, [gContext]);
 
   if (pageContext.layout === "mini") {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_2__["Helmet"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Finity"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_2__["Helmet"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Rankpedia"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
       rel: "icon",
       type: "image/png",
       href: _assets_favicon_png__WEBPACK_IMPORTED_MODULE_9___default.a
@@ -64597,7 +64655,7 @@ const Layout = ({
   }
 
   if (pageContext.layout === "coming") {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_2__["Helmet"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Finity"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_2__["Helmet"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Rankpedia"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
       rel: "icon",
       type: "image/png",
       href: _assets_favicon_png__WEBPACK_IMPORTED_MODULE_9___default.a
@@ -64612,7 +64670,7 @@ const Layout = ({
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HeaderMini__WEBPACK_IMPORTED_MODULE_5__["HeaderComingSoon"], null), children), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModalVideo__WEBPACK_IMPORTED_MODULE_7__["default"], null));
   }
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_2__["Helmet"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Finity"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_2__["Helmet"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Rankpedia"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "icon",
     type: "image/png",
     href: _assets_favicon_png__WEBPACK_IMPORTED_MODULE_9___default.a

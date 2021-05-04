@@ -16,6 +16,7 @@ exports.components = {
   "component---src-pages-home-5-js": () => import("./../../../src/pages/home-5.js" /* webpackChunkName: "component---src-pages-home-5-js" */),
   "component---src-pages-home-6-js": () => import("./../../../src/pages/home-6.js" /* webpackChunkName: "component---src-pages-home-6-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
+  "component---src-pages-login-js": () => import("./../../../src/pages/login.js" /* webpackChunkName: "component---src-pages-login-js" */),
   "component---src-pages-pricing-js": () => import("./../../../src/pages/pricing.js" /* webpackChunkName: "component---src-pages-pricing-js" */),
   "component---src-pages-reset-pass-js": () => import("./../../../src/pages/reset-pass.js" /* webpackChunkName: "component---src-pages-reset-pass-js" */),
   "component---src-pages-signin-image-js": () => import("./../../../src/pages/signin-image.js" /* webpackChunkName: "component---src-pages-signin-image-js" */),

@@ -88,6 +88,34 @@ const Header = () => {
           <NestedMenu />
         </Offcanvas>
       </div>
+
+      <div id="popup1" class="overlay">
+                  <div class="popup">
+                    
+                    <a class="close" href="#">&times;</a>
+                    <img src="./image/l4/png/crown1.png" class="popup-crown" />
+
+                    <h2>QuizWizz</h2>
+                    <div class="">
+                      <p class="popup-para">Enter your details below to lorem ipsum Sed ut perspiciatis unde</p>
+
+                      <form action="" id="rmdts">
+                        <label class="firstname" for="fname">Student name</label><br />
+                        <input type="text" class="plchldr" name="fname" placeholder="eg. John Doe" /><br/>
+                        <label class="firstname" for="fname">School name</label><br/>
+                        <input type="text" class="plchldr" name="fname" placeholder="eg. Hogwarts Public School"/><br/>
+                        <label class="firstname" for="fname">Grade</label><br/>
+                        <select id="cars" name="cars">
+                          <option value="volvo">Class 8</option>
+                          <option value="saab">Class 9</option>
+                          <option value="fiat">Class 10</option>
+                        </select>
+                        <input class="pop-submit" type="submit" value="Submit" />
+                      </form> 
+
+                    </div>
+                  </div>
+                </div>
     </>
   );
 };

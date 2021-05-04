@@ -40,7 +40,7 @@ const Section1 = ({ className, ...rest }) => {
                  smarter generation</h1>
               <p class="gr-text-8 pr-5 pl-0 pr-xl-11 mb-9 learnpar">Learning has never been easier. Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations. </p>
               <div class="hero-btn">
-                <a href="#" class="btn-link with-icon text-green gr-text-7 font-weight-bold">Get started <i class="icon icon-tail-right font-weight-bold"></i></a>
+                <a href="#" class="btn-link with-icon text-green1 gr-text-7 font-weight-bold">Get started <i class="icon icon-tail-right font-weight-bold"></i></a>
               </div>
             </div>
           </div>

@@ -242,7 +242,7 @@ const Section2 = ({ className, ...rest }) => {
             <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <h2 class="title gr-text-3 mb-6 engag" >Engaging Content that Inspires Curiosity</h2>
               <p class="gr-text-8 clscls">Experience immersive content that makes you think and question, watch videos that are both fun and thought provoking and interact with Experts that help bring the best out of you.</p>
-                <a href="" class="btn btn-red mx-auto gtstrdr">Get Started</a>
+                <a href="#" class="btn btn-red mx-auto gtstrdr">Get Started</a>
             </div>
             <div class="content-widget">
               <div class="row">

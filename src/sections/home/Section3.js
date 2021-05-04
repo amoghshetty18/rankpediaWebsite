@@ -35,7 +35,7 @@ const Section3 = ({ className, ...rest }) => {
               <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
                 <h2 class="title gr-text-3 mb-6 engag">Got a Doubt? We solve it instantly</h2>
                 <p class="gr-text-8 clscls">Get your doubts solved instantly, no matter what time it is or where you are. Our experts are just a click away.</p>
-                  <a href="" class="btn btn-red mx-auto gtstrdr">Get Started</a>
+                  <a href="#" class="btn btn-red mx-auto gtstrdr">Get Started</a>
               </div>
               <div class="content-widget">
                 <div class="row mb-n9">

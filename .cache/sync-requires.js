@@ -19,6 +19,7 @@ exports.components = {
   "component---src-pages-home-5-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\home-5.js"))),
   "component---src-pages-home-6-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\home-6.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\index.js"))),
+  "component---src-pages-login-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\login.js"))),
   "component---src-pages-pricing-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\pricing.js"))),
   "component---src-pages-reset-pass-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\reset-pass.js"))),
   "component---src-pages-signin-image-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\signin-image.js"))),
