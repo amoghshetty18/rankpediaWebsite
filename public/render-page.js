@@ -63406,7 +63406,7 @@ const Footer = ({
     class: "py-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     class: "gr-text-9 gr-text-color",
-    href: "/about.html"
+    href: "/about"
   }, "About us")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     class: "py-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -63457,7 +63457,7 @@ const Footer = ({
     class: "py-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     class: "gr-text-9 gr-text-color",
-    href: "/contact.html"
+    href: "#"
   }, "Contact us")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     class: "py-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -64298,7 +64298,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const menuItems = [{
-  name: "#",
+  name: "/about",
   label: "Aboutus",
   isExternal: true
 }, {

@@ -229,7 +229,7 @@ const Section4 = ({ className, ...rest }) => {
     <>
       <div className={className} {...rest}>
        
-      <div class="content-section pt-6 pt-lg-19 pb-5 bg-default-4">
+      <div class="content-section  pb-5 bg-default-4" id="heth">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">

@@ -234,8 +234,8 @@ const Section8 = ({ className, ...rest }) => {
         <div class="row justify-content-center align-items-center">
           <div class="col-9 col-md-7 col-lg-5 offset-xl-1  order-lg-2">
             <div class="hero-img position-relative flt-rgthr" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-              <div class="hero-btn">
-                <a href="#" class="btn btn-red mx-auto gtstrdr mrgrt">Contact us</a>
+              <div class="hero-btn" >
+                <a href="#" class="btn btn-red mx-auto gtstrdr mrgrt" id="hmgst-cntrd">Contact us</a>
               </div>
             </div>
           </div>
