@@ -229,7 +229,7 @@ const Section5 = ({ className, ...rest }) => {
     <>
       <div className={className} {...rest}>
        
-      <div class="content-section pt-6 pt-lg-19 pb-7 bg-default-4">
+      <div class="content-section  pb-7 bg-default-4">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-lg-6 order-lg-2 extclt" data-aos="flip-right" data-aos-duration="2000" data-aos-once="true">

@@ -248,7 +248,7 @@ const Section7 = ({ className, ...rest }) => {
 
                 <div class="content-widget mt-7 mt-lg-0  pl-xl-19">
                   <div class="row align-items-center">
-                    <div class="col-md-6 col-lg-12" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
+                    <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
                       <div class="single-widget my-sps media">
                         <div class="media-body">
                           <div class="col-md-12 innr flt-lft">
@@ -268,7 +268,7 @@ const Section7 = ({ className, ...rest }) => {
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-6 col-lg-12" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
+                    <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
                       <div class="single-widget my-sps media">
                         <div class="media-body">
                           <div class="col-md-12 innr flt-lft">
@@ -288,7 +288,7 @@ const Section7 = ({ className, ...rest }) => {
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-6 col-lg-12" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
+                    <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
                       <div class="single-widget my-sps media">
                         <div class="media-body">
                           <div class="col-md-12 innr flt-lft">
@@ -308,7 +308,7 @@ const Section7 = ({ className, ...rest }) => {
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-6 col-lg-12" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
+                    <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
                       <div class="single-widget my-sps media">
                         <div class="media-body">
                           <div class="col-md-12 innr flt-lft">
@@ -330,7 +330,7 @@ const Section7 = ({ className, ...rest }) => {
                     </div>
                     <div class="col-md-6 col-lg-12" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
                     <div class="hero-btn">
-                      <a href="#" class="btn-link with-icon text-wtr gr-text-7 font-weight-bold">Explore course materials <i class="icon icon-tail-right font-weight-bold"></i></a>
+                      <a href="#" class="btn-link with-icon text-wtr gr-text-7 font-weight-bold hm-frtg-ts">Explore course materials <i class="icon icon-tail-right font-weight-bold"></i></a>
                     </div>
                   </div>
                   </div>
