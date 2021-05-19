@@ -1,0 +1,78 @@
+.Heading-styling h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(1.425rem + 2.1vw);
+}
+#accordianarrow .accordion__button[aria-expanded='true']::before, .accordion__button[aria-selected='true']::before {
+    transform: rotate(
+225deg
+);
+}
+#accordianarrow
+{
+    border:  none !important;
+}
+#accordianarrow .accordion__item{
+    border: none !important;
+    margin-bottom: 28px;
+}
+#accordianarrow .accordion__item .accordion__heading
+{
+    background: #F4F7FA !important;
+}
+#accordianarrow .accordion__panel
+{
+    background: #F4F7FA !important;
+    margin-bottom: 25px;
+}
+#accordianarrow .accordion__button
+{
+    background: #F4F7FA !important;
+    font-weight: 500;
+}
+#accordianarrow .accordion__button:before
+{
+    background: #F4F7FA !important;
+    position: absolute;
+    right: 150px;
+    display: inline-block;
+    content: '';
+    height: 10px;
+    width: 10px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(-45deg);
+}
+#accordianarrow .accordion__panel .accordiondisc 
+{
+    font-size: 20px !important;
+    font-weight: lighter !important;
+}
+// media query
+@media (min-width: 400px) {
+    .Heading-styling
+    {
+        font-size: 45px !important;
+    }
+}
+@media (min-width: 500px) {
+    .Heading-styling
+    {
+        font-size: 45px;
+    }
+}
+@media (min-width: 768px) {
+    .Heading-styling
+    {
+        font-size: 45px;
+    }
+}
+@media (min-width: 992px) {
+    .Heading-styling
+    {
+        font-size: 45px;
+    }
+}
+@media (min-width: 1200px) {
+}
