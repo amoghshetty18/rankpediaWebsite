@@ -1,24 +1,32 @@
 import React from "react";
 
 import PageWrapper from "../components/PageWrapper";
-import Faqsection from "../sections/faq/Faqsection"
+import Faqsection from "../sections/faq/Faqsection";
+import Infocard from "../sections/faq/Infocard";
+import GetinTouch from "../components/GetinTouch";
 const Faq = () => {
   return (
     <>
       <PageWrapper
         themeConfig={{
-          headerClassName: "site-header--menu-right",
+          headerClassName: "site-header--menu-right test",
+          headerLogoClassName: "mx-auto text-center",
           headerButton: (
             <>
-              <button className="btn btn btn-blue-3 header-btn-2 font-size-3 rounded-5">
-                Start 14 Days Free Trial
-              </button>
+          <a href="/login">   <button className="btn btn btn-blue-3 header-btn1 head-login">
+                Login
+              </button> </a> 
+
+            
             </>
           ),
           footerStyle: "style3",
         }}
+       
       >
-        <div className="pt-23 pt-md-26 pt-lg-25 pb-13 pb-md-18 pb-lg-23">
+        <div className="bg-default-4">
+        <div className="pt-30 pt-md-26 pt-lg-30 bg-default-4">
+        {/* pb-13 pb-md-18 pb-lg-23 */}
           <div className="container">
             {/* Section Title */}
             <div className="row justify-content-center">
@@ -34,8 +42,14 @@ const Faq = () => {
             {/* End Section Title */}
             {/* start of faq accordion section */}
             <Faqsection/>
-
-          </div>
+            </div>
+            <Infocard/>
+            <GetinTouch
+            title="Ready for an Experience of 
+            Blended Learning?"
+            disc="Register to experience blended learning like never before and stay ahead."/>
+          
+        </div>
         </div>
       </PageWrapper>
     </>

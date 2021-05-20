@@ -62999,6 +62999,17 @@ module.exports = __webpack_require__.p + "static/logo-main-white-8dc0bf3815ce10a
 
 /***/ }),
 
+/***/ "./src/assets/scss/sha.scss":
+/*!**********************************!*\
+  !*** ./src/assets/scss/sha.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./src/components/Footer/Footer.js":
 /*!*****************************************!*\
   !*** ./src/components/Footer/Footer.js ***!
@@ -64590,6 +64601,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_scss_bootstrap_scss__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(_assets_scss_bootstrap_scss__WEBPACK_IMPORTED_MODULE_24__);
 /* harmony import */ var _assets_scss_main_scss__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../assets/scss/main.scss */ "./src/assets/scss/main.scss");
 /* harmony import */ var _assets_scss_main_scss__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(_assets_scss_main_scss__WEBPACK_IMPORTED_MODULE_25__);
+/* harmony import */ var _assets_scss_sha_scss__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../assets/scss/sha.scss */ "./src/assets/scss/sha.scss");
+/* harmony import */ var _assets_scss_sha_scss__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(_assets_scss_sha_scss__WEBPACK_IMPORTED_MODULE_26__);
+
 
 
 
