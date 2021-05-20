@@ -15,8 +15,8 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 const Faqsection = ({ className, ...rest }) => {
   return (
    <div>
-        <Accordion id="accordianarrow"> 
-            <AccordionItem>
+        <Accordion id="accordianarrow" preExpanded={['a']}> 
+            <AccordionItem uuid="a">
                 <AccordionItemHeading>
                     <AccordionItemButton>
                         How can i?
