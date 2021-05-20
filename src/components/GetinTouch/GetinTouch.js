@@ -21,7 +21,7 @@ const GetinTouch = ({ className, title , disc, ...rest }) => {
                   {title}
                 </h3>
                 <p
-                  className="font-size-6 mb-0 "
+                  className="Getintouchtext mb-0 "
                   data-aos="fade-up"
                   data-aos-delay={800}
                 >

@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-career-js": hot(preferDefault(require("/Users/abhigitmusri/Desktop/sharan codewave/rankpedia/src/pages/career.js"))),
   "component---src-pages-comingsoon-js": hot(preferDefault(require("/Users/abhigitmusri/Desktop/sharan codewave/rankpedia/src/pages/comingsoon.js"))),
   "component---src-pages-contact-js": hot(preferDefault(require("/Users/abhigitmusri/Desktop/sharan codewave/rankpedia/src/pages/contact.js"))),
+  "component---src-pages-doubts-landing-js": hot(preferDefault(require("/Users/abhigitmusri/Desktop/sharan codewave/rankpedia/src/pages/doubts-landing.js"))),
   "component---src-pages-faq-js": hot(preferDefault(require("/Users/abhigitmusri/Desktop/sharan codewave/rankpedia/src/pages/faq.js"))),
   "component---src-pages-home-2-js": hot(preferDefault(require("/Users/abhigitmusri/Desktop/sharan codewave/rankpedia/src/pages/home-2.js"))),
   "component---src-pages-home-3-js": hot(preferDefault(require("/Users/abhigitmusri/Desktop/sharan codewave/rankpedia/src/pages/home-3.js"))),
