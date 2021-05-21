@@ -25,16 +25,9 @@ const Section1 = ({ className, ...rest }) => {
       <div className={className} {...rest}>
       <div class="hero-area position-relative " id="roller-bnr">
       
-      <div class="container">
+      <div class="header-menu-container-earlier-home">
         <div class="row justify-content-center align-items-center">
-          <div class="col-lg-5 col-md-9 order-lg-2">
-            <div class="hero-img" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-              <div class="hero-video-thumb position-relative gr-z-index-1">
-              <img src={ homebanner } class=" rounded-8" alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-7 col-md-9 order-lg-1 mt-9 mt-lg-0 tt-sct" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
+        <div class="col-lg-8 col-md-9 order-lg-1 mt-9 mt-lg-0 tt-sct" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
             <div class="hero-content dark-mode-texts">
               <h1 class="gr-text-2 mb-9 learnon">Smarter Learning for a 
                  smarter generation</h1>
@@ -44,6 +37,14 @@ const Section1 = ({ className, ...rest }) => {
               </div>
             </div>
           </div>
+          <div class="col-lg-4 col-md-9 order-lg-2">
+            <div class="hero-img" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
+              <div class="hero-video-thumb position-relative gr-z-index-1">
+              <img src={ homebanner } class="clrs-rtd rounded-8" alt="" />
+              </div>
+            </div>
+          </div>
+         
         </div>
       </div>
     </div>

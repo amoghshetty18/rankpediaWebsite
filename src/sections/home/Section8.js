@@ -230,19 +230,20 @@ const Section8 = ({ className, ...rest }) => {
       <div className={className} {...rest}>
        
       <div class="position-relative bg-default-2 bg-pattern pattern-2 pdr-sct">
-      <div class="container">
+      <div class="header-menu-container-earlier-home">
         <div class="row justify-content-center align-items-center">
-          <div class="col-9 col-md-7 col-lg-5 offset-xl-1  order-lg-2">
+         
+          <div class="col-lg-8 order-lg-1" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
+            <div class="hero-content mt-11 mt-lg-0">
+              <h1 class="title gr-text-2 mb-6 engag mt-6">Ready for an Experience of Blended Learning?</h1>
+              <p class="gr-text-8 mb-11 pr-md-12 clscls">Create an account or login to experience blended learning like never before and stay ahead of your peers in a new age of learning.</p>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4  order-lg-2">
             <div class="hero-img position-relative flt-rgthr" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <div class="hero-btn" >
                 <a href="#" class="btn btn-red mx-auto gtstrdr mrgrt" id="hmgst-cntrd">Contact us</a>
               </div>
-            </div>
-          </div>
-          <div class="col-11 col-md-9 col-lg-7 col-xl-6 order-lg-1" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
-            <div class="hero-content mt-11 mt-lg-0">
-              <h1 class="title gr-text-2 mb-8 rdstr">Ready for an Experience of Blended Learning?</h1>
-              <p class="gr-text-8 mb-11 pr-md-12 gtrsngtr">Create an account or login to experience blended learning like never before and stay ahead of your peers in a new age of learning.</p>
             </div>
           </div>
         </div>
