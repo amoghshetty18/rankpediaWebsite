@@ -230,7 +230,7 @@ const Section2 = ({ className, ...rest }) => {
       <div className={className} {...rest}>
        
         <div class="content-section pt-10 pb-9 new-bg">
-      <div class="header-menu-container-earlier-home">
+      <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
             <div class="content-img sxrty">

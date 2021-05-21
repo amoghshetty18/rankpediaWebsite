@@ -8896,3 +8896,62 @@ color: #ff0000;
     top: -310px;
 }
 }
+
+
+// new code
+
+.gradelanding-main {
+  background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621595518/banner-image_rw7lnc.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+​
+.banner-text {
+  color: white;
+}
+​
+/* #kid_video {
+  max-width: auto;
+  height: auto;
+} */
+​
+#card-image-gradelanding{
+  height: 70px;
+  width: 70px;
+}
+​
+.feature_card {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 0;
+  right:0;
+}
+​
+.feature_card_text {
+  font-size: medium;
+}
+​
+.card_image_logo {
+  position:absolute;
+  top: 10px;
+  right: 10px;
+  width: 30%;
+}
+​
+.card-3 {
+  background-color: #9ee6ad;
+}
+​
+.card-2 {
+  background-color: #d8f5de;
+}
+​
+.card-1 {
+  background-color: #f5fdf7;
+}
+​
+.card-same {
+  background-color: #f4f7fa;
+}

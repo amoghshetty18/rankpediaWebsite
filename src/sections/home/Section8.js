@@ -230,7 +230,7 @@ const Section8 = ({ className, ...rest }) => {
       <div className={className} {...rest}>
        
       <div class="position-relative bg-default-2 bg-pattern pattern-2 pdr-sct">
-      <div class="header-menu-container-earlier-home">
+      <div class="container">
         <div class="row justify-content-center align-items-center">
          
           <div class="col-lg-8 order-lg-1" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
