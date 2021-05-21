@@ -233,7 +233,7 @@ const Section4 = ({ className, ...rest }) => {
       <div className={className} {...rest}>
        
       <div class="content-section  pt-25 pb-35 bg-default-4" id="heth">
-      <div class="header-menu-container-earlier-home">
+      <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
             {/* <div class="content-img sxrty">

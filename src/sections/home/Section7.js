@@ -231,7 +231,7 @@ const Section7 = ({ className, ...rest }) => {
        
       <section id="fourimg1">
       <div class="content-section fr-sct pb-22">
-        <div class="header-menu-container-earlier-home">
+        <div class="container">
           <div class="row align-items-center justify-content-center">
 
             <div class="col-sm-10 col-lg-6">

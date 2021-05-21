@@ -24,7 +24,7 @@ const Section3 = ({ className, ...rest }) => {
     <>
       <div className={className} {...rest}>
       <div class="content-section  pb-7 new-bg">
-        <div class="header-menu-container-earlier-home">
+        <div class="container">
          
         </div>
       </div>

@@ -25,7 +25,7 @@ const Section1 = ({ className, ...rest }) => {
       <div className={className} {...rest}>
       <div class="hero-area position-relative " id="roller-bnr">
       
-      <div class="header-menu-container-earlier-home">
+      <div class="container">
         <div class="row justify-content-center align-items-center">
         <div class="col-lg-8 col-md-9 order-lg-1 mt-9 mt-lg-0 tt-sct" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
             <div class="hero-content dark-mode-texts">
