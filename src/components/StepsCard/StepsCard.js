@@ -31,7 +31,7 @@ const StepsCard = ({ className, ...rest }) => {
                   <div
                     className="arrow-shape-1 d-none d-lg-block absolute-top-left"
                     data-aos="fade-in"
-                    data-aos-delay="600"
+                    data-aos-delay={600}
                     data-aos-once="true"
                   >
                     <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621527072/Line_1_o7ov8y.svg" alt="" />
@@ -39,7 +39,7 @@ const StepsCard = ({ className, ...rest }) => {
                   <div
                     className="arrow-shape-2 d-none d-lg-block absolute-top-right"
                     data-aos="fade-in"
-                    data-aos-delay="600"
+                    data-aos-delay={600}
                     data-aos-once="true"
                   >
                     <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621527072/Line_1_o7ov8y.svg" alt="" />
@@ -49,7 +49,7 @@ const StepsCard = ({ className, ...rest }) => {
                 <div
                   className="single-bar pr-md-18 pr-lg-0 col-lg-4 mb-10 mb-lg-0 text-center text-md-left aos-init aos-animate"
                   data-aos="fade-in"
-                  data-aos-delay="500"
+                  data-aos-delay={500}
                   data-aos-once="true"
                 >
                   <div className="square-97 bg-dodger-red stepradius mb-10 shadow-bg-dodger-blue-2 mx-auto mx-md-0">
@@ -68,7 +68,7 @@ const StepsCard = ({ className, ...rest }) => {
                 <div
                   className=" single-bar pr-md-18 pr-lg-0 col-lg-4 mb-10 mb-lg-0 text-center text-md-left aos-init aos-animate"
                   data-aos="fade-in"
-                  data-aos-delay="500"
+                  data-aos-delay={500}
                   data-aos-once="true"
                 >
                   <div className="square-97 bg-dodger-red stepradius mb-10 shadow-bg-dodger-blue-2 mx-auto mx-md-0">
@@ -87,7 +87,7 @@ const StepsCard = ({ className, ...rest }) => {
                 <div
                   className="single-bar pr-md-18 pr-lg-0 col-lg-4 mb-10 mb-lg-0 text-center text-md-left aos-init aos-animate"
                   data-aos="fade-in"
-                  data-aos-delay="500"
+                  data-aos-delay={500}
                   data-aos-once="true"
                 >
                   <div className="square-97 bg-doger-green stepradius mb-10 shadow-bg-dodger-blue-2 mx-auto mx-md-0">

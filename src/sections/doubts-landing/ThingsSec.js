@@ -1,11 +1,12 @@
 import React, { useContext } from "react";
 import { Link } from "gatsby";
+
 import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
 } from 'react-accessible-accordion';
 import GlobalContext from "../../context/GlobalContext";
 import imgC from "../../assets/image/inner-page/png/video-bg.png";
@@ -14,8 +15,19 @@ const ThingsSec = () => {
   const gContext = useContext(GlobalContext);
 
   return (
-    <div className="pt-14 pt-md-19 pt-lg-27 pb-15 pb-md-18 pb-lg-25 mb-lg-1">
+    <div className="pt-10 pt-md-19 pt-lg-10 pb-15 pb-md-18 pb-lg-25 mb-lg-1">
       <div className="container">
+         {/* <!-- Section Title --> */}
+         <div className="row justify-content-center">
+            <div className="col-xl-7 col-lg-8 col-md-9 col-xs-10">
+              <div className="Heading-styling text-center pt-5 pt-lg-10 pb-13 pb-lg-12 pr-lg-10 pr-xl-0">
+                <h2 className=" mb-0">
+                  What You need to do?
+                </h2>
+              </div>
+            </div>
+          </div>
+          {/* <!-- Section Title --> */}
         <div className="row align-items-center justify-content-center">
           
           <div className="col-lg-6 col-md-10 col-sm-11">

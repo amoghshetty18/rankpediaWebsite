@@ -7,6 +7,7 @@ import Banner from "../components/BannerSection";
 import Infocard from "../sections/faq/Infocard";
 import RespondSec from "../sections/doubts-landing/respondsec";
 import ThingsSec from "../sections/doubts-landing/ThingsSec";
+import ExpertSec from "../sections/doubts-landing/ExpertsSec";
 
 
 const Doubtslanding = () => {
@@ -44,9 +45,11 @@ const Doubtslanding = () => {
         {/* Start of Stpes section */}
         <StepsCard/>
         {/* End of steps section */}
+        {/* <ExpertSec/> */}
         {/* Start of Few Things to Know */}
         <ThingsSec/>
         {/* End of Few Things to Know */}
+        
         <Infocard/>
         {/* Start of get in touch section */}
         <GetinTouch

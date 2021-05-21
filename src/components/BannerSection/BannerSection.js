@@ -9,7 +9,7 @@ const BannerSection = ({ className, bgurl, BannerTitle, BannerContent,BannerbtnT
       <div
         className={className}
         {...rest}
-        style={{ backgroundImage: `url(${bgurl})`, backgroundRepeat: 'no-repeat' }}
+        style={{ backgroundImage: `url(${bgurl})`, backgroundRepeat: 'no-repeat' , backgroundSize: 'cover'}}
       >
         <div className="container">
           <div className="row align-items-center justify-content-center">
@@ -19,7 +19,7 @@ const BannerSection = ({ className, bgurl, BannerTitle, BannerContent,BannerbtnT
                 data-aos="zoom-in"
                 data-aos-delay="500"
               >
-                <h2 className="font-size-11 mb-7">
+                <h2 className="mb-7">
                   {BannerTitle}
                 </h2>
                 <p className="BannerTitle line-height-28 px-md-10 px-lg-16 px-xl-25 mb-0">

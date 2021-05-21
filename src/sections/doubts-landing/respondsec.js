@@ -13,7 +13,7 @@ const ContentTwo = ({ className, ...rest }) => {
           <div className="pr-5 pl-10 col-xl-5 offset-xl-1 col-lg-5 col-md-8 col-xs-11 order-1 order-lg-1">
             <div
               className="l4-content-img-2 ml-lg-10 ml-xl-7 rounded-10 text-center"
-              data-aos="fade-right"
+              data-aos="fade-left"
               data-aos-duration={600}
               data-aos-delay={500}
               data-aos-once="true"
@@ -23,7 +23,10 @@ const ContentTwo = ({ className, ...rest }) => {
                 src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621520128/respond_banner-min_ondf4h.jpg"
                 alt=""
               />
-              <div class="respond-banner-img">
+              <div class="respond-banner-img"  data-aos="fade-right"
+              data-aos-duration={600}
+              data-aos-delay={500}
+              data-aos-once="true">
                   <img class="w-100" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621520067/Group_9_x1xbvq.png" alt=""/>
             </div>
               <div className="respond-notification image-card w-fit-content rounded-15 d-flex align-items-center shadow-10 p-8">
