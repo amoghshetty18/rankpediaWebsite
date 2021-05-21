@@ -64078,7 +64078,9 @@ const Header = () => {
     className: `site-header ${gContext.theme.headerClassName} px-7 px-lg-10 dynamic-sticky-bg site-header--absolute site-header--sticky
 
         ${showScrolling ? "scrolling" : ""} ${showReveal ? "reveal-header " : ""}`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "header-menu-container-earlier"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
     className: "navbar site-navbar offcanvas-active navbar-expand-lg  px-0",
     id: "header-nav"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -64299,11 +64301,10 @@ __webpack_require__.r(__webpack_exports__);
 
 const menuItems = [{
   name: "/about",
-  label: "Aboutus",
-  isExternal: true
+  label: "About Us"
 }, {
   name: "#",
-  label: "Classes",
+  label: "For Students",
   items: [{
     name: "https://drive.google.com/drive/folders/1TMn_ZQ1jHDccCJMs0rUDYyCfkuo7IW1i?usp=sharing",
     label: "Class 8",
@@ -64317,33 +64318,34 @@ const menuItems = [{
     label: "Class 10",
     isExternal: true
   }]
+}, // {
+//   name: "#",
+//   label: "Study materials",
+//   items: [
+//     { name: "https://drive.google.com/drive/folders/1TMn_ZQ1jHDccCJMs0rUDYyCfkuo7IW1i?usp=sharing", label: "Class 8",  isExternal: true },
+//     { name: "https://drive.google.com/drive/folders/1UzVFzfWU3tlPfPHI60BuHbK9YpgrJTel?usp=sharing", label: "Class 9",  isExternal: true, },
+//     { name: "https://drive.google.com/drive/folders/1FUy7SVXzclaX7odateqEa0QpcPpYU1Ps?usp=sharing", label: "Class 10",  isExternal: true, },
+//   ],
+// },
+{
+  name: "#",
+  label: "For School",
+  isExternal: false
 }, {
   name: "#",
-  label: "Study materials",
-  items: [{
-    name: "https://drive.google.com/drive/folders/1TMn_ZQ1jHDccCJMs0rUDYyCfkuo7IW1i?usp=sharing",
-    label: "Class 8",
-    isExternal: true
-  }, {
-    name: "https://drive.google.com/drive/folders/1UzVFzfWU3tlPfPHI60BuHbK9YpgrJTel?usp=sharing",
-    label: "Class 9",
-    isExternal: true
-  }, {
-    name: "https://drive.google.com/drive/folders/1FUy7SVXzclaX7odateqEa0QpcPpYU1Ps?usp=sharing",
-    label: "Class 10",
-    isExternal: true
-  }]
-}, {
-  name: "https://medium.com/rankpedia",
-  label: "Blogs",
-  isExternal: true
+  label: "Why Rankpedia",
+  isExternal: false
 }, {
   name: "#",
-  label: "Contact",
-  isExternal: true
+  label: "Subscription",
+  isExternal: false
 }, {
   name: "#",
-  label: "QuizWizz",
+  label: "Quizwizz",
+  isExternal: false
+}, {
+  name: "#",
+  label: "Contact Us",
   isExternal: false
 } // {
 //          name: "demos",

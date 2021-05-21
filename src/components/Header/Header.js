@@ -42,7 +42,7 @@ const Header = () => {
           showReveal ? "reveal-header " : ""
         }`}
       >
-        <Container>
+        <div className="header-menu-container-earlier">
           <nav className="navbar site-navbar offcanvas-active navbar-expand-lg  px-0" id="header-nav">
             {/* <!-- Brand Logo--> */}
             <div className="brand-logo mt-3 mt-md-0">
@@ -78,7 +78,7 @@ const Header = () => {
               <i className="icon icon-menu-34 icon-burger d-block"></i>
             </ToggleButton>
           </nav>
-        </Container>
+        </div>
       </SiteHeader>
       <div className="d-block d-lg-none">
         <Offcanvas

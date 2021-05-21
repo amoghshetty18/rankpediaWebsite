@@ -229,20 +229,20 @@ const Section2 = ({ className, ...rest }) => {
     <>
       <div className={className} {...rest}>
        
-        <div class="content-section pt-6 pt-lg-19 pb-5 bg-default-4">
-      <div class="container">
+        <div class="content-section pt-10 pb-9 new-bg">
+      <div class="header-menu-container-earlier-home">
         <div class="row align-items-center">
           <div class="col-lg-6" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
             <div class="content-img sxrty">
-           <img src={ homesection1 } alt="" />
+           <img class="hmgrt" src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621243440/blooms_pges2w.png" } alt="" />
               {/* <img src="homesection1" alt="" class="w-100" /> */}
             </div>
           </div>
           <div class="col-10 col-lg-6 imgs-imt">
             <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-              <h2 class="title gr-text-3 mb-6 engag" >Engaging Content that Inspires Curiosity</h2>
-              <p class="gr-text-8 clscls">Experience immersive content that makes you think and question, watch videos that are both fun and thought provoking and interact with Experts that help bring the best out of you.</p>
-                <a href="#" class="btn btn-red mx-auto gtstrdr">Get Started</a>
+              <h2 class="title gr-text-3 engag" >Teaching methodology</h2>
+              <p class="gr-text-8 clscls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <a href="#" class="btn btn-red mx-auto gtstrdr">Learn more</a>
             </div>
             <div class="content-widget">
               <div class="row">
@@ -251,6 +251,32 @@ const Section2 = ({ className, ...rest }) => {
             </div>
           </div>
         </div>
+
+
+        <div class="row align-items-center justify-content-center">
+
+<div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 formob">
+  <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
+    <h2 class="title gr-text-3 mb-6 engag">Holistic education :  NEP 2020 ready</h2>
+    <p class="gr-text-8 clscls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+      <a href="#" class="btn btn-red mx-auto gtstrdr">Learn more</a>
+  </div>
+  <div class="content-widget">
+    <div class="row mb-n9">
+     
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-6 order-lg-2 extclt" data-aos="flip-right" data-aos-duration="2000" data-aos-once="true">
+  <div class="content-img text-right">
+  <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621248431/kisspng-jigsaw-puzzles-vector-graphics-stock-photography-i-long-awaited-fling-windows-vcenter-server-to-vcsa-5c050a82c97ab5.0533047615438342428253_uc3mjv.png" } alt="" />
+  </div>
+</div>
+
+</div>
+
+
       </div>
     </div>
         
