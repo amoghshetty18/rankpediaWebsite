@@ -9,6 +9,7 @@ exports.components = {
   "component---src-pages-career-js": () => import("./../../../src/pages/career.js" /* webpackChunkName: "component---src-pages-career-js" */),
   "component---src-pages-comingsoon-js": () => import("./../../../src/pages/comingsoon.js" /* webpackChunkName: "component---src-pages-comingsoon-js" */),
   "component---src-pages-contact-js": () => import("./../../../src/pages/contact.js" /* webpackChunkName: "component---src-pages-contact-js" */),
+  "component---src-pages-doubts-landing-js": () => import("./../../../src/pages/doubts-landing.js" /* webpackChunkName: "component---src-pages-doubts-landing-js" */),
   "component---src-pages-faq-js": () => import("./../../../src/pages/faq.js" /* webpackChunkName: "component---src-pages-faq-js" */),
   "component---src-pages-gradelanding-js": () => import("./../../../src/pages/gradelanding.js" /* webpackChunkName: "component---src-pages-gradelanding-js" */),
   "component---src-pages-home-2-js": () => import("./../../../src/pages/home-2.js" /* webpackChunkName: "component---src-pages-home-2-js" */),

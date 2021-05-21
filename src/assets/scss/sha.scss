@@ -1,0 +1,381 @@
+.Heading-styling h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    // font-size: calc(1.425rem + 2.1vw);
+}
+#accordianarrow .accordion__button[aria-expanded='true']::before, .accordion__button[aria-selected='true']::before {
+    transform: rotate(
+225deg
+);
+}
+#accordianarrow2 .accordion__button[aria-expanded='true']::before, .accordion__button[aria-selected='true']::before {
+    transform: rotate(
+225deg
+);
+}
+#accordianarrow
+{
+    border:  none !important;
+}
+#accordianarrow2
+{
+    border:  none !important;
+}
+#accordianarrow .accordion__item{
+    border: none !important;
+    margin-bottom: 28px;
+}
+#accordianarrow2 .accordion__item{
+    border: none !important;
+    margin-bottom: 28px;
+}
+#accordianarrow .accordion__item .accordion__heading
+{
+    background: #F4F7FA !important;
+}
+#accordianarrow2 .accordion__item .accordion__heading
+{
+    background: #F4F7FA !important;
+}
+#accordianarrow .accordion__panel
+{
+    background: #F4F7FA !important;
+    margin-bottom: 25px;
+}
+#accordianarrow2 .accordion__panel
+{
+    background: #F4F7FA !important;
+    margin-bottom: 25px;
+}
+#accordianarrow .accordion__button
+{
+    background: #F4F7FA !important;
+    font-weight: 500;
+    margin-top: 5px;
+}
+#accordianarrow2 .accordion__button
+{
+    background: #F4F7FA !important;
+    font-weight: 500;
+    margin-top: 5px;
+}
+#accordianarrow .accordion__button:before
+{
+    margin-top: 5px;
+    background: #F4F7FA !important;
+    position: absolute;
+    right: 100px;
+    display: inline-block;
+    content: '';
+    height: 10px;
+    width: 10px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(43deg);
+}
+#accordianarrow2 .accordion__button:before
+{
+    margin-top: 5px;
+    background: #F4F7FA !important;
+    position: absolute;
+    right: 40px;
+    display: inline-block;
+    content: '';
+    height: 10px;
+    width: 10px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(43deg);
+}
+#accordianarrow .accordion__panel .accordiondisc 
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px !important;
+    font-weight: lighter !important;
+}
+#accordianarrow2 .accordion__panel .accordiondisc 
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px !important;
+    font-weight: lighter !important;
+}
+// info card styling
+.faqInfocardstyling
+{
+    padding: 0 3em;
+    border-radius: 10px;
+}
+.Informationcardstyling
+{
+    // background-color:  #E5F5FF;
+    text-align: center;
+    border-radius: 5%;
+}
+.InformationContentStyling
+{
+    padding: 0 2em 2em;
+}
+// GetInTouch Styling start
+.Getintouchtext p
+{
+    color: #13171D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+.GetinTouchBackground
+{
+    background: #F4F7FA;
+}
+.contact-us-btn
+{
+    padding-bottom: 30px;
+    text-align: right;
+}
+.readfaq-btn
+{
+    text-align: right;
+}
+.contact-btn-styling
+{
+    border-radius: 0px;
+    background-color: #3FCD5C;
+    box-shadow: 0 8px 17px 3px rgb(17 14 61 / 12%);
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 25px;
+    text-align: center;
+    border: none;
+    height: auto;
+    padding: 1em 0;
+}
+.contact-btn-styling:hover
+{
+    color: #FFFFFF;
+}
+.readfaq-btn-styling
+{
+    border: 1px solid !important;
+    border-radius: 0px;
+    background-color: #F4F7FA;
+    box-shadow: 0 8px 17px 3px rgb(17 14 61 / 12%);
+    color: #13171D;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 25px;
+    text-align: center;
+    border: none;
+    height: auto;
+    padding: 1em 0;
+}
+.readfaq-btn-styling
+{
+
+    color: #13171D;
+}
+// GetinTouch Styling End
+// BannerSection styling start
+.BannerTitle
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+.btn-banner-green
+{
+    font-family: 'Roboto', sans-serif;
+ color: #FFFFFF;
+ background-color: #3FCD5C;
+
+}
+.btn-banner-green:hover
+{
+background-color: #3FCD5C;
+}
+.banner-store-infore
+{
+    flex-direction: row;
+}
+// BannerSection styling End
+// Respond sectionstyling Start
+.respond-banner-img{
+    position: absolute;
+    right: 0px;
+    top: -33px;
+    z-index: -1;
+    width: 33%;
+}
+.respond-notification
+{
+    background-color: #12141D;
+}
+.notification-title
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.notification-content
+{
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+// // Respond sectionstyling End
+// Start of stepcard styling
+.stepradius
+{
+    border-radius: 50% !important;
+}
+.bg-dodger-red
+{
+    margin: auto !important;
+    background-color: #F64B4B;
+}
+.bg-doger-green
+{
+    margin: auto !important;
+    background-color: #3FCD5C;
+}
+.single-bar
+{
+    flex: inherit;
+}
+// media query
+@media (max-width: 400px) {
+    .Heading-styling
+    {
+        font-size: 45px !important;
+    }
+    #accordianarrow .accordion__button:before
+    {
+        right: 20px;
+    margin-top: 5px;
+    }   
+    #accordianarrow2 .accordion__button:before
+    {
+        right: 20px;
+    margin-top: 5px;
+    }   
+    // BannerSection styling Start 
+    .banner-store-infore
+{
+    flex-direction: column;
+}
+// BannerSection styling End
+// GetinTouch Styling Start
+    .contact-us-btn
+    {
+        text-align: center;
+    }
+    .readfaq-btn
+    {   
+        text-align: center;
+    }
+    // GetinTouch Styling End
+    // Respond sectionstyling Start
+    .respond-banner-img
+    {
+        right: 15px;
+        top: -24px;    
+    }
+    // Respond sectionstyling End
+}
+@media (max-width: 500px) {
+    .Heading-styling
+    {
+        font-size: 45px;
+    }
+    #accordianarrow .accordion__button:before
+    {
+        right: 20px;
+    margin-top: 5px;
+    }   
+    #accordianarrow2 .accordion__button:before
+    {
+        right: 20px;
+    margin-top: 5px;
+    }   
+    // GetinTouch Styling start
+    .contact-us-btn
+    {
+        text-align: center;
+    }
+    .readfaq-btn
+    {   
+        text-align: center;
+    }
+    // GetinTouch Styling End
+}
+@media (max-width: 768px) {
+    .Heading-styling
+    {
+        font-size: 45px;
+    }
+    #accordianarrow .accordion__button:before
+    {
+        right: 20px;
+    margin-top: 5px;
+    }   
+    #accordianarrow2 .accordion__button:before
+    {
+        right: 20px;
+    margin-top: 5px;
+    }   
+        // GetinTouch Styling start
+        .contact-us-btn
+        {
+            text-align: center;
+        }
+        .readfaq-btn
+        {   
+            text-align: center;
+        }
+        // GetinTouch Styling End
+    
+}
+@media (min-width: 992px) {
+    .Heading-styling
+    {
+        font-size: 45px;
+    }
+    .image-group-3 .arrow-shape-2 {
+        right: 13% !important;
+        top: 13% !important;
+    }
+}
+@media (max-width: 1200px) {
+    .respond-banner-img {
+        right: -29px;
+    }
+    .image-group-3 .arrow-shape-1
+    {
+        top: 16% !important;
+    }
+    .image-group-3 .arrow-shape-2
+    {
+        right: 16% !important; 
+        top: 16% !important;
+    }
+    #accordianarrow .accordion__button:before
+    {
+        right: 50px;
+    }
+    #accordianarrow .accordion__button:before
+    {
+        right: 50px;
+    }
+}
+@media (min-width: 1400px) {
+    
+}
