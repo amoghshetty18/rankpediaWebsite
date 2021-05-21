@@ -10,6 +10,9 @@ import Blog from "../sections/home1/Blog";
 
 import Hero from "../sections/pricinglanding/Hero";
 import Pricing from "../sections/pricinglanding/Pricing";
+import ThingsSec from "../sections/doubts-landing/ThingsSec";
+import Infocard from "../sections/faq/Infocard";
+import GetinTouch from "../components/GetinTouch";
 
 import Section1 from "../sections/home/Section1";
 import Section2 from "../sections/home/Section2";
@@ -44,6 +47,19 @@ const Pricinglanding = () => {
       >
          <Hero />
         <Pricing />
+
+         {/* Start of Few Things to Know */}
+         <ThingsSec/>
+        {/* End of Few Things to Know */}
+        <Infocard/>
+        {/* Start of get in touch section */}
+        <GetinTouch
+        title="Ready for an Experience of 
+        Blended Learning?"
+       disc="Register to experience blended learning like never before and stay ahead."/>
+       {/* End of get in touch section */}
+
+
       </PageWrapper>
     </>
   );

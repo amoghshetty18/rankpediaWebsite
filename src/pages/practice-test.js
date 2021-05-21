@@ -7,9 +7,13 @@ import Features from "../sections/practicetest/Features";
 import Content1 from "../sections/practicetest/Content1";
 import Content2 from "../sections/practicetest/Content2";
 import Content3 from "../sections/practicetest/Content3";
+import Content4 from "../sections/practicetest/Content4";
 import Screenshots from "../sections/practicetest/Screenshots";
 import Testimonial from "../sections/practicetest/Testimonial";
 import Promo from "../sections/practicetest/Promo";
+
+import Infocard from "../sections/faq/Infocard";
+import GetinTouch from "../components/GetinTouch";
 
 import imageRight from "../assets/image/inner-page/png/practicetest.png";
 
@@ -102,10 +106,20 @@ const Practicetest = () => {
         {/* <Features className=" bg-default-6" /> */}
         <Content1 className="bg-default-6 pt-3 pt-md-25 pb-9 pb-md-14 pb-lg-13 overflow-hidden position-relative" />
         <Content2 className="bg-default-6 pt-14 pt-md-19 pt-lg-32 pb-9 pb-md-14 pb-lg-34 overflow-hidden position-relative" />
-        <Content3 className="bg-default-6 pb-11 pb-md-14  overflow-hidden position-relative" />
+        <Content3 className="bg-default-6  overflow-hidden position-relative" />
+        <Content4 className="bg-default-6 pb-6  overflow-hidden position-relative" />
         {/* <Screenshots className="bg-purple-heart pt-13 pb-13 pt-md-17 pb-md-19 pt-lg-25 pb-lg-26" />
         <Testimonial className="pt-13 pt-md-18 pt-lg-24 pb-13 pb-md-19 pb-lg-28 position-relative" />
         <Promo className="bg-default-6" /> */}
+
+        <Infocard/>
+        {/* Start of get in touch section */}
+        <GetinTouch
+        title="Ready for an Experience of 
+        Blended Learning?"
+       disc="Register to experience blended learning like never before and stay ahead."/>
+       {/* End of get in touch section */}
+
       </PageWrapper>
     </>
   );
