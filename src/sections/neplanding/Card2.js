@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Card2 = (props) => {
+
+const Card2 = ({ className, ...rest }) => {
 
   return (
     <div className="col-md-4 mb-5">
@@ -14,7 +15,7 @@ const Card2 = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+    );
+  };
 
 export default Card2
