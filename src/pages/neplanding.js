@@ -20,6 +20,8 @@ import Banner from "../components/BannerSection";
 
 import Hero from '../sections/home3/Hero'
 
+import GetinTouch from "../components/GetinTouch";
+
 //import Section1 from "../sections/home/Section1";
 //import Section2 from "../sections/home/Section2";
 // import Section3 from "../sections/home/Section3";
@@ -54,16 +56,29 @@ const Neplanding = () => {
         }}
       >
        
-           <Section1 /> 
-
-       
+           {/* <Section1 />  */}
+           <Banner 
+        bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621595518/banner-image_rw7lnc.jpg"
+        BannerTitle=" NEP 2020 Compliant  [National Education Policy] "
+        BannerContent=" Learn how RankPedia is compliant with the country's new educational policies "
+        BannerbtnText="Learn More"/>
 
 <div className="container">
           <Section2 />
-          <Section3 />
+           <Section3 /> 
+
+
           <Section4 />
           <Section5 />
+
+         
+
         </div>
+
+        <GetinTouch
+        title="Ready for an Experience of 
+        Blended Learning?"
+       disc="Register to experience blended learning like never before and stay ahead."/>
 
       </PageWrapper>
     </>

@@ -7,8 +7,8 @@ const Section5 = () => {
     <div className="row mx-10 justify-content-center">
       <div className="col-12">
         <div className="text-center">
-          <h3> What is experiential education? </h3>
-          <h3> Why is this important for your child? </h3>
+          <h3 className="wat-exprt"> What is experiential education? </h3>
+          <h3 className="wat-exprt"> Why is this important for your child? </h3>
         </div>
       </div>
 

@@ -5,12 +5,12 @@ import Card4 from './Card4'
 // import image1 from '../../assets/image/gradelanding/double-right-arrows.png'
 // import image2 from '../../assets/image/gradelanding/rankpedia_logo.png'
 
-const Section3 = (props) => {
+const Section3 = ({ className, ...rest }) => {
 
 
   return (
-    <div className="row mx-10">
-      <Card2 />
+    <div className="row ">
+       <Card2 /> 
 
       <Card3 />
 
@@ -29,7 +29,7 @@ const Section3 = (props) => {
         title="Future"
       /> */}
     </div>
-  )
-}
+  );
+};
 
 export default Section3

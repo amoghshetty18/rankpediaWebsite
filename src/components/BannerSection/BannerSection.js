@@ -9,23 +9,25 @@ const BannerSection = ({ className, bgurl, BannerTitle, BannerContent,BannerbtnT
       <div
         className={className}
         {...rest}
-        style={{ backgroundImage: `url(${bgurl})`, backgroundRepeat: 'no-repeat' }}
+        style={{ backgroundImage: `url(${bgurl})`, backgroundRepeat: 'no-repeat', 
+        "background-position": "center",
+        "background-size": "cover" }}
       >
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-8 col-md-10">
               <div
-                className="text-center pt-25 pb-15 py-lg-25 dark-mode-texts"
+                className="text-center padforbnr dark-mode-texts"
                 data-aos="zoom-in"
                 data-aos-delay="500"
               >
-                <h2 className="font-size-11 mb-7">
+                <h2 className="font-size-10 mb-7 fnt-fmly">
                   {BannerTitle}
                 </h2>
-                <p className="BannerTitle line-height-28 px-md-10 px-lg-16 px-xl-25 mb-0">
+                <p className="BannerTitle line-height-28 px-md-10 px-lg-16 px-xl-25 mb-0 fnt-fmly">
                   {BannerContent}
                 </p>
-                <Link to={"#"} className="btn btn-banner-green rounded-5 mt-12">
+                <Link to={"#"} className="btn btn-banner-green rounded-5 mt-12 fnt-fmly">
                   {BannerbtnText}
                 </Link>
               <div className="pt-6 pt-lg-9 col-lg-7 offset-xl-1 col-md-8 col-sm-10 m-auto">
