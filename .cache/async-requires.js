@@ -28,6 +28,8 @@ exports.components = {
   "component---src-pages-signin-js": () => import("./../../../src/pages/signin.js" /* webpackChunkName: "component---src-pages-signin-js" */),
   "component---src-pages-signup-image-js": () => import("./../../../src/pages/signup-image.js" /* webpackChunkName: "component---src-pages-signup-image-js" */),
   "component---src-pages-signup-js": () => import("./../../../src/pages/signup.js" /* webpackChunkName: "component---src-pages-signup-js" */),
-  "component---src-pages-terms-js": () => import("./../../../src/pages/terms.js" /* webpackChunkName: "component---src-pages-terms-js" */)
+  "component---src-pages-teaching-method-js": () => import("./../../../src/pages/teaching-method.js" /* webpackChunkName: "component---src-pages-teaching-method-js" */),
+  "component---src-pages-terms-js": () => import("./../../../src/pages/terms.js" /* webpackChunkName: "component---src-pages-terms-js" */),
+  "component---src-pages-why-rankpedia-js": () => import("./../../../src/pages/why-rankpedia.js" /* webpackChunkName: "component---src-pages-why-rankpedia-js" */)
 }
 
