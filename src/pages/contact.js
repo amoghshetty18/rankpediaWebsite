@@ -1,13 +1,15 @@
 import React from "react";
+import '../css/styles.css'
 
 import PageWrapper from "../components/PageWrapper";
+import Form from "../sections/contact-us/Form";
 
 const Contact = () => {
   return (
     <>
       <PageWrapper
         themeConfig={{
-          headerClassName: "site-header--menu-right",
+          headerClassName: "site-header--menu-right test", 
           headerButton: (
             <>
               <button className="btn btn btn-blue-3 header-btn-2 font-size-3 rounded-5">
@@ -18,9 +20,9 @@ const Contact = () => {
           footerStyle: "style3",
         }}
       >
-        <div className="min-height-100vh d-flex align-items-center pt-23 pt-md-26 pt-lg-30 pb-8 pb-md-12 pb-lg-23">
+        {/* <div className="min-height-100vh d-flex align-items-center pt-23 pt-md-26 pt-lg-30 pb-8 pb-md-12 pb-lg-23">
           <div className="container">
-            {/* Section Title */}
+            Section Title
             <div className="row justify-content-center">
               <div className="col-xl-12">
                 <div
@@ -36,11 +38,11 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            {/* End Section Title */}
-            {/* Contact Form */}
+            End Section Title
+            Contact Form
             <div className="row justify-content-center">
               <div className="col-12">
-                {/* contact details */}
+                contact details
                 <div
                   className="top-contact-info bg-default-1 max-w-540 mx-auto py-10 px-13 rounded-10"
                   data-aos="fade-up"
@@ -76,7 +78,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                {/* contact details */}
+                contact details
                 <div className="pt-12 pb-10 max-w-536 mx-auto">
                   <form
                     name="contact"
@@ -88,7 +90,7 @@ const Contact = () => {
                     data-aos-once="true"
                   >
                     <input type="hidden" name="form-name" value="contact" />
-                    {/* Company Name */}
+                    Company Name
                     <div className="form-group mb-7 position-relative">
                       <input
                         type="text"
@@ -99,7 +101,7 @@ const Contact = () => {
                         required
                       />
                     </div>
-                    {/* Email */}
+                    Email
                     <div className="form-group mb-7 position-relative">
                       <input
                         type="email"
@@ -110,7 +112,7 @@ const Contact = () => {
                         required
                       />
                     </div>
-                    {/* Company Name */}
+                    Company Name
                     <div className="form-group mb-7 position-relative">
                       <input
                         type="text"
@@ -121,7 +123,7 @@ const Contact = () => {
                         required
                       />
                     </div>
-                    {/* Company Name */}
+                    Company Name
                     <div className="form-group mb-7 position-relative">
                       <textarea
                         name="message"
@@ -146,7 +148,8 @@ const Contact = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+          <Form />
       </PageWrapper>
     </>
   );

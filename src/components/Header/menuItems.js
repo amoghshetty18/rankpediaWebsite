@@ -43,7 +43,7 @@ export const menuItems = [
    {
     name: "#",
     label: "Quizwizz",
-    isExternal: false,
+    isExternal: true,
    },
    {
     name: "#",
