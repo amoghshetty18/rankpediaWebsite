@@ -81,19 +81,16 @@
 }
 
 .contact-form {
-  padding-left: 80px;
-  padding-right: 35px;
-  padding-top: 25px;
+  padding-left: 80px !important;
+  padding-right: 35px !important;
+  padding-top: 25px !important;
 }
 
 @media all and (max-width: 576px) {
-  /* .contact-form-container {
-    padding: 20px;
-  } */
   .contact-form {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
+    padding-left: 40px !important; 
+    padding-right: 40px !important;
+    padding-top: 40px !important;
   }
 }
 

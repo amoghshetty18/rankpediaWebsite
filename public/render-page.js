@@ -65700,8 +65700,10 @@ const InputField = props => {
     labelName
   } = props;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "form-group"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, labelName), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "form-group popup-input-group mb-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "mb-3"
+  }, labelName), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: type,
     className: "form-control",
     placeholder: placeholder
@@ -65827,24 +65829,22 @@ const Menu = () => {
       // data-target="#modalRegister"
       ,
       onClick: () => setTogglePopUp(true)
-    }, label), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      id: "1245"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    }, label), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal__WEBPACK_IMPORTED_MODULE_3___default.a, {
       isOpen: togglePopUp,
-      shouldCloseOnOverlayClick: false,
+      shouldCloseOnOverlayClick: true,
       onRequestClose: () => setTogglePopUp(false),
       style: {
         overlay: {
           // backgroundColor: "transparent",
           opacity: "1",
+          position: "fixed",
           transition: "opacity 500ms",
           background: "rgba(0, 0, 0, 0.7)"
         },
         content: {
-          height: "auto",
+          height: "90vh",
           width: "30%",
-          margin: "100px auto auto auto",
-          zIndex: 9999
+          margin: "auto"
         }
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -65853,7 +65853,7 @@ const Menu = () => {
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_QuizWizzPopUp__WEBPACK_IMPORTED_MODULE_4__["default"], {
       setTogglePopUp: setTogglePopUp,
       togglePopUp: togglePopUp
-    })))) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    }))) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
       className: "nav-link",
       to: `/${name}`,
       role: "button",
@@ -65893,8 +65893,14 @@ const QuizWizzPopUp = props => {
   };
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "quizwizz-form p-10"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " QuizWizz "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ex voluptates ea facere, velit reiciendis. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_InputField__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: "quizwizz-form p-7"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    className: "quizwizz-popup-heading"
+  }, " QuizWizz "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "quizwizz-popup-text"
+  }, " Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ex voluptates ea facere, velit reiciendis. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    className: "my-8"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_InputField__WEBPACK_IMPORTED_MODULE_1__["default"], {
     labelName: "Student Name",
     type: "text",
     placeholder: "ex. John Doe"
@@ -65902,8 +65908,10 @@ const QuizWizzPopUp = props => {
     labelName: "School Name",
     type: "text",
     placeholder: "ex. Hogwarts"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, " Select Grade "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
-    className: "custom-select mb-7"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "mb-3"
+  }, " Select Grade "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    className: "custom-select mb-5"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
     selected: true
   }, " Select Grade "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {

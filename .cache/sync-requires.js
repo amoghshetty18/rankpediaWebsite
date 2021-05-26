@@ -31,6 +31,8 @@ exports.components = {
   "component---src-pages-signin-js": hot(preferDefault(require("C:\\Users\\rghor\\Desktop\\New folder\\rankpedia\\src\\pages\\signin.js"))),
   "component---src-pages-signup-image-js": hot(preferDefault(require("C:\\Users\\rghor\\Desktop\\New folder\\rankpedia\\src\\pages\\signup-image.js"))),
   "component---src-pages-signup-js": hot(preferDefault(require("C:\\Users\\rghor\\Desktop\\New folder\\rankpedia\\src\\pages\\signup.js"))),
-  "component---src-pages-terms-js": hot(preferDefault(require("C:\\Users\\rghor\\Desktop\\New folder\\rankpedia\\src\\pages\\terms.js")))
+  "component---src-pages-teaching-method-js": hot(preferDefault(require("C:\\Users\\rghor\\Desktop\\New folder\\rankpedia\\src\\pages\\teaching-method.js"))),
+  "component---src-pages-terms-js": hot(preferDefault(require("C:\\Users\\rghor\\Desktop\\New folder\\rankpedia\\src\\pages\\terms.js"))),
+  "component---src-pages-why-rankpedia-js": hot(preferDefault(require("C:\\Users\\rghor\\Desktop\\New folder\\rankpedia\\src\\pages\\why-rankpedia.js")))
 }
 

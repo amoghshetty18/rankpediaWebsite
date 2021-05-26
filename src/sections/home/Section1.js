@@ -39,7 +39,7 @@ const Section1 = ({ className, ...rest }) => {
           </div>
           <div class="col-lg-4 col-md-9 order-lg-2">
             <div class="hero-img" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-              <div class="hero-video-thumb position-relative gr-z-index-1">
+              <div class="hero-video-thumb position-relative">
               <img src={ homebanner } class="clrs-rtd rounded-8" alt="" />
               </div>
             </div>

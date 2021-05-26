@@ -149,7 +149,7 @@ const Contact = () => {
             </div>
           </div>
         </div> */}
-        <Form />
+          <Form />
       </PageWrapper>
     </>
   );

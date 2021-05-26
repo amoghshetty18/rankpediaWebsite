@@ -7350,9 +7350,9 @@ button:focus {
     margin-top: 5.4rem;
 }
 
-.hmgrt{
-  width: 700px;
-}
+// .hmgrt{
+//   width: 700px;
+// }
 
 .clscls{
   color: #5B606C;
@@ -8665,7 +8665,7 @@ button:focus {
 
 .l6-content-image-group-2-new .img-1 {
   position: absolute;
-  left: 13px;
+  left: 2px;
   top: -20px;
   z-index: -1;
   width: 50%;
@@ -8673,7 +8673,7 @@ button:focus {
 
 .l6-content-image-group-4-new .img-1 {
   position: absolute;
-  left: -125px;
+  left: -59px;
   top: -69px;
   z-index: -1;
   width: 50%;
@@ -8684,8 +8684,8 @@ button:focus {
     left: 90px;
     top: -20px;
     z-index: -1;
-    width: 80%;
-    height: 650px;
+    // width: 80%;
+    // height: 650px;
 }
 
 .rd-bhr{
@@ -8693,8 +8693,8 @@ button:focus {
 }
 
 .dart-elil{
-  width: 924px;
-  margin-left: -5.5rem;
+  width: 754px;
+  margin-left: -4.5rem;
 }
 
 .frst-fnts{
@@ -8702,7 +8702,7 @@ button:focus {
 }
 
 .ltrdtyu{
-  height: 600px;
+  // height: 600px;
     margin-left: -4rem;
 }
 
@@ -8897,12 +8897,9 @@ color: #ff0000;
 }
 }
 
-
-// new code
-
 .gradelanding-main {
   background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621595518/banner-image_rw7lnc.jpg");
-  height: 100vh;
+  // height: 100vh;
   background-position: center;
   background-size: cover;
 }
@@ -8910,27 +8907,11 @@ color: #ff0000;
 .banner-text {
   color: white;
 }
-​
-/* #kid_video {
-  max-width: auto;
-  height: auto;
-} */
+
 ​
 #card-image-gradelanding{
   height: 70px;
   width: 70px;
-}
-​
-.feature_card {
-  height: 70px;
-  width: 70px;
-  position: absolute;
-  top: 0;
-  right:0;
-}
-​
-.feature_card_text {
-  font-size: medium;
 }
 ​
 .card_image_logo {
@@ -8939,19 +8920,52 @@ color: #ff0000;
   right: 10px;
   width: 30%;
 }
-​
-.card-3 {
-  background-color: #9ee6ad;
+.rtes{
+  background: #f5fdf7;
 }
-​
+​.card-1{
+  background: #f5fdf7;
+}
 .card-2 {
   background-color: #d8f5de;
 }
-​
-.card-1 {
-  background-color: #f5fdf7;
+.card-3 {
+  background-color: #9ee6ad;
+}
+.feature_card {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 0;
+  right:0;
+}
+.feature_card_text {
+  font-size: medium;
+}
+.crp-hdtfs{
+  font-size: 23px;
+  font-family: "Roboto", sans-serif;
 }
 ​
 .card-same {
   background-color: #f4f7fa;
 }
+
+.wat-exprt{
+  font-size: 2.7rem;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+.fnt-fmly{
+  font-family: "Roboto", sans-serif;
+}
+
+.padforbnr{
+  padding-top: 11rem;
+  padding-bottom: 6rem;
+}
+
+// new code
+
