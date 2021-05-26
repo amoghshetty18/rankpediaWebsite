@@ -1,0 +1,134 @@
+.gradelanding-main {
+  background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621595518/banner-image_rw7lnc.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-text {
+  color: white;
+}
+
+/* #kid_video {
+  max-width: auto;
+  height: auto;
+} */
+
+#card-image-gradelanding{
+  height: 70px;
+  width: 70px;
+}
+
+.feature_card {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 0;
+  right:0;
+}
+
+.feature_card_text {
+  font-size: medium;
+}
+
+.card_image_logo {
+  position:absolute;
+  top: 10px;
+  right: 10px;
+  width: 30%;
+}
+
+.card-3 {
+  background-color: #9ee6ad;
+}
+
+.card-2 {
+  background-color: #d8f5de;
+}
+
+.card-1 {
+  background-color: #f5fdf7;
+}
+
+.card-same {
+  background-color: #f4f7fa;
+}
+
+.input {
+  background-color: #eeeeee;
+}
+
+.form-check-input {
+  background-color: #eeeeee;
+}
+
+.text-area {
+  background-color: #eeeeee;
+  height: 20vh;
+}
+
+.submit-btn {
+  background-color: #54e346;
+  color: white;
+}
+
+.contact-form-container {
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact-map {
+  padding: 5px;
+}
+
+.contact-form {
+  padding-left: 80px;
+  padding-right: 35px;
+  padding-top: 25px;
+}
+
+@media all and (max-width: 576px) {
+  /* .contact-form-container {
+    padding: 20px;
+  } */
+  .contact-form {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+  }
+}
+
+.grade-options {
+  margin: '5px 0';
+}
+
+.quizwizz-img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 100;
+}
+
+.quizwizz-link-img {
+  position: relative;
+  left: 64px;
+  bottom: -5px;
+}
+
+#navLink-quizwizz {
+  color: #fff;
+  position: relative;
+  bottom: 18px;
+  font-weight: 500;
+}
+
+.quizwizz-popup-heading {
+  font-size: 30px;
+}
+
+.quizwizz-popup-text {
+  font-size: 1rem;
+}
+
+
+
+

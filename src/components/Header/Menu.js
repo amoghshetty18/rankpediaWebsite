@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "gatsby";
 
 import { menuItems } from "./menuItems";
+import Modal from 'react-modal' 
+import QuizWizzPopUp from "./QuizWizzPopUp";
+import '../../css/styles.css'
 
 const Menu = () => {
+
+  const [togglePopUp, setTogglePopUp] = useState(false)
+
   return (
     <>
       <ul className="navbar-nav main-menu d-none d-lg-flex">
@@ -95,14 +101,57 @@ const Menu = () => {
                 ) : (
                   <li className="nav-item" {...rest}>
                     {isExternal ? (
-                      <a
-                        className="nav-link"
-                        href={`${name}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {label}
-                      </a>
+                      // <a
+                      //   className="nav-link"
+                      //   href={`${name}`}
+                      //   target="_blank"
+                      //   rel="noopener noreferrer"
+                      // >
+                      //   {label}
+                      // </a>
+                      <div>
+                          <img
+                            src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621923645/crown_retnxs.png"} alt=""
+                            className="quizwizz-link-img"
+                          />
+                        <a
+                          className='nav-link'
+                          href="#"
+                          id="navLink-quizwizz"
+                          // data-toggle="modal"
+                          // data-target="#modalRegister"
+                          onClick={() => setTogglePopUp(true)}
+                        > 
+                          {label}
+                        </a>
+                        
+                        <Modal
+                          isOpen={togglePopUp}
+                          shouldCloseOnOverlayClick={true}
+                          onRequestClose={() => setTogglePopUp(false)}
+                          style={{
+                            overlay: {
+                              // backgroundColor: "transparent",
+                              opacity: "1",
+                              position: "fixed",
+                              transition: "opacity 500ms",
+                              background: "rgba(0, 0, 0, 0.7)"
+                            },
+                            content: {
+                              height: "90vh",
+                              width: "30%",
+                              margin: "auto",
+                            }
+                          }}
+                        >
+                          <img src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621923817/crown1_bsnzg3.png"} className="quizwizz-img" />
+                          
+                          <QuizWizzPopUp setTogglePopUp={setTogglePopUp} togglePopUp={togglePopUp} />
+                        </Modal>
+
+                        </div>
+                          
+                      
                     ) : (
                       <Link
                         className="nav-link"
