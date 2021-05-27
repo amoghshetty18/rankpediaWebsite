@@ -6,7 +6,7 @@ const Card = (props) => {
 
   return (
     <div className="col-sm-6 col-lg-3 my-5 py-7">
-      <div className="card py-12 px-8 card-same">
+      <div className="card py-12 px-1 card-same">
         <img id="card-image-gradelanding" className="mx-auto d-block" src={card_image} alt="" />
         <div className="card-body text-center">
           <h4 className="px-5 mb-5"> {title} </h4>

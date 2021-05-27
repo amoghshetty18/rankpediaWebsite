@@ -32,8 +32,8 @@ const QuizWizzPopUp = (props) => {
         <label for="formFileLg" className="form-label">Large file input example</label>
         <input className="form-control form-control-lg" id="formFileLg" type="file" />
       </div> */}
-      <h4 className="quizwizz-popup-heading"> QuizWizz </h4>
-      <p className="quizwizz-popup-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ex voluptates ea facere, velit reiciendis. </p>
+      <h4 className="quizwizz-popup-heading fnt-fmly"> QuizWizz </h4>
+      <p className="quizwizz-popup-text fnt-fmly"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ex voluptates ea facere, velit reiciendis. </p>
       
       <hr className="my-8" />
   
@@ -47,12 +47,12 @@ const QuizWizzPopUp = (props) => {
         type="text"
         placeholder="ex. Hogwarts"
       />
-      <label className="mb-3"> Select Grade </label>
-      <select className="custom-select mb-5">
-        <option selected> Select Grade </option>
-        <option className="grade-options">Grade 8</option>
-        <option className="grade-options">Grade 9</option>
-        <option className="grade-options">Grade 10</option>
+      <label className="mb-3 fnt-fmly"> Select Grade </label>
+      <select className="custom-select mb-5 fnt-fmly">
+        <option selected > Select Grade </option>
+        <option className="grade-options fnt-fmly">Grade 8</option>
+        <option className="grade-options fnt-fmly">Grade 9</option>
+        <option className="grade-options fnt-fmly">Grade 10</option>
       </select>
       <InputField
         labelName="Parent's Number"
@@ -61,7 +61,7 @@ const QuizWizzPopUp = (props) => {
       />
       <a href="#">
         <button 
-          className="btn btn btn-blue-3 header-btn1 head-login"
+          className="btn btn btn-blue-3 header-btn1 head-login fnt-fmly"
           onClick={handleToggle}>
           Submit     <i className="fas fa-arrow-right ml-5"></i>
         </button>
