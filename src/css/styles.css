@@ -28,7 +28,16 @@
 }
 
 .feature_card_text {
-  font-size: medium;
+  font-size: 18px !important;
+  font-weight: 500;
+}
+
+.feature-card-heading {
+  font-size: 25px !important;
+}
+
+.feature-card-container {
+  padding: 60px 25px 60px 60px;
 }
 
 .card_image_logo {
@@ -47,11 +56,11 @@
 }
 
 .card-1 {
-  background-color: #f5fdf7;
+  background-color: #f5fdf7 !important;
 }
 
 .card-same {
-  background-color: #f4f7fa;
+  background-color: #f4f7fa !important;
 }
 
 .input {
@@ -101,9 +110,8 @@
 
 .quizwizz-img {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  z-index: 100;
+  top: -48px;
+  right: -25px;
 }
 
 .quizwizz-link-img {
@@ -125,6 +133,69 @@
 
 .quizwizz-popup-text {
   font-size: 1rem;
+}
+
+.popup-quizwizz {
+  margin: 50px auto auto;
+  padding: 10px 30px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  color: black;
+}
+
+.popup-quizwizz .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: none;
+  color: #333;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+}
+.popup-quizwizz .close:hover {
+  color: #06D85F;
+}
+.popup-quizwizz .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .popup-quizwizz{
+    width: 70%;
+  }
+}
+
+.overlay-quizwizz {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay-quizwizz:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.btn-read-more {
+  margin: 10px auto 70px auto
+}
+
+.section-2-column {
+  padding-left: 0px;
 }
 
 

@@ -2,17 +2,38 @@ import React, { useState } from "react";
 import { Link } from "gatsby";
 
 import { menuItems } from "./menuItems";
-import Modal from 'react-modal' 
+//import Modal from 'react-modal' 
 import QuizWizzPopUp from "./QuizWizzPopUp";
+//import 'reactjs-popup/dist/index.css';
 import '../../css/styles.css'
+
+
+
+import { Modal, Button } from 'antd';
+import 'antd/dist/antd.css';
+
 
 const Menu = () => {
 
   const [togglePopUp, setTogglePopUp] = useState(false)
 
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+  const showModal = () => {
+    setIsModalVisible(true);
+  };
+
+  const handleOk = () => {
+    setIsModalVisible(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalVisible(false);
+  };
+
   return (
     <>
-      <ul className="navbar-nav main-menu d-none d-lg-flex">
+      <ul className="navbar-nav main-menu d-none d-lg-flex ">
         {menuItems.map(
           ({ label, isExternal = false, name, items, ...rest }, index) => {
             const hasSubItems = Array.isArray(items);
@@ -116,16 +137,31 @@ const Menu = () => {
                           />
                         <a
                           className='nav-link'
-                          href="#"
+                          href="#popup-quizwizz"
                           id="navLink-quizwizz"
                           // data-toggle="modal"
                           // data-target="#modalRegister"
-                          onClick={() => setTogglePopUp(true)}
+                          onClick={showModal}
                         > 
                           {label}
                         </a>
+
+                        {/* <div className="overlay-quizwizz" id="popup-quizwizz">
+                          
+                            <div className="popup-quizwizz">
+                                
+                                <a href="#" className="close">
+                                  &times;
+                                </a>
+                                <img src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621923817/crown1_bsnzg3.png"} className="quizwizz-img" />
+                              <div className="content">
+                                <QuizWizzPopUp setTogglePopUp={setTogglePopUp} togglePopUp={togglePopUp} />
+                              </div>
+                            </div>
+                          
+                        </div> */}
                         
-                        <Modal
+                        {/* <Modal
                           isOpen={togglePopUp}
                           shouldCloseOnOverlayClick={true}
                           onRequestClose={() => setTogglePopUp(false)}
@@ -143,13 +179,24 @@ const Menu = () => {
                               margin: "auto",
                             }
                           }}
-                        >
-                          <img src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621923817/crown1_bsnzg3.png"} className="quizwizz-img" />
-                          
-                          <QuizWizzPopUp setTogglePopUp={setTogglePopUp} togglePopUp={togglePopUp} />
-                        </Modal>
+                        > */}                       
+                          {/* </Modal> */}
 
-                        </div>
+                          {/* <Popup trigger={<button> Trigger</button>} position="center">
+                            <div>Popup content here !!</div>
+                          </Popup> */}
+
+                          <>
+                            {/* <Button type="primary" onClick={showModal}>
+                              Open Modal
+                            </Button> */}
+                            <Modal visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} footer={null}>
+                              <img src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621923817/crown1_bsnzg3.png"} className="quizwizz-img" />
+                              <QuizWizzPopUp />
+                            </Modal>
+                          </>
+
+                        </div> 
                           
                       
                     ) : (
