@@ -230,14 +230,14 @@ const Section7 = ({ className, ...rest }) => {
       <div className={className} {...rest}>
        
       <section id="fourimg1">
-      <div class="content-section fr-sct pb-13 pb-lg-25">
+      <div class="content-section fr-sct pb-22">
         <div class="container">
           <div class="row align-items-center justify-content-center">
 
             <div class="col-sm-10 col-lg-6">
               <div class="content-text">
                 <h2 class="simpli-nono mb-7">Expertly curated question banks with over 100,000 questions</h2>
-                <p class="simpar">Gain a competitive edge with our comprehensive question banks curated by Subject Matter experts
+                <p class="clscls">Gain a competitive edge with our comprehensive question banks curated by Subject Matter experts
                   with years of experience in education.</p>
                   <a href="" class="btn btn-red mx-auto gtstrdr">Learn more</a>
               </div>
@@ -330,7 +330,7 @@ const Section7 = ({ className, ...rest }) => {
                     </div>
                     <div class="col-md-6 col-lg-12" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
                     <div class="hero-btn">
-                      <a href="#" class="btn-link with-icon text-wtr gr-text-7 font-weight-bold hm-frtg-ts">Explore course materials <i class="icon icon-tail-right font-weight-bold"></i></a>
+                      <a href="#" class="btn-link with-icon text-wtr hm-frtg-ts frst-fnts">Explore course materials <i class="icon icon-tail-right font-weight-bold"></i></a>
                     </div>
                   </div>
                   </div>

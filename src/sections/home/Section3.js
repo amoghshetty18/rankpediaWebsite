@@ -23,30 +23,13 @@ const Section3 = ({ className, ...rest }) => {
   return (
     <>
       <div className={className} {...rest}>
-      <div class="content-section  pb-7 bg-default-4">
+      <div class="content-section  pb-7 new-bg">
         <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-lg-6 order-lg-2 extclt" data-aos="flip-right" data-aos-duration="2000" data-aos-once="true">
-              <div class="content-img text-right">
-              <img src={ homesection2 } alt="" />
-              </div>
-            </div>
-            <div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 formob">
-              <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-                <h2 class="title gr-text-3 mb-6 engag">Got a Doubt? We solve it instantly</h2>
-                <p class="gr-text-8 clscls">Get your doubts solved instantly, no matter what time it is or where you are. Our experts are just a click away.</p>
-                  <a href="#" class="btn btn-red mx-auto gtstrdr">Get Started</a>
-              </div>
-              <div class="content-widget">
-                <div class="row mb-n9">
-                 
-                </div>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
       </div>
+      
     </>
   );
 };

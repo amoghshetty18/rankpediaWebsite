@@ -227,35 +227,161 @@ const Section5 = ({ className, ...rest }) => {
 
   return (
     <>
-      <div className={className} {...rest}>
+     <div className={className} {...rest}>
        
-      <div class="content-section  pb-7 bg-default-4">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-lg-6 order-lg-2 extclt" data-aos="flip-right" data-aos-duration="2000" data-aos-once="true">
-              <div class="content-img text-right">
-              <img src={ homesection4 } alt="" />
-              </div>
-            </div>
-            <div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 formob">
-              <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-                <h2 class="title gr-text-3 mb-6 engag">Prepare Better</h2>
-                <p class="gr-text-8 clscls">Simple learning, Comprehensive Preparation.</p>
-                <p class="gr-text-8 clscls">Be better prepared for any exam with comprehensive assessments and quizzes.</p>
-                  <a href="#" class="btn btn-red mx-auto gtstrdr">Get Started</a>
-              </div>
-              <div class="content-widget">
-                <div class="row mb-n9">
+       <div class="content-section  pt-18 pb-8 bg-default-4" id="heth">
+       <div class="container">
+         <div class="row align-items-center">
+           <div class="col-lg-6" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
+             {/* <div class="content-img sxrty">
+             <img src={ homesection3 } alt="" />
+             </div> */}
+ 
+         
+ 
+             <div className="content-img ">
+             <div className="l6-content-image-group-2-new">
+               <div className="img-1">
+                 <img
+                   className=""
+                   src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621250871/Group_101_pqsme8.png"}
+                   alt=""
+                   data-aos="fade-down"
+                   data-aos-delay={800}
+                 />
+               </div>
+               <div className="img-2">
+                 <img
+                   className="ltrdtyu"
+                   src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621276718/Group_52_Copy_trvpxs.png"}
+                   alt=""
+                   data-aos="fade-right"
+                   data-aos-delay={500}
+                 />
+               </div>
+             </div>
+           </div>
+ 
+ 
+           </div>
+           <div class="col-10 col-lg-6 imgs-imt">
+             <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
+               <h2 class="title gr-text-3 mb-10 engag" >Mentorship</h2>
+               <p class="gr-text-8 clscls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+               <a href="#" class="btn btn-red mx-auto gtstrdr">Our mentors</a>
+             </div>
+             <div class="content-widget">
+               <div class="row">
                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-        
-        
-      </div>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+         {/* <div class="row align-items-center justify-content-center">
+             
+             <div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 formob">
+               <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
+                 <h2 class="title gr-text-3 mb-6 engag">Doubt solving</h2>
+                 <p class="gr-text-8 clscls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                  <a href="#" class="btn btn-red mx-auto gtstrdr">Learn more</a>
+               </div>
+               <div class="content-widget">
+                 <div class="row mb-n9">
+                  
+                 </div>
+               </div>
+             </div>
+ 
+             <div class="col-lg-6 order-lg-2 extclt" data-aos="flip-right" data-aos-duration="2000" data-aos-once="true">
+               <div class="content-img text-right">
+               
+               <div className="l6-content-image-group-2-new">
+               <div className="img-1">
+                 <img
+                   className=""
+                   src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621250871/Group_101_pqsme8.png"}
+                   alt=""
+                   data-aos="fade-down"
+                   data-aos-delay={800}
+                 />
+               </div>
+               <div className="img-2">
+                 <img
+                   className="ltrdtyu"
+                   src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621255964/My_doubts_2x_bv1kp4.png"}
+                   alt=""
+                   data-aos="fade-right"
+                   data-aos-delay={500}
+                 />
+               </div>
+             </div>
+               
+               </div>
+             </div>
+ 
+ 
+           </div> */}
+ 
+ 
+ 
+   
+   
+   {/* <div className="l6-content-image-group-4-new">
+               <div className="img-1">
+                 <img
+                   className=""
+                   src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621256211/Rectangle_jns94x.png"}
+                   alt=""
+                   data-aos="fade-down"
+                   data-aos-delay={800}
+                 />
+               </div>
+               <div className="img-2">
+                 <img
+                   className=""
+                   src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621255964/My_doubts_2x_bv1kp4.png"}
+                   alt=""
+                   data-aos="fade-right"
+                   data-aos-delay={500}
+                 />
+               </div>
+             </div> */}
+
+<div class="row align-items-center pt-15 justify-content-center">
+
+<div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 formob">
+  <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
+    <h2 class="title gr-text-3 mb-6 engag mt-0">Assessments & analytics</h2>
+    <p class="gr-text-8 clscls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+      <a href="#" class="btn btn-red mx-auto gtstrdr">Practice tests</a>
+  </div>
+  <div class="content-widget">
+    <div class="row mb-n9">
+     
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-6 order-lg-2 " data-aos="flip-right" data-aos-duration="2000" data-aos-once="true">
+  <div class="content-img text-right">
+  <img class="dart-elil" src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621277812/Dashboard_Overview_2x_pj1fff.png" } alt="" />
+  </div>
+</div>
+
+</div>
+   
+   
+  
+ 
+
+ 
+ 
+       </div>
+     </div>
+         
+         
+       </div>
     </>
   );
 };

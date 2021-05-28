@@ -236,9 +236,9 @@ const Section6 = ({ className, ...rest }) => {
 
             <div class="col-sm-10 col-lg-6">
               <div class="content-text">
-                <h2 class="simpli-nono1 mb-7">Building an Ecosystem for Students, Teachers and Parents</h2>
-                <p class="simpar1">Experience an ecosystem of education that enhances understanding and improves results. Learn in acomprehensive ecosystem with schools and teachers that enable you to exceed your own limits andexpectations.</p>
-                  <a href="" class="btn btn-red mx-auto gtstrdr">Learn more</a>
+                <h2 class="engag mb-7">Building an Ecosystem for Students, Teachers and Parents</h2>
+                <p class="clscls">Experience an ecosystem of education that enhances understanding and improves results. Learn in acomprehensive ecosystem with schools and teachers that enable you to exceed your own limits andexpectations.</p>
+                  <a href="#" class="btn btn-red mx-auto gtstrdr">Learn more</a>
               </div>
             </div>
             

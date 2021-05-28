@@ -4,41 +4,50 @@ import logoW from "../../assets/image/logo-main-white.png";
 
 export const menuItems = [
   {
-    name: "/about",
-    label: "Aboutus",
-    isExternal: true,
+    name: "about",
+    label: "About Us",
   },
   {
     name: "#",
-    label: "Classes",
+    label: "For Students",
     items: [
       { name: "https://drive.google.com/drive/folders/1TMn_ZQ1jHDccCJMs0rUDYyCfkuo7IW1i?usp=sharing", label: "Class 8",  isExternal: true },
       { name: "https://drive.google.com/drive/folders/1UzVFzfWU3tlPfPHI60BuHbK9YpgrJTel?usp=sharing", label: "Class 9",  isExternal: true, },
       { name: "https://drive.google.com/drive/folders/1FUy7SVXzclaX7odateqEa0QpcPpYU1Ps?usp=sharing", label: "Class 10",  isExternal: true, },
     ],
   },
+  // {
+  //   name: "#",
+  //   label: "Study materials",
+  //   items: [
+  //     { name: "https://drive.google.com/drive/folders/1TMn_ZQ1jHDccCJMs0rUDYyCfkuo7IW1i?usp=sharing", label: "Class 8",  isExternal: true },
+  //     { name: "https://drive.google.com/drive/folders/1UzVFzfWU3tlPfPHI60BuHbK9YpgrJTel?usp=sharing", label: "Class 9",  isExternal: true, },
+  //     { name: "https://drive.google.com/drive/folders/1FUy7SVXzclaX7odateqEa0QpcPpYU1Ps?usp=sharing", label: "Class 10",  isExternal: true, },
+  //   ],
+  // },
   {
     name: "#",
-    label: "Study materials",
-    items: [
-      { name: "https://drive.google.com/drive/folders/1TMn_ZQ1jHDccCJMs0rUDYyCfkuo7IW1i?usp=sharing", label: "Class 8",  isExternal: true },
-      { name: "https://drive.google.com/drive/folders/1UzVFzfWU3tlPfPHI60BuHbK9YpgrJTel?usp=sharing", label: "Class 9",  isExternal: true, },
-      { name: "https://drive.google.com/drive/folders/1FUy7SVXzclaX7odateqEa0QpcPpYU1Ps?usp=sharing", label: "Class 10",  isExternal: true, },
-    ],
+    label: "For School",
+    isExternal: false,
   },
   {
-    name: "https://medium.com/rankpedia",
-    label: "Blogs",
+    name: "#",
+    label: "Why Rankpedia",
+    isExternal: false,
+  },
+  {
+    name: "#",
+    label: "Subscription",
+    isExternal: false,
+   },
+   {
+    name: "#",
+    label: "Quizwizz",
     isExternal: true,
-  },
-  {
-    name: "#",
-    label: "Contact",
-    isExternal: true,
-  },
-  {
-    name: "#",
-    label: "QuizWizz",
+   },
+   {
+    name: "contact",
+    label: "Contact Us",
     isExternal: false,
    },
 

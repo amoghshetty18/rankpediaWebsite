@@ -19,14 +19,23 @@ exports.components = {
   "component---src-pages-home-6-js": () => import("./../../../src/pages/home-6.js" /* webpackChunkName: "component---src-pages-home-6-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-login-js": () => import("./../../../src/pages/login.js" /* webpackChunkName: "component---src-pages-login-js" */),
+<<<<<<< HEAD
   "component---src-pages-mentors-landing-js": () => import("./../../../src/pages/mentors-landing.js" /* webpackChunkName: "component---src-pages-mentors-landing-js" */),
+||||||| merged common ancestors
+=======
+  "component---src-pages-neplanding-js": () => import("./../../../src/pages/neplanding.js" /* webpackChunkName: "component---src-pages-neplanding-js" */),
+>>>>>>> e01cfb7f751cbf4367289f578733896525aaff86
   "component---src-pages-otp-js": () => import("./../../../src/pages/otp.js" /* webpackChunkName: "component---src-pages-otp-js" */),
+  "component---src-pages-practice-test-js": () => import("./../../../src/pages/practice-test.js" /* webpackChunkName: "component---src-pages-practice-test-js" */),
   "component---src-pages-pricing-js": () => import("./../../../src/pages/pricing.js" /* webpackChunkName: "component---src-pages-pricing-js" */),
+  "component---src-pages-pricinglanding-js": () => import("./../../../src/pages/pricinglanding.js" /* webpackChunkName: "component---src-pages-pricinglanding-js" */),
   "component---src-pages-reset-pass-js": () => import("./../../../src/pages/reset-pass.js" /* webpackChunkName: "component---src-pages-reset-pass-js" */),
   "component---src-pages-signin-image-js": () => import("./../../../src/pages/signin-image.js" /* webpackChunkName: "component---src-pages-signin-image-js" */),
   "component---src-pages-signin-js": () => import("./../../../src/pages/signin.js" /* webpackChunkName: "component---src-pages-signin-js" */),
   "component---src-pages-signup-image-js": () => import("./../../../src/pages/signup-image.js" /* webpackChunkName: "component---src-pages-signup-image-js" */),
   "component---src-pages-signup-js": () => import("./../../../src/pages/signup.js" /* webpackChunkName: "component---src-pages-signup-js" */),
-  "component---src-pages-terms-js": () => import("./../../../src/pages/terms.js" /* webpackChunkName: "component---src-pages-terms-js" */)
+  "component---src-pages-teaching-method-js": () => import("./../../../src/pages/teaching-method.js" /* webpackChunkName: "component---src-pages-teaching-method-js" */),
+  "component---src-pages-terms-js": () => import("./../../../src/pages/terms.js" /* webpackChunkName: "component---src-pages-terms-js" */),
+  "component---src-pages-why-rankpedia-js": () => import("./../../../src/pages/why-rankpedia.js" /* webpackChunkName: "component---src-pages-why-rankpedia-js" */)
 }
 
