@@ -17,7 +17,7 @@ const Section2 = (props) => {
 
   return (
     <div className="row mt-18 mb-20 ">
-      <div className="col-sm-6">
+      <div className="col-sm-6 section-2-column">
       <div
               className="l4-content-img-2 ml-lg-10 ml-xl-7 rounded-10 text-center"
               data-aos="fade-right"
@@ -31,7 +31,7 @@ const Section2 = (props) => {
         <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
               css={`
-                background-image: url(${imgC});
+                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622110971/pexels-daria-shevtsova-1560932_ahh5y9.png"});
               `}
             >
               <a

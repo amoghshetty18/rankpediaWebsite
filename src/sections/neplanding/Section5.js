@@ -34,7 +34,7 @@ const Section5 = () => {
       />
       
       <a href="#">
-        <button className="btn px-7 my-10 btn btn-blue-3 header-btn1 head-login">
+        <button className="btn px-17 btn btn-blue-3 header-btn1 head-login btn-read-more">
           Read More On Why Rankpedia
         </button>
       </a>
