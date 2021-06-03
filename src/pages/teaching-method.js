@@ -14,6 +14,10 @@ import Banner from "../components/BannerSection";
 import Infocard from "../sections/faq/Infocard";
 import Content4 from "../sections/practicetest/Content4";
 
+import VisionMission from "../sections/teachingmethod/vision-mission";
+import ThingsSec from "../sections/teachingmethod/ThingsSec";
+import Bloom from "../sections/teachingmethod/bloom";
+
 import Section1 from "../sections/home/Section1";
 import Section2 from "../sections/home/Section2";
 import Section3 from "../sections/home/Section3";
@@ -48,9 +52,15 @@ const Teachingmethod = () => {
 
      <Banner 
         bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621595518/banner-image_rw7lnc.jpg"
-        BannerTitle=" NEP 2020 Compliant  [National Education Policy] "
-        BannerContent=" Learn how RankPedia is compliant with the country's new educational policies "
-        BannerbtnText="Learn More"/>
+        BannerTitle=" Learn at your own pace & style, with practice "
+        BannerContent=" RankPedia follows the Bloom's taxonomy for teaching "
+        BannerbtnText="Our teaching method"/>
+
+      <VisionMission />
+
+      <ThingsSec/>
+
+      <Bloom/>
 
 
       <Content4 className="bg-default-6 pb-6  overflow-hidden position-relative" />
