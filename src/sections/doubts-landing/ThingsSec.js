@@ -11,7 +11,8 @@ import {
 import GlobalContext from "../../context/GlobalContext";
 import imgC from "../../assets/image/inner-page/png/video-bg.png";
 import Faqsection from "../faq/Faqsection"
-const ThingsSec = () => {
+const ThingsSec = ({ Title,Accordianheading1,Accordianpara1,Accordianheading2,Accordianpara2,Accordianheading3,Accordianpara3,
+  Accordianheading4,Accordianpara4,Accordianheading5,Accordianpara5,Accordianheading6,Accordianpara6,Accordianheading7,Accordianpara7,Accordianpara71 }) => {
   const gContext = useContext(GlobalContext);
 
   return (

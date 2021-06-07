@@ -13,7 +13,7 @@ const Hero = () => {
               data-aos-duration={500}
               data-aos-delay={500}
             >
-              <h2 className="chstds-wstd mb-7">Choose a monthly/yearly package of your choice</h2>
+              <h2 className="chstds-wstd mb-7">Select from the monthly/yearly subscription to redefine your child’s future</h2>
               {/* <p className="font-size-7 mb-0">
                 Our focus is always on finding the best people to work with. Our
                 bar is high, but you look ready to take on the challenge.

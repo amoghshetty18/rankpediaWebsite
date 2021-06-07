@@ -35,42 +35,46 @@ const Pricing = () => {
             >
               <div className="pricelandingfirst-section">
               <p className="price-tp1r mb-5">Basic</p>
-              <h2 className="price-fntdsfr mb-1">Rs 990
+              <h2 className="price-fntdsfr mb-1">INR XXX
               <span className="price-landing-mntds mb-2">/month</span></h2>
-              <h2 className="price-fntdsfr mb-1">Rs 8650 
+              <h2 className="price-fntdsfr mb-1">INR XXX 
               <span className="price-landing-mntds mb-2">/Year</span></h2>
               </div>
 
               <div className="pricelandingfirst-section-second">
 
-                <p className="price-landing-prdt-ptd">
+                {/* <p className="price-landing-prdt-ptd">
                 Lorem Ipsum is simply text of the printing and typesetting industry. 
-                </p>
+                </p> */}
                 <ul className="list-unstyled font-size-5 text-dark-cloud">
                           <li className="mb-6 pricingtnks-nxt">
-                            <i className="fa fa-check mr-4 text-dodger-blue-to-green" />
+                            <i className="fa fa-times mr-4 text-dodger-blue-to-red" />
                             Adaptive Learning
                           </li>
                           <li className="mb-6 pricingtnks-nxt">
-                            <i className="fa fa-check mr-4 text-dodger-blue-to-green" />
-                            Video Tutorials
+                            <i className="fa fa-times mr-4 text-dodger-blue-to-red" />
+                            Individual Attension
                           </li>
                           <li className="mb-6 pricingtnks-nxt">
-                            <i className="fa fa-check mr-4 text-dodger-blue-to-green" />
-                            Mock Tests
+                            <i className="fa fa-times mr-4 text-dodger-blue-to-red" />
+                            Video tutorials 
                           </li>
                           <li className="mb-6 pricingtnks-nxt">
-                            <i className="fa fa-times mr-4 text-dodger-blue-to-red" />{" "}
+                            <i className="fa fa-times mr-4 text-dodger-blue-to-red" />
+                            Mock Test
+                          </li>
+                          <li className="mb-6 pricingtnks-nxt">
+                            <i className="fa fa-check mr-4 text-dodger-blue-to-green" />{" "}
                             Practice Tests
                           </li>
                           <li className="mb-6 pricingtnks-nxt">
-                            <i className="fa fa-times mr-4 text-dodger-blue-to-red" />{" "}
-                            Doubts
+                            <i className="fa fa-check mr-4 text-dodger-blue-to-green" />{" "}
+                            Doubt Solving
                           </li>
                  </ul>
               <div className="pt-7 pt-lg-5">
                 <a className="btn rounded-10  pricing-by-package" href="/#">
-                  Buy this Package
+                  Subscribe Now
                 </a>
               </div>
 
@@ -90,44 +94,48 @@ const Pricing = () => {
             >
 
               <div className="pricelandingfirst-section-two">
-              <p className="price-tp1r mb-5">Self Paced</p>
-              <h2 className="price-fntdsfr mb-1">Rs 1250
+              <p className="price-tp1r mb-5">Self-Paced</p>
+              <h2 className="price-fntdsfr mb-1">INR XXX
               <span className="price-landing-mntds mb-2">/month</span></h2>
-              <h2 className="price-fntdsfr mb-1">Rs 11,500 
+              <h2 className="price-fntdsfr mb-1">INR XXX 
               <span className="price-landing-mntds mb-2">/Year</span></h2>
               </div>
 
 
               <div className="pricelandingfirst-section-second-for-second">
 
-                  <p className="price-landing-prdt-ptd">
+                  {/* <p className="price-landing-prdt-ptd">
                   Lorem Ipsum is simply text of the printing and typesetting industry. 
-                  </p>
+                  </p> */}
                   <ul className="list-unstyled font-size-5 text-dark-cloud">
                         <li className="mb-6 pricingtnks-nxt">
-                          <i className="fa fa-check mr-4 text-dodger-blue-to-green" />
+                          <i className="fa fa-times mr-4 text-dodger-blue-to-red" />
                           Adaptive Learning
                         </li>
                         <li className="mb-6 pricingtnks-nxt">
-                          <i className="fa fa-check mr-4 text-dodger-blue-to-green" />
+                          <i className="fa fa-times mr-4 text-dodger-blue-to-red" />
+                          Individual Attension
+                        </li>
+                        <li className="mb-6 pricingtnks-nxt">
+                          <i className="fa fa-times mr-4 text-dodger-blue-to-red" />
                           Video Tutorials
                         </li>
                         <li className="mb-6 pricingtnks-nxt">
-                          <i className="fa fa-check mr-4 text-dodger-blue-to-green" />
-                          Mock Tests
-                        </li>
-                        <li className="mb-6 pricingtnks-nxt">
-                          <i className="fa fa-times mr-4 text-dodger-blue-to-green" />{" "}
-                          Practice Tests
+                          <i className="fa fa-times mr-4 text-dodger-blue-to-red" />
+                          Mock Test
                         </li>
                         <li className="mb-6 pricingtnks-nxt">
                           <i className="fa fa-times mr-4 text-dodger-blue-to-red" />{" "}
-                          Doubts
+                          Practice Tests
+                        </li>
+                        <li className="mb-6 pricingtnks-nxt">
+                          <i className="fa fa-check mr-4 text-dodger-blue-to-green" />{" "}
+                          Doubt Solving
                         </li>
               </ul>
               <div className="pt-7 pt-lg-5">
               <a className="btn rounded-10  pricing-by-package-second" href="/#">
-                Buy this Package
+                Subscribe Now
               </a>
               </div>
 
@@ -147,43 +155,47 @@ const Pricing = () => {
             >
              <div className="pricelandingfirst-section-three">
               <p className="price-tp1r mb-5">Pro</p>
-              <h2 className="price-fntdsfr mb-1">Rs 2000
+              <h2 className="price-fntdsfr mb-1">INR XXX
               <span className="price-landing-mntds mb-2">/month</span></h2>
-              <h2 className="price-fntdsfr mb-1">Rs 20,000 
+              <h2 className="price-fntdsfr mb-1">INR XXX 
               <span className="price-landing-mntds mb-2">/Year</span></h2>
               </div>
 
 
               <div className="pricelandingfirst-section-second-for-third">
 
-                  <p className="price-landing-prdt-ptd">
+                  {/* <p className="price-landing-prdt-ptd">
                   Lorem Ipsum is simply text of the printing and typesetting industry. 
-                  </p>
+                  </p> */}
                   <ul className="list-unstyled font-size-5 text-dark-cloud">
                         <li className="mb-6 pricingtnks-nxt">
-                          <i className="fa fa-check mr-4 text-dodger-blue-to-green" />
+                          <i className="fa fa-times mr-4 text-dodger-blue-to-red" />
                           Adaptive Learning
                         </li>
                         <li className="mb-6 pricingtnks-nxt">
-                          <i className="fa fa-check mr-4 text-dodger-blue-to-green" />
+                          <i className="fa fa-times mr-4 text-dodger-blue-to-red" />
+                          Individual Attension
+                        </li>
+                        <li className="mb-6 pricingtnks-nxt">
+                          <i className="fa fa-times mr-4 text-dodger-blue-to-red" />
                           Video Tutorials
                         </li>
                         <li className="mb-6 pricingtnks-nxt">
-                          <i className="fa fa-check mr-4 text-dodger-blue-to-green" />
-                          Mock Tests
+                          <i className="fa fa-times mr-4 text-dodger-blue-to-red" />
+                          Mock Test
                         </li>
                         <li className="mb-6 pricingtnks-nxt">
-                          <i className="fa fa-times mr-4 text-dodger-blue-to-green" />{" "}
+                          <i className="fa fa-times mr-4 text-dodger-blue-to-red" />{" "}
                           Practice Tests
                         </li>
                         <li className="mb-6 pricingtnks-nxt">
-                          <i className="fa fa-times mr-4 text-dodger-blue-to-green" />{" "}
-                          Doubts
+                          <i className="fa fa-check mr-4 text-dodger-blue-to-green" />{" "}
+                          Doubt Solving
                         </li>
               </ul>
               <div className="pt-7 pt-lg-5">
               <a className="btn rounded-10  pricing-by-package-third" href="/#">
-                Buy this Package
+                Subscribe Now 
               </a>
               </div>
 

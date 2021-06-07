@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-doubts-landing-js": () => import("./../../../src/pages/doubts-landing.js" /* webpackChunkName: "component---src-pages-doubts-landing-js" */),
   "component---src-pages-faq-js": () => import("./../../../src/pages/faq.js" /* webpackChunkName: "component---src-pages-faq-js" */),
   "component---src-pages-for-schools-js": () => import("./../../../src/pages/for-schools.js" /* webpackChunkName: "component---src-pages-for-schools-js" */),
+  "component---src-pages-grade-8-js": () => import("./../../../src/pages/grade8.js" /* webpackChunkName: "component---src-pages-grade-8-js" */),
   "component---src-pages-home-2-js": () => import("./../../../src/pages/home-2.js" /* webpackChunkName: "component---src-pages-home-2-js" */),
   "component---src-pages-home-3-js": () => import("./../../../src/pages/home-3.js" /* webpackChunkName: "component---src-pages-home-3-js" */),
   "component---src-pages-home-4-js": () => import("./../../../src/pages/home-4.js" /* webpackChunkName: "component---src-pages-home-4-js" */),
