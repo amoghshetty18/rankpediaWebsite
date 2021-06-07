@@ -63,6 +63,7 @@
     background: #F4F7FA !important;
     font-weight: 500;
     margin-top: 5px;
+    font: caption;
 }
 #accordianarrow .accordion__button:before
 {
@@ -191,7 +192,7 @@
 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    color: #fff;
+    color: #EFEFEF;
 }
 .btn-banner-green
 {
@@ -319,7 +320,69 @@ background-color: #3FCD5C;
     opacity: 0.8;
     }
 // end of expertprofile section
-// media query
+
+// Start of for schools featured section
+.interest-explore-inner{
+    margin: 40px 0 0 0;
+}
+.interest-explore-inner .image-holder{
+    margin: 15px 0;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px; 
+}
+.interest-explore-inner .image-holder:hover{
+    cursor: pointer;
+}
+.interest-explore-inner .image-holder:after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.countrie-page .interest-explore-inner .image-holder:after{
+    display: none;
+}
+.interest-explore-inner .image-holder:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+.interest-explore-inner .image-holder img{
+    width: 100%;
+    height: 188px;
+    object-fit: cover;
+    /* object-fit: contain; */
+    border-radius: 10px; 
+    transition: all 0.5s ease-in-out;
+}
+.interest-explore-inner .image-holder a{
+    position: relative;
+    /*    z-index: 1;*/
+    display: block;
+}
+.interest-explore-inner .image-holder .featured-card-details{
+    font-size: 20px;
+    font-weight: 500;
+    // letter-spacing: 1.82px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    width: 100%;
+    padding: 0 10px 20px 10px;
+}
+.interest-explore-inner .btn-default {
+    margin: 40px auto 0;
+}
+// End of for schools featured section
+
+// Start of  media query
 @media (max-width: 400px) {
     .Heading-styling
     {

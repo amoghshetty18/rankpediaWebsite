@@ -19,12 +19,8 @@ exports.components = {
   "component---src-pages-home-6-js": () => import("./../../../src/pages/home-6.js" /* webpackChunkName: "component---src-pages-home-6-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-login-js": () => import("./../../../src/pages/login.js" /* webpackChunkName: "component---src-pages-login-js" */),
-<<<<<<< HEAD
   "component---src-pages-mentors-landing-js": () => import("./../../../src/pages/mentors-landing.js" /* webpackChunkName: "component---src-pages-mentors-landing-js" */),
-||||||| merged common ancestors
-=======
   "component---src-pages-neplanding-js": () => import("./../../../src/pages/neplanding.js" /* webpackChunkName: "component---src-pages-neplanding-js" */),
->>>>>>> e01cfb7f751cbf4367289f578733896525aaff86
   "component---src-pages-otp-js": () => import("./../../../src/pages/otp.js" /* webpackChunkName: "component---src-pages-otp-js" */),
   "component---src-pages-practice-test-js": () => import("./../../../src/pages/practice-test.js" /* webpackChunkName: "component---src-pages-practice-test-js" */),
   "component---src-pages-pricing-js": () => import("./../../../src/pages/pricing.js" /* webpackChunkName: "component---src-pages-pricing-js" */),

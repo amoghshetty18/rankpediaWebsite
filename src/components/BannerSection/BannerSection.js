@@ -9,31 +9,19 @@ const BannerSection = ({ className, bgurl, BannerTitle, BannerContent,BannerbtnT
       <div
         className={className}
         {...rest}
-<<<<<<< HEAD
-        style={{ backgroundImage: `url(${bgurl})`, backgroundRepeat: 'no-repeat' , backgroundSize: 'cover'}}
-||||||| merged common ancestors
-        style={{ backgroundImage: `url(${bgurl})`, backgroundRepeat: 'no-repeat' }}
-=======
         style={{ backgroundImage: `url(${bgurl})`, backgroundRepeat: 'no-repeat', 
         "background-position": "center",
         "background-size": "cover" }}
->>>>>>> e01cfb7f751cbf4367289f578733896525aaff86
       >
         <div className="container">
           <div className="row align-items-center justify-content-center">
-            <div className="col-lg-8 col-md-10">
+            <div className="col-lg-9 col-md-10">
               <div
                 className="text-center padforbnr dark-mode-texts"
                 data-aos="zoom-in"
                 data-aos-delay="500"
               >
-<<<<<<< HEAD
-                <h2 className="mb-7">
-||||||| merged common ancestors
-                <h2 className="font-size-11 mb-7">
-=======
                 <h2 className="font-size-10 mb-7 fnt-fmly">
->>>>>>> e01cfb7f751cbf4367289f578733896525aaff86
                   {BannerTitle}
                 </h2>
                 <p className="BannerTitle line-height-28 px-md-10 px-lg-16 px-xl-25 mb-0 fnt-fmly">

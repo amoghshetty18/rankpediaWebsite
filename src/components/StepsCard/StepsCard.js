@@ -6,7 +6,7 @@ import imgS from "../../assets/image/home-2/png/search.png";
 import imgE from "../../assets/image/home-2/png/event-confirm.png";
 import imgR from "../../assets/image/home-2/png/right-layer.png";
 
-const StepsCard = ({ className, ...rest }) => {
+const StepsCard = ({ title,step1title,step2title,step3title, step1info, step2info, step3info ,className, ...rest }) => {
   return (
     <>
       <div className={className} {...rest}>
@@ -16,7 +16,7 @@ const StepsCard = ({ className, ...rest }) => {
             <div className="col-xl-7 col-lg-8 col-md-9 col-xs-10">
               <div className="Heading-styling text-center pt-5 pt-lg-10 pb-13 pb-lg-12 pr-lg-10 pr-xl-0">
                 <h2 className=" mb-0">
-                  What You need to do?
+                  {title}
                 </h2>
               </div>
             </div>
@@ -56,10 +56,9 @@ const StepsCard = ({ className, ...rest }) => {
                     <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621529050/Repeat_Grid_1_vasjbr.svg" alt="" />
                   </div>
                   <div className="pt-10 pt-lg-10 pb-lg-15 pl-lg-10 pr-lg-10 text-center">
-                    
+                    <h6>{step1title}</h6>
                     <p className="font-size-5 line-height-28 mb-0">
-                      We’ve helped over 2,500 job seekers to get into the most
-                      popular tech teams.
+                     {step1info}
                     </p>
                   </div>
                 </div>
@@ -75,10 +74,9 @@ const StepsCard = ({ className, ...rest }) => {
                     <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621529166/2_yagkws.svg" alt="" />
                   </div>
                   <div className="pt-10 pt-lg-10 pb-lg-15 pl-lg-10 pr-lg-10 text-center">
-                    
+                  <h6>{step2title}</h6>
                     <p className="font-size-5 line-height-28 mb-0">
-                      We’ve helped over 2,500 job seekers to get into the most
-                      popular tech teams.
+                      {step2info}
                     </p>
                   </div>
                 </div>
@@ -94,10 +92,9 @@ const StepsCard = ({ className, ...rest }) => {
                     <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621529167/Icon_ionic-md-checkmark-circle-outline_ckmtzk.svg" alt="" />
                   </div>
                   <div className="pt-10 pt-lg-10 pb-lg-15 pl-lg-10 pr-lg-10 text-center">
-                    
+                  <h6>{step3title}</h6>
                     <p className="font-size-5 line-height-28 mb-0">
-                      We’ve helped over 2,500 job seekers to get into the most
-                      popular tech teams.
+                      {step3info}
                     </p>
                   </div>
                 </div>

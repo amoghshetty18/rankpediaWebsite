@@ -43,7 +43,12 @@ const Doubtslanding = () => {
         <RespondSec/>
         {/* End of of who respond section */}
         {/* Start of Stpes section */}
-        <StepsCard/>
+        <StepsCard
+        title="What do you need to Do? "
+        step1info="Simply capture a clear picture of the question that you want our experts to solve. You can also type and send it to us. "
+        step2info="Upload the question on RankPedia's doubt-solving platform. You will be notified when the question has been answered. "
+        step3info="In a waiting time of around 24 hours, you will get a detailed solution from an expert. Also, get insights on other concepts from the same chapter to understand the whole topic with more clarity. "
+        />
         {/* End of steps section */}
         {/* <ExpertSec/> */}
         {/* Start of Few Things to Know */}

@@ -4,11 +4,14 @@ import PageWrapper from "../components/PageWrapper";
 import StepsCard from "../components/StepsCard";
 import GetinTouch from "../components/GetinTouch";
 import Banner from "../components/BannerSection";
+import Videosection from "../sections/for-schools/Videosection";
+import SchoolFeaturues from  "../sections/for-schools/schoolfeatures";
+import Schoolsolution from "../sections/for-schools/schoolsoultion";
 import Infocard from "../sections/faq/Infocard";
+import Faqforschools from "../sections/for-schools/faqforschools";
 import RespondSec from "../sections/doubts-landing/respondsec";
 import ThingsSec from "../sections/doubts-landing/ThingsSec";
 import ExpertSec from "../sections/doubts-landing/ExpertsSec";
-
 
 const Forschools = () => {
   return (
@@ -34,22 +37,40 @@ const Forschools = () => {
       >
           {/* Start of banner section */}
         <Banner 
-        bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621600198/forschoolsbanner_cyj9ig.jpg"
-        BannerTitle="Integrated digital education: 
-        Rankpedia for schools"
-        BannerContent="Learning has never been easier."
-        BannerbtnText="Get started"/>
+        bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622440722/for-schools-banner_pt3zeq.png"
+        BannerTitle="Integrated Digital Education: RankPedia for Schools, Teachers & Students"
+        BannerContent="Features for schools"
+        BannerbtnText="Learn more"/>
         {/* End of banner section */}
-        {/* Start of who respond section */}
-        <RespondSec/>
-        {/* End of of who respond section */}
+
+        {/* Strat of second section */}
+        <Videosection/>
+        {/* End of second section */}
+        
+        {/* Start of school features */}
+         <SchoolFeaturues/>
+        {/*End of school features  */}
+
+       {/* Strat of school solution section */}
+        <Schoolsolution/>
+        {/* End of school solution section */}
+
         {/* Start of Stpes section */}
-        <StepsCard/>
+        <StepsCard
+        title="Get RankPedia for your School in 3 steps"
+        step1title="Create"
+        step1info="Get started with your account. Fill in the details as required and click Enter. "
+        step2title="Choose"
+        step2info="Pick your monthly/yearly pack as per your choice. RankPedia offers three plans - Basic, Self-Paced, and Pro."
+        step3title="Get Set Go"
+        step3info="Start your first online learning session with RankPedia educational platform today."/>
         {/* End of steps section */}
+        
         {/* <ExpertSec/> */}
-        {/* Start of Few Things to Know */}
-        <ThingsSec/>
-        {/* End of Few Things to Know */}
+        
+        {/* Start of faq for schools section */}
+        <Faqforschools/>
+        {/* End of faq for schools section  */}
         
         <Infocard/>
         {/* Start of get in touch section */}

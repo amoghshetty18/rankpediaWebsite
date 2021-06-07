@@ -5,7 +5,9 @@ import StepsCard from "../components/StepsCard";
 import GetinTouch from "../components/GetinTouch";
 import Banner from "../components/BannerSection";
 import ExpertProfile from "../sections/mentor-landing/mentorprofilesec";
-import Infocard from "../sections/faq/Infocard";
+import Converstioncard from "../components/Converstationcard";
+import Doubtsinfocard from "../sections/doubts-landing/Doubts-infocard";
+
 import RespondSec from "../sections/doubts-landing/respondsec";
 import ThingsSec from "../sections/doubts-landing/ThingsSec";
 import ExpertSec from "../sections/doubts-landing/ExpertsSec";
@@ -36,19 +38,26 @@ const Mentorlanding = () => {
           {/* Start of banner section */}
         <Banner 
         bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621575884/Group_254-min_tphob2.jpg"
-        BannerTitle="Meet our expert educators
-        and early acheivers"
-        BannerContent="Learning has never been easier."
+        BannerTitle="Meet Our Expert Educators and Early Achievers!"
+        BannerContent="Get comprehensive education at your fingertips."
         BannerbtnText="Get started"/>
         {/* End of banner section */}
-       
+       {/* Start of expert cards */}
         <ExpertProfile/>
-        <Infocard/>
+        {/*  End of expert cards */}
+        {/* Start of Conversation card */}
+        <Converstioncard 
+        img="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622439453/mentors-second_jgmxvz.png"
+        title="Mentor’s availability and doubt clarification"
+        Discription="Passionate mentors and domain experts helping students improve their learning outcomes and performance."/>
+        {/* End of Conversation card */}
+        {/* Strat of infor card */}
+        <Doubtsinfocard/>
+        {/* End of infor card */}
         {/* Start of get in touch section */}
         <GetinTouch
-        title="Ready for an Experience of 
-        Blended Learning?"
-       disc="Register to experience blended learning like never before and stay ahead."/>
+        title="Ready to get started?"
+       disc="Register today!"/>
        {/* End of get in touch section */}
       </PageWrapper>
     </>

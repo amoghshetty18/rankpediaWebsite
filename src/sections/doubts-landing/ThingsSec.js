@@ -22,7 +22,7 @@ const ThingsSec = () => {
             <div className="col-xl-7 col-lg-8 col-md-9 col-xs-10">
               <div className="Heading-styling text-center pt-5 pt-lg-10 pb-13 pb-lg-12 pr-lg-10 pr-xl-0">
                 <h2 className=" mb-0">
-                  What You need to do?
+                Few Things to Know
                 </h2>
               </div>
             </div>
@@ -35,44 +35,62 @@ const ThingsSec = () => {
             <AccordionItem uuid="a">
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        How can i?
+                    How many doubts can I ask in a day? 
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className="accordiondisc">
-                        Exercitation in fugiat est ut ad ea cupidatat ut in
-                        cupidatat occaecat ut occaecat consequat est minim minim
-                        esse tempor laborum consequat esse adipisicing eu
-                        reprehenderit enim.
+                    Unlimited. 
+                    <br/>
+                      Send as many questions as you can, and we shall answer each in as much detail as you want. 
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                       What if?
+                    What if I need a solution urgently?
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                 <p className="accordiondisc">
-                        In ad velit in ex nostrud dolore cupidatat consectetur
-                        ea in ut nostrud velit in irure cillum tempor laboris
-                        sed adipisicing eu esse duis nulla non.
+                Our experts are available to help you 24/7. Send your questions any time and get your answer within 24 hours. 
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        How can i?
+                    If I have more doubts on the same topic, how can I get them resolved? 
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className="accordiondisc">
-                        Exercitation in fugiat est ut ad ea cupidatat ut in
-                        cupidatat occaecat ut occaecat consequat est minim minim
-                        esse tempor laborum consequat esse adipisicing eu
-                        reprehenderit enim.
+                    Firstly, upload all your questions on our doubt-clearing portal. After getting detailed explanations, if you still feel you need more clarity, you can quickly get in touch with an expert and understand everything in a live interaction. 
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    What kind of help can I get? 
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p className="accordiondisc">
+                    Doubt solving will not just be limited to providing answers to your questions. You will also be guided about the approach to solving similar problems in the future.  
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    Will I get all my questions answered by the same teacher? 
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p className="accordiondisc">
+                    We have an outstanding team of subject-matter experts. They are all a part of this dedicated doubt-solving platform and will help in resolving your queries. 
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
