@@ -36,18 +36,18 @@ const Doubtslanding = () => {
         <Banner 
         bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621515666/doubts-banner-image-min_eteitn.jpg"
         BannerTitle="Get Every doubt answered under 30 mins, by experts"
-        BannerContent="Learning has never been easier."
-        BannerbtnText="Get started"/>
+        BannerContent="Get a flexible learning experience"
+        BannerbtnText="Learn how"/>
         {/* End of banner section */}
         {/* Start of who respond section */}
         <RespondSec/>
         {/* End of of who respond section */}
         {/* Start of Stpes section */}
         <StepsCard
-        title="What do you need to Do? "
-        step1info="Simply capture a clear picture of the question that you want our experts to solve. You can also type and send it to us. "
-        step2info="Upload the question on RankPedia's doubt-solving platform. You will be notified when the question has been answered. "
-        step3info="In a waiting time of around 24 hours, you will get a detailed solution from an expert. Also, get insights on other concepts from the same chapter to understand the whole topic with more clarity. "
+        title="What do you need to do? "
+        step1info="Type or send us the picture of the question."
+        step2info="Upload the question on RankPedia's doubt-solving platform. "
+        step3info="Get the detailed solution from an expert in 30 minutes."
         />
         {/* End of steps section */}
         {/* <ExpertSec/> */}

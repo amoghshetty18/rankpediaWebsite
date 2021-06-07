@@ -13,7 +13,7 @@ const InformationCard = ({ options }) => {
     //     </p>
     //   </div>
     // </div>
-    <div className="d-xs-flex">
+    <div className="">
     <div className="">
                     <div
                       className="pt-13 pt-lg-15 Informationcardstyling"
@@ -21,7 +21,7 @@ const InformationCard = ({ options }) => {
                       data-aos-delay={500}
                       style={{background: options.color}}
                     >
-                      <div className="square-60 bg-blue-3 shadow-dodger-blue-3 rounded-10 text-white m-auto font-size-7">
+                      <div className="square-60  rounded-10 text-white m-auto font-size-7">
                       <img src={options.icon} alt="" />
                       </div>
                       <div className="mt-12 InformationContentStyling">

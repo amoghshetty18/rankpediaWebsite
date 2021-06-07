@@ -7,7 +7,7 @@ import Banner from "../components/BannerSection";
 import Videosection from "../sections/for-schools/Videosection";
 import SchoolFeaturues from  "../sections/for-schools/schoolfeatures";
 import Schoolsolution from "../sections/for-schools/schoolsoultion";
-import Infocard from "../sections/faq/Infocard";
+import Infocard from "../sections/for-schools/for-school-info";
 import Faqforschools from "../sections/for-schools/faqforschools";
 import RespondSec from "../sections/doubts-landing/respondsec";
 import ThingsSec from "../sections/doubts-landing/ThingsSec";

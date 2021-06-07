@@ -62,18 +62,6 @@ const ThingsSec = ({ Title,Accordianheading1,Accordianpara1,Accordianheading2,Ac
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    If I have more doubts on the same topic, how can I get them resolved? 
-                    </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                    <p className="accordiondisc">
-                    Firstly, upload all your questions on our doubt-clearing portal. After getting detailed explanations, if you still feel you need more clarity, you can quickly get in touch with an expert and understand everything in a live interaction. 
-                    </p>
-                </AccordionItemPanel>
-            </AccordionItem>
-            <AccordionItem>
-                <AccordionItemHeading>
-                    <AccordionItemButton>
                     What kind of help can I get? 
                     </AccordionItemButton>
                 </AccordionItemHeading>

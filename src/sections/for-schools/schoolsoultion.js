@@ -9,17 +9,17 @@ const schoolsolution = () => {
 //   const gContext = useContext(GlobalContext);
 const solutioncard = [
     {
-      title: "Find Leads",
+      title: "Unable to track the potential of every student?",
       text:
         "Get your students an in-depth understanding of every concept through adaptive and personalised learning methodology. Access study materials and engaging hands-on activities for their practice. ",
     },
     {
-      title: "Find Leads",
+      title: "Couldn’t aid educators in taking timely and productive action?",
       text:
         "Accessibility of overall progress reports to students, teachers, school admin, and parents—all-inclusive performance analysis and sharing of the data of the school management to the Principal.",
     },
     {
-        title: "Find Leads",
+        title: "Find it challenging to improve student enrollments?",
         text:
           "Help teachers to do their job with ease. Arrange classroom schedules, topic-wise revision routines, relevant additional videos, and resources for improved teaching results.",
       },
@@ -36,7 +36,7 @@ const solutioncard = [
               <div className="col-xl-8 col-lg-9">
                 <div className="Heading-styling text-center mb-8 mb-lg-10">
                   <h2>
-                  RankPedia Solutions
+                  Features for Schools
                   </h2>
                 </div>
               </div>

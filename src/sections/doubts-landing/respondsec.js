@@ -56,14 +56,7 @@ const ContentTwo = ({ className, ...rest }) => {
               Who'd Respond & How Early They Can Help
               </h2>
               <p className="font-size-7 mb-0">
-              Getting your doubts cleared in time is an important thing but getting them answered by an expert is even more critical. If you do not get detailed solutions logically, your difficulties will not be resolved and may increase further. 
-              <br/>
-              Doubt-clearing is one of the most imperative parts of our teaching strategy. That's why we have a dedicated team of subject-matter experts to look into your doubts and answer them quickly. 
-              <br/>
-              Be it the most basic or the advanced questions, you can ask them on our online doubt-solving platform anytime. The experts who will be answering your questions have decades of teaching experience and know-how to make complex questions simpler for students. 
-              <br/>
-              Just send your questions, and the experts will respond to every doubt within 30 minutes. This way, resolve queries faster, with emphasis on delivering concept clarity.
-
+              Just send your questions, and the experts will respond to every doubt within 30 minutes.
               </p>
             </div>
           </div>
