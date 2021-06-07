@@ -13,14 +13,15 @@ import GetinTouch from "../components/GetinTouch";
 import Banner from "../components/BannerSection";
 import Infocard from "../sections/faq/Infocard";
 
-import Section1 from "../sections/home/Section1";
-import Section2 from "../sections/home/Section2";
-import Section3 from "../sections/home/Section3";
-import Section4 from "../sections/home/Section4";
-import Section5 from "../sections/home/Section5";
-import Section6 from "../sections/home/Section6";
-import Section7 from "../sections/home/Section7";
-import Section8 from "../sections/home/Section8";
+import Section2 from '../sections/neplanding/Section2'
+import Section5 from '../sections/neplanding/Section5'
+import Different from '../sections/whyrankpedia/different'
+import Leftsideimg from '../sections/whyrankpedia/leftsideimg'
+import Leftsideimg2 from '../sections/whyrankpedia/leftsideimg2'
+import Rightsideimg from '../sections/whyrankpedia/rightsideimg'
+import Rightsideimg2 from '../sections/whyrankpedia/rightsideimg2'
+
+
 
 const Whyrankpedia = () => {
   return (
@@ -47,12 +48,42 @@ const Whyrankpedia = () => {
 
      <Banner 
         bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621595518/banner-image_rw7lnc.jpg"
-        BannerTitle=" NEP 2020 Compliant  [National Education Policy] "
-        BannerContent=" Learn how RankPedia is compliant with the country's new educational policies "
-        BannerbtnText="Learn More"/>
+        BannerTitle=" Creating an atmosphere for immersive experimental learning"
+        BannerContent=" RankPedia is complaint with the NEP 2020 for education delivery"
+        BannerbtnText="Why RankPedia"/>
+
+      <div className="container">
+          <Section2 />
+
+          <Section5 />
+
+          <Different/>
+
+          <Leftsideimg/>
+
+          <Rightsideimg/>
+
+          <Leftsideimg2/>
+
+          <Rightsideimg2/>
+
+          <div className="row mx-10 justify-content-center ">
+
+          <h3>Teaches the value of mistakes</h3>
+
+<p className="clscls">Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
+</p>
+
+          </div>
+
+          
+
+          <Leftsideimg/>
+
+      </div>
 
 
-<Infocard/>
+      <Infocard/>
      
         <GetinTouch
         title="Ready for an Experience of 

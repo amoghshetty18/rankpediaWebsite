@@ -52,7 +52,7 @@ const Login = () => {
                       Login
                     </h2>
                     <p className="login-para">
-                      To get started, you need to sign in here
+                    Enter your mobile number to sign up/register with RankPedia.
                     </p>
                   </div>
                   <form
@@ -76,7 +76,7 @@ const Login = () => {
                    
                     {/* Button */}
                     <div className="button1">
-                      <a href="/#" className="btn btn-blue-3  w-100 login-proceed">
+                      <a href="/otp" className="btn btn-blue-3  w-100 login-proceed">
                         Proceed 
                       </a>
                       <p
