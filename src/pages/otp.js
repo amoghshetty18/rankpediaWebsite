@@ -52,7 +52,7 @@ const Otp = () => {
                       Enter OTP
                     </h2>
                     <p className="login-para">
-                      Please enter the otp you have received to
+                    Please enter the OTP you have received on
                     </p>
                     <p
                         className="otp-fnt mt-8 text-bali-gray"
@@ -60,7 +60,7 @@ const Otp = () => {
                         data-aos-duration={1100}
                         data-aos-delay={500}
                       >
-                        <b className="otp-nmex">+91 9108286912</b>{" "}
+                        <b className="otp-nmex">+91 XXXXXXXXXX</b>{" "}
                         <Link to="#" className="text-blue-3 ">
                           Change Number
                         </Link>

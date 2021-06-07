@@ -48,8 +48,35 @@ const Pricinglanding = () => {
          <Hero />
         <Pricing />
 
+
+        
          {/* Start of Few Things to Know */}
-         <ThingsSec/>
+         <ThingsSec  
+         
+         Title="How will your kid learn?"
+         Accordianheading1="How many classes will be there per week?"
+         Accordianpara1="There will be 3-4 classes every week."
+
+         Accordianheading2="How can my kid ask questions during a class?"
+         Accordianpara2="Your kid can use the chatbox to ask questions during the live online classes. Our subject matter experts will clear their doubts instantly."
+
+         Accordianheading3="How will the homework be evaluated?"
+         Accordianpara3="The teacher will assign the homework during the session. The completed homework will be evaluated on the portal. "
+
+         Accordianheading4="Does my kid need RankPedia if they are already attending tuitions?"
+         Accordianpara4="RankPedia is a comprehensive education ecosystem where the best mentors across the country teach students and help them exceed their limitations. Teaching sessions followed by quizzes and assessments help them strengthen their areas of improvement. Our all-inclusive classes will help your child learn and master the concepts seamlessly."
+
+         Accordianheading5="What are all payment methods available?"
+         Accordianpara5="RankPedia accepts various payment methods, including Net Banking, UPI, Credit Cards, Debit Cards and Wallet."
+         
+         Accordianheading6="At what time will my plan get activated?"
+         Accordianpara6="Your plan will get activated as soon as the payment is successful. However, please wait for 24 hours after subscribing. "
+
+         Accordianheading7="What to do if it shows a payment error?"
+         Accordianpara7="In this case, we suggest you check your internet connection and look if there is an issue with your bank server."
+         Accordianpara71="If the amount is already debited from your account and the error occurs, please contact us. Kindly fill out the necessary information. We shall get back to you as soon as possible."
+
+         />
         {/* End of Few Things to Know */}
         <Infocard/>
         {/* Start of get in touch section */}

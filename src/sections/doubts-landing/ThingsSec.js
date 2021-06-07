@@ -10,11 +10,15 @@ import {
 import GlobalContext from "../../context/GlobalContext";
 import imgC from "../../assets/image/inner-page/png/video-bg.png";
 import Faqsection from "../faq/Faqsection"
-const ThingsSec = () => {
+const ThingsSec = ({ Title,Accordianheading1,Accordianpara1,Accordianheading2,Accordianpara2,Accordianheading3,Accordianpara3,
+  Accordianheading4,Accordianpara4,Accordianheading5,Accordianpara5,Accordianheading6,Accordianpara6,Accordianheading7,Accordianpara7,Accordianpara71 }) => {
   const gContext = useContext(GlobalContext);
 
   return (
-    <div className="pt-14 pt-md-19 pt-lg-27 pb-15 pb-md-18 pb-lg-25 mb-lg-1">
+    <div className="pt-5 pt-md-19 pt-lg-17 pb-15 pb-md-18 pb-lg-25 mb-lg-1">
+
+    <h3 className="text-center mb-15">{Title}</h3>
+
       <div className="container">
         <div className="row align-items-center justify-content-center">
           
@@ -23,44 +27,87 @@ const ThingsSec = () => {
             <AccordionItem uuid="a">
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        How can i?
+                        {Accordianheading1}
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className="accordiondisc">
-                        Exercitation in fugiat est ut ad ea cupidatat ut in
-                        cupidatat occaecat ut occaecat consequat est minim minim
-                        esse tempor laborum consequat esse adipisicing eu
-                        reprehenderit enim.
+                        {Accordianpara1}
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                       What if?
+                    {Accordianheading2}
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                 <p className="accordiondisc">
-                        In ad velit in ex nostrud dolore cupidatat consectetur
-                        ea in ut nostrud velit in irure cillum tempor laboris
-                        sed adipisicing eu esse duis nulla non.
+                {Accordianpara2}
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        How can i?
+                    {Accordianheading3}
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className="accordiondisc">
-                        Exercitation in fugiat est ut ad ea cupidatat ut in
-                        cupidatat occaecat ut occaecat consequat est minim minim
-                        esse tempor laborum consequat esse adipisicing eu
-                        reprehenderit enim.
+                    {Accordianpara3}
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    {Accordianheading4}
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p className="accordiondisc">
+                    {Accordianpara4}
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    {Accordianheading5}
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p className="accordiondisc">
+                    {Accordianpara5}
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    {Accordianheading6}
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p className="accordiondisc">
+                    {Accordianpara6}
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    {Accordianheading7}
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p className="accordiondisc">
+                    {Accordianpara7}
+                    </p>
+                    <p className="accordiondisc">
+                    {Accordianpara71}
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>

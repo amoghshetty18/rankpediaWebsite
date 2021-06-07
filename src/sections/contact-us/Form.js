@@ -8,9 +8,10 @@ const Form = () => {
   return (
     <div className='row my-5 justify-content-end mt-22 contact-form-container'>
       <div className="col-sm-6 mb-8 contact-form">
-        <h2 className="text-dark" >  Contact Us </h2>
+        <h2 className="text-dark" >  Learn Anytime, Anywhere </h2>
+        <h2 className="text-dark" >  Contact Us! </h2>
         <p className="text-muted">
-          1143, 2nd floor, 6th Main Road, 7th Sector, HSR Layout, Bengaluru, Karnataka 560102
+        1143, 2nd floor, 6th Main Road, 7th Sector, HSR Layout, Bengaluru, Karnataka 560102
         </p>
         <TextInput type='text' placeholder='Full Name' />
         <p className="mt-3 mb-1">Looking For</p>
@@ -27,7 +28,7 @@ const Form = () => {
         </a>
         <a href="#">
           <button className="btn btn btn-blue-3 header-btn1 head-login">
-            Submit Form
+            Submit Enquiry
           </button>
         </a>
         
