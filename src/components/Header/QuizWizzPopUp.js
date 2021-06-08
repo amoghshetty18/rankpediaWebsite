@@ -33,9 +33,11 @@ const QuizWizzPopUp = (props) => {
         <input className="form-control form-control-lg" id="formFileLg" type="file" />
       </div> */}
       <h4 className="quizwizz-popup-heading fnt-fmly"> QuizWizz </h4>
-      <p className="quizwizz-popup-text fnt-fmly"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ex voluptates ea facere, velit reiciendis. </p>
+      <p className="quizwizz-popup-text fnt-fmly"> Want to enjoy the talent quiz? </p>
+      <p className="quizwizz-popup-text fnt-fmly"> No more serious games when you can enjoy game learning with Test Quiz.  </p>
+      <p className="quizwizz-popup-text fnt-fmly"> Enter your details below to start the quiz and hit the Submit button. </p>
       
-      <hr className="my-8" />
+      <hr className="my-5" />
   
       <InputField 
         labelName="Student Name"

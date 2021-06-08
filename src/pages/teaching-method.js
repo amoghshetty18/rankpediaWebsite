@@ -11,7 +11,7 @@ import Blog from "../sections/home1/Blog";
 
 import GetinTouch from "../components/GetinTouch";
 import Banner from "../components/BannerSection";
-import Infocard from "../sections/faq/Infocard";
+import Infocard from "../sections/teachingmethod/Infocard";
 import Content4 from "../sections/practicetest/Content4";
 
 import VisionMission from "../sections/teachingmethod/vision-mission";
@@ -52,25 +52,36 @@ const Teachingmethod = () => {
 
      <Banner 
         bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621595518/banner-image_rw7lnc.jpg"
-        BannerTitle=" Learn at your own pace & style, with practice "
-        BannerContent=" RankPedia follows the Bloom's taxonomy for teaching "
+        BannerTitle=" Learn at your pace & style, with practice "
+        // BannerContent=" RankPedia follows the Bloom's taxonomy for teaching "
         BannerbtnText="Our teaching method"/>
 
-      <VisionMission />
+      <VisionMission 
+        Title="Understand as you solve"
+        Paragraph="We strive hard to make quality education more affordable and accessible. Our pedagogical approach embraces Blooms’ Level for mastering education."
+      />
 
-      <ThingsSec/>
+      <ThingsSec
+      Title="Recall, Remember, Understand and Apply"
+      Paragraph=" Our teaching is based on Bloom’s Taxonomy. Starting with Recall, we move forward to Remember, Understand, Apply, Create, Evaluate and Analyse."
+      />
 
-      <Bloom/>
+      <Bloom
+      Title="Learn how it works for you"
+      Paragraph="Our best curriculum design helps communicate primary education with the best teaching methods."
+      />
 
 
-      <Content4 className="bg-default-6 pb-6  overflow-hidden position-relative" />
+      <Content4 className="bg-default-6 pb-6  overflow-hidden position-relative" 
+      Title="Instantly ask for doubts and seek help"
+      Paragraph="We believe in teaching with remedial action. We offer a comprehensive academic performance reporting system to raise the bar of learning."
+      />
 
       <Infocard/>
      
         <GetinTouch
-        title="Ready for an Experience of 
-        Blended Learning?"
-       disc="Register to experience blended learning like never before and stay ahead."/>
+        title="Ready to get started?"
+       disc="Register as a student"/>
       
       
 
