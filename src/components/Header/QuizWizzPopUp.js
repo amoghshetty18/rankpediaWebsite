@@ -37,7 +37,13 @@ const QuizWizzPopUp = (props) => {
       <p className="quizwizz-popup-text fnt-fmly"> No more serious games when you can enjoy game learning with Test Quiz.  </p>
       <p className="quizwizz-popup-text fnt-fmly"> Enter your details below to start the quiz and hit the Submit button. </p>
       
-      <hr className="my-5" />
+      <hr className="my-5"/>
+
+      {/* <InputField 
+        labelName="Student Name"
+        type="text"
+        placeholder="ex. John Doe"
+      /> */}
   
       <InputField 
         labelName="Student Name"
