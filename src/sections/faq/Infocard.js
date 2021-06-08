@@ -7,21 +7,21 @@ const items = [
     icon: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621493472/Group_251_lolkh3.svg",
     title: "Practice",
     content:
-      "Learning has never been easier.",
+      "Practice complex concepts",
       color:"#E5F5FF"
   },
   {
     icon: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621493472/Group_252_th9057.svg",
     title: "Ask",
     content:
-      "Learning has never been easier.",
+      "Get doubts cleared",
       color: "#F5F5D4"
   },
   {
     icon: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621493671/Group_253_ljdjq8.svg",
     title: "Learn",
     content:
-      "Learning has never been easier.",
+      "Enjoy guided learning",
       color: "#F5DEDE"
   }
 ];

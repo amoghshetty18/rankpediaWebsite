@@ -7,6 +7,7 @@ import Banner from "../components/BannerSection";
 import Infocard from "../sections/faq/Infocard";
 import RespondSec from "../sections/doubts-landing/respondsec";
 import ThingsSec from "../sections/doubts-landing/ThingsSec";
+import ExpertSec from "../sections/doubts-landing/ExpertsSec";
 
 
 const Doubtslanding = () => {
@@ -35,18 +36,25 @@ const Doubtslanding = () => {
         <Banner 
         bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621515666/doubts-banner-image-min_eteitn.jpg"
         BannerTitle="Get Every doubt answered under 30 mins, by experts"
-        BannerContent="Learning has never been easier."
-        BannerbtnText="Get started"/>
+        BannerContent="Get a flexible learning experience"
+        BannerbtnText="Learn how"/>
         {/* End of banner section */}
         {/* Start of who respond section */}
         <RespondSec/>
         {/* End of of who respond section */}
         {/* Start of Stpes section */}
-        <StepsCard/>
+        <StepsCard
+        title="What do you need to do? "
+        step1info="Type or send us the picture of the question."
+        step2info="Upload the question on RankPedia's doubt-solving platform. "
+        step3info="Get the detailed solution from an expert in 30 minutes."
+        />
         {/* End of steps section */}
+        {/* <ExpertSec/> */}
         {/* Start of Few Things to Know */}
         <ThingsSec/>
         {/* End of Few Things to Know */}
+        
         <Infocard/>
         {/* Start of get in touch section */}
         <GetinTouch

@@ -15,7 +15,7 @@ const BannerSection = ({ className, bgurl, BannerTitle, BannerContent,BannerbtnT
       >
         <div className="container">
           <div className="row align-items-center justify-content-center">
-            <div className="col-lg-8 col-md-10">
+            <div className="col-lg-9 col-md-10">
               <div
                 className="text-center padforbnr dark-mode-texts"
                 data-aos="zoom-in"

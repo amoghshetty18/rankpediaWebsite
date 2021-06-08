@@ -1,3 +1,7 @@
+.image-group-3 .arrow-shape-1
+    {
+        top: 14% !important;
+    }
 .Heading-styling h2
 {
     font-family: 'Roboto', sans-serif;
@@ -59,6 +63,7 @@
     background: #F4F7FA !important;
     font-weight: 500;
     margin-top: 5px;
+    font: caption;
 }
 #accordianarrow .accordion__button:before
 {
@@ -187,7 +192,7 @@
 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    color: #fff;
+    color: #EFEFEF;
 }
 .btn-banner-green
 {
@@ -208,7 +213,7 @@ background-color: #3FCD5C;
 // Respond sectionstyling Start
 .respond-banner-img{
     position: absolute;
-    right: 0px;
+    right: -29px;
     top: -33px;
     z-index: -1;
     width: 33%;
@@ -251,7 +256,133 @@ background-color: #3FCD5C;
 {
     flex: inherit;
 }
-// media query
+
+// Start of expertprofile section
+.royal-star-icon
+{
+    position: absolute;
+    top: 22px;
+    right: 27px;
+}
+.expert-content
+    {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+    }
+    .expert-information
+    {
+    position: absolute;
+    bottom: 29%;
+    width: 83%;
+}
+    .expertplaybtn
+    {
+        max-width: 63px;
+        min-width: 57px;
+        max-height: 60px;
+        min-height: 54px;
+        border-radius: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.80;
+    }
+    .experttype
+    {
+        font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    }
+    .expertname
+    {
+        font-size: 18px;
+        font-weight: lighter;
+        color: #fff;
+        text-align: left;
+    }
+    .expertvdieoicon
+    {
+        max-width: 76px;
+    min-width: 50px;
+    max-height: 76px;
+    min-height: 50px;
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: inherit;
+    }
+    .exprtvideoiconbg
+    {
+        background-color: #a9a9a9;
+    opacity: 0.8;
+    }
+// end of expertprofile section
+
+// Start of for schools featured section
+.interest-explore-inner{
+    margin: 40px 0 0 0;
+}
+.interest-explore-inner .image-holder{
+    margin: 15px 0;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px; 
+}
+.interest-explore-inner .image-holder:hover{
+    cursor: pointer;
+}
+.interest-explore-inner .image-holder:after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.countrie-page .interest-explore-inner .image-holder:after{
+    display: none;
+}
+.interest-explore-inner .image-holder:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+.interest-explore-inner .image-holder img{
+    width: 100%;
+    height: 188px;
+    object-fit: cover;
+    /* object-fit: contain; */
+    border-radius: 10px; 
+    transition: all 0.5s ease-in-out;
+}
+.interest-explore-inner .image-holder a{
+    position: relative;
+    /*    z-index: 1;*/
+    display: block;
+}
+.interest-explore-inner .image-holder .featured-card-details{
+    font-size: 20px;
+    font-weight: 500;
+    // letter-spacing: 1.82px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    width: 100%;
+    padding: 0 10px 20px 10px;
+}
+.interest-explore-inner .btn-default {
+    margin: 40px auto 0;
+}
+// End of for schools featured section
+
+// Start of  media query
 @media (max-width: 400px) {
     .Heading-styling
     {
@@ -267,6 +398,9 @@ background-color: #3FCD5C;
         right: 20px;
     margin-top: 5px;
     }   
+    .team-section {
+        padding: 0;
+    }
     // BannerSection styling Start 
     .banner-store-infore
 {
@@ -290,8 +424,24 @@ background-color: #3FCD5C;
         top: -24px;    
     }
     // Respond sectionstyling End
+    // Expertprofile section Start
+    
+    .royal-star-icon {
+        top: 27px;
+        right: 44px;
+    }
+     // Expertprofile section 
 }
 @media (max-width: 500px) {
+    // Expertprofile section Start
+    .royal-star-icon {
+        top: 27px;
+    right: 52px;
+    }
+         // Expertprofile section 
+         .team-section {
+            padding: 0 34px;
+        }
     .Heading-styling
     {
         font-size: 45px;
@@ -360,12 +510,12 @@ background-color: #3FCD5C;
     }
     .image-group-3 .arrow-shape-1
     {
-        top: 16% !important;
+        top: 14% !important;
     }
     .image-group-3 .arrow-shape-2
     {
-        right: 16% !important; 
-        top: 16% !important;
+        right: 14% !important; 
+        top: 14% !important;
     }
     #accordianarrow .accordion__button:before
     {
