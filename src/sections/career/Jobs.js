@@ -5,7 +5,7 @@ const items = [
   {
     location: "South Haven, USA",
     badgeText: "Full-time",
-    badgeColor: "dark-green",
+    badgeColor: "#fff",
     title: "Senior UX Designer",
   },
   {

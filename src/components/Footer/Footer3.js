@@ -31,9 +31,9 @@ const Footer = ({ className, ...rest }) => {
               <div class="single-footer mb-13 mb-lg-9">
                 <p class="footer-title gr-text-11 mb-7">Product</p>
                 <ul class="footer-list list-unstyled">
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">For students</a></li>
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">For teachers</a></li>
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">For schools</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/">For students</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/mentors-landing">For teachers</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/for-schools">For schools</a></li>
                 </ul>
               </div>
             </div>
@@ -41,9 +41,9 @@ const Footer = ({ className, ...rest }) => {
               <div class="single-footer mb-13 mb-lg-9">
                 <p class="footer-title gr-text-11 mb-7">Support</p>
                 <ul class="footer-list list-unstyled">
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="#">Contact us</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Contact us</a></li>
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Help desk</a></li>
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">FAQ</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/faq">FAQ</a></li>
                 </ul>
               </div>
             </div>

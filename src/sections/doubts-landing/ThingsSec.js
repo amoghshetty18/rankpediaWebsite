@@ -1,11 +1,12 @@
 import React, { useContext } from "react";
 import { Link } from "gatsby";
+
 import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
 } from 'react-accessible-accordion';
 import GlobalContext from "../../context/GlobalContext";
 import imgC from "../../assets/image/inner-page/png/video-bg.png";
@@ -15,11 +16,19 @@ const ThingsSec = ({ Title,Accordianheading1,Accordianpara1,Accordianheading2,Ac
   const gContext = useContext(GlobalContext);
 
   return (
-    <div className="pt-5 pt-md-19 pt-lg-17 pb-15 pb-md-18 pb-lg-25 mb-lg-1">
-
-    <h3 className="text-center mb-15">{Title}</h3>
-
+    <div className="pt-10 pt-md-19 pt-lg-10 pb-15 pb-md-18 pb-lg-25 mb-lg-1">
       <div className="container">
+         {/* <!-- Section Title --> */}
+         <div className="row justify-content-center">
+            <div className="col-xl-7 col-lg-8 col-md-9 col-xs-10">
+              <div className="Heading-styling text-center pt-5 pt-lg-10 pb-13 pb-lg-12 pr-lg-10 pr-xl-0">
+                <h2 className=" mb-0">
+                Few Things to Know
+                </h2>
+              </div>
+            </div>
+          </div>
+          {/* <!-- Section Title --> */}
         <div className="row align-items-center justify-content-center">
           
           <div className="col-lg-6 col-md-10 col-sm-11">
@@ -27,87 +36,50 @@ const ThingsSec = ({ Title,Accordianheading1,Accordianpara1,Accordianheading2,Ac
             <AccordionItem uuid="a">
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        {Accordianheading1}
+                    How many doubts can I ask in a day? 
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className="accordiondisc">
-                        {Accordianpara1}
+                    Unlimited. 
+                    <br/>
+                      Send as many questions as you can, and we shall answer each in as much detail as you want. 
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    {Accordianheading2}
+                    What if I need a solution urgently?
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                 <p className="accordiondisc">
-                {Accordianpara2}
+                Our experts are available to help you 24/7. Send your questions any time and get your answer within 24 hours. 
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    {Accordianheading3}
+                    What kind of help can I get? 
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className="accordiondisc">
-                    {Accordianpara3}
+                    Doubt solving will not just be limited to providing answers to your questions. You will also be guided about the approach to solving similar problems in the future.  
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    {Accordianheading4}
+                    Will I get all my questions answered by the same teacher? 
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className="accordiondisc">
-                    {Accordianpara4}
-                    </p>
-                </AccordionItemPanel>
-            </AccordionItem>
-            <AccordionItem>
-                <AccordionItemHeading>
-                    <AccordionItemButton>
-                    {Accordianheading5}
-                    </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                    <p className="accordiondisc">
-                    {Accordianpara5}
-                    </p>
-                </AccordionItemPanel>
-            </AccordionItem>
-            <AccordionItem>
-                <AccordionItemHeading>
-                    <AccordionItemButton>
-                    {Accordianheading6}
-                    </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                    <p className="accordiondisc">
-                    {Accordianpara6}
-                    </p>
-                </AccordionItemPanel>
-            </AccordionItem>
-            <AccordionItem>
-                <AccordionItemHeading>
-                    <AccordionItemButton>
-                    {Accordianheading7}
-                    </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                    <p className="accordiondisc">
-                    {Accordianpara7}
-                    </p>
-                    <p className="accordiondisc">
-                    {Accordianpara71}
+                    We have an outstanding team of subject-matter experts. They are all a part of this dedicated doubt-solving platform and will help in resolving your queries. 
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
