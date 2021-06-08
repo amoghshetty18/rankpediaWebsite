@@ -10,7 +10,7 @@ import {
 import GlobalContext from "../../context/GlobalContext";
 import imgC from "../../assets/image/inner-page/png/video-bg.png";
 import Faqsection from "../faq/Faqsection"
-const ThingsSec = () => {
+const ThingsSec = ({ className,Title,Paragraph,...rest }) => {
   const gContext = useContext(GlobalContext);
 
   return (
@@ -20,13 +20,13 @@ const ThingsSec = () => {
           
           <div className="col-lg-6 col-md-10 col-sm-11">
           <div class="section-title content-text mb-13">
-            <h2 class="title gr-text-3 mb-6 vision-msn-hdret">Apply, analyse & recall</h2>
+            <h2 class="title gr-text-3 mb-6 vision-msn-hdret">{Title}</h2>
             </div>
           <div class="content-widget">
             <div class="row">
               <div class="col-md-5 col-lg-11 col-xl-11" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
                 <div class="single-widget mb-9">
-                  <p class="gr-text-9 abt-trty">Learning has never been easier. Learn with ease and prepare extensively with Rankpedia to stay ahead of the learning curve and exceed expectations. </p>
+                  <p class="gr-text-9 abt-trty">{Paragraph} </p>
                 </div>
               </div>
             </div>
