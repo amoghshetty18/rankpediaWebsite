@@ -267,8 +267,8 @@ const Section5 = ({ className, ...rest }) => {
            <div class="col-10 col-lg-6 imgs-imt">
              <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
                <h2 class="title gr-text-3 mb-10 engag" >Mentorship</h2>
-               <p class="gr-text-8 clscls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-               <a href="#" class="btn btn-red mx-auto gtstrdr">Our mentors</a>
+               <p class="gr-text-8 clscls">We understand the role of a teacher in preparing a student both mentally and emotionally on the education portal. Therefore, our teachers are dedicated to giving one-on-one attention to each child.</p>
+               <a href="#" class="btn btn-red mx-auto gtstrdr">Our Mentors</a>
              </div>
              <div class="content-widget">
                <div class="row">
@@ -352,9 +352,9 @@ const Section5 = ({ className, ...rest }) => {
 
 <div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 formob">
   <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-    <h2 class="title gr-text-3 mb-6 engag mt-0">Assessments & analytics</h2>
-    <p class="gr-text-8 clscls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-      <a href="#" class="btn btn-red mx-auto gtstrdr">Practice tests</a>
+    <h2 class="title gr-text-3 mb-6 engag mt-0">Assessments & Analytics</h2>
+    <p class="gr-text-8 clscls">Solve class 8 to class 10 exam questions created by subject matter experts with decades of experience to outperform your competitors. Get access to thousands of topic-wise questions, ranging between all levels of difficulty. </p>
+      {/* <a href="#" class="btn btn-red mx-auto gtstrdr">Practice tests</a> */}
   </div>
   <div class="content-widget">
     <div class="row mb-n9">

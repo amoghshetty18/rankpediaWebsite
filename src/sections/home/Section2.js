@@ -240,9 +240,9 @@ const Section2 = ({ className, ...rest }) => {
           </div>
           <div class="col-10 col-lg-6 imgs-imt">
             <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-              <h2 class="title gr-text-3 engag" >Teaching methodology</h2>
-              <p class="gr-text-8 clscls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                <a href="#" class="btn btn-red mx-auto gtstrdr">Learn more</a>
+              <h2 class="title gr-text-3 engag" >Teaching Methodology</h2>
+              <p class="gr-text-8 clscls">Fun <b>online classes for CBSE </b> students to simplify complex concepts. Get access to hours of video lessons scaffolder perfectly with Bloom’s Taxonomy. The improved learning can help identify achievable learning goals. </p>
+                <a href="#" class="btn btn-red mx-auto gtstrdr">Learn More</a>
             </div>
             <div class="content-widget">
               <div class="row">
@@ -257,9 +257,9 @@ const Section2 = ({ className, ...rest }) => {
 
 <div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 formob">
   <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-    <h2 class="title gr-text-3 mb-6 engag">Holistic education :  NEP 2020 ready</h2>
-    <p class="gr-text-8 clscls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-      <a href="#" class="btn btn-red mx-auto gtstrdr">Learn more</a>
+    <h2 class="title gr-text-3 mb-6 engag">Holistic education: NEP 2020 Ready</h2>
+    <p class="gr-text-8 clscls">Taking the holistic approach, we integrate technology with education to assist the students in learning about the country’s traditions and cultures and thereby improving the learning process.</p>
+      <a href="#" class="btn btn-red mx-auto gtstrdr">Learn More</a>
   </div>
   <div class="content-widget">
     <div class="row mb-n9">

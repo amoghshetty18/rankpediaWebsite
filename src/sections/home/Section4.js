@@ -270,8 +270,8 @@ const Section4 = ({ className, ...rest }) => {
           <div class="col-10 col-lg-6 imgs-imt">
             <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <h2 class="title gr-text-3 mb-10 engag" >Engaging videos</h2>
-              <p class="gr-text-8 clscls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-              <a href="#" class="btn btn-red mx-auto gtstrdr">Study materials</a>
+              <p class="gr-text-8 clscls">Get online school admission and have simple methods for detailed learning. You get 2D and 3D animations with constant guidance from experts to transform you into an achiever. </p>
+              <a href="#" class="btn btn-red mx-auto gtstrdr">Study Materials</a>
             </div>
             <div class="content-widget">
               <div class="row">
@@ -332,9 +332,9 @@ const Section4 = ({ className, ...rest }) => {
 
 <div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 mt-30 formob">
   <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-    <h2 class="title gr-text-3 mb-6 engag">Doubt solving</h2>
-    <p class="gr-text-8 clscls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-      <a href="#" class="btn btn-red mx-auto gtstrdr">Learn more</a>
+    <h2 class="title gr-text-3 mb-6 engag">Doubt Solving</h2>
+    <p class="gr-text-8 clscls">Study under the most approachable teachers that are only a click away. Send all your doubts and get them cleared within 24 hours to master every concept.</p>
+      <a href="#" class="btn btn-red mx-auto gtstrdr">Learn More</a>
   </div>
   <div class="content-widget">
     <div class="row mb-n9">
