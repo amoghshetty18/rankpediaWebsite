@@ -16,14 +16,14 @@ const Content2 = ({ className, ...rest }) => {
                 data-aos="fade-up"
                 data-aos-delay={300}
               >
-                Solve problems & revise effectively
+                Solve problems and revise effectively
               </h2>
               <p
                 className="clscls mb-0"
                 data-aos="fade-up"
                 data-aos-delay={600}
               >
-                Learning has never been easier. Learn with ease and prepare extensively with RankPedia to stay ahead of the learningcurve and exceed expectation.
+                Begin with solving <b> important questions for CBSE </b> exams and gradually move on to more complex issues to become conceptually strong.
               </p>
             </div>
           </div>

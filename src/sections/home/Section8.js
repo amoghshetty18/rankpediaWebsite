@@ -236,13 +236,13 @@ const Section8 = ({ className, ...rest }) => {
           <div class="col-lg-8 order-lg-1" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
             <div class="hero-content mt-11 mt-lg-0">
               <h1 class="title gr-text-2 mb-6 engag mt-6">Ready for an Experience of Blended Learning?</h1>
-              <p class="gr-text-8 mb-11 pr-md-12 clscls">Create an account or login to experience blended learning like never before and stay ahead of your peers in a new age of learning.</p>
+              <p class="gr-text-8 mb-11 pr-md-12 clscls">Create an account or login at RankPedia to experience blended learning like never before and stay ahead of your peers in a new learning age.</p>
             </div>
           </div>
           <div class="col-10 col-lg-4  order-lg-2">
             <div class="hero-img position-relative flt-rgthr" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <div class="hero-btn" >
-                <a href="#" class="btn btn-red mx-auto gtstrdr mrgrt" id="hmgst-cntrd">Contact us</a>
+                <a href="#" class="btn btn-red mx-auto gtstrdr mrgrt" id="hmgst-cntrd">Contact Us</a>
               </div>
             </div>
           </div>

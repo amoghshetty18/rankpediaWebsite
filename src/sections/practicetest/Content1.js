@@ -55,7 +55,7 @@ const Content1 = ({ className, ...rest }) => {
 <div class="col-10 col-lg-6 imgs-imt-practice-test">
             <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <h2 class="title gr-text-3 mb-10 engag" >Want to improve in a specific subject chapter?</h2>
-              <p class="gr-text-8 clscls">Learning has never been easier. Learn with ease and prepare extensively with RankPedia to stay ahead of the learningcurve and exceed expectation.</p>
+              <p class="gr-text-8 clscls">Practice tests are the best way to revise difficult chapters and topics. Get access to <b>CBSE practice tests </b>for all subjects and chapters at RankPedia.</p>
               
             </div>
             <div class="content-widget">
