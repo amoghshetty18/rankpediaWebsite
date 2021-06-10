@@ -49,15 +49,11 @@ const Leftsideimg = (props) => {
             >
         {/* <div className="col-8"> */}
           <p className="gr-text-8 clscls">
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-            Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
+          Experiential learning can significantly boost student motivation to learn. Learning by rote or repetitive learning has long been supplanted by ‘Learning by Doing’. To provide a training module, the experiential learning methodology has become a well-known approach for accelerated learning.  
           </p>
 
           <p className="gr-text-8 clscls">
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-            Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
+          <b>Teacher’s voice validating this point - With accelerated learning, they learn to identify patterns in issues and try to derive solutions. </b>
           </p>
          </div> 
       </div>

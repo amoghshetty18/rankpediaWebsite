@@ -11,35 +11,13 @@ import {
 import GlobalContext from "../../context/GlobalContext";
 import imgC from "../../assets/image/inner-page/png/video-bg.png";
 
-const Different = (props) => {
+const Section2 = (props) => {
 
   const gContext = useContext(GlobalContext);
 
   return (
     <div className="row mt-18 mb-20 ">
-
-<div className="col-sm-6 ">
-      <div
-              className="mt-13 mt-lg-0"
-              data-aos="fade-right"
-              data-aos-delay={500}
-              data-aos-once="true"
-            >
-        {/* <div className="col-8"> */}
-          {/* <h3 className="engag mb-6">
-            Rankpedia is an NEP compliant edtech solution 
-          </h3> */}
-          <p className="gr-text-8 clscls">
-          Experiential education is the process of learning through doing. This form of learning allows students to explore their own interests while also enabling them to solve challenges as they arise in a real-life context. 
-          </p>
-          <p className="gr-text-8 clscls">
-          Students can apply ideas and knowledge they learn in the classroom to real-world circumstances when they engage in hands-on activities, experiences, and evaluation. 
-            </p>
-         </div> 
-      </div>
-
-
-      <div className="col-sm-6">
+      <div className="col-sm-6 section-2-column">
       <div
               className="l4-content-img-2 ml-lg-10 ml-xl-7 rounded-10 text-center"
               data-aos="fade-right"
@@ -53,7 +31,7 @@ const Different = (props) => {
         <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
               css={`
-                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622186527/pexels-max-fischer-5212687_nqqrf5.png"});
+                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622110971/pexels-daria-shevtsova-1560932_ahh5y9.png"});
               `}
             >
               <a
@@ -71,9 +49,24 @@ const Different = (props) => {
 
       </div>
       </div>
-    
+      <div className="col-sm-6 ">
+      <div
+              className="mt-13 mt-lg-0"
+              data-aos="fade-right"
+              data-aos-delay={500}
+              data-aos-once="true"
+            >
+        {/* <div className="col-8"> */}
+          <h3 className="engag mb-6">
+          Technology Integration for Holistic Learning Outcomes
+          </h3>
+          <p className="gr-text-8 clscls">
+          Academically aligned technology fulfils the requirements of teachers and students parallelly. Digital tools blended with educational resources weave a far more effective learning experience. 
+          </p>
+         </div> 
+      </div>
     </div>
   )
 }
 
-export default Different
+export default Section2
