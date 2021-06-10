@@ -34,18 +34,17 @@ const Rightsideimg = (props) => {
             >
         {/* <div className="col-8"> */}
          <h3 className="why-pdrspt-scxr mb-6">
-           1. Creates Real-world Relevance
+           1. Real-world Relevance
           </h3> 
           <p className="gr-text-8 clscls">
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-            Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
+          “Why do I have to study this? It’s not like I’m going to use any of it after I graduate?”. Students frequently ask this question. Experiential learning will enable them to understand that the courses they are taking are not as pointless as they believe. 
           </p>
           <p className="gr-text-8 clscls">
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-            Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          </p>
+          Experiential learning integrates facts, concepts, and theories into hands-on tasks, resulting in real-world solutions. The experiential curriculum thereby mimics the ‘real’ society. 
+        </p>  
+        <p className="gr-text-8 clscls">
+        <b>Student’s voice validating this point - It is easier when I know how it is going to help me in the ‘real world’.</b>
+        </p>
          </div> 
       </div>
 
