@@ -7742,7 +7742,7 @@ button:focus {
 .flt-rgthr{
   left: -2rem;
   float: left;
-  bottom: -16rem;
+  bottom: -4rem;
 }
 .rdstr{
   margin-top: -70px;
@@ -7755,6 +7755,28 @@ button:focus {
 }
 .tt-sct{
   margin: 30px 23px 45px;
+}
+.tt-sct {
+  left: -1%;
+}
+.learnpar{
+  width: 100%;
+}
+#roller-bnr{
+  height: auto!important;
+}
+.clrs-rtd {
+  left: -3%;
+  top: -27px;
+  width: 300px!important;
+}
+#hmgfre-estr .engag{
+  margin-top: 0.5rem;
+  margin-bottom: 25px;
+}
+#dsp-ben-elb .engag{
+  margin-top: 1.5rem;
+  margin-bottom: 25px;
 }
 .learnon{
   font-size: 34px;
@@ -7864,10 +7886,44 @@ button:focus {
   padding-left: 0rem;
   margin: 0px 34px;
   padding-right: 0px;
-  margin-top: -20px;
+  margin-top: -10px !important;
+  margin-bottom: 30px;
 }
 #heth {
   margin-top: -25px;
+}
+.l6-content-image-group-2-new .img-1 {
+  left: 8px !important;
+  top: -70px !important;
+}
+.ltrdtyu {
+  margin-left: -2.1rem !important;
+  width: 400px;
+  margin-top: -35px;
+}
+.l6-content-image-group-4-new .img-1 {
+  left: 25px  !important;
+  top: -20px  !important;
+}
+.l6-content-image-group-4-new .img-2 {
+  width: 249px;
+  margin-top: 30px;
+}
+.l6-content-image-group-4-new .img-2 img{
+  width: 249px;
+    margin-top: 35px;
+}
+#yvhdstagl{
+  padding-top: 0.75rem !important;
+}
+#hethkrndmr{
+  margin-top: 2rem;
+}
+.dart-elil {
+  width: 340px!important;
+}
+.engag{
+  margin-top: 0.4rem !important;
 }
 #fourimg1 .container .row{
   padding: 15px;
@@ -7933,7 +7989,29 @@ button:focus {
 .flt-rgthr{
   left: -2rem;
   float: left;
-  bottom: -16rem;
+  bottom: 0rem;
+}
+.dart-elil {
+  width: 394px !important;
+  margin-left: -0.5rem !important;
+}
+.l6-content-image-group-4-new .img-2 img {
+  width: 275px;
+  margin-top: 50px;
+}
+#slhlkjvn{
+  margin-top: 0.6875rem !important;
+  margin-bottom: 20px;
+}
+.l6-content-image-group-4-new .img-1 {
+  left: 7px !important;
+    top: 4px !important;
+}
+#hethkrndmr {
+  margin-top: 8rem;
+}
+#yvhdstagl {
+  padding-top: 0.75rem !important;
 }
 .rdstr{
   margin-top: -70px;
@@ -8290,6 +8368,54 @@ button:focus {
   .popup{
     width: 70%;
   }
+}
+
+@media (min-width: 381px) and (max-width: 575px){
+  .tt-sct {
+    margin: 30px 23px 45px;
+    left: -1%;
+}
+.learnpar {
+  width: 100%;
+}
+.clrs-rtd {
+  left: -5%;
+  top: -27px;
+  width: 400px !important;
+}
+#roller-bnr {
+  height: auto !important;
+}
+.engag {
+  margin-top: 0.4rem !important;
+}
+#hmgfre-estr .engag {
+  margin-top: 0.5rem;
+  margin-bottom: 25px;
+}
+.extclt img {
+  width: 334px;
+  margin-right: 47px;
+  margin-top: 25px;
+    margin-bottom: 15px;
+}
+#heth {
+  margin-top: -25px;
+}
+.l6-content-image-group-2-new .img-1 {
+  left: 11px !important;
+  top: -66px !important;
+}
+.ltrdtyu {
+  margin-left: -1rem !important;
+  width: 400px;
+  margin-top: -35px;
+}
+.engag {
+  font-size: 26px;
+  line-height: 35px;
+  letter-spacing: 0px;
+}
 }
 
 
