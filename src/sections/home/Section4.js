@@ -330,7 +330,7 @@ const Section4 = ({ className, ...rest }) => {
 
 <div class="row align-items-center justify-content-center">
 
-<div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 mt-30 formob">
+<div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 mt-30 formob" id="slhlkjvn">
   <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
     <h2 class="title gr-text-3 mb-6 engag">Doubt Solving</h2>
     <p class="gr-text-8 clscls">Study under the most approachable teachers that are only a click away. Send all your doubts and get them cleared within 24 hours to master every concept.</p>
