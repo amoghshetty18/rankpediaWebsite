@@ -12,8 +12,8 @@ const Banner = ({ className, ...rest }) => {
             <div class="col-lg-10 col-xl-9" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
               <div class="hero-content section-title dark-mode-texts">
               {/* <h1 class="gr-text-2 abth">Democratising Education, One Milestone at a Time</h1> */}
-              <h1 class="gr-text-2 abth">RankPedia </h1>
-                  <p class="abt-prgt">RankPedia is the fastest-growing online education company in India. We have embarked on a journey to provide education to every child across the globe. </p>
+              <h1 class="gr-text-2 abth">Democratising Education, One Milestone at a Time </h1>
+                  <p class="abt-prgt">We have embarked on a mission to escalate the vision of children and provide education to them at a price they can afford. </p>
             
                 <div class="more-btn case-btn">
                   <a href="#" class="btn-link with-icon text-green gr-text-7 font-weight-bold">Get started<i class="icon icon-tail-right font-weight-bold"></i></a>

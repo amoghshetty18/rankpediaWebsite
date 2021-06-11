@@ -11,7 +11,7 @@ import Blog from "../sections/home1/Blog";
 
 import GetinTouch from "../components/GetinTouch";
 import Banner from "../components/BannerSection";
-import Infocard from "../sections/faq/Infocard";
+import Infocard from "../sections/whyrankpedia/Infocard";
 
 import Section2 from '../sections/whyrankpedia/Section2'
 import Section5 from '../sections/whyrankpedia/Section5'
