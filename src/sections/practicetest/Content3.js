@@ -20,7 +20,7 @@ const Content3 = ({ className, ...rest }) => {
           <div class="col-10 col-lg-6 imgs-imt">
             <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <h2 class="title gr-text-3 mb-6 mt-3 engag" >Learn how it works for you </h2>
-              <p class="gr-text-8 clscls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              <p class="gr-text-8 clscls">Following Bloom’s Taxonomy, we keep working with our students to master every concept before moving on to the next one, no matter how much time it takes for them to do so.</p>
                 
             </div>
             <div class="content-widget">

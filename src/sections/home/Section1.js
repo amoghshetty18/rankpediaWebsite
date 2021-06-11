@@ -29,11 +29,10 @@ const Section1 = ({ className, ...rest }) => {
         <div class="row justify-content-center align-items-center">
         <div class="col-lg-8 col-md-9 order-lg-1 mt-9 mt-lg-0 tt-sct" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
             <div class="hero-content dark-mode-texts">
-              <h1 class="gr-text-2 mb-9 learnon">Smarter Learning for a 
-                 smarter generation</h1>
-              <p class="gr-text-8 pr-5 pl-0 pr-xl-11 mb-9 learnpar">Learning has never been easier. Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations. </p>
+              <h1 class="gr-text-2 mb-9 learnon">Smarter Learning for a Smarter Generation</h1>
+              <p class="gr-text-8 pr-5 pl-0 pr-xl-11 mb-9 learnpar">When great teachers meet great technology, learning becomes easy. Enjoy trouble-free learning, and boost your preparation with RankPedia to unlock new possibilities.  </p>
               <div class="hero-btn">
-                <a href="#" class="btn-link with-icon text-green1 gr-text-7 font-weight-bold">Get started <i class="icon icon-tail-right font-weight-bold"></i></a>
+                <a href="#" class="btn-link with-icon text-green1 gr-text-7 font-weight-bold">Get Started <i class="icon icon-tail-right font-weight-bold"></i></a>
               </div>
             </div>
           </div>

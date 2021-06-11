@@ -2,7 +2,7 @@ import React from "react";
 import { Link , url} from "gatsby";
 import homebanner from "../../assets/image/home/banner.png";
 
-const Bloom = ({ className, ...rest }) => {
+const Bloom = ({ className,Title,Paragraph, ...rest }) => {
   return (
    
     <div class="content-section bg-default-4 pt-11 pt-lg-13 pb-8 pb-lg-15">
@@ -15,13 +15,13 @@ const Bloom = ({ className, ...rest }) => {
         </div>
         <div class="col-lg-5 pl-xl-21">
           <div class="section-title content-text mb-13">
-            <h2 class="title gr-text-3 mb-6 vision-msn-hdret">Why Bloom's taxonomy</h2>
+            <h2 class="title gr-text-3 mb-6 vision-msn-hdret">{Title}</h2>
             </div>
           <div class="content-widget">
             <div class="row">
               <div class="col-md-5 col-lg-11 col-xl-11" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
                 <div class="single-widget mb-9">
-                  <p class="gr-text-9 abt-trty">Learning has never been easier. Learn with ease and prepare extensively with Rankpedia to stay ahead of the learning curve and exceed expectations. </p>
+                  <p class="gr-text-9 abt-trty">{Paragraph} </p>
                 </div>
               </div>
             </div>

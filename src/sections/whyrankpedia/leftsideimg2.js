@@ -49,19 +49,19 @@ const Leftsideimg2 = (props) => {
             >
         {/* <div className="col-8"> */}
         <h3 className="why-pdrspt-scxr mb-6">
-           2. Provides Opportunity for Creativity
+           2. Opportunity for Creativity 
           </h3> 
           <p className="gr-text-8 clscls">
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-            Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
+          Experiential learning helps students to use their creative abilities to develop distinctive, satisfying, and possibly accurate solutions to the problems at hand. Creative thinking not only benefits students but also enhances the learning environment.
           </p>
 
           <p className="gr-text-8 clscls">
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-            Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
+          This stimulates creativity and a problem-solving mindset in the classroom, thereby, nourishing the classroom as a whole.
           </p>
+
+          <p className="gr-text-8 clscls">
+            <b>Student’s voice validating this point - I can try and go wrong rather than being afraid of making mistakes.</b>
+            </p>
          </div> 
       </div>
     </div>

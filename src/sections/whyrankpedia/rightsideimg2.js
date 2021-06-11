@@ -30,18 +30,14 @@ const Rightsideimg2 = (props) => {
             >
         {/* <div className="col-8"> */}
          <h3 className="why-pdrspt-scxr mb-6">
-           3. Provide Opportunity for Reflection
+           3. Opportunity for Reflection
           </h3> 
           <p className="gr-text-8 clscls">
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-            Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
+          Reflection is the intrinsic part of the experiential learning theory. When students reflect on the results and combine realistic experiences with the concepts, they use more areas of their brains.  
           </p>
-          {/* <p className="gr-text-8 clscls">
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-            Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          </p> */}
+           <p className="gr-text-8 clscls">
+           Experiential learning aids in the transition from novice to expert. Students learn to analyse how their activities influenced the outcome. This analysis allows them to see how the concepts they have learned can be applied to different situations.  
+           </p> 
          </div> 
       </div>
 
@@ -84,15 +80,11 @@ const Rightsideimg2 = (props) => {
         {/* <div className="col-8"> */}
        
           <p className="gr-text-8 clscls">
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-            Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
+          <b>School’s voice validating this point - Experiential learning aids in the transition from novice to expert.</b> 
           </p>
-          {/* <p className="gr-text-8 clscls">
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-            Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          </p> */}
+           <p className="gr-text-8 clscls">
+          <b>Parent’s voice validating this point - Reflecting allows them to see how the concepts they have learned can be applied to different situations.</b>
+          </p> 
          </div> 
       </div>
 

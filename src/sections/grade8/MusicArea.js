@@ -34,100 +34,108 @@ const MusicArea = ({ className, ...rest }) => {
             {/* single card */}
             <div className="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-8">
               <div
-                className="bg-white rounded-15 text-center px-8 py-9 gr-hover-3 mb-9 border border-default-color"
+                className="card-same rounded-15 text-center px-10 py-10 gr-hover-3 mb-9 border border-default-color"
                 data-aos="zoom-in"
                 data-aos-duration={300}
               >
-                <div className="mb-14">
-                  <img className="w-100" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811805/Group_135_w1rq0l.png"} alt="" />
+                <div className="mb-10">
+                <img className="intr-intr-omgs" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811805/Group_135_w1rq0l.png"} alt="" />
+                  <img className="wdts-mgdtr" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811954/Mask_Group_22_fj8tta.png"} alt="" />
                 </div>
-                <span className="badge bg-dodger-blue-1-op1 text-dodger-blue-1 rounded-40 px-5 py-2 line-height-reset min-w-63 font-size-5 d-inline-block mb-7">
+                {/* <span className="badge bg-dodger-blue-1-op1 text-dodger-blue-1 rounded-40 px-5 py-2 line-height-reset min-w-63 font-size-5 d-inline-block mb-7">
                   $99
-                </span>
-                <h5 className="text-bunker font-size-6 line-height-reset mb-7 line-height-26">
-                  Wireless Headphone with Noise Cancellation
+                </span> */}
+                <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
+                  Physics
                 </h5>
-                <Link
+                <p className="dwnlds-crts-str">Download course structure</p>
+                {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
                 >
                   Buy now
-                </Link>
+                </Link> */}
               </div>
             </div>
             {/* end single card */}
             {/* single card */}
             <div className="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-8">
               <div
-                className="bg-white rounded-15 text-center px-8 py-9 gr-hover-3 mb-9 border border-default-color"
+                className="card-same rounded-15 text-center px-10 py-10 gr-hover-3 mb-9 border border-default-color"
                 data-aos="zoom-in"
                 data-aos-duration={600}
               >
-                <div className="mb-14">
-                  <img className="w-100" src={imgM2} alt="" />
+                <div className="mb-10">
+                <img className="intr-intr-omgs" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811805/Group_135_w1rq0l.png"} alt="" />
+                  <img className="wdts-mgdtr" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811954/Mask_Group_22_fj8tta.png"} alt="" />
                 </div>
-                <span className="badge bg-dodger-blue-1-op1 text-dodger-blue-1 rounded-40 px-5 py-2 line-height-reset min-w-63 font-size-5 d-inline-block mb-7">
+                {/* <span className="badge bg-dodger-blue-1-op1 text-dodger-blue-1 rounded-40 px-5 py-2 line-height-reset min-w-63 font-size-5 d-inline-block mb-7">
                   $99
-                </span>
-                <h5 className="text-bunker font-size-6 line-height-reset mb-7 line-height-26">
-                  Wireless Headphone with Noise Cancellation
+                </span> */}
+                <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
+                  Physics1
                 </h5>
-                <Link
+                <p className="dwnlds-crts-str">Download course structure</p>
+                {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
                 >
                   Buy now
-                </Link>
+                </Link> */}
               </div>
             </div>
             {/* end single card */}
             {/* single card */}
             <div className="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-8">
               <div
-                className="bg-white rounded-15 text-center px-8 py-9 gr-hover-3 mb-9 border border-default-color"
+                className="card-same rounded-15 text-center px-10 py-10 gr-hover-3 mb-9 border border-default-color"
                 data-aos="zoom-in"
                 data-aos-duration={900}
               >
-                <div className="mb-14">
-                  <img className="w-100" src={imgM3} alt="" />
+                 <div className="mb-10">
+                <img className="intr-intr-omgs" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811805/Group_135_w1rq0l.png"} alt="" />
+                  <img className="wdts-mgdtr" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811954/Mask_Group_22_fj8tta.png"} alt="" />
                 </div>
-                <span className="badge bg-dodger-blue-1-op1 text-dodger-blue-1 rounded-40 px-5 py-2 line-height-reset min-w-63 font-size-5 d-inline-block mb-7">
+                {/* <span className="badge bg-dodger-blue-1-op1 text-dodger-blue-1 rounded-40 px-5 py-2 line-height-reset min-w-63 font-size-5 d-inline-block mb-7">
                   $99
-                </span>
-                <h5 className="text-bunker font-size-6 line-height-reset mb-7 line-height-26">
-                  Wireless Headphone with Noise Cancellation
+                </span> */}
+               <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
+                  Physics2
                 </h5>
-                <Link
+                <p className="dwnlds-crts-str">Download course structure</p>
+                {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
                 >
                   Buy now
-                </Link>
+                </Link> */}
               </div>
             </div>
             {/* end single card */}
             {/* single card */}
             <div className="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-8">
               <div
-                className="bg-white rounded-15 text-center px-8 py-9 gr-hover-3 mb-9 border border-default-color"
+                className="card-same rounded-15 text-center px-10 py-10 gr-hover-3 mb-9 border border-default-color"
                 data-aos="zoom-in"
                 data-aos-duration={1200}
               >
-                <div className="mb-14">
-                  <img className="w-100" src={imgM4} alt="" />
+                <div className="mb-10">
+                <img className="intr-intr-omgs" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811805/Group_135_w1rq0l.png"} alt="" />
+                  <img className="wdts-mgdtr" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811954/Mask_Group_22_fj8tta.png"} alt="" />
                 </div>
-                <span className="badge bg-dodger-blue-1-op1 text-dodger-blue-1 rounded-40 px-5 py-2 line-height-reset min-w-63 font-size-5 d-inline-block mb-7">
+                {/* <span className="badge bg-dodger-blue-1-op1 text-dodger-blue-1 rounded-40 px-5 py-2 line-height-reset min-w-63 font-size-5 d-inline-block mb-7">
                   $99
-                </span>
-                <h5 className="text-bunker font-size-6 line-height-reset mb-7 line-height-26">
-                  Wireless Headphone with Noise Cancellation
+                </span> */}
+                <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
+                  Physics3
                 </h5>
-                <Link
+                <p className="dwnlds-crts-str">Download course structure</p>
+                {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
                 >
                   Buy now
-                </Link>
+                </Link> */}
               </div>
             </div>
             {/* end single card */}

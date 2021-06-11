@@ -13,8 +13,8 @@ import GetinTouch from "../components/GetinTouch";
 import Banner from "../components/BannerSection";
 import Infocard from "../sections/faq/Infocard";
 
-import Section2 from '../sections/neplanding/Section2'
-import Section5 from '../sections/neplanding/Section5'
+import Section2 from '../sections/whyrankpedia/Section2'
+import Section5 from '../sections/whyrankpedia/Section5'
 import Different from '../sections/whyrankpedia/different'
 import Leftsideimg from '../sections/whyrankpedia/leftsideimg'
 import Leftsideimg2 from '../sections/whyrankpedia/leftsideimg2'
@@ -67,11 +67,11 @@ const Whyrankpedia = () => {
 
           <Rightsideimg2/>
 
-          <div className="row mx-10 justify-content-center ">
+          <div className="row mx-10 mt-15 justify-content-center ">
 
-          <h3>Teaches the value of mistakes</h3>
+          <h3>Teaches the Value of Mistake</h3>
 
-<p className="clscls">Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
+<p className="clscls">Experiential learning entails trial-and-error learning. Students get to use trial-and-error methods to evaluate various aspects along the road to improve their chances of success. They learn to embrace their mistakes rather than fear them and rope in ways to discover the potential worth of mistakes. 
 </p>
 
           </div>

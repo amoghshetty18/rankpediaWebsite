@@ -26,12 +26,12 @@ export const menuItems = [
   //   ],
   // },
   {
-    name: "#",
+    name: "for-schools",
     label: "For School",
     isExternal: false,
   },
   {
-    name: "#",
+    name: "why-rankpedia",
     label: "Why Rankpedia",
     isExternal: false,
   },
@@ -46,7 +46,7 @@ export const menuItems = [
     isExternal: true,
    },
    {
-    name: "contact",
+    name: "#",
     label: "Contact Us",
     isExternal: false,
    },

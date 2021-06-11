@@ -30,15 +30,11 @@ const Different = (props) => {
             Rankpedia is an NEP compliant edtech solution 
           </h3> */}
           <p className="gr-text-8 clscls">
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-            Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
+          Experiential education is the process of learning through doing. This form of learning allows students to explore their own interests while also enabling them to solve challenges as they arise in a real-life context. 
           </p>
           <p className="gr-text-8 clscls">
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-            Learn with ease and prepare extensively with RankPedia to stay ahead of the learning curve and exceed expectations.
-          </p>
+          Students can apply ideas and knowledge they learn in the classroom to real-world circumstances when they engage in hands-on activities, experiences, and evaluation. 
+            </p>
          </div> 
       </div>
 
