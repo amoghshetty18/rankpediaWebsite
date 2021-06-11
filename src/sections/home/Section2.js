@@ -238,7 +238,7 @@ const Section2 = ({ className, ...rest }) => {
               {/* <img src="homesection1" alt="" class="w-100" /> */}
             </div>
           </div>
-          <div class="col-10 col-lg-6 imgs-imt">
+          <div class="col-10 col-lg-6 imgs-imt" id="hmgfre-estr">
             <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <h2 class="title gr-text-3 engag" >Teaching Methodology</h2>
               <p class="gr-text-8 clscls">Fun <b>online classes for CBSE </b> students to simplify complex concepts. Get access to hours of video lessons scaffolder perfectly with Bloom’s Taxonomy. The improved learning can help identify achievable learning goals. </p>
@@ -255,7 +255,7 @@ const Section2 = ({ className, ...rest }) => {
 
         <div class="row align-items-center justify-content-center">
 
-<div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 formob">
+<div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 formob" id="dsp-ben-elb">
   <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
     <h2 class="title gr-text-3 mb-6 engag">Holistic education: NEP 2020 Ready</h2>
     <p class="gr-text-8 clscls">Taking the holistic approach, we integrate technology with education to assist the students in learning about the country’s traditions and cultures and thereby improving the learning process.</p>

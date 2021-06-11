@@ -229,7 +229,7 @@ const Section5 = ({ className, ...rest }) => {
     <>
      <div className={className} {...rest}>
        
-       <div class="content-section  pt-18 pb-8 bg-default-4" id="heth">
+       <div class="content-section  pt-18 pb-8 bg-default-4" id="hethkrndmr">
        <div class="container">
          <div class="row align-items-center">
            <div class="col-lg-6" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
@@ -348,7 +348,7 @@ const Section5 = ({ className, ...rest }) => {
                </div>
              </div> */}
 
-<div class="row align-items-center pt-15 justify-content-center">
+<div class="row align-items-center pt-15 justify-content-center" id="yvhdstagl">
 
 <div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 formob">
   <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
