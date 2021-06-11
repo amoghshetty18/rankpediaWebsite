@@ -88,7 +88,7 @@ const Footer = ({ className, ...rest }) => {
             </div>
             <div class="col-lg-6 text-center text-lg-right">
               <ul class="social-icons list-unstyled mb-0">
-                <li class="ml-7"><a href="" class="gr-text-color"><i class="icon icon-logo-facebook"></i></a></li>
+                <li class="ml-7"><a href="https://www.facebook.com/RankPedia-110504914518895" class="gr-text-color"><i class="icon icon-logo-facebook"></i></a></li>
                 <li class="ml-7"><a href="" class="gr-text-color"><i class="icon icon-logo-linkedin"></i></a></li>
               </ul>
             </div>
