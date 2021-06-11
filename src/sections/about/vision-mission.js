@@ -21,20 +21,20 @@ const VisionMission = ({ className, ...rest }) => {
             <div class="row">
               <div class="col-md-6 col-lg-11 col-xl-11" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
                 <div class="single-widget mb-9">
-                  <h3 class="w-title gr-text-7 abt-ourmis">Our mission</h3>
-                  <p class="gr-text-9 abt-trty">We are on a mission to ensure equal educational opportunities for all by leveraging technology. </p>
+                  <h3 class="w-title gr-text-7 abt-ourmis">Why us?</h3>
+                  <p class="gr-text-9 abt-trty">We wish to deepen our roots and provide education in almost every stream, ranging from science and commerce to arts and law. Whether it's a tedious maths problem or a tricky science experiment, RankPedia explains it in a creative and electrifying way. We have brilliant and exceptional educators with extraordinary teaching strategies, which form the base of our online education.  </p>
                 </div>
               </div>
               <div class="col-md-6 col-lg-11 col-xl-11" data-aos="fade-left" data-aos-duration="1100" data-aos-once="true">
                 <div class="single-widget mb-9">
-                  <h3 class="w-title gr-text-7 abt-ourmis">Our vision</h3>
-                  <p class="gr-text-9 abt-trty">We envision a world where everyone, anywhere can empower themselves through the power of learning. </p>
+                  <h3 class="w-title gr-text-7 abt-ourmis">Our belief is in giving your child relief!</h3>
+                  <p class="gr-text-9 abt-trty">It started with a simple thought of 'Why can't world-class education be affordable?'. This thought gave us a vision of providing education to children at a price they can afford. Not just this, but it also helped us to deliver world-class education by integrating taxonomies, pedagogy and the latest technological advancements to provide students with the best opportunities possible. We try to give the child a different perspective towards challenging concepts. This is achieved by explaining to the child the same concept with remarkable video sessions coupled with easy revision lessons.  </p>
                 </div>
               </div>
               <div class="col-md-6 col-lg-11 col-xl-11" data-aos="fade-left" data-aos-duration="1100" data-aos-once="true">
-                <div class="single-widget mb-9">
+                {/* <div class="single-widget mb-9">
               <a href="" class="btn btn-red mx-auto gtstrdr">Get Started</a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
