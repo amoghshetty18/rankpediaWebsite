@@ -16,6 +16,7 @@ exports.components = {
   "component---src-pages-faq-js": hot(preferDefault(require("/Users/abhigitmusri/Desktop/sharan codewave/rankpedia/src/pages/faq.js"))),
   "component---src-pages-for-schools-js": hot(preferDefault(require("/Users/abhigitmusri/Desktop/sharan codewave/rankpedia/src/pages/for-schools.js"))),
   "component---src-pages-grade-8-js": hot(preferDefault(require("/Users/abhigitmusri/Desktop/sharan codewave/rankpedia/src/pages/grade8.js"))),
+  "component---src-pages-grade-landing-8-js": hot(preferDefault(require("/Users/abhigitmusri/Desktop/sharan codewave/rankpedia/src/pages/grade-landing-8.js"))),
   "component---src-pages-home-2-js": hot(preferDefault(require("/Users/abhigitmusri/Desktop/sharan codewave/rankpedia/src/pages/home-2.js"))),
   "component---src-pages-home-3-js": hot(preferDefault(require("/Users/abhigitmusri/Desktop/sharan codewave/rankpedia/src/pages/home-3.js"))),
   "component---src-pages-home-4-js": hot(preferDefault(require("/Users/abhigitmusri/Desktop/sharan codewave/rankpedia/src/pages/home-4.js"))),
