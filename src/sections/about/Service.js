@@ -15,8 +15,7 @@ const Service = () => {
               data-aos-duration={500}
             >
               <h2 className="font-size-10 mb-0">Service we offer for you</h2>
-              <p>Sed ut perspiciatis unde omnis iste natllus sle un teude
-sedomnis iste natll u ssimeed ut perspictis mni.</p>
+              <p>Experiential learning coupled with quality teachers, high technology and outstanding learning outcomes</p>
             </div>
           </div>
         </div>
@@ -28,7 +27,7 @@ sedomnis iste natll u ssimeed ut perspictis mni.</p>
                 </div>
                  <div class="text-box pt-10">
                     <h3 class="Service-heading">For Students</h3>
-                       <p class="pt-5">Sed ut perspiciatis unde omnis iste natllus sle un teude sed omnis iste natllu ssimee d u t perspictis mni.</p>
+                       <p class="pt-5">To let children set sail on the journey of what they deserve, we provide quality education at the cost that they can afford</p>
                 </div>
                 <div class="hero-btn">
                 <a href="#" class="btn-link with-icon text-green gr-text-7 font-weight-bold">Get started <i class="icon icon-tail-right font-weight-bold"></i></a>
@@ -42,7 +41,7 @@ sedomnis iste natll u ssimeed ut perspictis mni.</p>
                 </div>
                  <div class="text-box pt-10">
                     <h3 class="Service-heading">For Teachers</h3>
-                       <p class="pt-5">Sed ut perspiciatis unde omnis iste natllus sle un teude sed omnis iste natllu ssimee d u t perspictis mni.</p>
+                       <p class="pt-5">To embark upon the journey of an enhanced learning world, we offer notes that help your students in creating history</p>
                 </div>
                 <div class="hero-btn">
                 <a href="#" class="btn-link with-icon text-green gr-text-7 font-weight-bold">Get started <i class="icon icon-tail-right font-weight-bold"></i></a>
@@ -55,8 +54,8 @@ sedomnis iste natll u ssimeed ut perspictis mni.</p>
                     <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1620125622/service3-min_je7n8n.png" alt="" class="img-fluid" />
                 </div>
                  <div class="text-box pt-10">
-                    <h3 class="Service-heading">For schools</h3>
-                       <p class="pt-5">Sed ut perspiciatis unde omnis iste natllus sle un teude sed omnis iste natllu ssimee d u t perspictis mni.</p>
+                    <h3 class="Service-heading">For Schools</h3>
+                       <p class="pt-5">To help your little juveniles think out of the box, join our community that infuses creativity in the young minds</p>
                 </div>
                 <div class="hero-btn">
                 <a href="#" class="btn-link with-icon text-green gr-text-7 font-weight-bold">Get started <i class="icon icon-tail-right font-weight-bold"></i></a>

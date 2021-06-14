@@ -88,8 +88,8 @@ const Ready = ({ className, ...rest }) => {
           </div>
           <div class="col-11 col-md-9 col-lg-7 col-xl-6 order-lg-1" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
             <div class="hero-content mt-11 mt-lg-0">
-              <h1 class="title gr-text-2 mb-8 rdstr">Ready to get started</h1>
-              <p class="gr-text-8 mb-11 pr-md-12 gtrsngtr">Interested in a session with our team? Let us know a convenient time and our team will contact you at the earliest.</p>
+              <h1 class="title gr-text-2 mb-8 rdstr">All set to gear up!</h1>
+              <p class="gr-text-8 mb-11 pr-md-12 gtrsngtr">To dive deeper into the world of Rankpedia, tap on the 'Contact us' and our team will reach out to you the earliest.</p>
             </div>
           </div>
         </div>
