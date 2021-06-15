@@ -40,7 +40,8 @@ const Forschools = () => {
         bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622440722/for-schools-banner_pt3zeq.png"
         BannerTitle="Integrated Digital Education: RankPedia for Schools, Teachers & Students"
         BannerContent="Features for schools"
-        BannerbtnText="Learn more"/>
+        BannerbtnText="Learn more"
+        Applink="True"/>
         {/* End of banner section */}
 
         {/* Strat of second section */}
