@@ -67,7 +67,7 @@ const Whyrankpedia = () => {
 
           <Rightsideimg2/>
 
-          <div className="row mx-10 mt-15 justify-content-center ">
+          <div className="row mx-10 mt-15 justify-content-center " id="esdtr-difg">
 
           <h3>Teaches the Value of Mistake</h3>
 

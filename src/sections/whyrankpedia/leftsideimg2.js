@@ -16,7 +16,7 @@ const Leftsideimg2 = (props) => {
   const gContext = useContext(GlobalContext);
 
   return (
-    <div className="row mb-20 ">
+    <div className="row mb-20 " id="lfl-udragl">
       <div className="col-sm-6">
       <div
               className="l4-content-img-2  rounded-10 text-center"
@@ -29,11 +29,11 @@ const Leftsideimg2 = (props) => {
 
 
         <div
-              className="bg-images d-flex align-items-center justify-content-center max-w-540  rounded-10 mx-auto"
+              className="bg-images d-flex align-items-center justify-content-center max-w-540  rounded-10 mx-auto en-tmsr-ods"
              
             >
               
-              <img className="why-pkd-fig mt-25" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622400485/Group_247_qi0bq6.png"/>
+              <img className="why-pkd-fig mt-25" id="dftr-dftrs" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622400485/Group_247_qi0bq6.png"/>
              
             </div>
 
@@ -42,7 +42,7 @@ const Leftsideimg2 = (props) => {
       </div>
       <div className="col-sm-6 ">
       <div
-              className="mt-13 mt-lg-0 ml-12"
+              className="mt-13 mt-lg-0 ml-12 mltr-estst"
               data-aos="fade-right"
               data-aos-delay={500}
               data-aos-once="true"

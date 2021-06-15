@@ -17,7 +17,7 @@ const Rightsideimg2 = (props) => {
   const gContext = useContext(GlobalContext);
 
   return (
-    <div className="row mx-10 justify-content-center ">
+    <div className="row mx-10 justify-content-center " id="drds-pnptrep">
       
 
           <div className="">
@@ -55,7 +55,7 @@ const Rightsideimg2 = (props) => {
 
         <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18  rounded-10 mx-auto"
-              
+              id="jyjn-jbnvgrd"
             >
              
              <img className="why-pkd-fig" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622400485/Group_247_qi0bq6.png"/>
@@ -70,7 +70,7 @@ const Rightsideimg2 = (props) => {
 </div>
 
       <div className="">
-      <div className="col-sm-6 flt-lft">
+      <div className="col-sm-6 flt-lft" id="elstl-nod">
       <div
               className="mt-13 mt-lg-0"
               data-aos="fade-right"

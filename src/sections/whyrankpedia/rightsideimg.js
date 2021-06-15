@@ -27,7 +27,7 @@ const Rightsideimg = (props) => {
           <div className="">
           <div className="col-sm-6 flt-lft">
       <div
-              className="mt-13 mt-lg-0"
+              className="mt-13 mt-lg-0 gsrt-smgth"
               data-aos="fade-right"
               data-aos-delay={500}
               data-aos-once="true"
@@ -61,8 +61,8 @@ const Rightsideimg = (props) => {
 
 
         <div
-              className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
-              
+              className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto
+            en-tmsr-ods"
             >
              
                 <img className="why-pkd-fig" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622400485/Group_247_qi0bq6.png"/>

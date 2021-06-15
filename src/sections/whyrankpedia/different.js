@@ -16,11 +16,11 @@ const Different = (props) => {
   const gContext = useContext(GlobalContext);
 
   return (
-    <div className="row mt-18 mb-20 ">
+    <div className="row mt-18 mb-20 " id="no-desgn-wstr">
 
 <div className="col-sm-6 ">
       <div
-              className="mt-13 mt-lg-0"
+              className="mt-13 mt-lg-0  rdsr-cvxq-snc"
               data-aos="fade-right"
               data-aos-delay={500}
               data-aos-once="true"
