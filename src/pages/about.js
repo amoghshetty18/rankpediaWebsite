@@ -38,7 +38,10 @@ const PricingPage = () => {
         <VisionMission />
         <Service />
         {/* <OurTeam className="bg-charade pt-20 pt-lg-25 pb-15 pb-lg-10"/> */}
-        <Ready />
+        <Ready /> 
+
+
+
       </PageWrapper>
     </>
   );

@@ -13,7 +13,7 @@ const Content4 = ({ className,Title,Paragraph, ...rest }) => {
 
 
         <div class="row align-items-center">
-          <div class="col-lg-6 pt-14 pd-lft-0" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
+          <div class="col-lg-6 pt-14 pd-lft-0 en-tpr-rty" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
             <div class="content-img sxrty-prprs">
            <img class="ptyuc-rtyd" src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621342081/Group_132_po4klx.png" } alt="" />
               {/* <img src="homesection1" alt="" class="w-100" /> */}

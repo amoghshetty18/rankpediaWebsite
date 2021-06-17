@@ -5,7 +5,7 @@ import imgE from "../../assets/image/inner-page/png/explore.png";
 const items = [
   {
     icon: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1623083031/digitize_qxsjgo.svg",
-    title: "Digitize",
+    title: "Digitise",
     // content:
     //   "Learning has never been easier.",
       color:"#E5F5FF"
@@ -19,7 +19,7 @@ const items = [
   },
   {
     icon: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1623083031/make_it_fun_o7xgup.svg",
-    title: "Make it fun",
+    title: "Make it Fun",
     // content:
     //   "Learning has never been easier.",
       color: "#F5DEDE"

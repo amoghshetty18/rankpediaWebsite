@@ -257,8 +257,8 @@ const Section2 = ({ className, ...rest }) => {
 
 <div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 formob" id="dsp-ben-elb">
   <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-    <h2 class="title gr-text-3 mb-6 engag">Holistic education: NEP 2020 Ready</h2>
-    <p class="gr-text-8 clscls">Taking the holistic approach, we integrate technology with education to assist the students in learning about the country’s traditions and cultures and thereby improving the learning process.</p>
+    <h2 class="title gr-text-3 mb-6 engag">Holistic Education: NEP 2020 Ready</h2>
+    <p class="gr-text-8 clscls">Taking the holistic approach, we integrated technology with education to assist the students in learning about the country’s traditions and cultures and thereby improving the learning process.</p>
       <a href="#" class="btn btn-red mx-auto gtstrdr">Learn More</a>
   </div>
   <div class="content-widget">

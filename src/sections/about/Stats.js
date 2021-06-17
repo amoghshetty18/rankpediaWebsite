@@ -46,7 +46,7 @@ const Stats = () => {
                 10+
               </h2>
               <p className="gr-text-8 mb-0 abt-pnm">
-               School collabration
+               School Collaborations
               </p>
             </div>
           </div>
@@ -68,7 +68,7 @@ const Stats = () => {
               40+
               </h3>
               <p className="gr-text-8 mb-0 abt-pnm">
-                Active teachers
+                Active Teachers
               </p>
             </div>
           </div>
@@ -90,7 +90,7 @@ const Stats = () => {
                 100+
               </h2>
               <p className="gr-text-8 mb-0 abt-pnm">
-                Learning practices
+                Learning Practices
               </p>
             </div>
           </div>

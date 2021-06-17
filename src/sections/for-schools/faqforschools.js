@@ -35,14 +35,14 @@ const Faqforschools = () => {
             <AccordionItem uuid="a">
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    What does RankPedia offer?
+                   <b> What does RankPedia offer? </b>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                 <ul className="accordiondisc">
                 RankPedia is built with scalable technology that offers:
-                <li>Unique Teaching Methods for Educators and Schools</li>
-                <li>A detailed plan with teaching material, case studies, mock tests, sample papers, and more.</li>
+                <li>Unique teaching methods for educators and schools</li>
+                <li>A detailed plan with teaching materials, case studies, mock tests, sample papers, and more.</li>
                 <li>Comprehensive and regular reports of student outcomes to teachers, learners, and school admin.</li>
                 </ul>
                 </AccordionItemPanel>
@@ -50,12 +50,12 @@ const Faqforschools = () => {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    How can RankPedia benefit the school and teachers?
+                    <b>  How can RankPedia benefit the school and teachers? </b>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className="accordiondisc">
-                    The school can keep track of the development of its students. It can check if its policies are implemented appropriately or not.<br/><br/>
+                    The school can keep a track of the development of its students. It can check if its policies are implemented appropriately or not.<br/><br/>
 RankPedia helps teachers to learn about the subjects and topics that students are interested in. Teachers can recognise the critical areas on the topics and subjects where the students need more attention. They can provide various assignments or homework to their students for practice. 
 
                     </p>
@@ -64,7 +64,7 @@ RankPedia helps teachers to learn about the subjects and topics that students ar
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    What if the school or the teacher doesn't possess a laptop?
+                    <b>  What if the school or the teacher doesn't possess a laptop? </b>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -76,12 +76,12 @@ RankPedia helps teachers to learn about the subjects and topics that students ar
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    How to access the Dashboard?
+                    <b>   How to access the Dashboard? </b>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className="accordiondisc">
-                    The school admin and teachers can access their dashboards with their credentials as given after the registration. Check your email and message on the given mobile number for the info.
+                    The school admin and teachers can access their dashboards with their credentials given after the registration. Check your email and message on the given mobile number for the information.
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>

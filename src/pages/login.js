@@ -32,17 +32,18 @@ const Login = () => {
           <div className="container-fluid h-100">
             <div className="row no-gutters align-items-center justify-content-center h-100">
                {/* Right Image */}
-               <div className="col-lg-8 col-md-10 min-height-lg-100vh login-img-lft">
+               <div className="col-lg-7 col-md-10 min-height-lg-100vh login-img-lft">
                 <div
-                  className="bg-images min-h-107 min-height-100vh d-none d-lg-block"
+                  className="bg-images min-h-107 vin-height-100vh d-none d-lg-block"
                   css={`
                     background-image: url(${imgBg});
                   `}
                 />
               </div>
+              <div className="col-lg-1 col-md-10 "></div>
               <div className="col-xl-4 col-lg-6 col-md-10">
                 <div
-                  className="pt-23 pt-md-17 pt-lg-18 pb-md-4 pb-lg-10 max-w-413 mx-auto"
+                  className="pt-23 pt-md-17 pt-lg-29 pb-md-4 pb-lg-10 max-w-413 mx-auto"
                   data-aos="fade-up"
                   data-aos-duration={500}
                   data-aos-delay={500}

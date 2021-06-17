@@ -13,7 +13,7 @@ const Content3 = ({ className, ...rest }) => {
         <div class="row align-items-center">
           <div class="col-lg-6 pd-lft-0" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
             <div class="content-img sxrty-prprs">
-           <img class="" src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621243440/blooms_pges2w.png" } alt="" />
+           <img class="jhgtfxcsa" src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621243440/blooms_pges2w.png" } alt="" />
               {/* <img src="homesection1" alt="" class="w-100" /> */}
             </div>
           </div>

@@ -27,7 +27,7 @@ export const menuItems = [
   // },
   {
     name: "for-schools",
-    label: "For School",
+    label: "For Schools",
     isExternal: false,
   },
   {
