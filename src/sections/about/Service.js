@@ -14,7 +14,7 @@ const Service = () => {
               data-aos="fade-up"
               data-aos-duration={500}
             >
-              <h2 className="font-size-10 mb-0">Service we offer for you</h2>
+              <h2 className="font-size-10 mb-0">Services We Offer You</h2>
               <p>Experiential learning coupled with quality teachers, high technology and outstanding learning outcomes</p>
             </div>
           </div>

@@ -1058,8 +1058,21 @@ body[data-theme='light'] .default-logo, body[data-theme='light'] .default-shape,
 .main-menu > li > .nav-link {
   // color: var(--color-texts) !important;
   color: #fff !important;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 700;
+}
+
+.vin-height-100vh {
+  min-height: 106vh;
+}
+
+.sugtrd-hgts{
+  height: 230px;
+}
+
+.clnt-sjst-sprs{
+  margin-bottom: 2.5rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 #header-nav{
@@ -7363,6 +7376,15 @@ button:focus {
   letter-spacing: -0.24px;
   line-height: 30px;
   margin-bottom: 2.5rem;
+  text-align: justify;
+}
+
+#nope-rank-btds .ectsds-btsd{
+  display: none;
+}
+
+.main-menu > li > .nav-link{
+  text-transform: none !important;
 }
 
 .gtstrdr{
@@ -8623,6 +8645,13 @@ button:focus {
   color: black!important;
 }
 
+.test #navLink-quizwizz {
+  color: black;
+  position: relative;
+  bottom: 18px;
+  font-weight: 500;
+}
+
 .login-img-lft{
   margin-left: -30px;
 }
@@ -9260,6 +9289,109 @@ color: #ff0000;
 #esdtr-difg{
   margin-left: 0.1875rem !important;
 }
+
+// about gratitude
+#at-dns-btms{
+  bottom: -8rem !important;
+}
+.academic-delivery-box .hero-btn{
+  margin-bottom: 2rem;
+}
+
+// Teaching Gratitude
+.visin-mis-blk {
+  right: 15px;
+}
+.vision-msn-hdret {
+  font-size: 40px;
+}
+#edst-bcvfr{
+  margin-bottom: 1.125rem !important;
+}
+#kolt-aspds{
+  padding-top: 0.4375rem !important;
+  padding-bottom: 0.75rem !important;
+}
+.essst-clsldfgh{
+  margin-bottom: 2.125rem !important;
+}
+.essst-clsldfgh-str{
+  margin-bottom: 1.125rem !important;
+  margin-top: 2rem;
+}
+#frdfoui-dtr .en-tpr-rty{
+  padding-top: 0px !important;
+}
+#frdfoui-dtr{
+  margin-top: -40px;
+}
+#frdfoui-dtr .sxrty-prprs {
+  margin-left: -12px;
+}
+#frdfoui-dtr .ptyuc-rtyd {
+  height: auto;
+  width: 380px;
+}
+
+// mentor-landing-gratitude
+#mqschpo{
+  margin-top: -85px;
+}
+#mqschpo .sxrty-prprs {
+  margin-left: -12px;
+}
+#mqschpo .ptyuc-rtyd {
+  height: auto;
+  width: 390px;
+}
+.expert-information {
+  bottom: 30% !important;
+  width: 70% !important;
+  left: 18%;
+}
+
+// practice test gratitude
+.prtc-frst-img {
+  height: auto;
+  margin-left: 14%;
+}
+.prct-hdr {
+  font-size: 36px;
+  line-height: 45px;
+}
+.prct-prg {
+  font-size: 24px;
+}
+.l6-content-image-group-practice-test{
+  margin-top: 3rem;
+}
+.imgs-imt-practice-test {
+   padding-left: 0rem; 
+  margin-left: -1rem;
+  padding: 0px;
+  margin-top: 1rem;
+}
+#rdpsfck{
+  padding-top: 0rem !important;
+}
+#rdpsfck .pd-lft-0 {
+  padding-left: 24px;
+}
+#rst-nstre .sxrty-prprs {
+  margin-left: -10px;
+  margin-top: -3rem;
+}
+.jhgtfxcsa{
+  width: 380px;
+}
+#smr-rttd-nvlu .sxrty-prprs {
+  margin-left: -22px;
+  margin-top: -3rem;
+}
+#smr-rttd-nvlu .ptyuc-rtyd {
+  height: auto;
+  width: 400px;
+}
 }
 
 
@@ -9309,6 +9441,113 @@ color: #ff0000;
 #jyjn-jbnvgrd{
   padding-top: 0.6875rem !important;
 }
+// about gratitude
+#at-dns-btms{
+  bottom: -11rem !important;
+}
+.academic-delivery-box .hero-btn{
+  margin-bottom: 2rem;
+}
+
+// Teaching Gratitude
+.visin-mis-blk {
+  right: 15px;
+}
+.vision-msn-hdret {
+  font-size: 40px;
+}
+#edst-bcvfr{
+  margin-bottom: 1.125rem !important;
+}
+#kolt-aspds{
+  padding-top: 0.4375rem !important;
+  padding-bottom: 0.75rem !important;
+}
+.essst-clsldfgh{
+  margin-bottom: 2.125rem !important;
+}
+.essst-clsldfgh-str{
+  margin-bottom: 1.125rem !important;
+  margin-top: 2rem;
+}
+#frdfoui-dtr .en-tpr-rty{
+  padding-top: 0px !important;
+}
+#frdfoui-dtr{
+  margin-top: -40px;
+}
+#frdfoui-dtr .sxrty-prprs {
+  margin-left: -12px;
+}
+#frdfoui-dtr .ptyuc-rtyd {
+  height: auto;
+  width: 380px;
+}
+
+// mentor-landing-gratitude
+#mqschpo{
+  margin-top: -85px;
+}
+#mqschpo .sxrty-prprs {
+  margin-left: -12px;
+}
+#mqschpo .ptyuc-rtyd {
+  height: auto;
+  width: 390px;
+}
+.expert-information {
+  bottom: 30% !important;
+  width: 59% !important;
+  left: 23%;
+}
+.royal-star-icon {
+  top: 27px;
+  right: 78px !important;
+}
+
+// practice test gratitude
+.prtc-frst-img {
+  height: auto;
+  margin-left: 14%;
+}
+.prct-hdr {
+  font-size: 36px;
+  line-height: 45px;
+}
+.prct-prg {
+  font-size: 24px;
+}
+.l6-content-image-group-practice-test{
+  margin-top: 3rem;
+}
+.imgs-imt-practice-test {
+   padding-left: 0rem; 
+  margin-left: -1rem;
+  padding: 0px;
+  margin-top: 1rem;
+}
+#rdpsfck{
+  padding-top: 0rem !important;
+}
+#rdpsfck .pd-lft-0 {
+  padding-left: 24px;
+}
+#rst-nstre .sxrty-prprs {
+  margin-left: -10px;
+  margin-top: -3rem;
+}
+.jhgtfxcsa{
+  width: 380px;
+}
+#smr-rttd-nvlu .sxrty-prprs {
+  margin-left: -6px;
+  margin-top: -3rem;
+}
+#smr-rttd-nvlu .ptyuc-rtyd {
+  height: auto;
+  width: 400px;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -9345,6 +9584,87 @@ color: #ff0000;
   position: relative;
     left: -3rem;
 }
+#amhver{
+  margin-left: 0px !important;
 }
+
+// gratitude-teaching
+.visin-mis-blk {
+  top: 3% !important;
+  right: 30px !important;
+}
+.essst-clsldfgh-str{
+  margin-bottom: 2.125rem !important;
+    margin-top: 3rem;
+}
+#frdfoui-dtr .sxrty-prprs {
+  margin-left: 48px;
+  margin-top: -60px;
+}
+
+// mentor-landing-gratitude
+#mqschpo{
+  margin-top: -80px;
+}
+#mqschpo .sxrty-prprs {
+  margin-left: -12px;
+}
+#mqschpo .ptyuc-rtyd {
+  height: auto;
+  width: auto;
+}
+.expert-information {
+  bottom: 20% !important;
+  width: 65% !important;
+}
+
+// Practice-test-gratitude
+.prtc-frst-img {
+  height: auto;
+  margin-left: 15%;
+}
+.prct-hdr{
+  text-align: center;
+    padding-right: 0px !important;
+    margin-left: 0px;
+}
+.prct-prg{
+  margin-left: 0px;
+}
+.l6-content-image-group-practice-test .img-2 img{
+  height: unset;
+    width: 700px !important;
+    margin-left: -15rem;
+    margin-top: -3rem;
+} 
+.imgs-imt-practice-test {
+  padding-left: 0rem;
+}
+#rdpsfck{
+  padding-top: 0px !important;
+}
+#rst-nstre .sxrty-prprs {
+  margin-left: 0px;
+}
+#rst-nstre .jhgtfxcsa{
+  width: 100%;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+.prtc-frst-img {
+  height: -webkit-fill-available;
+  width: 531px !important;
+  margin-left: -10% !important;
+}
+}
+
+@media (max-width: 991px){
+  #butre-frdew{
+    height: auto;
+  }
+}
+
 // new code
 

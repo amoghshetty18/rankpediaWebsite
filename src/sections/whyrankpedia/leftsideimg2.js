@@ -52,7 +52,7 @@ const Leftsideimg2 = (props) => {
            2. Opportunity for Creativity 
           </h3> 
           <p className="gr-text-8 clscls">
-          Experiential learning helps students to use their creative abilities to develop distinctive, satisfying, and possibly accurate solutions to the problems at hand. Creative thinking not only benefits students but also enhances the learning environment.
+          Experiential learning helps students to use their creative abilities to develop distinctive, satisfying, and possibly accurate solutions to the problems at hand. Creative thinking not only benefits students but also enhances their learning environment.
           </p>
 
           <p className="gr-text-8 clscls">

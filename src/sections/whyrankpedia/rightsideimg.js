@@ -20,7 +20,7 @@ const Rightsideimg = (props) => {
     <div className="row mx-10 justify-content-center ">
       <div className="col-12">
         <div className="text-center">
-          <h3 className="wat-exprt"> When students participate in experimental education. everything improves </h3>
+          <h3 className="wat-exprt"> When students participate in experimental education, everything improves </h3>
           </div>
           </div>
 
@@ -37,7 +37,7 @@ const Rightsideimg = (props) => {
            1. Real-world Relevance
           </h3> 
           <p className="gr-text-8 clscls">
-          “Why do I have to study this? It’s not like I’m going to use any of it after I graduate?”. Students frequently ask this question. Experiential learning will enable them to understand that the courses they are taking are not as pointless as they believe. 
+          'Why do I have to study this? Am I going to use any of it after my graduation?' Students frequently ask these questions. Experiential learning will enable them to understand that the courses they are taking are not as pointless as they believe. 
           </p>
           <p className="gr-text-8 clscls">
           Experiential learning integrates facts, concepts, and theories into hands-on tasks, resulting in real-world solutions. The experiential curriculum thereby mimics the ‘real’ society. 

@@ -36,7 +36,7 @@ const Rightsideimg2 = (props) => {
           Reflection is the intrinsic part of the experiential learning theory. When students reflect on the results and combine realistic experiences with the concepts, they use more areas of their brains.  
           </p>
            <p className="gr-text-8 clscls">
-           Experiential learning aids in the transition from novice to expert. Students learn to analyse how their activities influenced the outcome. This analysis allows them to see how the concepts they have learned can be applied to different situations.  
+           Experiential learning aids in the transition from novice to expert. Students learn to analyse how their activities influence the outcome. This analysis allows them to see how the concepts that they have learnt can be applied to different situations.  
            </p> 
          </div> 
       </div>
@@ -83,7 +83,7 @@ const Rightsideimg2 = (props) => {
           <b>School’s voice validating this point - Experiential learning aids in the transition from novice to expert.</b> 
           </p>
            <p className="gr-text-8 clscls">
-          <b>Parent’s voice validating this point - Reflecting allows them to see how the concepts they have learned can be applied to different situations.</b>
+          <b>Parent’s voice validating this point - Reflecting allows them to see how the concepts that they had learnt can be applied to different situations.</b>
           </p> 
          </div> 
       </div>

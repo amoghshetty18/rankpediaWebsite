@@ -104,9 +104,9 @@ const Practicetest = () => {
         {/* <CTA className="bg-purple-heart py-10" /> */}
         {/* <Features className=" bg-default-6" /> */}
         <Content1 className="bg-default-6 pt-3 pt-md-25 pb-9 pb-md-14 pb-lg-13 overflow-hidden position-relative" />
-        <Content2 className="bg-default-6 pt-14 pt-md-19 pt-lg-32 pb-9 pb-md-14 pb-lg-34 overflow-hidden position-relative" />
-        <Content3 className="bg-default-6  overflow-hidden position-relative" />
-        <Content4 className="bg-default-6 pb-6  overflow-hidden position-relative" 
+        <Content2 className="bg-default-6 pt-14 pt-md-19 pt-lg-32 pb-9 pb-md-14 pb-lg-34 overflow-hidden position-relative" id="rdpsfck" />
+        <Content3 className="bg-default-6  overflow-hidden position-relative" id="rst-nstre" />
+        <Content4 className="bg-default-6 pb-6  overflow-hidden position-relative" id="smr-rttd-nvlu"
         
         Title="Get live mentoring & doubt support"
         Paragraph="Students can ask as many questions as they want, and our experts will process their requests and provide detailed solutions as soon as possible. "

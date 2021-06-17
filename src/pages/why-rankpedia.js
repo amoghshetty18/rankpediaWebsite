@@ -48,9 +48,11 @@ const Whyrankpedia = () => {
 
      <Banner 
         bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621595518/banner-image_rw7lnc.jpg"
-        BannerTitle=" Creating an atmosphere for immersive experimental learning"
-        BannerContent=" RankPedia is complaint with the NEP 2020 for education delivery"
-        BannerbtnText="Why RankPedia"/>
+        BannerTitle=" Creating An Atmosphere For Immersive Experimental Learning"
+        BannerContent=" Rankpedia is complaint with the NEP 2020 for education delivery"
+        BannerbtnText="Why Rankpedia"
+        id="nope-rank-btds"
+          />
 
       <div className="container">
           <Section2 />
@@ -69,7 +71,7 @@ const Whyrankpedia = () => {
 
           <div className="row mx-10 mt-15 justify-content-center " id="esdtr-difg">
 
-          <h3>Teaches the Value of Mistake</h3>
+          <h3 className="clnt-sjst-sprs">Teaches the Value of Mistake</h3>
 
 <p className="clscls">Experiential learning entails trial-and-error learning. Students get to use trial-and-error methods to evaluate various aspects along the road to improve their chances of success. They learn to embrace their mistakes rather than fear them and rope in ways to discover the potential worth of mistakes. 
 </p>
@@ -78,7 +80,7 @@ const Whyrankpedia = () => {
 
           
 
-          <Leftsideimg/>
+          {/* <Leftsideimg/> */}
 
       </div>
 

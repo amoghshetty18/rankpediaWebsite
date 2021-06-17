@@ -30,18 +30,19 @@ const VisionMission = ({ className,Title,Paragraph,...rest }) => {
               data-aos-delay={500}
               data-aos-once="true"
             >
-          <div class="section-title content-text mb-13">
+          <div class="section-title content-text mb-13" id="edst-bcvfr">
             <h2 class="title gr-text-3 mb-6 vision-msn-hdret">{Title}</h2>
+            
             </div>
-          <div class="content-widget">
-            <div class="row">
-              <div class="col-md-6 col-lg-11 col-xl-11" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-                <div class="single-widget mb-9">
+           <div class="">
+            <div class="">
+              <div class="" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
+                <div class=" mb-9">
                   <p class="gr-text-9 abt-trty">{Paragraph}</p>
                 </div>
               </div>
             </div>
-          </div>
+          </div> 
 </div>
         </div>
       </div>
