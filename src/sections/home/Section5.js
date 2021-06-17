@@ -267,7 +267,7 @@ const Section5 = ({ className, ...rest }) => {
            <div class="col-10 col-lg-6 imgs-imt">
              <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
                <h2 class="title gr-text-3 mb-10 engag" >Mentorship</h2>
-               <p class="gr-text-8 clscls">We understand the role of a teacher in preparing a student both mentally and emotionally on the education portal. Therefore, our teachers are dedicated to giving one-on-one attention to each child.</p>
+               <p class="gr-text-8 clscls">We understand the role of a teacher in preparing a student both mentally and emotionally on the education portal. Therefore, our teachers are dedicated to giving individual attention to each child.</p>
                <a href="#" class="btn btn-red mx-auto gtstrdr">Our Mentors</a>
              </div>
              <div class="content-widget">

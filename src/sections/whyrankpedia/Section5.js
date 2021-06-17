@@ -14,22 +14,22 @@ const Section5 = () => {
 
       <Card 
         card_image={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621597016/worldicon_bxklhm.svg"}
-        title= "Real-world relevance"
+        title= "Real-world Relevance"
         // text="Learning has never been easier"
       />
       <Card
         card_image={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621596942/Group_258_sbgwga.svg"}
-        title="Opportunity for creativity"
+        title="Opportunity for Creativity"
         // text="Learning has never been easier"
       />
       <Card
         card_image={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621596943/Group_260_zntrnh.svg"}
-        title="Opportunity for reflection"
+        title="Opportunity for Reflection"
         // text="Learning has never been easier"
       />
       <Card
         card_image={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621596943/Group_261_gic7ua.svg"}
-        title="Accelerated learning"
+        title="Accelerated Learning"
         // text="Learning has never been easier"
       />
       

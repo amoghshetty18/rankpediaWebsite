@@ -20,7 +20,7 @@ const Footer = ({ className, ...rest }) => {
               <div class="single-footer mb-13 mb-lg-9">
                 <p class="footer-title gr-text-11 mb-7">Company</p>
                 <ul class="footer-list list-unstyled">
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/about"  >About us</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/about"  >About Us</a></li>
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Class/Courses</a></li>
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Study Material</a></li>
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="https://medium.com/rankpedia">Blog</a></li>
@@ -31,9 +31,9 @@ const Footer = ({ className, ...rest }) => {
               <div class="single-footer mb-13 mb-lg-9">
                 <p class="footer-title gr-text-11 mb-7">Product</p>
                 <ul class="footer-list list-unstyled">
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/">For students</a></li>
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/mentors-landing">For teachers</a></li>
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/for-schools">For schools</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/">For Students</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/mentors-landing">For Teachers</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/for-schools">For Schools</a></li>
                 </ul>
               </div>
             </div>
@@ -41,15 +41,15 @@ const Footer = ({ className, ...rest }) => {
               <div class="single-footer mb-13 mb-lg-9">
                 <p class="footer-title gr-text-11 mb-7">Support</p>
                 <ul class="footer-list list-unstyled">
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Contact us</a></li>
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Help desk</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Contact Us</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Help Desk</a></li>
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="/faq">FAQ</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-6 col-lg-2">
               <div class="single-footer mb-13 mb-lg-9">
-                <p class="footer-title gr-text-11 mb-7">Terms & conditions</p>
+                <p class="footer-title gr-text-11 mb-7">Terms & Conditions</p>
                 <ul class="footer-list list-unstyled">
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Privacy Policy</a></li>
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Course Policy</a></li>
@@ -58,7 +58,8 @@ const Footer = ({ className, ...rest }) => {
             </div>
             <div class="col-md-6 col-lg-4 txt-rgty">
               <div class="single-footer mb-13 mb-lg-9 footerrightsection">
-                <p class="footer-title gr-text-11 mb-7">Download Our App from</p>
+                {/* <p class="footer-title gr-text-11 mb-7">Download Our App from</p> */}
+                <p class="footer-title gr-text-11 mb-7"> Coming Soon</p>
                 {/* <!-- <ul class="footer-list list-unstyled">
                   <li class="py-2"><a class="gr-text-9 text-primary font-weight-bold hover-underline active text-white" href="mailto:support@grayic.com">support@grayic.com</a></li>
                   <li class="py-2"><a class="gr-text-9 text-primary font-weight-bold hover-underline active text-white" href="tel:+133-394-3439-1435">+133-394-3439-1435</a></li>
@@ -83,7 +84,8 @@ const Footer = ({ className, ...rest }) => {
           <div class="row align-items-center">
             <div class="col-lg-6">
               <p class="copyright-text gr-text-11 mb-6 mb-lg-0 gr-text-color-opacity text-center text-lg-left">
-                © 2021 Copyright, All Right Reserved
+                {/* © 2021 Copyright, All Right Reserved */}
+                2021 Rankpedia, All Rights Reserved
               </p>
             </div>
             <div class="col-lg-6 text-center text-lg-right">

@@ -11,7 +11,7 @@ const Testimonial = ({ className, ...rest }) => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
@@ -118,6 +118,28 @@ const Testimonial = ({ className, ...rest }) => {
                 </div>
                 {/* End Single Testimonial */}
                 {/* Single Testimonial */}
+                <div className="single-testimoial bg-white border border-default-color-5 rounded-10 pt-5 pb-4 pt-sm-11 pt-md-11 pb-sm-10 pb-md-10 pl-5 pl-sm-11 pl-md-11 pr-6 pr-md-12 mx-md-0 focus-reset">
+                  <div className="mb-10">
+                    <img src={imgRS} alt="" />
+                  </div>
+                  <p className="font-size-8 mb-13 pr-sm-5 pr-md-0 pr-xl-4 text-dark-cloud">
+                    Your app is your tool for better solution with your
+                    followers, making it easier for them to keep up to date.
+                  </p>
+                  <div className="d-flex align-items-center">
+                    <div className="mr-6">
+                      <img src={imgU1} alt="" />
+                    </div>
+                    <div className="info">
+                      <h5 className="font-size-7 text-dark-cloud mb-0">
+                        Maren Westervelt
+                      </h5>
+                      <p className="font-size-5 text-stone mb-0">
+                        www.itsmaren.net
+                      </p>
+                    </div>
+                  </div>
+                </div>
                 <div className="single-testimoial bg-white border border-default-color-5 rounded-10 pt-5 pb-4 pt-sm-11 pt-md-11 pb-sm-10 pb-md-10 pl-5 pl-sm-11 pl-md-11 pr-6 pr-md-12 mx-md-0 focus-reset">
                   <div className="mb-10">
                     <img src={imgRS} alt="" />

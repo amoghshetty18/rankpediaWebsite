@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import backgroundImage from "../../assets/image/home-2/jpg/promo-bg-img.jpg";
 import imgAS from "../../assets/image/home-6/png/app-store-img.png";
 import imgPS from "../../assets/image/home-6/png/play-store-img.png";
-const BannerSection = ({ className, bgurl, BannerTitle, BannerContent,BannerbtnText,  ...rest }) => {
+const BannerSection = ({ className, bgurl, BannerTitle, BannerContent,BannerbtnText,Linkto,Applink,  ...rest }) => {
   return (
     <>
       <div
@@ -27,9 +27,10 @@ const BannerSection = ({ className, bgurl, BannerTitle, BannerContent,BannerbtnT
                 <p className="BannerTitle line-height-28 px-md-10 px-lg-16 px-xl-25 mb-0 fnt-fmly">
                   {BannerContent}
                 </p>
-                <Link to={"#"} className="btn btn-banner-green rounded-5 mt-12 fnt-fmly">
+                <Link to={Linkto} className="btn btn-banner-green rounded-5 mt-12 fnt-fmly ectsds-btsd">
                   {BannerbtnText}
                 </Link>
+              {Applink === "True" ?  
               <div className="pt-6 pt-lg-9 col-lg-7 offset-xl-1 col-md-8 col-sm-10 m-auto">
               <div className="text-center text-lg-left">
                 <div className="btn-group d-flex banner-store-infore align-items-center ">
@@ -54,6 +55,7 @@ const BannerSection = ({ className, bgurl, BannerTitle, BannerContent,BannerbtnT
                 </div>
               </div>
             </div>
+            :("")}
             </div>
             </div>
           </div>

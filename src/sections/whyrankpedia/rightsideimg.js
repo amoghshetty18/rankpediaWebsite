@@ -20,14 +20,14 @@ const Rightsideimg = (props) => {
     <div className="row mx-10 justify-content-center ">
       <div className="col-12">
         <div className="text-center">
-          <h3 className="wat-exprt"> When students participate in experimental education. everything improves </h3>
+          <h3 className="wat-exprt"> When students participate in experimental education, everything improves </h3>
           </div>
           </div>
 
           <div className="">
           <div className="col-sm-6 flt-lft">
       <div
-              className="mt-13 mt-lg-0"
+              className="mt-13 mt-lg-0 gsrt-smgth"
               data-aos="fade-right"
               data-aos-delay={500}
               data-aos-once="true"
@@ -37,7 +37,7 @@ const Rightsideimg = (props) => {
            1. Real-world Relevance
           </h3> 
           <p className="gr-text-8 clscls">
-          “Why do I have to study this? It’s not like I’m going to use any of it after I graduate?”. Students frequently ask this question. Experiential learning will enable them to understand that the courses they are taking are not as pointless as they believe. 
+          'Why do I have to study this? Am I going to use any of it after my graduation?' Students frequently ask these questions. Experiential learning will enable them to understand that the courses they are taking are not as pointless as they believe. 
           </p>
           <p className="gr-text-8 clscls">
           Experiential learning integrates facts, concepts, and theories into hands-on tasks, resulting in real-world solutions. The experiential curriculum thereby mimics the ‘real’ society. 
@@ -61,8 +61,8 @@ const Rightsideimg = (props) => {
 
 
         <div
-              className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
-              
+              className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto
+            en-tmsr-ods"
             >
              
                 <img className="why-pkd-fig" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622400485/Group_247_qi0bq6.png"/>

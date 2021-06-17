@@ -17,7 +17,7 @@ const Rightsideimg2 = (props) => {
   const gContext = useContext(GlobalContext);
 
   return (
-    <div className="row mx-10 justify-content-center ">
+    <div className="row mx-10 justify-content-center " id="drds-pnptrep">
       
 
           <div className="">
@@ -36,7 +36,7 @@ const Rightsideimg2 = (props) => {
           Reflection is the intrinsic part of the experiential learning theory. When students reflect on the results and combine realistic experiences with the concepts, they use more areas of their brains.  
           </p>
            <p className="gr-text-8 clscls">
-           Experiential learning aids in the transition from novice to expert. Students learn to analyse how their activities influenced the outcome. This analysis allows them to see how the concepts they have learned can be applied to different situations.  
+           Experiential learning aids in the transition from novice to expert. Students learn to analyse how their activities influence the outcome. This analysis allows them to see how the concepts that they have learnt can be applied to different situations.  
            </p> 
          </div> 
       </div>
@@ -55,7 +55,7 @@ const Rightsideimg2 = (props) => {
 
         <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18  rounded-10 mx-auto"
-              
+              id="jyjn-jbnvgrd"
             >
              
              <img className="why-pkd-fig" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622400485/Group_247_qi0bq6.png"/>
@@ -70,7 +70,7 @@ const Rightsideimg2 = (props) => {
 </div>
 
       <div className="">
-      <div className="col-sm-6 flt-lft">
+      <div className="col-sm-6 flt-lft" id="elstl-nod">
       <div
               className="mt-13 mt-lg-0"
               data-aos="fade-right"
@@ -83,7 +83,7 @@ const Rightsideimg2 = (props) => {
           <b>School’s voice validating this point - Experiential learning aids in the transition from novice to expert.</b> 
           </p>
            <p className="gr-text-8 clscls">
-          <b>Parent’s voice validating this point - Reflecting allows them to see how the concepts they have learned can be applied to different situations.</b>
+          <b>Parent’s voice validating this point - Reflecting allows them to see how the concepts that they had learnt can be applied to different situations.</b>
           </p> 
          </div> 
       </div>

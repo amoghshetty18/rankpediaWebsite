@@ -57,6 +57,7 @@ const Teachingmethod = () => {
         BannerbtnText="Our teaching method"/>
 
       <VisionMission 
+        id="vsmg-trdfgh"
         Title="Understand as you solve"
         Paragraph="We strive hard to make quality education more affordable and accessible. Our pedagogical approach embraces Blooms’ Level for mastering education."
       />
@@ -67,12 +68,14 @@ const Teachingmethod = () => {
       />
 
       <Bloom
+      id="lrn-hws-frtd"
       Title="Learn how it works for you"
       Paragraph="Our best curriculum design helps communicate primary education with the best teaching methods."
       />
 
 
       <Content4 className="bg-default-6 pb-6  overflow-hidden position-relative" 
+      id="frdfoui-dtr"
       Title="Instantly ask for doubts and seek help"
       Paragraph="We believe in teaching with remedial action. We offer a comprehensive academic performance reporting system to raise the bar of learning."
       />

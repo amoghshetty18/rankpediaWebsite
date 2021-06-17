@@ -1,3 +1,46 @@
+// start of grade landing styling
+
+.grade-class-title
+{
+    text-align: center;
+    color: #161C2D;
+    font-weight: bold;
+    font-size: 17px;
+}
+.slick-list
+{
+    padding: 0 15px !important;
+}
+.Revision-text-section
+{
+    display: flex;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+}
+.Revison-title
+{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.revison-section-content
+{
+    align-items: stretch !important;
+}
+.Revision-Section
+{
+ background-color: #161C2D;
+}
+.slick-slide .intr-intr-omgs 
+{
+    margin: auto;
+}
+.slick-slide .wdts-mgdtr
+{
+    margin: auto;
+}
+// End of grade landing styling
 .image-group-3 .arrow-shape-1
     {
         top: 14% !important;
@@ -196,18 +239,24 @@
 }
 .btn-banner-green
 {
-    font-family: 'Roboto', sans-serif;
- color: #FFFFFF;
- background-color: #3FCD5C;
-
+    height: 50px;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    background-color: #3FCD5C;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
 }
 .btn-banner-green:hover
 {
+    color: #FFFFFF;
 background-color: #3FCD5C;
 }
 .banner-store-infore
 {
     flex-direction: row;
+    justify-content: space-around;
 }
 // BannerSection styling End
 // Respond sectionstyling Start
@@ -384,6 +433,16 @@ background-color: #3FCD5C;
 
 // Start of  media query
 @media (max-width: 400px) {
+    // start of grade landing styling
+    .Revison-title
+    {
+        margin-bottom: 38px;
+    text-align: center;
+    }
+.Revision-text-section
+{
+    flex-wrap: wrap;
+}
     .Heading-styling
     {
         font-size: 45px !important;
@@ -433,6 +492,15 @@ background-color: #3FCD5C;
      // Expertprofile section 
 }
 @media (max-width: 500px) {
+    .Revison-title
+    {
+        margin-bottom: 38px;
+    text-align: center;
+    }
+    .Revision-text-section
+{
+    flex-wrap: wrap;
+}
     // Expertprofile section Start
     .royal-star-icon {
         top: 27px;
@@ -466,6 +534,11 @@ background-color: #3FCD5C;
         text-align: center;
     }
     // GetinTouch Styling End
+      // BannerSection styling Start 
+      .banner-store-infore
+      {
+          flex-direction: column;
+      }
 }
 @media (max-width: 768px) {
     .Heading-styling
