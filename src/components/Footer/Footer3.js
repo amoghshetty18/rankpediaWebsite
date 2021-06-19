@@ -21,8 +21,9 @@ const Footer = ({ className, ...rest }) => {
                 <p class="footer-title gr-text-11 mb-7">Company</p>
                 <ul class="footer-list list-unstyled">
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="/about"  >About Us</a></li>
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Class/Courses</a></li>
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Study Material</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/why-rankpedia"  >Why Rankpedia</a></li>
+                  {/* <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Class/Courses</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Study Material</a></li> */}
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="https://medium.com/rankpedia">Blog</a></li>
                 </ul>
               </div>
@@ -41,8 +42,8 @@ const Footer = ({ className, ...rest }) => {
               <div class="single-footer mb-13 mb-lg-9">
                 <p class="footer-title gr-text-11 mb-7">Support</p>
                 <ul class="footer-list list-unstyled">
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Contact Us</a></li>
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Help Desk</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/contact">Contact Us</a></li>
+                  {/* <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Help Desk</a></li> */}
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="/faq">FAQ</a></li>
                 </ul>
               </div>

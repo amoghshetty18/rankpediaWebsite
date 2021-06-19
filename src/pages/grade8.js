@@ -19,6 +19,7 @@ import GetinTouch from "../components/GetinTouch";
 import imageRight from "../assets/image/inner-page/png/practicetest.png";
 
 import MusicArea from "../sections/grade8/MusicArea";
+import MusicArea2 from "../sections/grade8/MusicArea2";
 
 const { TabPane } = Tabs;
 
@@ -123,7 +124,7 @@ const Grade8 = () => {
 
         {/* <Infocard/> */}
 
-        <div className="container">
+        <div className="container pt-15" id="for-tabs-grade-chnges">
         <Tabs defaultActiveKey="1" onChange={callback}>
     <TabPane tab="Syllabus" key="1">
       
@@ -138,13 +139,13 @@ const Grade8 = () => {
 
     </TabPane>
     <TabPane tab="NCERT Books" key="2">
-      Content of Tab Pane 2
+    <MusicArea2 className=" pt-13 pt-md-18 pt-lg-14 pb-9 pb-md-13 pb-lg-28" />
     </TabPane>
-    <TabPane tab="Revision Notes" key="3">
+    {/* <TabPane tab="Revision Notes" key="3">
       Content of Tab Pane 3
-    </TabPane>
+    </TabPane> */}
     <TabPane tab="Sample Papers" key="4">
-      Content of Tab Pane 4
+     <div  className=" pt-13 pb-10"><h3>Coming Soon </h3></div> 
     </TabPane>
   </Tabs>
   </div>
