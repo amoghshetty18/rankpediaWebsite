@@ -54,6 +54,7 @@ const MusicArea = ({ className, ...rest }) => {
                   Maths
                 </h5>
                 <p className="dwnlds-crts-str">Download course structure</p>
+              
                 {/* <DownloadLink
                 className="dwnlds-crts-str"
     label="Download course structure"
@@ -61,6 +62,7 @@ const MusicArea = ({ className, ...rest }) => {
     // exportFile={() => "Client side cache data here…"}
    //exportFile={() => Promise.resolve(this. getDataFromURL ('../../assets/image/home/8-maths1-v1.zip'))}
 /> */}
+
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
