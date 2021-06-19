@@ -32,9 +32,9 @@ const Gradelanding8 = () => {
           {/* Start of banner section */}
         <Banner 
         bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622440722/for-schools-banner_pt3zeq.png"
-        BannerTitle={<div>Classes 8, 9 & 10 - CBSE <br/> Maths, Physics, Chemistry, Biology</div>}
+        BannerTitle={<div>Classes 8 - CBSE <br/> Maths, Physics, Chemistry, Biology</div>}
         // BannerContent="Features for schools"
-        BannerbtnText="Grade 8 - CBSE"
+        BannerbtnText="Download Study Material"
         Linkto="/grade8"
         Applink="false"/>
         
@@ -43,7 +43,7 @@ const Gradelanding8 = () => {
         />
         <TopicSection
         LinkTo="/pricinglanding"
-        BtnText="vire Grade 8 subscription plans"/>
+        BtnText=" Grade 8 subscription plans"/>
         <Infocard/>
         {/* Start of get in touch section */}
         <GetinTouch

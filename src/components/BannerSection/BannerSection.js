@@ -27,7 +27,7 @@ const BannerSection = ({ className, bgurl, BannerTitle, BannerContent,BannerbtnT
                 <p className="BannerTitle line-height-28 px-md-10 px-lg-16 px-xl-25 mb-0 fnt-fmly">
                   {BannerContent}
                 </p>
-                <Link to={Linkto} className="btn btn-banner-green rounded-5 mt-12 fnt-fmly ectsds-btsd">
+                <Link to={Linkto} className="btn btn-banner-green rounded-5 fnt-fmly pr-10 pl-10 ectsds-btsd">
                   {BannerbtnText}
                 </Link>
               {Applink === "True" ?  
