@@ -125,13 +125,13 @@ const TopicSection10 = ({BtnText,LinkTo}) => {
               );
             })}
             </div>
-            <div className="row justify-content-center pt-10">
+            {/* <div className="row justify-content-center pt-10">
             <a href={LinkTo}>
         <button className="btn px-17 btn btn-banner-green  btn-read-more">
           {BtnText}
         </button>
       </a>
-            </div>
+            </div> */}
                                 {/* <!--<a class="btn-default"  data-wow-duration="1s" data-wow-delay=".1s" href="#">Find Your Path</a>--> */}
                 </div>
       </div>
