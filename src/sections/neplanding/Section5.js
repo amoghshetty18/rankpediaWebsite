@@ -33,7 +33,7 @@ const Section5 = () => {
         text="Learning has never been easier"
       />
       
-      <a href="#">
+      <a href="/why-rankpedia">
         <button className="btn px-17 btn btn-blue-3 header-btn1 head-login btn-read-more" id="butre-frdew">
           Read More On Why Rankpedia
         </button>

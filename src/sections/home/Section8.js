@@ -242,7 +242,7 @@ const Section8 = ({ className, ...rest }) => {
           <div class="col-10 col-lg-4  order-lg-2">
             <div class="hero-img position-relative flt-rgthr" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <div class="hero-btn" >
-                <a href="#" class="btn btn-red mx-auto gtstrdr mrgrt" id="hmgst-cntrd">Contact Us</a>
+                <a href="/contact" class="btn btn-red mx-auto gtstrdr mrgrt" id="hmgst-cntrd">Contact Us</a>
               </div>
             </div>
           </div>

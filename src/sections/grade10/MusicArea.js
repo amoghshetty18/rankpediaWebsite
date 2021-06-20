@@ -19,7 +19,7 @@ const MusicArea = ({ className, ...rest }) => {
               data-aos-duration={500}
             >
               <h2 className="font-size-10 letter-spacing-n83 mb-6">
-                CBSE - Grade 10 Syllabus
+                CBSE - Grade 10 
               </h2>
               <p className="font-size-7 mb-0">
                 Download the course structure to see the curriculum detail 
