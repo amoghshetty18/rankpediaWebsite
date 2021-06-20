@@ -31,20 +31,25 @@ export const menuItems = [
     isExternal: false,
   },
   {
+    name: "neplanding",
+    label: "NEP",
+    isExternal: false,
+  },
+  {
     name: "why-rankpedia",
     label: "Why Rankpedia",
     isExternal: false,
   },
-  {
-    name: "#",
-    label: "Subscription",
-    isExternal: false,
-   },
-   {
-    name: "#",
-    label: "Quizwizz",
-    isExternal: true,
-   },
+  // {
+  //   name: "#",
+  //   label: "Subscription",
+  //   isExternal: false,
+  //  },
+  //  {
+  //   name: "#",
+  //   label: "Quizwizz",
+  //   isExternal: true,
+  //  },
    {
     name: "contact",
     label: "Contact Us",

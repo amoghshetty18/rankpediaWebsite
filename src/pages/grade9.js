@@ -88,7 +88,7 @@ const Grade9 = () => {
                       Learn with ease and prepare extensively
                     </p>
                   </div>
-                  <div
+                  {/* <div
                     className="prtc-btr"
                     data-aos="fade-up"
                     data-aos-duration={900}
@@ -103,7 +103,7 @@ const Grade9 = () => {
                      
                       
                     
-                  </div>
+                  </div> */}
                 </div>
               </div>
              

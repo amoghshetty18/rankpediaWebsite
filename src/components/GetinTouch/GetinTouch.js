@@ -32,12 +32,12 @@ const GetinTouch = ({ className, title , disc, ...rest }) => {
             <div className="col-lg-4 offset-xl-1 col-md-2 col-sm-10">
               <div className="contact-us-btn " data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
                 <div class="hero-btn">
-                <a href="#" class="btn contact-btn-styling mx-auto mrgrt">Get Started</a>
+                <a href="/login" class="btn contact-btn-styling mx-auto mrgrt">Get Started</a>
               </div>
               </div>
               <div className="readfaq-btn"  data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
                 <div class="hero-btn">
-                <a href="#" class="btn readfaq-btn-styling  mx-auto ">Read FAQs</a>
+                <a href="/faq" class="btn readfaq-btn-styling  mx-auto ">Read FAQs</a>
               </div>
               </div>
             </div>

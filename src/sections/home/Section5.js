@@ -231,7 +231,7 @@ const Section5 = ({ className, ...rest }) => {
        
        <div class="content-section  pt-18 pb-8 bg-default-4" id="hethkrndmr">
        <div class="container">
-         <div class="row align-items-center">
+         <div class="row align-items-center pt-20">
            <div class="col-lg-6" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
              {/* <div class="content-img sxrty">
              <img src={ homesection3 } alt="" />
@@ -268,7 +268,7 @@ const Section5 = ({ className, ...rest }) => {
              <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
                <h2 class="title gr-text-3 mb-10 engag" >Mentorship</h2>
                <p class="gr-text-8 clscls">We understand the role of a teacher in preparing a student both mentally and emotionally on the education portal. Therefore, our teachers are dedicated to giving individual attention to each child.</p>
-               <a href="#" class="btn btn-red mx-auto gtstrdr">Our Mentors</a>
+               {/* <a href="#" class="btn btn-red mx-auto gtstrdr">Our Mentors</a> */}
              </div>
              <div class="content-widget">
                <div class="row">

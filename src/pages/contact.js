@@ -12,9 +12,9 @@ const Contact = () => {
           headerClassName: "site-header--menu-right test", 
           headerButton: (
             <>
-              <button className="btn btn btn-blue-3 header-btn-2 font-size-3 rounded-5">
+              {/* <button className="btn btn btn-blue-3 header-btn-2 font-size-3 rounded-5">
                 Start 14 Days Free Trial
-              </button>
+              </button> */}
             </>
           ),
           footerStyle: "style3",
