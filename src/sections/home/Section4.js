@@ -269,7 +269,7 @@ const Section4 = ({ className, ...rest }) => {
           </div>
           <div class="col-10 col-lg-6 imgs-imt">
             <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-              <h2 class="title gr-text-3 mb-10 mt-0 engag" >Engaging Videos</h2>
+              <h2 class="title gr-text-3 mb-10 mt-0 engag" id="engngnt-yrsrt">Engaging Videos</h2>
               <p class="gr-text-8 clscls"> You get 2D and 3D animations with constant guidance from experts to transform you into an achiever. </p>
               {/* <a href="#" class="btn btn-red mx-auto gtstrdr">Study Materials</a> */}
             </div>
@@ -343,7 +343,7 @@ const Section4 = ({ className, ...rest }) => {
   </div>
 </div>
 
-<div class="col-lg-6 order-lg-2 rd-bhr" data-aos="flip-right" data-aos-duration="2000" data-aos-once="true">
+<div class="col-lg-6 order-lg-2 rd-bhr" id="fnct-hanst" data-aos="flip-right" data-aos-duration="2000" data-aos-once="true">
   <div class="content-img text-right">
   
   

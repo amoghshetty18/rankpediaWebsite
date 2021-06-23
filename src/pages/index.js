@@ -41,7 +41,8 @@ const IndexPage = () => {
         }}
       >
         <Section1 />
-        <Section2 />
+        <Section2  
+        id="msg-hgtr"  />
         {/* <Section3 /> */}
         <Section4 />
         <Section5 />

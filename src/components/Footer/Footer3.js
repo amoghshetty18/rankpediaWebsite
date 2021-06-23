@@ -92,7 +92,9 @@ const Footer = ({ className, ...rest }) => {
             <div class="col-lg-6 text-center text-lg-right">
               <ul class="social-icons list-unstyled mb-0">
                 <li class="ml-7"><a href="https://www.facebook.com/RankPedia-110504914518895" class="gr-text-color"><i class="icon icon-logo-facebook"></i></a></li>
-                <li class="ml-7"><a href="" class="gr-text-color"><i class="icon icon-logo-linkedin"></i></a></li>
+                <li class="ml-7"><a href="https://www.linkedin.com/in/rankpedia-0a9116211" class="gr-text-color"><i class="icon icon-logo-linkedin"></i></a></li>
+                <li class="ml-7"><a href="https://twitter.com/Rankpedia_" class="gr-text-color"><i class="icon icon-logo-twitter"></i></a></li>
+                <li class="ml-7"><a href="https://www.instagram.com/official_rankpedia/" class="gr-text-color"><i class="icon icon-logo-instagram"></i></a></li>
               </ul>
             </div>
           </div>

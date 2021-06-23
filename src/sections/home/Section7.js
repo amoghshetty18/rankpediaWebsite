@@ -261,7 +261,7 @@ const Section7 = ({ className, ...rest }) => {
                               <h5 class="scnr">Science</h5>
                             </div>
                             <div class="col-md-3 flt-lft mobwdts">
-                              <p class="cltds">Class 1-8</p>
+                              <p class="cltds">Class 8-10</p>
                             </div>
                             <div class="col-md-3 flt-lft mobwdts">
                               <p class="cltds">CBSE</p>
@@ -281,7 +281,7 @@ const Section7 = ({ className, ...rest }) => {
                               <h5 class="scnr">Maths</h5>
                             </div>
                             <div class="col-md-3 flt-lft mobwdts">
-                              <p class="cltds">Class 1-8</p>
+                              <p class="cltds">Class 8-10</p>
                             </div>
                             <div class="col-md-3 flt-lft mobwdts">
                               <p class="cltds">CBSE</p>
