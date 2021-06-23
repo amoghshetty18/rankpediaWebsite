@@ -232,7 +232,7 @@ const Section5 = ({ className, ...rest }) => {
        <div class="content-section  pt-18 pb-8 bg-default-4" id="hethkrndmr">
        <div class="container">
          <div class="row align-items-center pt-20">
-           <div class="col-lg-6" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
+           <div class="col-lg-6" id="ayaya-paap" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
              {/* <div class="content-img sxrty">
              <img src={ homesection3 } alt="" />
              </div> */}
@@ -266,8 +266,8 @@ const Section5 = ({ className, ...rest }) => {
            </div>
            <div class="col-10 col-lg-6 imgs-imt">
              <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-               <h2 class="title gr-text-3 mb-10 engag" >Mentorship</h2>
-               <p class="gr-text-8 clscls">We understand the role of a teacher in preparing a student both mentally and emotionally on the education portal. Therefore, our teachers are dedicated to giving individual attention to each child.</p>
+               <h2 class="title gr-text-3 mb-10 engag" id="nin-newzlnd">Mentorship</h2>
+               <p class="gr-text-8 clscls" id="armdst-weundstrd">We understand the role of a teacher in preparing a student both mentally and emotionally on the education portal. Therefore, our teachers are dedicated to giving individual attention to each child.</p>
                {/* <a href="#" class="btn btn-red mx-auto gtstrdr">Our Mentors</a> */}
              </div>
              <div class="content-widget">
@@ -353,7 +353,7 @@ const Section5 = ({ className, ...rest }) => {
 <div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 formob">
   <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
     <h2 class="title gr-text-3 mb-6 engag mt-0">Assessments & Analytics</h2>
-    <p class="gr-text-8 clscls">Solve class 8 to class 10 exam questions created by subject matter experts with decades of experience to outperform your competitors. Get access to thousands of topic-wise questions, ranging between all levels of difficulty. </p>
+    <p class="gr-text-8 clscls" id="dvr-elr-wn">Solve class 8 to class 10 exam questions created by subject matter experts with decades of experience to outperform your competitors. Get access to thousands of topic-wise questions, ranging between all levels of difficulty. </p>
       {/* <a href="#" class="btn btn-red mx-auto gtstrdr">Practice tests</a> */}
   </div>
   <div class="content-widget">
