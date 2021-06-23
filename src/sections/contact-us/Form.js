@@ -10,9 +10,9 @@ const Form = () => {
       <div className="col-sm-6 mb-8 contact-form">
         <h2 className="text-dark" >  Learn Anytime, Anywhere </h2>
         <h2 className="text-dark" >  Contact Us! </h2>
-        <p className="text-muted">
+        {/* <p className="text-muted">
         1143, 2nd floor, 6th Main Road, 7th Sector, HSR Layout, Bengaluru, Karnataka 560102
-        </p>
+        </p> */}
         <TextInput type='text' placeholder='Full Name' />
         <p className="mt-3 mb-1">Looking For</p>
         <Checkbox value={'School Solutions'} />

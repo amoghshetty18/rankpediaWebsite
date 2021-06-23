@@ -9,6 +9,20 @@ import imgM4 from "../../assets/image/home-5/png/music-headphone-4.png";
 
 
 const MusicArea = ({ className, ...rest }) => {
+
+  const getDataFromURL = (url) => new Promise((resolve, reject) => {
+    setTimeout(() => {
+        // fetch(url)
+        //     .then(response => response.text())
+        //     .then(data => {
+        //         resolve(data)
+        //     });
+       // resolve ("../../assets/image/home/8-maths1-v1.zip");
+        resolve (url);
+    });
+}, 2000);
+
+
   return (
     <div className={className} {...rest}>
       <div className="container">
@@ -60,6 +74,7 @@ const MusicArea = ({ className, ...rest }) => {
     label="Download course structure"
     filename="8-maths1-v1.zip"
     // exportFile={() => "Client side cache data here…"}
+    exportFile={() => Promise.resolve( getDataFromURL ("../../assets/image/home/8-maths1-v1.zip"))}
    //exportFile={() => Promise.resolve(this. getDataFromURL ('../../assets/image/home/8-maths1-v1.zip'))}
 /> */}
 

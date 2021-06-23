@@ -237,7 +237,7 @@ const Section6 = ({ className, ...rest }) => {
             <div class="col-sm-10 col-lg-6">
               <div class="content-text">
                 <h2 class="engag mb-7">Building an Ecosystem for Students, Teachers, and Parents</h2>
-                <p class="clscls">Join this <b>educational portal </b> covering CBSE and NCERT curriculum, an insightful environment created by schools and teachers focusing on comprehensive learning to help you fulfill your dreams.</p>
+                <p class="clscls" id="cm-ash-acmash">Join this <b>educational portal </b> covering CBSE and NCERT curriculum, an insightful environment created by schools and teachers focusing on comprehensive learning to help you fulfill your dreams.</p>
                   {/* <a href="#" class="btn btn-red mx-auto gtstrdr">Learn More</a> */}
               </div>
             </div>
