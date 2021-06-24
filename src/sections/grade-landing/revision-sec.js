@@ -255,11 +255,11 @@ const RevisionSection = ({ className, ...rest }) => {
         <div className="Revision-Section pt-20 pb-15">
         <Container>
         {/* </Container> */}
-        <div className="Revision-text-section pb-15">
-            <h5 className="Revison-title pb-sm-10 p-lg-0">Get engaging video tutorials & revision material</h5>
-            <Link to="/#" className="btn btn-banner-green rounded-5 fnt-fmly pr-10 pl-10">
+        <div className="col-xl-8 col-lg-9 pb-15">
+            <h5 className="Revison-title text-center pb-sm-10 p-lg-0">Get engaging video tutorials & revision material</h5>
+            {/* <Link to="/#" className="btn btn-banner-green rounded-5 fnt-fmly pr-10 pl-10">
                   Download Study material
-            </Link>
+            </Link> */}
         </div>
         <div
           className="category-one"

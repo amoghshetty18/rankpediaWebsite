@@ -51,7 +51,7 @@ const Section2 = (props) => {
       </div>
       <div className="col-sm-6 ">
       <div
-              className="mt-13 mt-lg-0"
+              className="mt-13 mt-lg-0 rdsr-cvxqwm"
               data-aos="fade-right"
               data-aos-delay={500}
               data-aos-once="true"

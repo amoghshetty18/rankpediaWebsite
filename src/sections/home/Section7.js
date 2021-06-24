@@ -238,7 +238,7 @@ const Section7 = ({ className, ...rest }) => {
               <div class="content-text">
                 <h2 class="simpli-nono mb-7">Expertly curated question banks with over 100,000 questions</h2>
                 <p class="clscls">Gain a competitive edge in high school with our comprehensive question banks curated by Subject Matter Experts with years of experience in education.</p>
-                  <a href="" class="btn btn-red mx-auto gtstrdr">Learn More</a>
+                  {/* <a href="" class="btn btn-red mx-auto gtstrdr">Learn More</a> */}
               </div>
             </div>
             
@@ -246,6 +246,9 @@ const Section7 = ({ className, ...rest }) => {
               <div class="content-grid-image-group d-flex  mx-sm-n3">
 
                 <div class="content-widget mt-7 mt-lg-0  pl-xl-19">
+                  
+                  <a href="/grade8">
+                  
                   <div class="row align-items-center">
                     <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
                       <div class="single-widget my-sps media">
@@ -258,7 +261,7 @@ const Section7 = ({ className, ...rest }) => {
                               <h5 class="scnr">Science</h5>
                             </div>
                             <div class="col-md-3 flt-lft mobwdts">
-                              <p class="cltds">Class 1-8</p>
+                              <p class="cltds">Class 8-10</p>
                             </div>
                             <div class="col-md-3 flt-lft mobwdts">
                               <p class="cltds">CBSE</p>
@@ -275,10 +278,10 @@ const Section7 = ({ className, ...rest }) => {
                             <img src={ small2 } alt="" />
                             </div>
                             <div class="col-md-4 flt-lft mobwdts">
-                              <h5 class="scnr">Language</h5>
+                              <h5 class="scnr">Maths</h5>
                             </div>
                             <div class="col-md-3 flt-lft mobwdts">
-                              <p class="cltds">Class 1-8</p>
+                              <p class="cltds">Class 8-10</p>
                             </div>
                             <div class="col-md-3 flt-lft mobwdts">
                               <p class="cltds">CBSE</p>
@@ -287,7 +290,7 @@ const Section7 = ({ className, ...rest }) => {
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
+                    {/* <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
                       <div class="single-widget my-sps media">
                         <div class="media-body">
                           <div class="col-md-12 innr flt-lft">
@@ -306,8 +309,8 @@ const Section7 = ({ className, ...rest }) => {
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
+                    </div> */}
+                    {/* <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
                       <div class="single-widget my-sps media">
                         <div class="media-body">
                           <div class="col-md-12 innr flt-lft">
@@ -326,13 +329,18 @@ const Section7 = ({ className, ...rest }) => {
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="col-md-6 col-lg-12" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
+                    </div> */}
+                    {/* <div class="col-md-6 col-lg-12" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
                     <div class="hero-btn">
                       <a href="#" class="btn-link with-icon text-wtr hm-frtg-ts frst-fnts">Explore course materials <i class="icon icon-tail-right font-weight-bold"></i></a>
                     </div>
+                  </div> */}
                   </div>
-                  </div>
+
+                  </a>
+
+
+
                 </div>
              
                

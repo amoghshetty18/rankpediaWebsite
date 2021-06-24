@@ -11,9 +11,9 @@ export const menuItems = [
     name: "#",
     label: "For Students",
     items: [
-      { name: "https://drive.google.com/drive/folders/1TMn_ZQ1jHDccCJMs0rUDYyCfkuo7IW1i?usp=sharing", label: "Class 8",  isExternal: true },
-      { name: "https://drive.google.com/drive/folders/1UzVFzfWU3tlPfPHI60BuHbK9YpgrJTel?usp=sharing", label: "Class 9",  isExternal: true, },
-      { name: "https://drive.google.com/drive/folders/1FUy7SVXzclaX7odateqEa0QpcPpYU1Ps?usp=sharing", label: "Class 10",  isExternal: true, },
+      { name: "grade-landing-8", label: "Class 8",  isExternal: false },
+      { name: "grade-landing-9", label: "Class 9",  isExternal: false, },
+      { name: "grade-landing-10", label: "Class 10",  isExternal: false, },
     ],
   },
   // {
@@ -27,7 +27,12 @@ export const menuItems = [
   // },
   {
     name: "for-schools",
-    label: "For School",
+    label: "For Schools",
+    isExternal: false,
+  },
+  {
+    name: "neplanding",
+    label: "NEP",
     isExternal: false,
   },
   {
@@ -35,18 +40,18 @@ export const menuItems = [
     label: "Why Rankpedia",
     isExternal: false,
   },
-  {
-    name: "#",
-    label: "Subscription",
-    isExternal: false,
-   },
+  // {
+  //   name: "#",
+  //   label: "Subscription",
+  //   isExternal: false,
+  //  },
+  //  {
+  //   name: "#",
+  //   label: "Quizwizz",
+  //   isExternal: true,
+  //  },
    {
-    name: "#",
-    label: "Quizwizz",
-    isExternal: true,
-   },
-   {
-    name: "#",
+    name: "contact",
     label: "Contact Us",
     isExternal: false,
    },

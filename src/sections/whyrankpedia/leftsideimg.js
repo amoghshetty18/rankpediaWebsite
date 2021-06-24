@@ -33,7 +33,7 @@ const Leftsideimg = (props) => {
              
             >
               
-              <img className="lfrte-igst" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622190942/Group_178_kx3tbk.png"/>
+              <img className="lfrte-igst" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1623919537/stock-photo-cute-indian-boy-with-father-or-male-tutor-doing-homework-at-home-using-laptop-and-books-online-1825380572_pi7sdb.jpg"/>
              
             </div>
 
@@ -43,13 +43,14 @@ const Leftsideimg = (props) => {
       <div className="col-sm-6 ">
       <div
               className="mt-13 mt-lg-0 ml-12"
+              id="pstp-kmstr"
               data-aos="fade-right"
               data-aos-delay={500}
               data-aos-once="true"
             >
         {/* <div className="col-8"> */}
           <p className="gr-text-8 clscls">
-          Experiential learning can significantly boost student motivation to learn. Learning by rote or repetitive learning has long been supplanted by ‘Learning by Doing’. To provide a training module, the experiential learning methodology has become a well-known approach for accelerated learning.  
+          Experiential learning can significantly boost students motivation to learn. Learning by rote or repetitive learning has long been supplanted by ‘Learning by Doing’. To provide a training module, the experiential learning methodology has become a well-known approach for accelerated learning.  
           </p>
 
           <p className="gr-text-8 clscls">

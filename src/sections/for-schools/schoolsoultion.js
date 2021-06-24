@@ -16,15 +16,15 @@ const solutioncard = [
     {
       title: "Couldn’t aid educators in taking timely and productive action?",
       text:
-        "Accessibility of overall progress reports to students, teachers, school admin, and parents—all-inclusive performance analysis and sharing of the data of the school management to the Principal.",
+        "Accessibility of overall progress reports to students, teachers, school admin, and parents, all-inclusive performance analysis and sharing of the data of the school management to the Principal.",
     },
     {
-        title: "Find it challenging to improve student enrollments?",
+        title: "Find it challenging to improve student enrollment?",
         text:
           "Help teachers to do their job with ease. Arrange classroom schedules, topic-wise revision routines, relevant additional videos, and resources for improved teaching results.",
       },
       {
-        title: "Find Leads",
+        title: "Couldn't find Leads?",
         text:
           "Devise a Systematic Learning Programme. Balance the student-teacher ratio for each class to reduce the pressure on educators and gauge the capability of students.",
       },  

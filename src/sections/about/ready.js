@@ -76,11 +76,11 @@ const Ready = ({ className, ...rest }) => {
   return (
     <>
       <div className={className} {...rest}>
-      <div class="position-relative bg-default-2 bg-pattern pattern-2 pdr-sct pb-sm-5">
+      {/* <div class="position-relative bg-default-2 bg-pattern pattern-2 pdr-sct pb-sm-5">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-9 col-md-7 col-lg-5 offset-xl-1  order-lg-2">
-            <div class="hero-img position-relative flt-rgthr" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
+            <div class="hero-img position-relative flt-rgthr" id="at-dns-btms" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <div class="hero-btn">
                 <a href="#" class="btn btn-red mx-auto gtstrdr mrgrt">Contact us</a>
               </div>
@@ -94,7 +94,28 @@ const Ready = ({ className, ...rest }) => {
           </div>
         </div>
       </div>
-    </div>     
+    </div>      */}
+
+<div class="position-relative bg-default-2 bg-pattern pattern-2 pdr-sct">
+       <div class="container">
+         <div class="row justify-content-center align-items-center">
+          
+           <div class="col-lg-8 order-lg-1" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
+             <div class="hero-content mt-11 mt-lg-0">
+               <h1 class="title gr-text-2 mb-6 mt-6 rdstr" id="amhver">All set to gear up!</h1>
+               <p class="gr-text-8 mb-11 pr-md-12 clscls">To dive deeper into the world of RankPedia, tap on 'Contact Us' and our team will reach out to you at the earliest.</p>
+             </div>
+           </div>
+           <div class="col-10 col-lg-4  order-lg-2">
+             <div class="hero-img position-relative flt-rgthr" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
+               <div class="hero-btn" >
+                 <a href="/contact" class="btn btn-red mx-auto gtstrdr mrgrt" id="hmgst-cntrd">Contact Us</a>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>  
       </div>
     </>
   );
