@@ -28,7 +28,7 @@ const VisionMission = ({ className, ...rest }) => {
               <div class="col-md-6 col-lg-11 col-xl-11" data-aos="fade-left" data-aos-duration="1100" data-aos-once="true">
                 <div class="single-widget mb-9">
                   <h3 class="w-title gr-text-7 abt-ourmis">Our belief is in giving your child relief!</h3>
-                  <p class="gr-text-9 abt-trty">It started with a simple thought of 'Why can't world-class education be affordable?'. This thought gave us a vision of providing education to children at a price they can afford. Not just this, but it also helped us to deliver world-class education by integrating taxonomies, pedagogy and the latest technological advancements to provide students with the best opportunities possible. We try to give the child a different perspective towards challenging concepts. This is achieved by explaining to the child the same concept with remarkable video sessions coupled with easy revision lessons.  </p>
+                  <p class="gr-text-9 abt-trty">It started with a simple thought of Why can't world-class education be affordable?. This thought embedded a seed in our mind and gave us a vision of providing education to children at an affordable price. We have walked on a path to deliver world-class education by integrating pedagogy and the latest technological advancements to offer the best opportunities to students.  </p>
                 </div>
               </div>
               <div class="col-md-6 col-lg-11 col-xl-11" data-aos="fade-left" data-aos-duration="1100" data-aos-once="true">
