@@ -270,7 +270,7 @@ const Section4 = ({ className, ...rest }) => {
           <div class="col-10 col-lg-6 imgs-imt">
             <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <h2 class="title gr-text-3 mb-10 mt-0 engag" id="engngnt-yrsrt">Engaging Videos</h2>
-              <p class="gr-text-8 clscls"> You get 2D and 3D animations with constant guidance from experts to transform you into an achiever. </p>
+              <p class="gr-text-8 clscls">We provide a diverse field of videos ranging from biology and chemistry to physics and maths. You will get 2D and 3D animations in our videos with consistent expert guidance from the subject specialist. These engaging videos will mould you into an achiever. </p>
               {/* <a href="#" class="btn btn-red mx-auto gtstrdr">Study Materials</a> */}
             </div>
             <div class="content-widget">
@@ -333,7 +333,8 @@ const Section4 = ({ className, ...rest }) => {
 <div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 mt-30 formob" id="slhlkjvn">
   <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
     <h2 class="title gr-text-3 mb-6 engag">Doubt-solving Sessions</h2>
-    <p class="gr-text-8 clscls">Study under the most approachable teachers Who are only a click away. Send all your doubts and get them cleared within 24 hours to master every concept.</p>
+    <p class="gr-text-8 clscls">
+    If your mind is flooded by doubts regarding any chapter, then the solutions to all your doubts are just a click away. Send all your doubts to the most approachable teachers and get them cleared within 24 hours to master every concept and get a clear vision of the video.</p>
       {/* <a href="#" class="btn btn-red mx-auto gtstrdr">Learn More</a> */}
   </div>
   <div class="content-widget">

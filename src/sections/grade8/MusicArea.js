@@ -2,25 +2,36 @@ import React from "react";
 import DownloadLink from "react-download-link";
 import { Link } from "gatsby";
 
+import axios from 'axios'
+
 import imgM from "../../assets/image/home-5/png/music-headphone.png";
 import imgM2 from "../../assets/image/home-5/png/music-headphone-2.png";
 import imgM3 from "../../assets/image/home-5/png/music-headphone-3.png";
 import imgM4 from "../../assets/image/home-5/png/music-headphone-4.png";
 
+const getDataFromURL = async (url) => {
+   
+  const fi=await axios.get(url,{
+      responseType: 'blob',
+    })
+    // const downloadUrl = window.URL.createObjectURL(new Blob([data]));
 
+    //     const link = document.createElement('a');
+
+    //     link.href = downloadUrl;
+
+    //     link.setAttribute('download', 'file.zip'); //any other extension
+
+    //     document.body.appendChild(link);
+
+    //     link.click();
+
+    //     link.remove();
+
+}
 const MusicArea = ({ className, ...rest }) => {
 
-  const getDataFromURL = (url) => new Promise((resolve, reject) => {
-    setTimeout(() => {
-        // fetch(url)
-        //     .then(response => response.text())
-        //     .then(data => {
-        //         resolve(data)
-        //     });
-       // resolve ("../../assets/image/home/8-maths1-v1.zip");
-        resolve (url);
-    });
-}, 2000);
+
 
 
   return (
@@ -72,10 +83,10 @@ const MusicArea = ({ className, ...rest }) => {
                 {/* <DownloadLink
                 className="dwnlds-crts-str"
     label="Download course structure"
-    filename="8-maths1-v1.zip"
-    // exportFile={() => "Client side cache data here…"}
-    exportFile={() => Promise.resolve( getDataFromURL ("../../assets/image/home/8-maths1-v1.zip"))}
-   //exportFile={() => Promise.resolve(this. getDataFromURL ('../../assets/image/home/8-maths1-v1.zip'))}
+    filename="fileName.zip"
+    // exportFile={() => "NCERT SYLLABUS FOR  <br/> fjkfjk"}
+   // exportFile={() => Promise.resolve( getDataFromURL ("NCERT SYLLABUS FOR  <br/> fjkfjk"))}
+   exportFile={()=> Promise.resolve(getDataFromURL ('../../assets/image/home/8-maths1-v1.zip'))}
 /> */}
 
                 {/* <Link
