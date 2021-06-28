@@ -20,19 +20,19 @@ const Videosection = () => {
             <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
               css={`
-                background-image: url(${imgC});
+                background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624874128/shutterstock_1701863368-min_idibkf.jpg");
               `}
             >
-              <a
-                href="/#"
+              <div
+              
                 className="video-btn sonar text-white circle-98 font-size-8"
                 onClick={(e) => {
                   e.preventDefault();
                   gContext.toggleVideoModal();
                 }}
               >
-                               <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621536971/Icon_material-play-circle-outline_rpwskz.svg"/>
-              </a>
+                               {/* <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621536971/Icon_material-play-circle-outline_rpwskz.svg"/> */}
+              </div>
             </div>
           </div>
           <div className="col-lg-6 col-md-10 col-sm-11">

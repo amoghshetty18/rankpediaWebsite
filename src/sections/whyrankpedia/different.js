@@ -53,19 +53,19 @@ const Different = (props) => {
         <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
               css={`
-                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622186527/pexels-max-fischer-5212687_nqqrf5.png"});
+                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624876169/shutterstock_257483128-min_v9v06j.jpg"});
               `}
             >
-              <a
-                href="https://www.youtube.com/watch?v=lK2HwzB-unE&list=RDdYReZzz8vu4&index=10"
+               <div
+                
                 className="video-btn sonar text-white circle-98 font-size-8"
                 onClick={(e) => {
                   e.preventDefault();
                   gContext.toggleVideoModal();
                 }}
               >
-                <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621536971/Icon_material-play-circle-outline_rpwskz.svg"/>
-              </a>
+                {/* <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621536971/Icon_material-play-circle-outline_rpwskz.svg"/> */}
+              </div> 
             </div>
 
 
