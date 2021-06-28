@@ -52,8 +52,8 @@ const Footer = ({ className, ...rest }) => {
               <div class="single-footer mb-13 mb-lg-9">
                 <p class="footer-title gr-text-11 mb-7">Terms & Conditions</p>
                 <ul class="footer-list list-unstyled">
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Privacy Policy</a></li>
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Course Policy</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/privacy-policy">Privacy Policy</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/course-policy">Course Policy</a></li>
                 </ul>
               </div>
             </div>
