@@ -28,13 +28,32 @@ const Leftsideimg = (props) => {
         {/* <img id="kid_video" className="img-fluid" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621605779/kid_watching_video_zamtkc.png"} alt="" /> */}
 
 
-        <div
+        {/* <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540  rounded-10 mx-auto"
              
             >
               
-              <img className="lfrte-igst" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1623919537/stock-photo-cute-indian-boy-with-father-or-male-tutor-doing-homework-at-home-using-laptop-and-books-online-1825380572_pi7sdb.jpg"/>
+              <img className="lfrte-igst abtus-brdrs-mgs" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624876259/shutterstock_1827527717_1_-min_mb8bpo.jpg"/>
              
+            </div> */}
+
+            
+        <div
+              className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
+              css={`
+                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624876259/shutterstock_1827527717_1_-min_mb8bpo.jpg"});
+              `}
+            >
+               <div
+                
+                className="video-btn sonar text-white circle-98 font-size-8"
+                onClick={(e) => {
+                  e.preventDefault();
+                  gContext.toggleVideoModal();
+                }}
+              >
+                {/* <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621536971/Icon_material-play-circle-outline_rpwskz.svg"/> */}
+              </div> 
             </div>
 
 

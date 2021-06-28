@@ -65,7 +65,7 @@ const Rightsideimg = (props) => {
             en-tmsr-ods"
             >
              
-                <img className="why-pkd-fig" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622400485/Group_247_qi0bq6.png"/>
+                <img className="why-pkd-fig" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624877715/shutterstock_414856957-min_vusnxi.jpg"/>
               
             </div>
 
