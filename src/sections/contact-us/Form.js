@@ -15,7 +15,6 @@ const Form = () => {
         </p> */}
         <TextInput type='text' placeholder='Full Name' />
         <p className="mt-3 mb-1">Looking For</p>
-        
         <Checkbox value={'School Solutions'} />
         <Checkbox value={'Teacher App'} />
         <Checkbox value={'Student Pack'} />
