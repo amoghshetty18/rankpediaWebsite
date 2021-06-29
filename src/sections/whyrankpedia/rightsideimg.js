@@ -61,11 +61,11 @@ const Rightsideimg = (props) => {
 
 
         <div
-              className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto
+              className="bg-images d-flex align-items-center rounded-10 justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto
             en-tmsr-ods"
             >
              
-                <img className="why-pkd-fig" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624877715/shutterstock_414856957-min_vusnxi.jpg"/>
+                <img className="why-pkd-fig mt-15 rounded-10" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624877715/shutterstock_414856957-min_vusnxi.jpg"/>
               
             </div>
 

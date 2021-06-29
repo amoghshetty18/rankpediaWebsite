@@ -20,18 +20,22 @@ const items = [
         title: "Biology",
     },
     {
-        bgimage:"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1623696143/Geography-bg-img-min_d5v0on.jpg",
-        title: "Geography",
-    },
-    {
-        bgimage:"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1623696143/Geography-bg-img-min_d5v0on.jpg",
-        title: "Geography",
-    }
+      bgimage:"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624953877/algebra_urcldx.jpg",
+      title: "Algebra",
+  },
+  {
+      bgimage:"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624954049/Geometry_qxm9gf.jpg",
+      title: "Geometry",
+  },
+  {
+    bgimage:"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624954050/Trignometry_yp3g61.jpg",
+    title: "Trignometry",
+}
 ];
 const solutioncard =[
     {
         
-            title: "UEngaging video-based learning"
+            title: "Engaging video-based learning"
     },
     {
         title: "Instant doubt clearance"
@@ -50,7 +54,7 @@ const TopicSection10 = ({BtnText,LinkTo}) => {
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
         centerMode: false,
         arrows: false,
