@@ -1,5 +1,11 @@
 // start of grade landing styling
-
+.Mobile-view{
+    display: none;
+}
+.Desktop-view
+{
+    display: block;
+}
 .grade-class-title
 {
     text-align: center;
@@ -433,6 +439,14 @@ background-color: #3FCD5C;
 
 // Start of  media query
 @media (max-width: 400px) {
+    .Desktop-view
+    {
+        display: none;
+    }
+    .Mobile-view
+    {
+        display: block;
+    }
     // start of grade landing styling
     .Revison-title
     {
@@ -492,6 +506,14 @@ background-color: #3FCD5C;
      // Expertprofile section 
 }
 @media (max-width: 500px) {
+    .Desktop-view
+    {
+        display: none;
+    }
+    .Mobile-view
+    {
+        display: block;
+    }
     .Revison-title
     {
         margin-bottom: 38px;
@@ -541,6 +563,7 @@ background-color: #3FCD5C;
       }
 }
 @media (max-width: 768px) {
+    
     .Heading-styling
     {
         font-size: 45px;

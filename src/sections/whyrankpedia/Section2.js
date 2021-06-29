@@ -27,23 +27,26 @@ const Section2 = (props) => {
             >
         {/* <img id="kid_video" className="img-fluid" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621605779/kid_watching_video_zamtkc.png"} alt="" /> */}
 
-
+        <div className="Mobile-view pb-10">
+        <h3 className="engag mb-6">
+          Technology Integration for Holistic Learning Outcomes
+          </h3>
+        </div>
         <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
               css={`
-                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622110971/pexels-daria-shevtsova-1560932_ahh5y9.png"});
+                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624875048/shutterstock_414676423-min_auxsh0.jpg"});
               `}
             >
-              <a
-                href="https://www.youtube.com/watch?v=lK2HwzB-unE&list=RDdYReZzz8vu4&index=10"
+              <div
                 className="video-btn sonar text-white circle-98 font-size-8"
-                onClick={(e) => {
-                  e.preventDefault();
-                  gContext.toggleVideoModal();
-                }}
+                // onClick={(e) => {
+                //   e.preventDefault();
+                //   gContext.toggleVideoModal();
+                // }}
               >
-                <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621536971/Icon_material-play-circle-outline_rpwskz.svg"/>
-              </a>
+                {/* <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621536971/Icon_material-play-circle-outline_rpwskz.svg"/> */}
+              </div>
             </div>
 
 
@@ -57,7 +60,7 @@ const Section2 = (props) => {
               data-aos-once="true"
             >
         {/* <div className="col-8"> */}
-          <h3 className="engag mb-6">
+          <h3 className="Desktop-view engag mb-6">
           Technology Integration for Holistic Learning Outcomes
           </h3>
           <p className="gr-text-8 clscls">
