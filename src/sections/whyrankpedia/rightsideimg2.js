@@ -32,6 +32,28 @@ const Rightsideimg2 = (props) => {
          <h3 className="why-pdrspt-scxr mb-12">
            3. Opportunity for Reflection
           </h3> 
+          <div
+              className="Mobile-view l4-content-img-2 ml-lg-10 ml-xl-7 rounded-10 text-center"
+              data-aos="fade-right"
+              data-aos-duration={600}
+              data-aos-delay={500}
+              data-aos-once="true"
+            >
+        {/* <img id="kid_video" className="img-fluid" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621605779/kid_watching_video_zamtkc.png"} alt="" /> */}
+
+
+        <div
+              className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18  rounded-10 mx-auto"
+              id="jyjn-jbnvgrd"
+            >
+             
+             <img className="why-pkd-fig rounded-10" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624956260/why-rankpedia_b69cfd.jpg"/>
+                {/* <img className="why-pkd-fig" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622400485/Group_247_qi0bq6.png"/> */}
+              
+            </div>
+
+
+      </div>
           <p className="gr-text-8 clscls">
           Reflection is the intrinsic part of the experiential learning theory. When students reflect on the results and combine realistic experiences with the concepts, they use more areas of their brains.  
           </p>
@@ -48,7 +70,7 @@ const Rightsideimg2 = (props) => {
       </div>
 
 
-      <div className="col-sm-6 flt-lft">
+      <div className="Desktop-view col-sm-6 flt-lft">
       <div
               className="l4-content-img-2 ml-lg-10 ml-xl-7 rounded-10 text-center"
               data-aos="fade-right"

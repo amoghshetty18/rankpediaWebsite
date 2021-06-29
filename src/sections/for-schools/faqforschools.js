@@ -27,6 +27,29 @@ const Faqforschools = () => {
               </div>
             </div>
           </div>
+          <div
+            className="Mobile-view pb-10 col-xl-6 col-lg-6 col-md-10 col-sm-11"
+            data-aos="fade-right"
+            data-aos-duration={500}
+          >
+            <div
+              className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
+              css={`
+                background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624874683/shutterstock_1606120399-min_iuzzwg.jpg");
+              `}
+            >
+              <div
+                
+                className="video-btn sonar text-white circle-98 font-size-8"
+                onClick={(e) => {
+                  e.preventDefault();
+                  gContext.toggleVideoModal();
+                }}
+              >
+                {/* <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621536971/Icon_material-play-circle-outline_rpwskz.svg"/> */}
+              </div>
+            </div>
+          </div>
           {/* <!-- Section Title --> */}
         <div className="row align-items-center justify-content-center">
           
@@ -88,7 +111,7 @@ RankPedia helps teachers to learn about the subjects and topics that students ar
         </Accordion>
           </div>
           <div
-            className="col-xl-6 col-lg-6 col-md-10 col-sm-11"
+            className="Desktop-view  pb-10 col-xl-6 col-lg-6 col-md-10 col-sm-11"
             data-aos="fade-right"
             data-aos-duration={500}
           >
