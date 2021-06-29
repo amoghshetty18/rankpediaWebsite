@@ -58,7 +58,7 @@ const Rightsideimg2 = (props) => {
               id="jyjn-jbnvgrd"
             >
              
-             <img className="why-pkd-fig" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622400485/Group_247_qi0bq6.png"/>
+             <img className="why-pkd-fig" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624878431/shutterstock_1841577823-min_ghdqk5_490x327_mmdasn.jpg"/>
                 {/* <img className="why-pkd-fig" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622400485/Group_247_qi0bq6.png"/> */}
               
             </div>
