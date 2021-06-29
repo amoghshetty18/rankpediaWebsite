@@ -10,7 +10,7 @@ const VisionMission = ({ className, ...rest }) => {
       <div class="row align-items-center">
         <div class="col-lg-6" data-aos="flip-right"  data-aos-duration="1000" data-aos-once="true">
           <div class="content-img">
-            <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624872331/shutterstock_532298581-min_whshfo.jpg" alt="" class="w-100" id="about-nsd-omngd" />
+            <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624872331/shutterstock_532298581-min_whshfo.jpg" alt="" class="w-100 rounded-10" id="about-nsd-omngd" />
             </div>
         </div>
         <div class="col-lg-6 pl-xl-21">
