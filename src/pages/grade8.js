@@ -16,7 +16,7 @@ import Promo from "../sections/practicetest/Promo";
 import Infocard from "../sections/faq/Infocard";
 import GetinTouch from "../components/GetinTouch";
 
-import imageRight from "../assets/image/inner-page/png/practicetest.png";
+// import imageRight from "../assets/image/inner-page/png/practicetest.png";
 
 import MusicArea from "../sections/grade8/MusicArea";
 import MusicArea2 from "../sections/grade8/MusicArea2";
@@ -64,7 +64,7 @@ const Grade8 = () => {
                   data-aos-duration={500}
                   data-aos-once="true"
                 >
-                  <img className="w-100 w-xl-auto prtc-frst-img" src={imageRight} alt="" />
+                  <img className="w-100 w-xl-auto prtc-frst-img" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624945295/Kid_kpl7uv.png" alt="" />
                 </div>
               </div>
 

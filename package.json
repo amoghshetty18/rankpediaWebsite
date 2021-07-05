@@ -7,7 +7,9 @@
     "@n8tb1t/use-scroll-position": "^1.0.43",
     "antd": "^4.16.0",
     "aos": "^3.0.0-beta.6",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
+    "country-state-city": "^3.0.0",
     "gatsby": "^2.15.30",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-react-helmet": "^3.1.10",
@@ -30,6 +32,7 @@
     "react-download-link": "^2.3.0",
     "react-headroom": "^3.0.0",
     "react-helmet": "^5.2.0",
+    "react-hook-form": "^7.9.0",
     "react-icons": "^3.8.0",
     "react-lazyload": "^3.1.0",
     "react-masonry-component": "^6.2.1",
@@ -45,9 +48,13 @@
     "styled-components": "^4.4.1",
     "styled-system": "^5.1.5",
     "swiper": "^6.7.0",
+<<<<<<< HEAD
     "file-saver": "^2.0.2",
     "jszip": "^3.2.2",
     "jszip-utils": "^0.1.0"
+=======
+    "validator": "^13.6.0"
+>>>>>>> 036b08500517282750dc821ca56194857af72654
   },
   "keywords": [
     "gatsby"

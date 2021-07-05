@@ -17,12 +17,22 @@ const Videosection = () => {
             data-aos="fade-right"
             data-aos-duration={500}
           >
+           <div class="Mobile-view">
+           <h2
+                className=" font-size-10 mb-8 letter-spacing-n83"
+                data-aos="fade-up"
+                data-aos-duration={600}
+              >
+              Integrated Curriculum and Hybrid Learning
+              </h2>
+           </div>
             <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
               css={`
                 background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624874128/shutterstock_1701863368-min_idibkf.jpg");
               `}
             >
+              
               <div
               
                 className="video-btn sonar text-white circle-98 font-size-8"
@@ -38,7 +48,7 @@ const Videosection = () => {
           <div className="col-lg-6 col-md-10 col-sm-11">
             <div className="pt-9 pt-lg-0 pr-xs-10 pr-sm-5 pr-md-25 pr-lg-0 pl-xl-10">
               <h2
-                className="font-size-10 mb-8 letter-spacing-n83"
+                className="Desktop-view font-size-10 mb-8 letter-spacing-n83"
                 data-aos="fade-up"
                 data-aos-duration={600}
               >

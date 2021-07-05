@@ -27,7 +27,11 @@ const Section2 = (props) => {
             >
         {/* <img id="kid_video" className="img-fluid" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621605779/kid_watching_video_zamtkc.png"} alt="" /> */}
 
-
+        <div className="Mobile-view pb-10">
+        <h3 className="engag mb-6">
+          Technology Integration for Holistic Learning Outcomes
+          </h3>
+        </div>
         <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
               css={`
@@ -56,7 +60,7 @@ const Section2 = (props) => {
               data-aos-once="true"
             >
         {/* <div className="col-8"> */}
-          <h3 className="engag mb-6">
+          <h3 className="Desktop-view engag mb-6">
           Technology Integration for Holistic Learning Outcomes
           </h3>
           <p className="gr-text-8 clscls">

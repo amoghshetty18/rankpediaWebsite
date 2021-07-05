@@ -18,6 +18,11 @@ const Leftsideimg2 = (props) => {
   return (
     <div className="row mb-20 " id="lfl-udragl">
       <div className="col-sm-6">
+        <div className="Mobile-view">
+        <h3 className="why-pdrspt-scxr mb-6">
+           2. Opportunity for Creativity 
+          </h3> 
+        </div>
       <div
               className="l4-content-img-2  rounded-10 text-center"
               data-aos="fade-right"
@@ -33,7 +38,7 @@ const Leftsideimg2 = (props) => {
              
             >
               
-              <img className="why-pkd-fig mt-25" id="dftr-dftrs" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624878163/shutterstock_1814248661-min_zbe9dd.jpg"/>
+              <img className="why-pkd-fig mt-28 rounded-10" id="dftr-dftrs" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624878163/shutterstock_1814248661-min_zbe9dd.jpg"/>
              
             </div>
 
@@ -48,7 +53,7 @@ const Leftsideimg2 = (props) => {
               data-aos-once="true"
             >
         {/* <div className="col-8"> */}
-        <h3 className="why-pdrspt-scxr mb-6">
+        <h3 className="Desktop-view why-pdrspt-scxr mb-6">
            2. Opportunity for Creativity 
           </h3> 
           <p className="gr-text-8 clscls">

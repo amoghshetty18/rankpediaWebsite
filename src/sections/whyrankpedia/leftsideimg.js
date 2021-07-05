@@ -61,7 +61,7 @@ const Leftsideimg = (props) => {
       </div>
       <div className="col-sm-6 ">
       <div
-              className="mt-13 mt-lg-0 ml-12"
+              className="mt-sm-0 mt-lg-14 ml-12"
               id="pstp-kmstr"
               data-aos="fade-right"
               data-aos-delay={500}

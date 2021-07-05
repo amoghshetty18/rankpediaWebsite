@@ -2,12 +2,24 @@ import React from 'react'
 
 const Checkbox = (props) => {
 
-  const { value } = props
+  const { value, name, onChange, label } = props
+
+  const convertToDefaultEventPara = (name, value) => ({
+    target: {
+      name, value
+    }
+  })
 
   return (
     <div className="form-check form-check-inline">
-      <input className="form-check-input" type="checkbox" value="option1" />
-      <label className="form-check-label" for="inlineCheckbox1">{value}</label>
+      <input 
+        className="form-check-input" 
+        type="checkbox" 
+        checked={value} 
+        onChange={ e => onChange(convertToDefaultEventPara(name, e.target.checked)) }
+        name={name} 
+      />
+      <label className="form-check-label" for="inlineCheckbox1">{label}</label>
     </div>
   )
 }

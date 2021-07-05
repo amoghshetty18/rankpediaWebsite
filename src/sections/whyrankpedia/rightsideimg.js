@@ -36,6 +36,27 @@ const Rightsideimg = (props) => {
          <h3 className="why-pdrspt-scxr mb-6">
            1. Real-world Relevance
           </h3> 
+          <div
+              className="Mobile-view l4-content-img-2 ml-lg-10 ml-xl-7 rounded-10 text-center"
+              data-aos="fade-right"
+              data-aos-duration={600}
+              data-aos-delay={500}
+              data-aos-once="true"
+            >
+        {/* <img id="kid_video" className="img-fluid" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621605779/kid_watching_video_zamtkc.png"} alt="" /> */}
+
+
+        <div
+              className="bg-images d-flex align-items-center rounded-10 justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto
+            en-tmsr-ods"
+            >
+             
+                <img className="why-pkd-fig rounded-10" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624877715/shutterstock_414856957-min_vusnxi.jpg"/>
+              
+            </div>
+
+
+      </div>
           <p className="gr-text-8 clscls">
           'Why do I have to study this? Am I going to use any of it after my graduation?' Students frequently ask these questions. Experiential learning will enable them to understand that the courses they are taking are not as pointless as they believe. 
           </p>
@@ -49,7 +70,7 @@ const Rightsideimg = (props) => {
       </div>
 
 
-      <div className="col-sm-6 flt-lft">
+      <div className="Desktop-view col-sm-6 flt-lft">
       <div
               className="l4-content-img-2 ml-lg-10 ml-xl-7 rounded-10 text-center"
               data-aos="fade-right"
@@ -61,11 +82,11 @@ const Rightsideimg = (props) => {
 
 
         <div
-              className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto
+              className="mt-md-10 bg-images d-flex align-items-center rounded-10 justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto
             en-tmsr-ods"
             >
              
-                <img className="why-pkd-fig" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624877715/shutterstock_414856957-min_vusnxi.jpg"/>
+                <img className="why-pkd-fig rounded-10" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624877715/shutterstock_414856957-min_vusnxi.jpg"/>
               
             </div>
 

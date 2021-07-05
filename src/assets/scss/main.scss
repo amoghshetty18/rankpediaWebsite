@@ -7967,7 +7967,7 @@ margin-top: 1%! important;
   padding-top: 2.35rem !important;
 }
 #hethkrndmr{
-  margin-top: 2rem;
+  margin-top: 5rem;
   height: 1110px;
 }
 .dart-elil {
@@ -8063,7 +8063,7 @@ margin-top: 1%! important;
     top: 4px !important;
 }
 #hethkrndmr {
-  margin-top: 8rem;
+  margin-top: 12rem;
   height: 1260px;
 }
 #yvhdstagl {
@@ -8546,7 +8546,7 @@ margin-top: 1%! important;
 
 #engngnt-yrsrt{
   position: absolute;
-  top: -302%;
+  top: -188%;
   margin-top: 1% !important;
 }
 
@@ -8931,11 +8931,52 @@ margin-top: 1%! important;
   margin-left: auto;
 }
 
+#homepage-video-container {
+  position: relative;
+  left: -60px;
+  top: -30px;
+}
+
+@media screen and (max-width: 1350px) {
+  .planets-video{
+    height: 320px;
+    width: 480px
+  }
+
+  #homepage-video-container {
+    left: 34px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .planets-video{
+    height: 240px;
+    width: 320px;
+  }
+  #homepage-video-container {
+    top: 0px;
+  }
+  #heth {
+    padding-top: 50px !important;
+  }
+  #engngnt-yrsrt {
+    top: -368px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #homepage-video-container .img-2 {
+    left: -27px;
+    position: relative;
+  }
+  
+}
+
 @media (min-width: 992px){
 .l6-content-image-group-2-new {
     position: absolute;
-    left: 0;
-    top: -235px;
+    left: -60px;
+    top: -259px;
 }
 .l6-content-image-group-4-new {
   position: absolute;
@@ -9269,7 +9310,7 @@ color: #ff0000;
     font-weight: 600;
     letter-spacing: -1.8px;
     line-height: 55px;
-    margin-top: 3.4rem;
+    margin-top: 6.4rem;
 }
 
 .padforbnr{
@@ -9358,7 +9399,7 @@ color: #ff0000;
 // home
 #engngnt-yrsrt{
   position: absolute;
-  top: -344%;
+  top: -215%;
   margin-top: 1% !important;
 }
 #slhlkjvn{
@@ -9405,6 +9446,7 @@ top: 900%;
 #about-nsd-omngd{
   height: 500px;
     margin-bottom: 40px;
+    border-radius: 15px;
 }
 
 // Teaching Gratitude

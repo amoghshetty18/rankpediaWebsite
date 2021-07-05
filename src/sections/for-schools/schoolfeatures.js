@@ -50,7 +50,7 @@ const Schoolfeatures = () => {
                                     {/* <a href="/program-listing/?Country=all&categoryname=Commerce %26 Finance&DegreeType=all"> */}
                                     <a href="/english-preparation">
                                           <div class="image-holder">
-                                                <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622461286/green-bg-min_lvcwph.jpg" alt="" class="img-fluid" />
+                                                <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624971462/Mask_Group_55_xcthat.png" alt="" class="img-fluid" />
                                                 <div className="featured-card-details">
                                                 Custom <br/>Practice Tests
                                                 </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import '../css/styles.css'
-
 import PageWrapper from "../components/PageWrapper";
 import Form from "../sections/contact-us/Form";
 
@@ -149,6 +148,9 @@ const Contact = () => {
             </div>
           </div>
         </div> */}
+          <div className="banner-img-contact-us d-flex justify-content-center align-items-center" >
+          <h2 className="text-light  text-align-center" >  Learn Anytime, Anywhere </h2>
+          </div>
           <Form />
       </PageWrapper>
     </>

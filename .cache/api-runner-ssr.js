@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('C:/Users/as/Desktop/New folder (7)/rankpedia/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('D:/Code/Tasks/RankPedia/rankpedia/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('C:/Users/as/Desktop/New folder (7)/rankpedia/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('D:/Code/Tasks/RankPedia/rankpedia/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"pure":false},
     },{
-      plugin: require('C:/Users/as/Desktop/New folder (7)/rankpedia/gatsby-ssr'),
+      plugin: require('D:/Code/Tasks/RankPedia/rankpedia/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "gatsby";
 import Slider from "react-slick";
 import { Container, Row, Col } from "react-bootstrap";
-
+import planetsVideo from '../../assets/istockphoto-670751262-640_adpp_is.mp4'
 import img1 from "../../assets/image/home-1/png/analytics.png";
 import img2 from "../../assets/image/home-1/png/business-agent.png";
 import img3 from "../../assets/image/home-1/png/code.png";
@@ -242,8 +242,8 @@ const Section4 = ({ className, ...rest }) => {
 
         
 
-            <div className="content-img ">
-            <div className="l6-content-image-group-2-new">
+          <div className="content-img ">
+                  <div className="l6-content-image-group-2-new" id="homepage-video-container">
               <div className="img-1">
                 <img
                   className=""
@@ -254,13 +254,16 @@ const Section4 = ({ className, ...rest }) => {
                 />
               </div>
               <div className="img-2">
-                <img
+                {/* <img
                   className="ltrdtyu"
                   src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621251206/Image_jiq2mb.png"}
                   alt=""
                   data-aos="fade-right"
                   data-aos-delay={500}
-                />
+                /> */}
+                <video className="planets-video" width="600" height="480" autoplay="autoplay" loop muted playsinline>
+                  <source src={planetsVideo} type="video/mp4" />
+                </video>
               </div>
             </div>
           </div>

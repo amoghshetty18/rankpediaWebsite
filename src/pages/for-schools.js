@@ -38,7 +38,7 @@ const Forschools = () => {
           {/* Start of banner section */}
         <Banner 
         id="for-school-banner-button-hide"
-        bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622440722/for-schools-banner_pt3zeq.png"
+        bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624955534/for-school-banner_mrezea.png"
         BannerTitle="Integrated Digital Education: RankPedia for Schools, Teachers & Students"
         BannerContent="Features for schools"
         BannerbtnText="Learn More"
