@@ -1,39 +1,243 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Checkbox from './Checkbox'
 import TextInput from './TextInput'
+import { Country, State, City } from 'country-state-city'
+import validator from 'validator'
 import Map from './Map'
+import Radio from './Radio'
+import Aos from 'aos'
+import "aos/dist/aos.css"
+import { useForm, ReuseForm } from './useForm'
+import SelectDropdown from './SelectDropdown'
+
+const initialValues = {
+  fullName: '',
+  type: '',
+  location: '',
+  state: '',
+  district: '',
+  number: '',
+  message: '',
+  tAndC: false
+}
 
 const Form = () => {
 
+  const [formError, setFormError] = useState({})
+
+  const [states, setStates] = useState([])
+  useEffect(() => {
+    let states = State.getStatesOfCountry("IN")
+    setStates(states)
+  }, [])
+
+  const [selectedState, setSelectedState] = useState()
+  const [districts, setDistricts] = useState([])
+  const setSelected = (e) => {
+    console.log(e.target.selectedIndex, 'selected state')
+    const index = e.target.selectedIndex;
+    const optionElement = e.target.childNodes[index]
+    console.log(optionElement, 'optionElement')
+    const option = optionElement.getAttribute("code")
+    console.log(option, "option")
+    setSelectedState(option) 
+  }
+  useEffect(() => {
+    const districtList = City.getCitiesOfState("IN", `${selectedState}`)
+    setDistricts(districtList)
+    console.log(City.getCitiesOfState("IN", `${selectedState}`), 'districts')
+  }, [selectedState])
+
+  useEffect(() => {
+    Aos.init({duration: 2000})
+  }, [])
+
+  const validations = () => {
+    let temp = {}
+    temp.fullName = values.fullName ? "" : "This field is required"
+    temp.type = values.type ? "" : "This field is required"
+    temp.location = values.location ? "" : "This field is required"
+    temp.state = values.state ? "" : "This field is required"
+    validator.isEmpty(`${values.email}`) ? temp.email = "This field is required" : temp.email = ""
+    validator.isEmail(`${values.email}`) ? temp.email = "" : temp.email = "Invalid E-Mail format"
+    temp.number = values.number ? "" : "This field is required"
+    temp.number = values.number.length > 9 ? "" : "Minimum 10 digits required"
+    setFormError({
+      ...temp
+    })
+
+    return Object.values(temp).every(x => x === "")
+  }
+
+  const {values, setValues, handleChange} = useForm(initialValues)
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    if(validations()) {
+      alert('hello congrats')
+    }
+  }
+
   return (
-    <div className='row my-5 justify-content-end mt-22 contact-form-container'>
-      <div className="col-sm-6 mb-8 contact-form">
-        <h2 className="text-dark" >  Learn Anytime, Anywhere </h2>
-        <h2 className="text-dark" >  Contact Us! </h2>
-        {/* <p className="text-muted">
-        1143, 2nd floor, 6th Main Road, 7th Sector, HSR Layout, Bengaluru, Karnataka 560102
-        </p> */}
-        <TextInput type='text' placeholder='Full Name' />
-        <p className="mt-3 mb-1">Looking For</p>
-        <Checkbox value={'School Solutions'} />
-        <Checkbox value={'Teacher App'} />
-        <Checkbox value={'Student Pack'} />
-        <TextInput type='text' placeholder='Location' />
-        <TextInput type='email' placeholder='E-Mail' />
-        <TextInput type='number' placeholder='Mobile' />
-        <textarea className="form-control mb-5 text-area" placeholder="Message" />
-        <Checkbox value={' I agree to receive newsletters & other communications from RankPedia '} />
-        <a href="#" className="link my-5" style={{ display: 'block' }}>
-          Privacy Policy
-        </a>
-        <a href="#">
-          <button className="btn btn btn-blue-3 header-btn1 head-login">
-            Submit Enquiry
-          </button>
-        </a>
-        
+    <div className='row justify-content-end contact-form-container'>
+      <div  
+        data-aos="fade-right" 
+        data-aos-once="false" 
+        className="col-sm-6 mb-8 contact-form"
+      >
+        {/* <h2 className="text-dark" >  Learn Anytime, Anywhere </h2> */}
+        <h2 className="text-dark" style={{fontSize: "36px", textAlign: "center"}} >  Get in touch! </h2>
+         
+        <ReuseForm onSubmit={handleSubmit}>
+
+          <div className="card contact-us-card-form">
+            <div className="card-content  shadow p-15">
+              <div className="my-7">
+                <TextInput
+                  type='text'
+                  placeholder='Full Name'
+                  name='fullName'
+                  value={values.fullName}
+                  onChange={handleChange}
+                />
+                {formError.fullName && <span className="text-danger"> {formError.fullName} </span>}
+              </div>
+
+              <div className="my-7">
+                <p className="mb-1">Looking For</p>
+
+                <Radio
+                  value='School Solutions'
+                  name='type'
+                  label='School Solutions'
+                  onChange={handleChange}
+                />
+                <Radio
+                  name='type'
+                  value="Student Pack"
+                  label="Student Pack"
+                  onChange={handleChange}
+                />
+
+                {formError.type && <span className="text-danger"> {formError.type} </span>}
+              </div>
+
+              <div className="my-7">
+                <TextInput
+                  type='text'
+                  placeholder='Location'
+                  name='location'
+                  value={values.location}
+                  onChange={handleChange}
+                />
+                {formError.location && <div className="text-danger"> {formError.location} </div>}
+              </div>
+
+              <div className="my-7">
+                <SelectDropdown
+                  placeholder='State'
+                  name='state'
+                  value={values.state}
+                  onChange={(e) => {
+                    handleChange(e)
+                    setSelected(e)
+                  }}
+                >
+                  <option value=""> State </option>
+                  {
+                    states.length ? states.map(state => (
+                      <option
+                        key={`${state.latitude}${state.longitude}`}
+                        value={state.name}
+                        code={state.isoCode}
+                      >
+                        {state.name}
+                      </option>
+                    )) : ""
+                  }
+                </SelectDropdown>
+                {formError.state && <span className="text-danger"> {formError.state} </span>}
+              </div>
+
+              <div className="my-7">
+                <SelectDropdown
+                  placeholder='District'
+                  name='district'
+                  value={values.district}
+                  onChange={(e) => {
+                    handleChange(e)
+                    console.log(values, "values object")
+                  }}
+                >
+                  <option value=""> Select District </option>
+                  {
+                    districts.length ? districts.map(district => (
+                      <option
+                        key={`${district.latitude}${district.longitude}`}
+                        value={district.name}
+                      >
+                        {district.name}
+                      </option>
+                    )) : ""
+                  }
+                </SelectDropdown>
+              </div>
+
+              <div className="my-7">
+                <TextInput
+                  type='text'
+                  placeholder='E-Mail'
+                  name='email'
+                  value={values.email}
+                  onChange={handleChange}
+                />
+
+                {formError.email && <span className="text-danger"> {formError.email} </span>}
+              </div>
+
+              <div className="my-7">
+                <TextInput
+                  type='number'
+                  placeholder='Mobile'
+                  name='number'
+                  value={values.number}
+                  onChange={handleChange}
+                />
+                {formError.number && <span className="text-danger"> {formError.number} </span>}
+              </div>
+
+              <textarea
+                className="form-control mb-5 text-area"
+                placeholder="Message"
+                name="message"
+                value={values.message}
+                onChange={handleChange}
+              />
+              <Checkbox
+                label={' I agree to receive newsletters & other communications from RankPedia '}
+                name='tAndC'
+                value={values.tAndC}
+                onChange={handleChange}
+              />
+              <a href="#" className="link my-5" style={{ display: 'block' }}>
+                Privacy Policy
+              </a>
+              <a href="#">
+                <button className="btn btn btn-blue-3 header-btn1 head-login" disabled={!values.tAndC}>
+                  Submit Enquiry
+                </button>
+              </a>
+            </div>
+          </div>
+
+          
+        </ReuseForm>
       </div>
-      <div className="col-sm-6 py-15" id="map" >
+      <div 
+        data-aos="fade-left" 
+        data-aos-once="false" 
+        className="col-sm-6 py-15 d-flex justify-content-center align-items-center" id="map" 
+      >
         <Map />
       </div>
     </div>

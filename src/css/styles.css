@@ -83,6 +83,8 @@
 
 .contact-form-container {
   font-family: 'Roboto', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .contact-map {
@@ -206,6 +208,23 @@ h1, h2, h3, h4, h5, h6{
   font-family: "Roboto", sans-serif;
 }
 
+.banner-img-contact-us {
+  background-image: url('https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621595518/banner-image_rw7lnc.jpg');
+  background-size: cover;
+  height: 35vh;
+  background-position: center;
+  margin-top: 100px;
+}
 
+/* background: linear-gradient(to left, #a9afbe, #e2e4ea); form-background */
+.contact-us-card-form {
+  /* background: linear-gradient(to left, #a9afbe, #f9f9f9); */
+  background: linear-gradient(to left, #b7bdcd, #f9f9f9);
+  border-radius: 30px !important;
+}
+
+.contact-us-card-form .card-content {
+  border-radius: 30px;
+}
 
 
