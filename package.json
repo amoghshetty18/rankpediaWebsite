@@ -9,6 +9,7 @@
     "aos": "^3.0.0-beta.6",
     "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
+    "country-state-city": "^3.0.0",
     "gatsby": "^2.15.30",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-react-helmet": "^3.1.10",
@@ -46,7 +47,8 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^4.4.1",
     "styled-system": "^5.1.5",
-    "swiper": "^6.7.0"
+    "swiper": "^6.7.0",
+    "validator": "^13.6.0"
   },
   "keywords": [
     "gatsby"
