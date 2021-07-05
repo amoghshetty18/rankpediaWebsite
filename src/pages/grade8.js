@@ -21,6 +21,8 @@ import imageRight from "../assets/image/inner-page/png/practicetest.png";
 import MusicArea from "../sections/grade8/MusicArea";
 import MusicArea2 from "../sections/grade8/MusicArea2";
 
+import {generateZip, generateZipFromCloud} from './generateZip';
+
 const { TabPane } = Tabs;
 
 function callback(key) {
@@ -129,7 +131,9 @@ const Grade8 = () => {
     <TabPane tab="Syllabus" key="1">
       
 
-
+    {/* <a onClick={generateZip} target="_blank">
+          Click here to download
+        </a> */}
 
     <MusicArea className=" pt-13 pt-md-18 pt-lg-14 pb-9 pb-md-13 pb-lg-28" />
 

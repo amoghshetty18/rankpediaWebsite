@@ -13,6 +13,7 @@ exports.components = {
   "component---src-pages-doubts-landing-js": () => import("./../../../src/pages/doubts-landing.js" /* webpackChunkName: "component---src-pages-doubts-landing-js" */),
   "component---src-pages-faq-js": () => import("./../../../src/pages/faq.js" /* webpackChunkName: "component---src-pages-faq-js" */),
   "component---src-pages-for-schools-js": () => import("./../../../src/pages/for-schools.js" /* webpackChunkName: "component---src-pages-for-schools-js" */),
+  "component---src-pages-generate-zip-js": () => import("./../../../src/pages/generateZip.js" /* webpackChunkName: "component---src-pages-generate-zip-js" */),
   "component---src-pages-grade-10-js": () => import("./../../../src/pages/grade10.js" /* webpackChunkName: "component---src-pages-grade-10-js" */),
   "component---src-pages-grade-8-js": () => import("./../../../src/pages/grade8.js" /* webpackChunkName: "component---src-pages-grade-8-js" */),
   "component---src-pages-grade-9-js": () => import("./../../../src/pages/grade9.js" /* webpackChunkName: "component---src-pages-grade-9-js" */),

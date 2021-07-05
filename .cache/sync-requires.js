@@ -16,6 +16,7 @@ exports.components = {
   "component---src-pages-doubts-landing-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\doubts-landing.js"))),
   "component---src-pages-faq-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\faq.js"))),
   "component---src-pages-for-schools-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\for-schools.js"))),
+  "component---src-pages-generate-zip-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\generateZip.js"))),
   "component---src-pages-grade-10-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\grade10.js"))),
   "component---src-pages-grade-8-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\grade8.js"))),
   "component---src-pages-grade-9-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\grade9.js"))),
