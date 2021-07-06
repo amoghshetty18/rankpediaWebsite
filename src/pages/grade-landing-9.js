@@ -31,7 +31,7 @@ const Gradelanding9 = () => {
       >
           {/* Start of banner section */}
         <Banner 
-        bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624955514/grade-landing-banner_vw04si.png"
+        bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625558404/grade-landing-banner_vw04si_mtzshy.jpg"
         BannerTitle={<div>Classes 9 - CBSE <br/> Maths, Physics, Chemistry, Biology</div>}
         // BannerContent="Features for schools"
         BannerbtnText="Download Study Material"

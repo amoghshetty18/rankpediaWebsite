@@ -59,7 +59,7 @@ const Neplanding = () => {
            {/* <Section1 />  */}
            <Banner 
            id="neplanding-banner-button-hide"
-        bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621595518/banner-image_rw7lnc.jpg"
+        bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625558950/banner-image_rw7lnc_hgazsj.jpg"
         BannerTitle=" NEP 2020 Compliant  [National Education Policy] "
         BannerContent=" Learn how RankPedia is compliant with the country's new educational policies "
         BannerbtnText="Learn More"/>

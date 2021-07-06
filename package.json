@@ -48,13 +48,10 @@
     "styled-components": "^4.4.1",
     "styled-system": "^5.1.5",
     "swiper": "^6.7.0",
-<<<<<<< HEAD
     "file-saver": "^2.0.2",
     "jszip": "^3.2.2",
-    "jszip-utils": "^0.1.0"
-=======
+    "jszip-utils": "^0.1.0",
     "validator": "^13.6.0"
->>>>>>> 036b08500517282750dc821ca56194857af72654
   },
   "keywords": [
     "gatsby"

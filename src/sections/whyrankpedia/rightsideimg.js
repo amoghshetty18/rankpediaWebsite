@@ -51,7 +51,7 @@ const Rightsideimg = (props) => {
             en-tmsr-ods"
             >
              
-                <img className="why-pkd-fig rounded-10" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624877715/shutterstock_414856957-min_vusnxi.jpg"/>
+                <img className="why-pkd-fig rounded-10" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625559506/shutterstock_414856957-min_vusnxi_mwdtkk.jpg"/>
               
             </div>
 
@@ -86,7 +86,7 @@ const Rightsideimg = (props) => {
             en-tmsr-ods"
             >
              
-                <img className="why-pkd-fig rounded-10" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624877715/shutterstock_414856957-min_vusnxi.jpg"/>
+                <img className="why-pkd-fig rounded-10" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625559506/shutterstock_414856957-min_vusnxi_mwdtkk.jpg"/>
               
             </div>
 
