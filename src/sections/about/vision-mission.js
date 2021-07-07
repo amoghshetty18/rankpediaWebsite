@@ -5,7 +5,7 @@ import homebanner from "../../assets/image/home/banner.png";
 const VisionMission = ({ className, ...rest }) => {
   return (
    
-    <div class="content-section bg-default-4 abt-ambis">
+    <div class="content-section bg-default-4 abt-ambis" id="second-section">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6" data-aos="flip-right"  data-aos-duration="1000" data-aos-once="true">
