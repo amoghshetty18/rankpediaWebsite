@@ -35,7 +35,7 @@ const Faqforschools = () => {
             <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
               css={`
-                background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624874683/shutterstock_1606120399-min_iuzzwg.jpg");
+                background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625558542/shutterstock_1606120399-min_iuzzwg_bbbox2.jpg");
               `}
             >
               <div
@@ -118,7 +118,7 @@ RankPedia helps teachers to learn about the subjects and topics that students ar
             <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
               css={`
-                background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624874683/shutterstock_1606120399-min_iuzzwg.jpg");
+                background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625558542/shutterstock_1606120399-min_iuzzwg_bbbox2.jpg");
               `}
             >
               <div

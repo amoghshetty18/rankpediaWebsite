@@ -80,14 +80,14 @@ const MusicArea = ({ className, ...rest }) => {
                 </h5>
                 <p className="dwnlds-crts-str">Download course structure</p>
               
-                {/* <DownloadLink
+                 {/* <DownloadLink
                 className="dwnlds-crts-str"
     label="Download course structure"
-    filename="fileName.zip"
+    filename="class8.zip"
     // exportFile={() => "NCERT SYLLABUS FOR  <br/> fjkfjk"}
    // exportFile={() => Promise.resolve( getDataFromURL ("NCERT SYLLABUS FOR  <br/> fjkfjk"))}
    exportFile={()=> Promise.resolve(getDataFromURL ('../../assets/image/home/8-maths1-v1.zip'))}
-/> */}
+/>  */}
 
                 {/* <Link
                   to="/#"

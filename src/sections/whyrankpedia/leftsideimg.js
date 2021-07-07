@@ -41,7 +41,7 @@ const Leftsideimg = (props) => {
         <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
               css={`
-                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624876259/shutterstock_1827527717_1_-min_mb8bpo.jpg"});
+                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625559506/shutterstock_1827527717_1_-min_mb8bpo_fokyqp.jpg"});
               `}
             >
                <div

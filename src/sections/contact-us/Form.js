@@ -219,7 +219,7 @@ const Form = () => {
                 value={values.tAndC}
                 onChange={handleChange}
               />
-              <a href="#" className="link my-5" style={{ display: 'block' }}>
+              <a href="/privacy-policy" className="link my-5" style={{ display: 'block' }}>
                 Privacy Policy
               </a>
               <a href="#">

@@ -253,7 +253,7 @@ const Section5 = ({ className, ...rest }) => {
                <div className="img-2">
                  <img
                    className="ltrdtyu"
-                   src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621276718/Group_52_Copy_trvpxs.png"}
+                   src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625509007/Group_52_Copy_trvpxs-min_k2yrwn.png"}
                    alt=""
                    data-aos="fade-right"
                    data-aos-delay={500}

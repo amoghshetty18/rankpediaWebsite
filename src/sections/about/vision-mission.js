@@ -13,7 +13,7 @@ const VisionMission = ({ className, ...rest }) => {
             <h2 class="title gr-text-3 mb-6 abt-tws">We have big ambitions, yet our feet are firmly on the ground.</h2>
             </div>
           <div class="content-img">
-            <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624872331/shutterstock_532298581-min_whshfo.jpg" alt="" class="w-100 rounded-10" id="about-nsd-omngd" />
+            <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625558028/shutterstock_532298581-min_whshfo_a8vnis.jpg" alt="" class="w-100 rounded-10" id="about-nsd-omngd" />
             </div>
         </div>
         <div class="col-lg-6 pl-xl-21">

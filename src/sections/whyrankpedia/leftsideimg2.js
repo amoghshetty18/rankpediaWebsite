@@ -38,7 +38,7 @@ const Leftsideimg2 = (props) => {
              
             >
               
-              <img className="why-pkd-fig mt-28 rounded-10" id="dftr-dftrs" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624878163/shutterstock_1814248661-min_zbe9dd.jpg"/>
+              <img className="why-pkd-fig mt-28 rounded-10" id="dftr-dftrs" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625559506/shutterstock_1814248661-min_zbe9dd_n3swc9.jpg"/>
              
             </div>
 
