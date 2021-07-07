@@ -35,7 +35,7 @@ const Section2 = (props) => {
         <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
               css={`
-                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624874822/shutterstock_1739402348-min_nnhonz.jpg"});
+                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625558950/shutterstock_1739402348-min_nnhonz_knpwrq.jpg"});
               `}
             >
               <div

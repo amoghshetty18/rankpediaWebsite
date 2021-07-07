@@ -39,7 +39,7 @@ const Section1 =  ({ className, ...rest }) => {
           <div class="col-lg-4 col-md-9 order-lg-2">
             <div class="hero-img" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <div class="hero-video-thumb position-relative">
-              <img src={ homebanner } class="clrs-rtd rounded-8" alt="" />
+              <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625508835/banner-0ff164b5601283a714f182a6c289998b_1_-min_fcvjts.png" } class="clrs-rtd rounded-8" alt="" />
               </div>
             </div>
           </div>

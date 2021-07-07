@@ -36,7 +36,7 @@ const Different = (props) => {
           <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
               css={`
-                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624876169/shutterstock_257483128-min_v9v06j.jpg"});
+                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625559507/shutterstock_257483128-min_v9v06j_m7dyxy.jpg"});
               `}
             >
                <div
@@ -72,7 +72,7 @@ const Different = (props) => {
         <div
               className=" bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
               css={`
-                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624876169/shutterstock_257483128-min_v9v06j.jpg"});
+                background-image: url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625559507/shutterstock_257483128-min_v9v06j_m7dyxy.jpg"});
               `}
             >
                <div

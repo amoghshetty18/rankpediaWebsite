@@ -245,15 +245,15 @@ const Section6 = ({ className, ...rest }) => {
             <div class="col-sm-10 col-lg-6 mb-9 mb-lg-0 mstlylst">
               <div class="content-grid-image-group d-flex  mx-sm-n3">
                 <div class="single-image d-flex flex-column pt-11 px-3 px-sm-6">
-                <img src={ group1 } alt=""  data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" class=" pb-6 pb-sm-9" />
-                <img src={ group2 } alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000" data-aos-once="true" class=" pb-6" />
+                <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625509187/gallery1-99f71ca0b8b3c2a9f7174d02efcca499-min_kgp8kq.png" } alt=""  data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" class=" pb-6 pb-sm-9" />
+                <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625509422/gallery2-430795fe3b7f2c93f36ec5d18c3dfaad-min_uhx2dg.png" } alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000" data-aos-once="true" class=" pb-6" />
                   {/* <img src="./image/l4/png/gallery1.png" alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" class=" pb-6 pb-sm-9" />
                   
                   <img src="./image/l4/png/gallery2.png" alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000" data-aos-once="true" class=" pb-6" /> */}
                 </div>
                 <div class="single-image d-flex flex-column  px-3 px-sm-6">
-                <img src={ group3 } alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" class=" pb-6 pb-sm-9" />
-                <img src={ group4 } alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000" data-aos-once="true" class=" pb-6" />
+                <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625509335/gallery3-e98e88dee569a3f52f717c314c373c98-min_zoaa3s.png" } alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" class=" pb-6 pb-sm-9" />
+                <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625509488/gallery4-b3f2355127cd69b57de82e1333c09c7a-min_bikxxu.png" } alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000" data-aos-once="true" class=" pb-6" />
                   {/* <img src="./image/l4/png/gallery3.png" alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" class=" pb-6 pb-sm-9" />
                   
                   <img src="./image/l4/png/gallery4.png" alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000" data-aos-once="true" class=" pb-6" /> */}

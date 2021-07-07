@@ -47,7 +47,7 @@ const Whyrankpedia = () => {
       >
 
      <Banner 
-        bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621595518/banner-image_rw7lnc.jpg"
+        bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625558950/banner-image_rw7lnc_hgazsj.jpg"
         BannerTitle=" Creating An Atmosphere For Immersive Experimental Learning"
         BannerContent=" Rankpedia is complaint with the NEP 2020 for education delivery"
         BannerbtnText="Why Rankpedia"
