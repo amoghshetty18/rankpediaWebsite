@@ -17,7 +17,8 @@ const SelectDropdown = (props) => {
     // </select>
 
   <select 
-    class="form-control" 
+    class="custom-select" 
+   // class="form-control" 
     id="exampleFormControlSelect1"
     placeholder={placeholder}
     name={name}

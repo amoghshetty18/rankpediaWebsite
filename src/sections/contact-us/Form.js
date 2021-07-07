@@ -103,7 +103,7 @@ const Form = () => {
                 {formError.fullName && <span className="text-danger"> {formError.fullName} </span>}
               </div>
 
-              <div className="my-7">
+              <div className="my-7" id="sml-chjfo">
                 <p className="mb-1">Looking For</p>
 
                 <Radio
@@ -113,6 +113,7 @@ const Form = () => {
                   onChange={handleChange}
                 />
                 <Radio
+                  className="spsast"
                   name='type'
                   value="Student Pack"
                   label="Student Pack"
@@ -224,7 +225,7 @@ const Form = () => {
               </a>
               <a href="#">
                 <button className="btn btn btn-blue-3 header-btn1 head-login" disabled={!values.tAndC}>
-                  Submit Enquiry
+                  Submit
                 </button>
               </a>
             </div>

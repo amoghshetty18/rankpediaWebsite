@@ -5,6 +5,7 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
+  "component---cache-dev-404-page-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\.cache\\dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\404.js"))),
   "component---src-pages-about-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\about.js"))),
   "component---src-pages-career-details-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\career-details.js"))),
