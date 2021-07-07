@@ -5,7 +5,7 @@ const Card4 = (props) => {
   return (
     <div className="col-md-4 mb-5">
       <div className="card feature-card-container card-3">
-        <img className="card_image_logo" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621605929/rankpedia_logo_silrqz.png"} alt="" />
+        {/* <img className="card_image_logo" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621605929/rankpedia_logo_silrqz.png"} alt="" /> */}
         <div className="text-content py-10">
           <h4 className="feature-card-heading"> Future </h4>
           <br />

@@ -232,7 +232,7 @@ const Section4 = ({ className, ...rest }) => {
     <>
       <div className={className} {...rest}>
        
-      <div class="content-section  pt-25 pb-35 bg-default-4" id="heth">
+      <div class="content-section  pt-11 pb-35 bg-default-4" id="heth">
       <div class="container">
         <div class="row align-items-center pt-20">
           <div class="col-lg-6" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
@@ -331,9 +331,9 @@ const Section4 = ({ className, ...rest }) => {
 
 
 
-<div class="row align-items-center justify-content-center mt-30">
+<div class="row align-items-center justify-content-center mt-0">
 
-<div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 mt-30 formob" id="slhlkjvn">
+<div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 mt-15 formob" id="slhlkjvn">
   <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
     <h2 class="title gr-text-3 mb-6 engag">Doubt-solving Sessions</h2>
     <p class="gr-text-8 clscls">
