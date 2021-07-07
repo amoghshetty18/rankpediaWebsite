@@ -13,7 +13,6 @@ import Screenshots from "../sections/practicetest/Screenshots";
 import Testimonial from "../sections/practicetest/Testimonial";
 import Promo from "../sections/practicetest/Promo";
 
-
 import Infocard from "../sections/faq/Infocard";
 import GetinTouch from "../components/GetinTouch";
 
