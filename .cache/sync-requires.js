@@ -5,7 +5,6 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\.cache\\dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\404.js"))),
   "component---src-pages-about-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\about.js"))),
   "component---src-pages-career-details-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\career-details.js"))),
@@ -16,7 +15,6 @@ exports.components = {
   "component---src-pages-doubts-landing-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\doubts-landing.js"))),
   "component---src-pages-faq-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\faq.js"))),
   "component---src-pages-for-schools-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\for-schools.js"))),
-  "component---src-pages-generate-zip-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\generateZip.js"))),
   "component---src-pages-grade-10-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\grade10.js"))),
   "component---src-pages-grade-8-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\grade8.js"))),
   "component---src-pages-grade-9-js": hot(preferDefault(require("C:\\Users\\as\\Desktop\\New folder (7)\\rankpedia\\src\\pages\\grade9.js"))),

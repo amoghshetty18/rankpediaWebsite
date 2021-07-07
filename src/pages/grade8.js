@@ -13,8 +13,6 @@ import Screenshots from "../sections/practicetest/Screenshots";
 import Testimonial from "../sections/practicetest/Testimonial";
 import Promo from "../sections/practicetest/Promo";
 
-import { pdfjs } from 'react-pdf';
-import { Document } from 'react-pdf'
 
 import Infocard from "../sections/faq/Infocard";
 import GetinTouch from "../components/GetinTouch";
@@ -24,7 +22,7 @@ import GetinTouch from "../components/GetinTouch";
 import MusicArea from "../sections/grade8/MusicArea";
 import MusicArea2 from "../sections/grade8/MusicArea2";
 
-import {generateZip, generateZipFromCloud} from './generateZip';
+// import {generateZip, generateZipFromCloud} from './generateZip';
 
 const { TabPane } = Tabs;
 
@@ -139,7 +137,7 @@ const Grade8 = () => {
         </a> */}
 
 
-  <Document file="https://drive.google.com/file/d/17URn5YRbnfpcPq3N2gJzxGb4e0992Xd9/view?usp=sharing" /> 
+ 
 
 
     <MusicArea className=" pt-13 pt-md-18 pt-lg-14 pb-9 pb-md-13 pb-lg-28" />
