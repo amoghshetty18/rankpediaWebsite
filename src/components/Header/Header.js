@@ -45,7 +45,7 @@ const Header = () => {
         <div className="header-menu-container-earlier">
           <nav className="navbar site-navbar offcanvas-active navbar-expand-lg  px-0" id="header-nav">
             {/* <!-- Brand Logo--> */}
-            <div className="brand-logo mt-3 mt-md-0">
+            <div className="brand-logo mt-3 mt-md-0" id="rank-lgstr-vuag">
               <Logo />
             </div>
 
