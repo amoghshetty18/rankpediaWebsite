@@ -136,7 +136,7 @@ const Grade8 = () => {
         </a> */}
 
 
-<a href ="https://www.w3schools.com/images/myw3schoolsimage.jpg" download > <img src="https://www.w3schools.com/images/myw3schoolsimage.jpg" alt="W3Schools" ></img> </a>  
+
 
 
     <MusicArea className=" pt-13 pt-md-18 pt-lg-14 pb-9 pb-md-13 pb-lg-28" />
