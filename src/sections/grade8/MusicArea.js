@@ -31,7 +31,37 @@ const getDataFromURL = async (url) => {
 }
 const MusicArea = ({ className, ...rest }) => {
 
+  const download=async (src)=>{
+    const method="GET";
+  //  const src="https://drive.google.com/file/d/17URn5YRbnfpcPq3N2gJzxGb4e0992Xd9/view?usp=sharing"
+    const data=await axios.get(src,{
+      responseType:'blob'
+    })
+    console.log(data.data);
+    const downloadUrl = window.URL.createObjectURL(new Blob([data.data]));
+        const link = document.createElement('a');
+        link.href = downloadUrl;
+        link.setAttribute('download', '8-maths1-v1.zip'); //any other extension
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+  }
 
+  const download1=async (src)=>{
+    const method="GET";
+  //  const src="https://drive.google.com/file/d/17URn5YRbnfpcPq3N2gJzxGb4e0992Xd9/view?usp=sharing"
+    const data=await axios.get(src,{
+      responseType:'blob'
+    })
+    console.log(data.data);
+    const downloadUrl = window.URL.createObjectURL(new Blob([data.data]));
+        const link = document.createElement('a');
+        link.href = downloadUrl;
+        link.setAttribute('download', '8-science1-v2.zip'); //any other extension
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+  }
 
 
   return (
@@ -78,7 +108,7 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Maths
                 </h5>
-                <p className="dwnlds-crts-str">Download course structure</p>
+                <p className="dwnlds-crts-str" onClick={()=>download('/Grade8/Syllabus/8-maths1-v1.zip')}>Download course structure</p>
               
                  {/* <DownloadLink
                 className="dwnlds-crts-str"
@@ -116,7 +146,7 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Science
                 </h5>
-                <p className="dwnlds-crts-str">Download course structure</p>
+                <p className="dwnlds-crts-str"  onClick={()=>download1('/Grade8/Syllabus/8-science1-v2.zip')} >Download course structure</p>
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
