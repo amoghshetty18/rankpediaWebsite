@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
 
+
+import axios from 'axios'
+
 import imgM from "../../assets/image/home-5/png/music-headphone.png";
 import imgM2 from "../../assets/image/home-5/png/music-headphone-2.png";
 import imgM3 from "../../assets/image/home-5/png/music-headphone-3.png";
@@ -11,6 +14,88 @@ import ssimg from "../../assets/image/home/socialscience.png";
 import hindiimg from "../../assets/image/home/hindi.png";
 
 const MusicArea = ({ className, ...rest }) => {
+
+  const downloadenglish=async (src)=>{
+    const method="GET";
+  //  const src="https://drive.google.com/file/d/17URn5YRbnfpcPq3N2gJzxGb4e0992Xd9/view?usp=sharing"
+    const data=await axios.get(src,{
+      responseType:'blob'
+    })
+    console.log(data.data);
+    const downloadUrl = window.URL.createObjectURL(new Blob([data.data]));
+        const link = document.createElement('a');
+        link.href = downloadUrl;
+        link.setAttribute('download', '9-English.zip'); //any other extension
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+  }
+
+  const downloadmaths=async (src)=>{
+    const method="GET";
+  //  const src="https://drive.google.com/file/d/17URn5YRbnfpcPq3N2gJzxGb4e0992Xd9/view?usp=sharing"
+    const data=await axios.get(src,{
+      responseType:'blob'
+    })
+    console.log(data.data);
+    const downloadUrl = window.URL.createObjectURL(new Blob([data.data]));
+        const link = document.createElement('a');
+        link.href = downloadUrl;
+        link.setAttribute('download', '9-Maths.zip'); //any other extension
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+  }
+
+  const downloadscience=async (src)=>{
+    const method="GET";
+  //  const src="https://drive.google.com/file/d/17URn5YRbnfpcPq3N2gJzxGb4e0992Xd9/view?usp=sharing"
+    const data=await axios.get(src,{
+      responseType:'blob'
+    })
+    console.log(data.data);
+    const downloadUrl = window.URL.createObjectURL(new Blob([data.data]));
+        const link = document.createElement('a');
+        link.href = downloadUrl;
+        link.setAttribute('download', '9-Science.zip'); //any other extension
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+  }
+
+  const downloadss=async (src)=>{
+    const method="GET";
+  //  const src="https://drive.google.com/file/d/17URn5YRbnfpcPq3N2gJzxGb4e0992Xd9/view?usp=sharing"
+    const data=await axios.get(src,{
+      responseType:'blob'
+    })
+    console.log(data.data);
+    const downloadUrl = window.URL.createObjectURL(new Blob([data.data]));
+        const link = document.createElement('a');
+        link.href = downloadUrl;
+        link.setAttribute('download', '9-Socialstudies.zip'); //any other extension
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+  }
+
+  const downloadhindi=async (src)=>{
+    const method="GET";
+  //  const src="https://drive.google.com/file/d/17URn5YRbnfpcPq3N2gJzxGb4e0992Xd9/view?usp=sharing"
+    const data=await axios.get(src,{
+      responseType:'blob'
+    })
+    console.log(data.data);
+    const downloadUrl = window.URL.createObjectURL(new Blob([data.data]));
+        const link = document.createElement('a');
+        link.href = downloadUrl;
+        link.setAttribute('download', '9-Hindi.zip'); //any other extension
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+  }
+
+
   return (
     <div className={className} {...rest}>
       <div className="container">
@@ -52,7 +137,7 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   English
                 </h5>
-                <p className="dwnlds-crts-str">Download course structure</p>
+                <p className="dwnlds-crts-str" onClick={()=>downloadenglish('/Grade9/NCERTBooks/English.zip')}>Download course structure</p>
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
@@ -79,7 +164,7 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Maths
                 </h5>
-                <p className="dwnlds-crts-str">Download course structure</p>
+                <p className="dwnlds-crts-str" onClick={()=>downloadmaths('/Grade9/NCERTBooks/Maths.zip')}>Download course structure</p>
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
@@ -106,7 +191,7 @@ const MusicArea = ({ className, ...rest }) => {
                <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Science
                 </h5>
-                <p className="dwnlds-crts-str">Download course structure</p>
+                <p className="dwnlds-crts-str" onClick={()=>downloadscience('/Grade9/NCERTBooks/Science.zip')}>Download course structure</p>
                  {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
@@ -133,7 +218,7 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Social Studies
                 </h5>
-                <p className="dwnlds-crts-str">Download course structure</p>
+                <p className="dwnlds-crts-str" onClick={()=>downloadss('/Grade9/NCERTBooks/Ss.zip')}>Download course structure</p>
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
@@ -163,7 +248,7 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Hindi
                 </h5>
-                <p className="dwnlds-crts-str">Download course structure</p>
+                <p className="dwnlds-crts-str" onClick={()=>downloadhindi('/Grade9/NCERTBooks/Hindi.zip')}>Download course structure</p>
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
