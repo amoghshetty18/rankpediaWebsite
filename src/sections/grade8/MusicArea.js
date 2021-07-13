@@ -108,7 +108,7 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Maths
                 </h5>
-                <p className="dwnlds-crts-str" onClick={()=>download('/Grade8/Syllabus/8-maths1-v1.zip')}>Download course structure</p>
+                <p className="dwnlds-crts-str" onClick={()=>download('/static/Grade8/Syllabus/8-maths1-v1.zip')}>Download course structure</p>
               
                  {/* <DownloadLink
                 className="dwnlds-crts-str"
@@ -146,7 +146,7 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Science
                 </h5>
-                <p className="dwnlds-crts-str"  onClick={()=>download1('/Grade8/Syllabus/8-science1-v2.zip')} >Download course structure</p>
+                <p className="dwnlds-crts-str"  onClick={()=>download1('/static/Grade8/Syllabus/8-science1-v2.zip')} >Download course structure</p>
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
