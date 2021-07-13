@@ -264,12 +264,14 @@ const MusicArea = ({ className, ...rest }) => {
 
                 <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/10-Hindi.zip"> <p className="dwnlds-crts-str">Download course structure</p></a>
 
+
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
                 >
                   Buy now
                 </Link> */}
+
               </div>
             </div>
             {/* end single card */}
