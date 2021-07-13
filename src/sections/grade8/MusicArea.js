@@ -108,8 +108,8 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Maths
                 </h5>
-                <p className="dwnlds-crts-str" onClick={()=>download('/assets/Grade8/Syllabus/8-maths1-v1.zip')}>Download course structure</p>
-              
+                {/* <p className="dwnlds-crts-str" onClick={()=>download('/assets/Grade8/Syllabus/8-maths1-v1.zip')}>Download course structure</p> */}
+              <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/8-maths1-v1.zip">  <p className="dwnlds-crts-str">Download course structure</p> </a>
                  {/* <DownloadLink
                 className="dwnlds-crts-str"
     label="Download course structure"
@@ -146,7 +146,8 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Science
                 </h5>
-                <p className="dwnlds-crts-str"  onClick={()=>download1('/assets/Grade8/Syllabus/8-science1-v2.zip')} >Download course structure</p>
+                {/* <p className="dwnlds-crts-str"  onClick={()=>download1('/assets/Grade8/Syllabus/8-science1-v2.zip')} >Download course structure</p> */}
+          <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/8-science1-v2.zip"> <p className="dwnlds-crts-str" >Download course structure</p> </a>
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
