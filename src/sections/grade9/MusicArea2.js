@@ -137,7 +137,10 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   English
                 </h5>
-                <p className="dwnlds-crts-str" onClick={()=>downloadenglish('/Grade9/NCERTBooks/English.zip')}>Download course structure</p>
+                {/* <p className="dwnlds-crts-str" onClick={()=>downloadenglish('/Grade9/NCERTBooks/English.zip')}>Download course structure</p> */}
+               
+                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/9-English.zip"> <p className="dwnlds-crts-str">Download course structure</p></a>
+               
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
@@ -164,7 +167,10 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Maths
                 </h5>
-                <p className="dwnlds-crts-str" onClick={()=>downloadmaths('/Grade9/NCERTBooks/Maths.zip')}>Download course structure</p>
+                {/* <p className="dwnlds-crts-str" onClick={()=>downloadmaths('/Grade9/NCERTBooks/Maths.zip')}>Download course structure</p> */}
+               
+                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/9-Maths.zip"> <p className="dwnlds-crts-str">Download course structure</p></a>
+               
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
@@ -191,7 +197,10 @@ const MusicArea = ({ className, ...rest }) => {
                <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Science
                 </h5>
-                <p className="dwnlds-crts-str" onClick={()=>downloadscience('/Grade9/NCERTBooks/Science.zip')}>Download course structure</p>
+                {/* <p className="dwnlds-crts-str" onClick={()=>downloadscience('/Grade9/NCERTBooks/Science.zip')}>Download course structure</p> */}
+
+                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/9-Science.zip"> <p className="dwnlds-crts-str">Download course structure</p></a>
+
                  {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
@@ -218,7 +227,10 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Social Studies
                 </h5>
-                <p className="dwnlds-crts-str" onClick={()=>downloadss('/Grade9/NCERTBooks/Ss.zip')}>Download course structure</p>
+                {/* <p className="dwnlds-crts-str" onClick={()=>downloadss('/Grade9/NCERTBooks/Ss.zip')}>Download course structure</p> */}
+
+                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/9-Social-Science.zip"> <p className="dwnlds-crts-str">Download course structure</p></a>
+
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
@@ -248,7 +260,10 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Hindi
                 </h5>
-                <p className="dwnlds-crts-str" onClick={()=>downloadhindi('/Grade9/NCERTBooks/Hindi.zip')}>Download course structure</p>
+                {/* <p className="dwnlds-crts-str" onClick={()=>downloadhindi('/Grade9/NCERTBooks/Hindi.zip')}>Download course structure</p> */}
+
+                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/9-Hindi.zip"> <p className="dwnlds-crts-str">Download course structure</p></a>
+
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
