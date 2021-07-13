@@ -239,7 +239,7 @@ const Section5 = ({ className, ...rest }) => {
  
          
  
-             <div className="content-img ">
+             <div className="content-img " id="twsdf-fgdrt">
              <div className="l6-content-image-group-2-new">
                <div className="img-1">
                  <img
