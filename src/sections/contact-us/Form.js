@@ -9,10 +9,12 @@ import Aos from 'aos'
 import "aos/dist/aos.css"
 import { useForm, ReuseForm } from './useForm'
 import SelectDropdown from './SelectDropdown'
+import Popup from './popup'
+import axios from 'axios'
 
 const initialValues = {
   fullName: '',
-  type: '',
+  // type: '',
   location: '',
   state: '',
   district: '',
@@ -22,7 +24,7 @@ const initialValues = {
 }
 
 const Form = () => {
-
+const [showpop, isshowpop] = useState(false)
   const [formError, setFormError] = useState({})
 
   const [states, setStates] = useState([])
@@ -70,14 +72,55 @@ const Form = () => {
   }
 
   const {values, setValues, handleChange} = useForm(initialValues)
+// const formrest= () =>{
 
+//     values.fullName= '',
+//     values.type='',
+//     values.location= '',
+//     values.state= '',
+//     values.district= '',
+//     values.number= '',
+//     values.message= ''
+//   console.log("value")
+// }
   const handleSubmit = (e) => {
     e.preventDefault()
     if(validations()) {
-      alert('hello congrats')
+    const data = {
+      name: values.fullName,
+      looking_for: values.type,
+      location: values.location,
+      state: values.state,
+      district: values.district,
+      email:  values.email,
+      mobile: values.number,
+      message: values.message
+    };
+    axios
+      .post("https://3k06rt8n4h.execute-api.ap-south-1.amazonaws.com/local/api/admin/sendContactForm", data)
+      .then(res => {
+        if(res.status == 200)
+        {
+         
+          isshowpop(true);
+        }
+      })
+      .catch(err => console.log(err));
+      // alert("we will getback to you shortly")
     }
   }
-
+  const hadelformmodal =() =>
+  {
+    values.fullName= '' 
+    // values.type=''
+    values.location= ''
+    values.state= ''
+    values.email=''
+    values.district= ''
+    values.number= ''
+    values.message= ''
+    isshowpop(false);
+  }
   return (
     <div className='row justify-content-end contact-form-container'>
       <div  
@@ -241,6 +284,31 @@ const Form = () => {
       >
         <Map />
       </div>
+      {showpop?
+      <div className="container-full">
+      <div className="popupSuccess">
+      <div className="popup_innerSuccess text-center p-5">
+        <img
+          src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626443217/done_icon_hfsyl7.svg"
+          alt="rightLogo"
+          className="popupSuccessIcon"
+        />
+        <div className="popupSuccessTitle pt-3 pb-2">Successful</div>
+        <div className="popupSuccessContent pb-4">
+          Thank You For Choosing Rankpedia
+        </div>{" "}
+        <div className="text-center mb-3">
+          {" "}
+          <button
+            className="btn pt-3 pb-3 pl-5 pr-5 PopupSuccessBtn"  onClick={hadelformmodal} 
+          >
+            Done
+          </button>
+        </div>
+      </div>
+    </div>
+    </div>
+:null}
     </div>
   )
 }

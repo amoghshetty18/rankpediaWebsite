@@ -37,6 +37,7 @@ import "../../assets/fonts/fontawesome-5/css/all.css";
 import "../../assets/scss/bootstrap.scss";
 import "../../assets/scss/main.scss";
 import "../../assets/scss/sha.scss";
+import "../../assets/scss/popup.scss";
 
 const Loader = styled.div`
   position: fixed;
