@@ -1,12 +1,49 @@
 import React from "react";
 import { Link } from "gatsby";
 
+
+import axios from 'axios'
+
 import imgM from "../../assets/image/home-5/png/music-headphone.png";
 import imgM2 from "../../assets/image/home-5/png/music-headphone-2.png";
 import imgM3 from "../../assets/image/home-5/png/music-headphone-3.png";
 import imgM4 from "../../assets/image/home-5/png/music-headphone-4.png";
 
 const MusicArea = ({ className, ...rest }) => {
+
+  const download=async (src)=>{
+    const method="GET";
+  //  const src="https://drive.google.com/file/d/17URn5YRbnfpcPq3N2gJzxGb4e0992Xd9/view?usp=sharing"
+    const data=await axios.get(src,{
+      responseType:'blob'
+    })
+    console.log(data.data);
+    const downloadUrl = window.URL.createObjectURL(new Blob([data.data]));
+        const link = document.createElement('a');
+        link.href = downloadUrl;
+        link.setAttribute('download', '9-maths1-v1.zip'); //any other extension
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+  }
+
+  const download1=async (src)=>{
+    const method="GET";
+  //  const src="https://drive.google.com/file/d/17URn5YRbnfpcPq3N2gJzxGb4e0992Xd9/view?usp=sharing"
+    const data=await axios.get(src,{
+      responseType:'blob'
+    })
+    console.log(data.data);
+    const downloadUrl = window.URL.createObjectURL(new Blob([data.data]));
+        const link = document.createElement('a');
+        link.href = downloadUrl;
+        link.setAttribute('download', '9-science-v1.zip'); //any other extension
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+  }
+
+
   return (
     <div className={className} {...rest}>
       <div className="container">
@@ -48,7 +85,10 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Maths
                 </h5>
-                <p className="dwnlds-crts-str">Download course structure</p>
+                {/* <p className="dwnlds-crts-str" onClick={()=>download('/Grade9/Syllabus/9-maths1-v1.zip')}>Download course structure</p> */}
+                
+                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/9-maths1-v1.zip"> <p className="dwnlds-crts-str">Download course structure</p></a>
+                
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
@@ -75,7 +115,10 @@ const MusicArea = ({ className, ...rest }) => {
                 <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
                   Science
                 </h5>
-                <p className="dwnlds-crts-str">Download course structure</p>
+                {/* <p className="dwnlds-crts-str" onClick={()=>download1('/Grade9/Syllabus/9-science-v1.zip')}>Download course structure</p> */}
+
+                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/9-science-v1.zip"> <p className="dwnlds-crts-str">Download course structure</p></a>
+
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"

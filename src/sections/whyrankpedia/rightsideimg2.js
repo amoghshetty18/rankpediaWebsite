@@ -47,7 +47,7 @@ const Rightsideimg2 = (props) => {
               id="jyjn-jbnvgrd"
             >
              
-             <img className="why-pkd-fig rounded-10" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624956260/why-rankpedia_b69cfd.jpg"/>
+             <img className="why-pkd-fig rounded-10" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625559506/why-rankpedia_b69cfd_lxj4e4.jpg"/>
                 {/* <img className="why-pkd-fig" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622400485/Group_247_qi0bq6.png"/> */}
               
             </div>
@@ -86,7 +86,7 @@ const Rightsideimg2 = (props) => {
               id="jyjn-jbnvgrd"
             >
              
-             <img className="why-pkd-fig rounded-10" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624956260/why-rankpedia_b69cfd.jpg"/>
+             <img className="why-pkd-fig rounded-10" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625559506/why-rankpedia_b69cfd_lxj4e4.jpg"/>
                 {/* <img className="why-pkd-fig" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622400485/Group_247_qi0bq6.png"/> */}
               
             </div>

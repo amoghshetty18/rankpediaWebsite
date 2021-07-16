@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-
+import '../../css/styles.css'
 import homesection1 from "../../assets/image/home/enagage.png";
 import homesection2 from "../../assets/image/home/l6-content2-img.png";
 import homesection3 from "../../assets/image/home/enrich.png";
@@ -23,7 +23,7 @@ const Section1 =  ({ className, ...rest }) => {
   return (
     <>
       <div className={className} {...rest}>
-      <div class="hero-area position-relative " id="roller-bnr">
+        <div class="hero-area position-relative" style={{overflow: 'hidden'}} id="roller-bnr">
       
       <div class="container">
         <div class="row justify-content-center align-items-center">
@@ -39,7 +39,19 @@ const Section1 =  ({ className, ...rest }) => {
           <div class="col-lg-4 col-md-9 order-lg-2">
             <div class="hero-img" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <div class="hero-video-thumb position-relative">
-              <img src={ homebanner } class="clrs-rtd rounded-8" alt="" />
+              {/* <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625508835/banner-0ff164b5601283a714f182a6c289998b_1_-min_fcvjts.png" } class="clrs-rtd rounded-8" alt="" /> */}
+                <div className='blob-container'>
+                  <img id='main-background-img' src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626160479/home-page/banner_mggspd.png" alt="" />
+                  <div className='blob1'>
+        
+                  </div>
+                  <div className='blob2'>
+                    <img className="science" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png" alt="" />
+                    <img className="bulb" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/light-bulb_1_lmqgdn.png" alt="" />
+                    <img className="book" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/Books_kdj8sd.png" alt="" />
+                    <img className="graduation" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/graduation_1_ueocam.png" alt="" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

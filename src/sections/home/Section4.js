@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "gatsby";
 import Slider from "react-slick";
 import { Container, Row, Col } from "react-bootstrap";
-
+import planetsVideo from '../../assets/iStock-670751262.mp4'
 import img1 from "../../assets/image/home-1/png/analytics.png";
 import img2 from "../../assets/image/home-1/png/business-agent.png";
 import img3 from "../../assets/image/home-1/png/code.png";
@@ -232,9 +232,9 @@ const Section4 = ({ className, ...rest }) => {
     <>
       <div className={className} {...rest}>
        
-      <div class="content-section  pt-25 pb-35 bg-default-4" id="heth">
+      <div class="content-section  pt-8 pb-35 bg-default-4" id="heth">
       <div class="container">
-        <div class="row align-items-center pt-20">
+        <div class="row align-items-center pt-10">
           <div class="col-lg-6" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
             {/* <div class="content-img sxrty">
             <img src={ homesection3 } alt="" />
@@ -242,8 +242,8 @@ const Section4 = ({ className, ...rest }) => {
 
         
 
-            <div className="content-img ">
-            <div className="l6-content-image-group-2-new">
+          <div className="content-img ">
+                  <div className="l6-content-image-group-2-new" id="homepage-video-container">
               <div className="img-1">
                 <img
                   className=""
@@ -254,13 +254,16 @@ const Section4 = ({ className, ...rest }) => {
                 />
               </div>
               <div className="img-2">
-                <img
+                {/* <img
                   className="ltrdtyu"
                   src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621251206/Image_jiq2mb.png"}
                   alt=""
                   data-aos="fade-right"
                   data-aos-delay={500}
-                />
+                /> */}
+                <video className="planets-video" width="600" height="480" autoplay="autoplay" loop muted playsinline>
+                  <source src={planetsVideo} type="video/mp4" />
+                </video>
               </div>
             </div>
           </div>
@@ -328,9 +331,9 @@ const Section4 = ({ className, ...rest }) => {
 
 
 
-<div class="row align-items-center justify-content-center mt-30">
+<div class="row align-items-center justify-content-center mt-0">
 
-<div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 mt-30 formob" id="slhlkjvn">
+<div class="col-10 col-lg-6 col-xl-6 pr-xl-13 order-lg-1 mt-15 formob" id="slhlkjvn">
   <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
     <h2 class="title gr-text-3 mb-6 engag">Doubt-solving Sessions</h2>
     <p class="gr-text-8 clscls">

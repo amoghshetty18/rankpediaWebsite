@@ -1,6 +1,8 @@
 import React from "react";
 import { Tabs } from 'antd';
 
+import axios from 'axios'
+
 import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/practicetest/Hero";
 import CTA from "../sections/practicetest/CTA";
@@ -21,13 +23,46 @@ import GetinTouch from "../components/GetinTouch";
 import MusicArea from "../sections/grade8/MusicArea";
 import MusicArea2 from "../sections/grade8/MusicArea2";
 
+// import {generateZip, generateZipFromCloud} from './generateZip';
+
 const { TabPane } = Tabs;
 
 function callback(key) {
   console.log(key);
 }
 
+class DownloadLink extends React.Component {
+  render() {
+      return (
+          <a href={this.props.src} download>{this.props.children}</a>
+      )
+  }
+}
+
+
 const Grade8 = () => {
+
+  // const downloadFile = () => {
+  //   window.location.href = "https://yoursite.com/src/assets/files/exampleDoc.pdf"
+  // }
+
+  const download=async (src)=>{
+    const method="GET";
+  //  const src="https://drive.google.com/file/d/17URn5YRbnfpcPq3N2gJzxGb4e0992Xd9/view?usp=sharing"
+    const data=await axios.get(src,{
+      responseType:'blob'
+    })
+    console.log(data.data);
+    const downloadUrl = window.URL.createObjectURL(new Blob([data.data]));
+        const link = document.createElement('a');
+        link.href = downloadUrl;
+        link.setAttribute('download', '8-maths1-v1.pdf'); //any other extension
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+  }
+
+
   return (
     <>
      <PageWrapper
@@ -129,6 +164,14 @@ const Grade8 = () => {
     <TabPane tab="Syllabus" key="1">
       
 
+    {/* <a onClick={generateZip} target="_blank">
+          Click here to download
+        </a> */}
+
+
+{/* <DownloadLink src="../sections/grade8/8science.pdf" >Click Here</DownloadLink> */}
+
+{/* <span  onClick={()=>download('/8-maths1-v1.pdf')} >download</span> */}
 
 
     <MusicArea className=" pt-13 pt-md-18 pt-lg-14 pb-9 pb-md-13 pb-lg-28" />

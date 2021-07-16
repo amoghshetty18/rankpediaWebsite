@@ -36,7 +36,7 @@ const Login = () => {
                 <div
                   className="bg-images min-h-107 vin-height-100vh d-none d-lg-block"
                   css={`
-                    background-image: url(${imgBg});
+                    background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625562505/sign-in-right-img-6f1a1f6ee7f4a4bfb3e3bfb71ac7072c_lhbegr.jpg");
                   `}
                 />
               </div>
