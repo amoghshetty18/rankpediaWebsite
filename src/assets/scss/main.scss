@@ -138,6 +138,7 @@ body {
   --btn-border: rgba(3, 3, 3, 0.3);
   --border-color:#e7e9ed;
   --border-color-2:#eae9f2;
+  font-family: 'Roboto', sans-serif;
 }
 
 .default-logo, .default-shape {
@@ -239,6 +240,7 @@ body[data-theme='light'] .default-logo, body[data-theme='light'] .default-shape,
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .btn-hover-translate-none:hover {
