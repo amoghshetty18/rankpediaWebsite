@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6{
   animation: rotateBlobs 16s linear infinite;
   /* background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626159756/home-page/book_razn94.png"); */
 }
-/* 
+
 .science {
   z-index: 10;
   top: 55px;
@@ -309,9 +309,9 @@ h1, h2, h3, h4, h5, h6{
   bottom: 203px;
   right: -23px;
   height: 80px;
-} */
+}
 
-.science {
+/* .science {
   z-index: 10;
   top: 260px;
   position: absolute;
@@ -343,7 +343,7 @@ h1, h2, h3, h4, h5, h6{
   bottom: -45px;
   right: 321px;
   height: 80px;
-}
+} */
 
 
 @keyframes rotateBlobs{
@@ -368,6 +368,10 @@ h1, h2, h3, h4, h5, h6{
   }
   #main-background-img {
     left: 21px;
+  }
+  .graduation {
+    bottom: 11px;
+    right: -31px;
   }
 }
 
@@ -394,8 +398,19 @@ h1, h2, h3, h4, h5, h6{
     top: 36px;
   }
   .bulb {
-    top: 123px;
-    right: 443px;
+    top: 352px;
+    right: 554px;
+
+  }
+  .science {
+    top: 70px;
+    right: 166px;
+  }
+  .book {
+    left: 98px;
+  }
+  .graduation {
+    right: 95px;
   }
 }
 
@@ -403,14 +418,38 @@ h1, h2, h3, h4, h5, h6{
   .blob-container {
     right: 124px;
   }
+  .blob1 {
+    width: 400px;
+    left: 120px;
+  }
+  .blob2 {
+    width: 400px;
+    left: 120px;
+  }
+  .science {
+    top: 85px;
+    right: 186px;
+  }
+  .graduation {
+    right: 155px;
+    bottom: 62px;
+  }
+  .book {
+    left: 130px;
+    top: 85px;
+  }
+  .bulb {
+    top: 310px;
+    right: 510px;
+  }
 }
 
 @media screen and (max-width: 390px) {
   #main-background-img {
-    height: 400px;
-    left: 78px;
-    width: 425px;
-    top: 90px;
+    height: 350px;
+    left: 99px;
+    width: 400px;
+    top: 137px;
   }
   .blob1 {
     width: 450px;

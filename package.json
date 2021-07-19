@@ -48,6 +48,7 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^4.4.1",
     "styled-system": "^5.1.5",
+    "sweetalert": "^2.1.2",
     "swiper": "^6.7.0",
     "validator": "^13.6.0"
   },
