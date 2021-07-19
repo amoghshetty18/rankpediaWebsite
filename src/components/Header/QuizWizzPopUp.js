@@ -70,7 +70,8 @@ const QuizWizzPopUp = (props) => {
       <a href="#">
         <button 
           className="btn btn btn-blue-3 header-btn1 head-login fnt-fmly"
-          onClick={handleToggle}>
+          onClick={handleToggle}
+        >
           Submit     <i className="fas fa-arrow-right ml-5"></i>
         </button>
       </a>
