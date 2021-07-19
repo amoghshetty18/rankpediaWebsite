@@ -11,6 +11,7 @@ import { useForm, ReuseForm } from './useForm'
 import SelectDropdown from './SelectDropdown'
 import Popup from './popup'
 import axios from 'axios'
+import swal from 'sweetalert'
 
 const initialValues = {
   fullName: '',
@@ -63,7 +64,7 @@ const [showpop, isshowpop] = useState(false)
     validator.isEmpty(`${values.email}`) ? temp.email = "This field is required" : temp.email = ""
     validator.isEmail(`${values.email}`) ? temp.email = "" : temp.email = "Invalid E-Mail format"
     temp.number = values.number ? "" : "This field is required"
-    temp.number = values.number.length > 9 ? "" : "Minimum 10 digits required"
+    temp.number = values.number.length == 10 ? "" : "10 digits required"
     setFormError({
       ...temp
     })
@@ -72,17 +73,7 @@ const [showpop, isshowpop] = useState(false)
   }
 
   const {values, setValues, handleChange} = useForm(initialValues)
-// const formrest= () =>{
 
-//     values.fullName= '',
-//     values.type='',
-//     values.location= '',
-//     values.state= '',
-//     values.district= '',
-//     values.number= '',
-//     values.message= ''
-//   console.log("value")
-// }
   const handleSubmit = (e) => {
     e.preventDefault()
     if(validations()) {
@@ -107,20 +98,25 @@ const [showpop, isshowpop] = useState(false)
       })
       .catch(err => console.log(err));
       // alert("we will getback to you shortly")
+      swal("Done!", "Thank You for Choosing Rankpedia!", "success");
+      setValues({
+        ...initialValues
+      })
     }
   }
-  const hadelformmodal =() =>
-  {
-    values.fullName= '' 
-    // values.type=''
-    values.location= ''
-    values.state= ''
-    values.email=''
-    values.district= ''
-    values.number= ''
-    values.message= ''
-    isshowpop(false);
-  }
+
+  // const hadelformmodal =() =>
+  // {
+  //   values.fullName= '' 
+  //   // values.type=''
+  //   values.location= ''
+  //   values.state= ''
+  //   values.email=''
+  //   values.district= ''
+  //   values.number= ''
+  //   values.message= ''
+  //   isshowpop(false);
+  // }
   return (
     <div className='row justify-content-end contact-form-container'>
       <div  
@@ -284,31 +280,31 @@ const [showpop, isshowpop] = useState(false)
       >
         <Map />
       </div>
-      {showpop?
+      {/* {showpop?
       <div className="container-full">
-      <div className="popupSuccess">
-      <div className="popup_innerSuccess text-center p-5">
-        <img
-          src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626443217/done_icon_hfsyl7.svg"
-          alt="rightLogo"
-          className="popupSuccessIcon"
-        />
-        <div className="popupSuccessTitle pt-3 pb-2">Successful</div>
-        <div className="popupSuccessContent pb-4">
-          Thank You For Choosing Rankpedia
-        </div>{" "}
-        <div className="text-center mb-3">
-          {" "}
-          <button
-            className="btn pt-3 pb-3 pl-5 pr-5 PopupSuccessBtn"  onClick={hadelformmodal} 
-          >
-            Done
-          </button>
+        <div className="popupSuccess">
+          <div className="popup_innerSuccess text-center p-5">
+            <img
+              src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626443217/done_icon_hfsyl7.svg"
+              alt="rightLogo"
+              className="popupSuccessIcon"
+            />
+            <div className="popupSuccessTitle pt-3 pb-2">Successful</div>
+            <div className="popupSuccessContent pb-4">
+              Thank You For Choosing Rankpedia
+            </div>{" "}
+            <div className="text-center mb-3">
+              {" "}
+              <button
+                className="btn pt-3 pb-3 pl-5 pr-5 PopupSuccessBtn"  onClick={hadelformmodal} 
+              >
+                Done
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
     </div>
-    </div>
-:null}
+:null} */}
     </div>
   )
 }
