@@ -113,7 +113,8 @@
     background: #F4F7FA !important;
     font-weight: 500;
     margin-top: 5px;
-    font: caption;
+    // font: caption;
+    font-family: "Roboto", sans-serif !important;
 }
 #accordianarrow .accordion__button:before
 {
