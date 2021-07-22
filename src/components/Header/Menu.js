@@ -15,8 +15,6 @@ import 'antd/dist/antd.css';
 
 const Menu = () => {
 
-  const [togglePopUp, setTogglePopUp] = useState(false)
-
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   const showModal = () => {
@@ -192,7 +190,7 @@ const Menu = () => {
                             </Button> */}
                             <Modal visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} footer={null}>
                               <img src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621923817/crown1_bsnzg3.png"} className="quizwizz-img" />
-                              <QuizWizzPopUp />
+                              <QuizWizzPopUp handleCancel={handleCancel} />
                             </Modal>
                           </>
 
