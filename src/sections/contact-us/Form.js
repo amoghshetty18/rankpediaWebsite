@@ -56,6 +56,7 @@ const Form = () => {
   }, [])
 
   const validations = () => {
+    console.log(typeof values.number)
     let temp = {}
     temp.fullName = values.fullName ? "" : "This field is required"
     temp.type = values.type ? "" : "This field is required"
@@ -65,6 +66,8 @@ const Form = () => {
     validator.isEmail(`${values.email}`) ? temp.email = "" : temp.email = "Invalid E-Mail format"
     if (values.number === '') {
       temp.number = "This field is required"
+    } else if (validator.isNumeric(values.number) === false ) {
+      temp.number = "Only Numeric Values Allowed"
     } else if (values.number.length < 10) {
       temp.number =  "10 digits required" 
     } else if (values.number.length > 10) {
@@ -232,14 +235,22 @@ const Form = () => {
                 </div>
 
                 <div className="my-7 col-md-6">
-                  <TextInput
-                    type='number'
-                    placeholder='+91'
-                    name='number'
-                    value={values.number}
-                    onChange={handleChange}
-                  />
-                  {formError.number && <span className="text-danger"> {formError.number} </span>}
+                  <div className="row">
+                    <div className="col-2 d-flex justify-content-center align-items-center" style={{display: 'inline'}}>
+                      <p className="m-0 pr-0" style={{fontSize: "1rem"}}>+91</p>
+                    </div>
+                    <div className="col-10 pl-0">
+                      <TextInput
+                        type='text'
+                        placeholder='Mobile'
+                        name='number'
+                        value={values.number}
+                        onChange={handleChange}
+                        maxlength='10'
+                      />
+                    </div>
+                    {formError.number && <span className="text-danger"> {formError.number} </span>}
+                  </div>
                 </div>
 
               </div>
