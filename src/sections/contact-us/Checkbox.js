@@ -11,9 +11,9 @@ const Checkbox = (props) => {
   })
 
   return (
-    <div className="form-check form-check-inline">
+    <div className="form-check form-check-inline" style={{alignItems: "flex-start"}}>
       <input 
-        className="form-check-input" 
+        className="form-check-input contact-us-form-checkbox" 
         type="checkbox" 
         checked={value} 
         onChange={ e => onChange(convertToDefaultEventPara(name, e.target.checked)) }

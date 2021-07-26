@@ -11,6 +11,7 @@ import {
 import GlobalContext from "../../context/GlobalContext";
 import imgC from "../../assets/image/inner-page/png/video-bg.png";
 import imgDP from "../../assets/image/home-2/png/dot-pattern-black.png";
+import '../../css/styles.css'
 
 const Rightsideimg = (props) => {
 
@@ -47,8 +48,9 @@ const Rightsideimg = (props) => {
 
 
         <div
-              className="bg-images d-flex align-items-center rounded-10 justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto
-            en-tmsr-ods"
+          className="bg-images d-flex align-items-center rounded-10 justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto
+          en-tmsr-ods"
+          style={{paddingBottom: 0}}
             >
              
                 <img className="why-pkd-fig rounded-10" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625559506/shutterstock_414856957-min_vusnxi_mwdtkk.jpg"/>
@@ -63,7 +65,7 @@ const Rightsideimg = (props) => {
           <p className="gr-text-8 clscls">
           Experiential learning integrates facts, concepts, and theories into hands-on tasks, resulting in real-world solutions. The experiential curriculum thereby mimics the ‘real’ society. 
         </p>  
-        <p className="gr-text-8 clscls">
+        <p className="gr-text-8 clscls" id="pTag-correction-why-rankpedia">
         <b>Student’s voice validating this point - It is easier when I know how it is going to help me in the ‘real world’.</b>
         </p>
          </div> 
@@ -82,9 +84,10 @@ const Rightsideimg = (props) => {
 
 
         <div
-              className="mt-md-10 bg-images d-flex align-items-center rounded-10 justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto
-            en-tmsr-ods"
-            >
+          className="mt-md-10 bg-images d-flex align-items-center rounded-10 justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto
+          en-tmsr-ods"
+          id="why-rankpedia-div-correction"
+        >
              
                 <img className="why-pkd-fig rounded-10" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625559506/shutterstock_414856957-min_vusnxi_mwdtkk.jpg"/>
               
