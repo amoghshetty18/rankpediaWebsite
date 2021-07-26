@@ -37,13 +37,14 @@ const Mentorlanding = () => {
       >
           {/* Start of banner section */}
         <Banner 
-        bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621575884/Group_254-min_tphob2.jpg"
-        BannerTitle="Meet Our Expert Educators and Early Achievers!"
-        BannerContent="Get comprehensive education at your fingertips."
-        BannerbtnText="Get started"/>
+          bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627299162/mentors-landing/image_lem8so.jpg"
+          BannerTitle="Meet Our Expert Educators and Early Achievers!"
+          BannerContent="Get comprehensive education at your fingertips."
+          BannerbtnText="Get started"
+        />
         {/* End of banner section */}
        {/* Start of expert cards */}
-        <ExpertProfile/>
+        {/* <ExpertProfile/> */}
         {/*  End of expert cards */}
         {/* Start of Conversation card */}
         <Converstioncard 

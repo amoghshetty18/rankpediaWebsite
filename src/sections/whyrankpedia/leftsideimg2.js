@@ -16,7 +16,7 @@ const Leftsideimg2 = (props) => {
   const gContext = useContext(GlobalContext);
 
   return (
-    <div className="row mb-20 " id="lfl-udragl">
+    <div className="row" id="lfl-udragl">
       <div className="col-sm-6">
         <div className="Mobile-view">
         <h3 className="why-pdrspt-scxr mb-6">
@@ -53,7 +53,7 @@ const Leftsideimg2 = (props) => {
               data-aos-once="true"
             >
         {/* <div className="col-8"> */}
-        <h3 className="Desktop-view why-pdrspt-scxr mb-6">
+          <h3 id="why-rankpedia-h3-correction" className="Desktop-view why-pdrspt-scxr mb-6">
            2. Opportunity for Creativity 
           </h3> 
           <p className="gr-text-8 clscls">

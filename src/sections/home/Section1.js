@@ -75,10 +75,10 @@ const Section1 =  ({ className, ...rest }) => {
                 
                 <div className="blob-container">
                   <img id='main-background-img' src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626160479/home-page/banner_mggspd.png" alt="" />
-                  <img className="science" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png" alt="" />
-                  <img className="bulb" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/light-bulb_1_lmqgdn.png" alt="" />
-                  <img className="book" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/Books_kdj8sd.png" alt="" />
-                  <img className="graduation" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/graduation_1_ueocam.png" alt="" />
+                  <img className="science" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627282855/home-page/science_2_np2yys.png" alt="" />
+                  <img className="bulb" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627282855/home-page/light-bulb_1_tq3az2.png" alt="" />
+                  <img className="book" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627282855/home-page/agenda_1_qagpxq.png" alt="" />
+                  <img className="graduation" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627282854/home-page/graduation_1_tqjhnv.png" alt="" />
                 </div>
                 
               </div>

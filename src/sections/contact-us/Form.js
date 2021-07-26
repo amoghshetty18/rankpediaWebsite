@@ -117,7 +117,7 @@ const Form = () => {
       <div  
         data-aos="fade-right" 
         data-aos-once="false" 
-        className="col-sm-6 mb-8 contact-form"
+        className="col-lg-6 mb-8 contact-form"
       >
         {/* <h2 className="text-dark" >  Learn Anytime, Anywhere </h2> */}
         <h2 className="text-dark" style={{fontSize: "36px", textAlign: "center"}} >  Get in touch! </h2>
@@ -127,7 +127,7 @@ const Form = () => {
           <div className="card contact-us-card-form">
             <div className="card-content  shadow px-15 py-10">
               <div className="row">
-                <div className="my-7 col-md-6">
+                <div className="my-3 col-md-6">
                   <TextInput
                     type='text'
                     placeholder='Full Name'
@@ -137,7 +137,7 @@ const Form = () => {
                   />
                   {formError.fullName && <span className="text-danger"> {formError.fullName} </span>}
                 </div>
-                <div className="my-7 col-md-6">
+                <div className="my-3 col-md-6">
                   <TextInput
                     type='text'
                     placeholder='Location'
@@ -149,7 +149,7 @@ const Form = () => {
                 </div>
               </div>
 
-              <div className="my-7" id="sml-chjfo">
+              <div className="my-3" id="sml-chjfo">
                 <p className="mb-1">Looking For</p>
 
                 <Radio
@@ -170,7 +170,7 @@ const Form = () => {
               </div>
 
               <div className="row">
-                <div className="my-7 col-md-6">
+                <div className="my-3 col-md-6">
                   <SelectDropdown
                     placeholder='State'
                     name='state'
@@ -196,7 +196,7 @@ const Form = () => {
                   {formError.state && <span className="text-danger"> {formError.state} </span>}
                 </div>
 
-                <div className="my-7 col-md-6">
+                <div className="my-3 col-md-6">
                   <SelectDropdown
                     placeholder='District'
                     name='district'
@@ -222,7 +222,7 @@ const Form = () => {
               </div>
 
               <div className="row">
-                <div className="my-7 col-md-6">
+                <div className="my-3 col-md-6">
                   <TextInput
                     type='text'
                     placeholder='E-Mail'
@@ -234,7 +234,7 @@ const Form = () => {
                   {formError.email && <span className="text-danger"> {formError.email} </span>}
                 </div>
 
-                <div className="my-7 col-md-6">
+                <div className="my-3 col-md-6">
                   <div className="row">
                     <div className="col-2 d-flex justify-content-center align-items-center" style={{display: 'inline'}}>
                       <p className="m-0 pr-0" style={{fontSize: "1rem"}}>+91</p>
@@ -256,7 +256,7 @@ const Form = () => {
               </div>
 
               <textarea
-                className="form-control mb-5 text-area"
+                className="form-control my-3 text-area"
                 placeholder="Message"
                 name="message"
                 value={values.message}
@@ -285,7 +285,7 @@ const Form = () => {
       <div 
         data-aos="fade-left" 
         data-aos-once="false" 
-        className="col-sm-6 py-15 d-flex justify-content-center align-items-center" id="map" 
+        className="col-lg-6 py-15 d-flex justify-content-center align-items-center" id="map" 
       >
         <Map />
       </div>
