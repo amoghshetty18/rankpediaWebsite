@@ -111,8 +111,7 @@ const MusicArea = ({ className, ...rest }) => {
                 CBSE - Grade 9 
               </h2>
               <p className="font-size-7 mb-0">
-                Download the course structure to see the curriculum detail 
-                listed with subjects, chapters & sub-topics 
+                Download the NCERT books
               </p>
             </div>
           </div>
