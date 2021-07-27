@@ -3,40 +3,54 @@ import JobCard2 from "../../components/JobCard2";
 
 const items = [
   {
-    location: "South Haven, USA",
-    badgeText: "Full-time",
-    badgeColor: "#fff",
-    title: "Senior UX Designer",
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
+    quiztime: "Full-time",
+    // badgeColor: "#fff",
+    quizname: "Senior UX Designer",
+    quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },
   {
-    location: "Paucekchester, UK",
-    badgeText: "Part-time",
-    badgeColor: "buttercup",
-    title: "Marketing Manager",
-  },
-  {
-    location: "Noemieport, Norway",
-    badgeText: "Part-time",
-    badgeColor: "buttercup",
-    title: "Junior Call Support",
-  },
-  {
-    location: "Mooreville, Canada",
-    badgeText: "Part-time",
-    badgeColor: "buttercup",
-    title: "Project Manager",
-  },
-  {
-    location: "Anywhere",
-    badgeText: "Remote",
-    badgeColor: "blue-2",
-    title: "Senior Software Engineer",
-  },
-  {
-    location: "Vonstad, Spain",
-    badgeText: "Full-time",
-    badgeColor: "dark-green",
-    title: "Marketing Director",
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
+    quiztime: "Full-time",
+    // badgeColor: "#fff",
+    quizname: "Senior UX Designer",
+    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+  },{
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
+    quiztime: "Full-time",
+    // badgeColor: "#fff",
+    quizname: "Senior UX Designer",
+    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+  },{
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
+    quiztime: "Full-time",
+    // badgeColor: "#fff",
+    quizname: "Senior UX Designer",
+    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+  },{
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
+    quiztime: "Full-time",
+    // badgeColor: "#fff",
+    quizname: "Senior UX Designer",
+    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+  },{
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
+    quiztime: "Full-time",
+    // badgeColor: "#fff",
+    quizname: "Senior UX Designer",
+    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+  },{
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
+    quiztime: "Full-time",
+    // badgeColor: "#fff",
+    quizname: "Senior UX Designer",
+    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+  },{
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png  ",
+    quiztime: "Full-time",
+    // badgeColor: "#fff",
+    quizname: "Senior UX Designer",
+    quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },
 ];
 
@@ -65,15 +79,16 @@ const Jobs = () => {
         {/* career roles */}
         <div className="row mt-lg-9">
           {items.map((item, index) => (
-            <div className="col-lg-4 col-md-6 mt-9" key={index}>
-              <a
+            <div className="col-lg-4 col-md-6 mt-9"  key={index}>
+              
+              {/* <a
                 href="/#"
                 className="pt-9 pb-9 pl-11 pr-10 bg-white d-block rounded-0 shadow-2"
                 data-aos="fade-up"
                 data-aos-duration={900}
-              >
-                <JobCard2 options={item} />
-              </a>
+              > */}
+                <JobCard2 options={item} data-aos="fade-up" />
+              {/* </a> */}
             </div>
           ))}
         </div>

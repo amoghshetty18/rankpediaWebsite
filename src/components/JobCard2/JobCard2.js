@@ -3,7 +3,25 @@ import React from "react";
 const JobCard2 = ({ options }) => {
   return (
     <div>
-      <div className="d-flex justify-content-between align-items-center flex-wrap">
+      <a href={options.quizlink}>
+      <div className="d-flex bg-white d-xs-flex align-items-center px-9 py-10 mb-9 shadow-2 gr-hover-1">
+      {/* <div className="bg-white d-xs-flex align-items-center px-9 py-10 mb-9 shadow-2 gr-hover-1"> */}
+                  <div className="mr-10">
+                    <img className="square-116" src={options.image} alt="" />
+                  </div>
+                  <div className="mt-8 mt-xs-0">
+                    <h4 className="font-size-8 font-weight-medium text-dark-cloud mb-5 line-height-34">
+                     {options.quizname}
+                    </h4>
+                    <div className="d-flex align-items-center flex-wrap">
+                      <span className="text-bali-gray font-size-3 pr-9">
+                        <i className="fa fa-clock mr-2"></i>{options.quiztime}
+                      </span>
+                    </div>
+                  </div>
+                  </div>
+      {/* </div> */}
+      {/* <div className="d-flex justify-content-between align-items-center flex-wrap">
         <div className="d-flex align-items-center mb-5 mr-5">
           <i className="icon icon-pin-3 mr-2 text-bali-gray position-relative" />
           <span className="text-bali-gray font-size-5">{options.location}</span>
@@ -16,8 +34,10 @@ const JobCard2 = ({ options }) => {
       </div>
       <h5 className="pt-6 text-dark-cloud font-size-7 font-weight-medium line-height-reset mb-5">
         {options.title}
-      </h5>
+      </h5> */}
+      </a>
     </div>
+    
   );
 };
 
