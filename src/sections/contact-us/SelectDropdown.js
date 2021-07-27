@@ -24,6 +24,7 @@ const SelectDropdown = (props) => {
     name={name}
     onChange={onChange}
     value={value}  
+    style={{borderRadius: "0.3125rem"}}
   >
     {props.children}
   </select>

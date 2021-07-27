@@ -87,7 +87,7 @@ const MusicArea = ({ className, ...rest }) => {
                 </h5>
                 {/* <p className="dwnlds-crts-str" onClick={()=>download('/Grade9/Syllabus/9-maths1-v1.zip')}>Download course structure</p> */}
                 
-                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/9-maths1-v1.zip"> <p className="dwnlds-crts-str">Download course structure</p></a>
+                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/NCERT+SYLLABUS+FOR+MATHS+(Grade+9).pdf" target="_blank"> <p className="dwnlds-crts-str">Download course structure</p></a>
                 
                 {/* <Link
                   to="/#"
@@ -117,7 +117,7 @@ const MusicArea = ({ className, ...rest }) => {
                 </h5>
                 {/* <p className="dwnlds-crts-str" onClick={()=>download1('/Grade9/Syllabus/9-science-v1.zip')}>Download course structure</p> */}
 
-                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/9-science-v1.zip"> <p className="dwnlds-crts-str">Download course structure</p></a>
+                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/NCERT+SYLLABUS+FOR+SCIENCE+(GRADE+9).pdf" target="_blank"> <p className="dwnlds-crts-str">Download course structure</p></a>
 
                 {/* <Link
                   to="/#"
