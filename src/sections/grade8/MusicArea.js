@@ -109,7 +109,7 @@ const MusicArea = ({ className, ...rest }) => {
                   Maths
                 </h5>
                 {/* <p className="dwnlds-crts-str" onClick={()=>download('/assets/Grade8/Syllabus/8-maths1-v1.zip')}>Download course structure</p> */}
-              <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/8-maths1-v1.zip">  <p className="dwnlds-crts-str">Download course structure</p> </a>
+                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/NCERT+SYLLABUS+FOR+MATHS+(Grade+8).pdf" target="_blank">  <p className="dwnlds-crts-str">Download course structure</p> </a>
                  {/* <DownloadLink
                 className="dwnlds-crts-str"
     label="Download course structure"
@@ -147,7 +147,7 @@ const MusicArea = ({ className, ...rest }) => {
                   Science
                 </h5>
                 {/* <p className="dwnlds-crts-str"  onClick={()=>download1('/assets/Grade8/Syllabus/8-science1-v2.zip')} >Download course structure</p> */}
-          <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/8-science1-v2.zip"> <p className="dwnlds-crts-str" >Download course structure</p> </a>
+                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/NCERT+SYLLABUS+FOR+SCIENCE+(GRADE+8).pdf" target="_blank" > <p className="dwnlds-crts-str" >Download course structure</p> </a>
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
