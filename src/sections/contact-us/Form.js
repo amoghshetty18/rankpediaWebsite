@@ -25,7 +25,7 @@ const initialValues = {
 }
 
 const Form = () => {
-const [showpop, isshowpop] = useState(false)
+  const [showpop, isshowpop] = useState(false)
   const [formError, setFormError] = useState({})
 
   const [states, setStates] = useState([])
@@ -56,6 +56,7 @@ const [showpop, isshowpop] = useState(false)
   }, [])
 
   const validations = () => {
+    console.log(typeof values.number)
     let temp = {}
     temp.fullName = values.fullName ? "" : "This field is required"
     temp.type = values.type ? "" : "This field is required"
@@ -63,8 +64,15 @@ const [showpop, isshowpop] = useState(false)
     temp.state = values.state ? "" : "This field is required"
     validator.isEmpty(`${values.email}`) ? temp.email = "This field is required" : temp.email = ""
     validator.isEmail(`${values.email}`) ? temp.email = "" : temp.email = "Invalid E-Mail format"
-    temp.number = values.number ? "" : "This field is required"
-    temp.number = values.number.length == 10 ? "" : "10 digits required"
+    if (values.number === '') {
+      temp.number = "This field is required"
+    } else if (validator.isNumeric(values.number) === false ) {
+      temp.number = "Only Numeric Values Allowed"
+    } else if (values.number.length < 10) {
+      temp.number =  "10 digits required" 
+    } else if (values.number.length > 10) {
+      temp.number = "Only 10 digits allowed" 
+    }
     setFormError({
       ...temp
     })
@@ -97,7 +105,6 @@ const [showpop, isshowpop] = useState(false)
         }
       })
       .catch(err => console.log(err));
-      // alert("we will getback to you shortly")
       swal("Done!", "Thank You for Choosing Rankpedia!", "success");
       setValues({
         ...initialValues
@@ -105,24 +112,12 @@ const [showpop, isshowpop] = useState(false)
     }
   }
 
-  // const hadelformmodal =() =>
-  // {
-  //   values.fullName= '' 
-  //   // values.type=''
-  //   values.location= ''
-  //   values.state= ''
-  //   values.email=''
-  //   values.district= ''
-  //   values.number= ''
-  //   values.message= ''
-  //   isshowpop(false);
-  // }
   return (
     <div className='row justify-content-end contact-form-container'>
       <div  
         data-aos="fade-right" 
         data-aos-once="false" 
-        className="col-sm-6 mb-8 contact-form"
+        className="col-lg-6 mb-8 contact-form"
       >
         {/* <h2 className="text-dark" >  Learn Anytime, Anywhere </h2> */}
         <h2 className="text-dark" style={{fontSize: "36px", textAlign: "center"}} >  Get in touch! </h2>
@@ -130,19 +125,31 @@ const [showpop, isshowpop] = useState(false)
         <ReuseForm onSubmit={handleSubmit}>
 
           <div className="card contact-us-card-form">
-            <div className="card-content  shadow p-15">
-              <div className="my-7">
-                <TextInput
-                  type='text'
-                  placeholder='Full Name'
-                  name='fullName'
-                  value={values.fullName}
-                  onChange={handleChange}
-                />
-                {formError.fullName && <span className="text-danger"> {formError.fullName} </span>}
+            <div className="card-content  shadow px-15 py-10">
+              <div className="row">
+                <div className="my-3 col-md-6">
+                  <TextInput
+                    type='text'
+                    placeholder='Full Name'
+                    name='fullName'
+                    value={values.fullName}
+                    onChange={handleChange}
+                  />
+                  {formError.fullName && <span className="text-danger"> {formError.fullName} </span>}
+                </div>
+                <div className="my-3 col-md-6">
+                  <TextInput
+                    type='text'
+                    placeholder='Location'
+                    name='location'
+                    value={values.location}
+                    onChange={handleChange}
+                  />
+                  {formError.location && <div className="text-danger"> {formError.location} </div>}
+                </div>
               </div>
 
-              <div className="my-7" id="sml-chjfo">
+              <div className="my-3" id="sml-chjfo">
                 <p className="mb-1">Looking For</p>
 
                 <Radio
@@ -162,92 +169,94 @@ const [showpop, isshowpop] = useState(false)
                 {formError.type && <span className="text-danger"> {formError.type} </span>}
               </div>
 
-              <div className="my-7">
-                <TextInput
-                  type='text'
-                  placeholder='Location'
-                  name='location'
-                  value={values.location}
-                  onChange={handleChange}
-                />
-                {formError.location && <div className="text-danger"> {formError.location} </div>}
+              <div className="row">
+                <div className="my-3 col-md-6">
+                  <SelectDropdown
+                    placeholder='State'
+                    name='state'
+                    value={values.state}
+                    onChange={(e) => {
+                      handleChange(e)
+                      setSelected(e)
+                    }}
+                  >
+                    <option value=""> State </option>
+                    {
+                      states.length ? states.map(state => (
+                        <option
+                          key={`${state.latitude}${state.longitude}`}
+                          value={state.name}
+                          code={state.isoCode}
+                        >
+                          {state.name}
+                        </option>
+                      )) : ""
+                    }
+                  </SelectDropdown>
+                  {formError.state && <span className="text-danger"> {formError.state} </span>}
+                </div>
+
+                <div className="my-3 col-md-6">
+                  <SelectDropdown
+                    placeholder='District'
+                    name='district'
+                    value={values.district}
+                    onChange={(e) => {
+                      handleChange(e)
+                      console.log(values, "values object")
+                    }}
+                  >
+                    <option value=""> Select District </option>
+                    {
+                      districts.length ? districts.map(district => (
+                        <option
+                          key={`${district.latitude}${district.longitude}`}
+                          value={district.name}
+                        >
+                          {district.name}
+                        </option>
+                      )) : ""
+                    }
+                  </SelectDropdown>
+                </div>
               </div>
 
-              <div className="my-7">
-                <SelectDropdown
-                  placeholder='State'
-                  name='state'
-                  value={values.state}
-                  onChange={(e) => {
-                    handleChange(e)
-                    setSelected(e)
-                  }}
-                >
-                  <option value=""> State </option>
-                  {
-                    states.length ? states.map(state => (
-                      <option
-                        key={`${state.latitude}${state.longitude}`}
-                        value={state.name}
-                        code={state.isoCode}
-                      >
-                        {state.name}
-                      </option>
-                    )) : ""
-                  }
-                </SelectDropdown>
-                {formError.state && <span className="text-danger"> {formError.state} </span>}
-              </div>
+              <div className="row">
+                <div className="my-3 col-md-6">
+                  <TextInput
+                    type='text'
+                    placeholder='E-Mail'
+                    name='email'
+                    value={values.email}
+                    onChange={handleChange}
+                  />
 
-              <div className="my-7">
-                <SelectDropdown
-                  placeholder='District'
-                  name='district'
-                  value={values.district}
-                  onChange={(e) => {
-                    handleChange(e)
-                    console.log(values, "values object")
-                  }}
-                >
-                  <option value=""> Select District </option>
-                  {
-                    districts.length ? districts.map(district => (
-                      <option
-                        key={`${district.latitude}${district.longitude}`}
-                        value={district.name}
-                      >
-                        {district.name}
-                      </option>
-                    )) : ""
-                  }
-                </SelectDropdown>
-              </div>
+                  {formError.email && <span className="text-danger"> {formError.email} </span>}
+                </div>
 
-              <div className="my-7">
-                <TextInput
-                  type='text'
-                  placeholder='E-Mail'
-                  name='email'
-                  value={values.email}
-                  onChange={handleChange}
-                />
+                <div className="my-3 col-md-6">
+                  <div className="row">
+                    <div className="col-2 d-flex justify-content-center align-items-center" style={{display: 'inline'}}>
+                      <p className="m-0 pr-0" style={{fontSize: "1rem"}}>+91</p>
+                    </div>
+                    <div className="col-10 pl-0">
+                      <TextInput
+                        type='text'
+                        placeholder='Mobile'
+                        name='number'
+                        value={values.number}
+                        onChange={handleChange}
+                        maxlength='10'
+                      />
+                    </div>
+                    {formError.number && <span className="text-danger"> {formError.number} </span>}
+                  </div>
+                </div>
 
-                {formError.email && <span className="text-danger"> {formError.email} </span>}
-              </div>
-
-              <div className="my-7">
-                <TextInput
-                  type='number'
-                  placeholder='Mobile'
-                  name='number'
-                  value={values.number}
-                  onChange={handleChange}
-                />
-                {formError.number && <span className="text-danger"> {formError.number} </span>}
               </div>
 
               <textarea
-                className="form-control mb-5 text-area"
+                className="form-control my-3 text-area"
                 placeholder="Message"
                 name="message"
                 value={values.message}
@@ -276,7 +285,7 @@ const [showpop, isshowpop] = useState(false)
       <div 
         data-aos="fade-left" 
         data-aos-once="false" 
-        className="col-sm-6 py-15 d-flex justify-content-center align-items-center" id="map" 
+        className="col-lg-6 py-15 d-flex justify-content-center align-items-center" id="map" 
       >
         <Map />
       </div>

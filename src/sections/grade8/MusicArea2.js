@@ -94,8 +94,7 @@ const MusicArea = ({ className, ...rest }) => {
                 CBSE - Grade 8 
               </h2>
               <p className="font-size-7 mb-0">
-                Download the course structure to see the curriculum detail 
-                listed with subjects, chapters & sub-topics 
+                Download the NCERT books 
               </p>
             </div>
           </div>
@@ -192,7 +191,7 @@ const MusicArea = ({ className, ...rest }) => {
             </div>  
             {/* end single card */}
             {/* single card */}
-           <div className="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-8">
+            <div className="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-8">
               <div
                 className="card-same rounded-15 text-center px-10 py-10 gr-hover-3 mb-9 border border-default-color"
                 data-aos="zoom-in"
@@ -220,6 +219,40 @@ const MusicArea = ({ className, ...rest }) => {
                 </Link>  */}
               </div>
             </div> 
+            {/* end single card */}
+          </div>
+          <div className="row  px-xl-0">
+            {/* single card */}
+            <div className="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-8">
+              <div
+                className="card-same rounded-15 text-center px-10 py-10 gr-hover-3 mb-9 border border-default-color"
+                data-aos="zoom-in"
+                data-aos-duration={300}
+              >
+                <div className="mb-10">
+                  <img className="intr-intr-omgs" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811805/Group_135_w1rq0l.png"} alt="" />
+                  <img className="wdts-mgdtr" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627285124/subjects/hindi_ejjhup.png" alt="" />
+                </div>
+                {/* <span className="badge bg-dodger-blue-1-op1 text-dodger-blue-1 rounded-40 px-5 py-2 line-height-reset min-w-63 font-size-5 d-inline-block mb-7">
+                  $99
+                </span> */}
+                <h5 className="text-bunker font-size-7 line-height-reset mb-7 line-height-26">
+                  Hindi
+                </h5>
+                {/* <p className="dwnlds-crts-str" onClick={()=>downloadhindi('/Grade10/NCERTBooks/Hindi.zip')}>Download course structure</p> */}
+
+                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/10-Hindi.zip"> <p className="dwnlds-crts-str">Download course structure</p></a>
+
+
+                {/* <Link
+                  to="/#"
+                  className="btn btn-sunset rounded-5 min-w-144 h-55"
+                >
+                  Buy now
+                </Link> */}
+
+              </div>
+            </div>
             {/* end single card */}
           </div>
         </div>
