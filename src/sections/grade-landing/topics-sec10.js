@@ -79,66 +79,68 @@ const TopicSection10 = ({BtnText,LinkTo}) => {
   return (
     <div className="pt-14 pt-md-0 pt-lg-15 pb-15 pb-md-18 pb-lg-15 mb-lg-1">
       <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-xl-8 col-lg-9">
-                <div className="Heading-styling text-center mb-8 mb-lg-10">
-                  <h2>
-                  Class 10 CBSE - Online learning includes
-                  </h2>
-                </div>
-              </div>
+        <div className="row justify-content-center">
+          <div className="col-xl-8 col-lg-9">
+            <div className="Heading-styling text-center mb-8 mb-lg-10">
+              <h2>
+                Class 10 CBSE - Online learning includes
+              </h2>
             </div>
-            <div class="interest-explore-inner">
-                <div>
-                <Slider
-                {...slickSettings}
-                css={`
-                  .slick-slide {
-                    margin: 0 1rem;
-                  }
-                  .slick-dots {
-                    display: flex !important;
-                  }
-                `}
-                className="l6-testimonial"
-              >
-                  {items.map(({ link = "/#", title, bgimage }, index) => (
-              <div className="revison-section-content" key={index}>
-                    <div class="col-md-12">
-                        <a href="">
-                            <div class="image-holder">
-                                 <img src={bgimage} alt="" class="img-fluid" />
-                                        </div> 
-                                        <p className="grade-class-title">{title}</p>
-                                        </a> 
-                                    </div>
-              </div>))}
+          </div>
+        </div>
+        <div class="interest-explore-inner">
+          <div>
+            <Slider
+              {...slickSettings}
+              css={`
+                .slick-slide {
+                  margin: 0 1rem;
+                }
+                .slick-dots {
+                  display: flex !important;
+                }
+              `}
+              className="l6-testimonial"
+            >
+              {items.map(({ link = "/#", title, bgimage }, index) => (
+                <div className="revison-section-content" key={index}>
+                  <div class="col-md-12">
+                    {/* <a href=""> */}
+                      <div class="image-holder">
+                        <img src={bgimage} alt="" class="img-fluid" />
+                      </div> 
+                      <p className="grade-class-title">{title}</p>
+                    {/* </a>  */}
+                  </div>
+                </div>
+              ))}
                     
-              </Slider>
-              </div>
-                     <div class="swiper-button-next"></div>
-                     <div class="swiper-button-prev"></div>
-              </div>
-              {/* Solution card section */}
-              <div className="row justify-content-center pt-15">
-                {solutioncard.map(({  title, text }, index) => {
-              return (
-                <div className="col-lg-6 col-sm-6 col-xs-8 pb-lg-10">
+            </Slider>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        {/* Solution card section */}
+        <div className="row justify-content-center pt-15">
+          {solutioncard.map(({  title, text }, index) => {
+            return (
+              <div className="col-lg-6 col-sm-6 col-xs-8 pb-lg-10">
                 <RevisionCard  title={title} text={text} key={index} />
-                </div>
-              );
-            })}
+              </div>
+            );
+          })}
+        </div>
+        {/* <div className="row justify-content-center pt-10">
+              <a href={LinkTo}>
+                <button className="btn px-17 btn btn-banner-green  btn-read-more">
+                  {BtnText}
+                </button>
+              </a>
             </div>
-            {/* <div className="row justify-content-center pt-10">
-            <a href={LinkTo}>
-        <button className="btn px-17 btn btn-banner-green  btn-read-more">
-          {BtnText}
-        </button>
-      </a>
-            </div> */}
-                                {/* <!--<a class="btn-default"  data-wow-duration="1s" data-wow-delay=".1s" href="#">Find Your Path</a>--> */}
-                </div>
+        */}
+        {/* <!--<a class="btn-default"  data-wow-duration="1s" data-wow-delay=".1s" href="#">Find Your Path</a>--> */}
       </div>
+    </div>
   );
 };
 

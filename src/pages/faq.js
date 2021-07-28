@@ -34,7 +34,7 @@ const Faq = () => {
                 <div className="Heading-styling text-center mb-13 mb-lg-18">
                   <h2 className="mb-7">
                     FAQ<br/>
-                    Pre & post sales reprot
+                    Pre & post sales report
                   </h2>
                 </div>
               </div>
