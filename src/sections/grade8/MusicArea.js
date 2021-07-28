@@ -79,9 +79,7 @@ const MusicArea = ({ className, ...rest }) => {
                 CBSE - Grade 8 
               </h2>
               <p className="font-size-7 mb-0">
-                Download the course structure to see the curriculum detail 
-                listed with subjects, chapters & sub-topics 
-              </p>
+                Download the syllabus              </p>
             </div>
           </div>
         </div>

@@ -30,7 +30,7 @@ const Service = () => {
                        <p class="pt-5">To let children set sail on the journey of what they deserve, we provide quality education at the cost that they can afford</p>
                 </div>
                 <div class="hero-btn">
-                <a href="#" class="btn-link with-icon text-green gr-text-7 font-weight-bold">Get started <i class="icon icon-tail-right font-weight-bold"></i></a>
+                <a href="/grade-landing-8" class="btn-link with-icon text-green gr-text-7 font-weight-bold">Get started <i class="icon icon-tail-right font-weight-bold"></i></a>
               </div>
             </div>
         </div>
@@ -44,7 +44,7 @@ const Service = () => {
                        <p class="pt-5">To embark upon the journey of an enhanced learning world, we offer notes that help your students in creating history</p>
                 </div>
                 <div class="hero-btn">
-                <a href="#" class="btn-link with-icon text-green gr-text-7 font-weight-bold">Get started <i class="icon icon-tail-right font-weight-bold"></i></a>
+                <a href="/mentors-landing" class="btn-link with-icon text-green gr-text-7 font-weight-bold">Get started <i class="icon icon-tail-right font-weight-bold"></i></a>
               </div>
             </div>
         </div>
@@ -58,7 +58,7 @@ const Service = () => {
                        <p class="pt-5">To help your little juveniles think out of the box, join our community that infuses creativity in the young minds</p>
                 </div>
                 <div class="hero-btn">
-                <a href="#" class="btn-link with-icon text-green gr-text-7 font-weight-bold">Get started <i class="icon icon-tail-right font-weight-bold"></i></a>
+                <a href="/for-schools" class="btn-link with-icon text-green gr-text-7 font-weight-bold">Get started <i class="icon icon-tail-right font-weight-bold"></i></a>
               </div>
             </div>
         </div>

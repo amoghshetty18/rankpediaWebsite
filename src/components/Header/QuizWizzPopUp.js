@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import InputField from './InputField'
+import axios from 'axios'
 
 const QuizWizzPopUp = (props) => {
 
@@ -45,26 +46,33 @@ const QuizWizzPopUp = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault()
     if(validations()) {
-
-      //data from the form fields to be integrated
-
       const data = {
-        studentName: studentName,
-        schoolName: schoolName,
+        name: studentName,
+        school_name: schoolName,
         grade: grade,
-        parentsNumber: parentsNumber
+        phone: parentsNumber
+      };
+      axios
+        .post("https://3k06rt8n4h.execute-api.ap-south-1.amazonaws.com/local/api/admin/sendquizwiz", data)
+        .then(res => {
+          if(res.status === 200 )
+          {
+            if(grade === "Grade 8"){
+            window.location='/quizlisting8/'}
+            else if(grade === "Grade 9")
+            {
+              window.location='/contact/'
+            }
+            else
+            {
+              window.location="/about/"
+            }
+            // isshowpop(true);
+          }
+        })
+        .catch(err => console.log(err));
+        // alert("we will getback to you shortly")
       }
-      console.log(data)
-
-      //alert to set to corresponding option selected by user
-
-      alert(grade)
-      handleCancel()
-      setStudentName('')
-      setSchoolName('')
-      setGrade('')
-      setParentsNumber('')
-    }    
   }
 
   return (

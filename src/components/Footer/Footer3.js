@@ -32,7 +32,7 @@ const Footer = ({ className, ...rest }) => {
               <div class="single-footer mb-13 mb-lg-9">
                 <p class="footer-title gr-text-11 mb-7">Product</p>
                 <ul class="footer-list list-unstyled">
-                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/">For Students</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/grade-landing-8">For Students</a></li>
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="/mentors-landing">For Teachers</a></li>
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="/for-schools">For Schools</a></li>
                 </ul>

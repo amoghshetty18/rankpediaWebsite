@@ -24,7 +24,7 @@ const Section5 = () => {
       />
       <Card
         card_image={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621596943/Group_260_zntrnh.svg"}
-        title="Oppurtunity for reflection"
+        title="Opportunity for reflection"
         text="Learning has never been easier"
       />
       <Card

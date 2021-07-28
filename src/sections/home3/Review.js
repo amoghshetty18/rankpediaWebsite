@@ -16,6 +16,7 @@ const Review = ({ className, ...rest }) => {
       image: reviewImageOne,
       name: "Aaron Almaraz",
       title: "CEO & Founder at Gearat",
+      link: "https://quizizz.com/pro/join?gc=54183974"
     },
     {
       image: reviewImageTwo,
@@ -74,10 +75,10 @@ const Review = ({ className, ...rest }) => {
           data-aos="zoom-in"
           data-aos-delay={800}
         >
-          {ReviewData.map(({ image, name, title }, index) => {
+          {ReviewData.map(({ image, name, title, quizlink }, index) => {
             return (
               <div className="col-lg-4 col-md-6 col-xs-10" key={index}>
-                <Card image={image} name={name} title={title} />
+                <Card image={image} name={name} title={title} quizlink={quizlink}/>
               </div>
             );
           })}
