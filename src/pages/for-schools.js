@@ -39,7 +39,7 @@ const Forschools = () => {
         <Banner 
         id="for-school-banner-button-hide"
         bgurl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625558542/for-school-banner_mrezea_vp4qzo.jpg"
-        BannerTitle="Integrated Digital Education: RankPedia for Schools, Teachers & Students"
+        BannerTitle="Integrated Digital Education: Rankpedia for Schools, Teachers & Students"
         BannerContent="Features for schools"
         BannerbtnText="Learn More"
         Applink="True"/>
@@ -59,13 +59,13 @@ const Forschools = () => {
 
         {/* Start of Stpes section */}
         <StepsCard
-        title="Get RankPedia for your School in 3 Steps"
+        title="Get Rankpedia for your School in 3 Steps"
         step1title="Create"
         step1info="Get started with your account. Fill in the details as required and click Enter. "
         step2title="Choose"
-        step2info="Pick your monthly/yearly pack as per your choice. RankPedia offers three plans - Basic, Self-Paced, and Pro."
+        step2info="Pick your monthly/yearly pack as per your choice. Rankpedia offers three plans - Basic, Self-Paced, and Pro."
         step3title="Get Set Go"
-        step3info="Start your first online learning session with RankPedia educational platform today."/>
+        step3info="Start your first online learning session with Rankpedia educational platform today."/>
         {/* End of steps section */}
         
         {/* <ExpertSec/> */}

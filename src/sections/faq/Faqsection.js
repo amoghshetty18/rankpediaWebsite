@@ -24,38 +24,38 @@ const Faqsection = ({ className, ...rest }) => {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className="accordiondisc">
-                    We have a faculty of award-winning teachers, many of them having more than 20 years of teaching experience. They are well-versed with the curriculum of their respective subjects and are determined to share their knowledge with students who enroll with RankPedia. 
+                    We have a faculty of award-winning teachers, many of them having more than 20 years of teaching experience. They are well-versed with the curriculum of their respective subjects and are determined to share their knowledge with students who enroll with Rankpedia. 
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    How is RankPedia different from other online learning platforms?
+                    How is Rankpedia different from other online learning platforms?
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                 <p className="accordiondisc">
-                RankPedia is a flexible learning platform where the entire control of learning is in the students’ hands. Students can learn at their own pace, with complete guidance from our experts. With advanced technology integration, learning with RankPedia is fast, exciting, and meaningful. 
+                Rankpedia is a flexible learning platform where the entire control of learning is in the students’ hands. Students can learn at their own pace, with complete guidance from our experts. With advanced technology integration, learning with Rankpedia is fast, exciting, and meaningful. 
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    What are the advantages of taking online classes at RankPedia?
+                    What are the advantages of taking online classes at Rankpedia?
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className="accordiondisc">
-                    The most significant advantage of online learning at RankPedia is the personalized attention that every child gets. Teaching methods, performance analysis, and even scheduling of tests are as per the preferences and availability of every student. Our online classes include engaging audio-visual content with exciting quizzes and assessments. 
+                    The most significant advantage of online learning at Rankpedia is the personalized attention that every child gets. Teaching methods, performance analysis, and even scheduling of tests are as per the preferences and availability of every student. Our online classes include engaging audio-visual content with exciting quizzes and assessments. 
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    How can I track my progress using RankPedia's learning solutions? 
+                    How can I track my progress using Rankpedia's learning solutions? 
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -72,7 +72,7 @@ const Faqsection = ({ className, ...rest }) => {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className="accordiondisc">
-                    Live classes at RankPedia are:
+                    Live classes at Rankpedia are:
                     </p>
                     <ul>A combination of engaging video-based content.
                         <li>Detailed explanations by teachers.</li>
@@ -98,12 +98,12 @@ const Faqsection = ({ className, ...rest }) => {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    What will be the minimum requirement to attend a course/classes on RankPedia? 
+                    What will be the minimum requirement to attend a course/classes on Rankpedia? 
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className="accordiondisc">
-                    There are no eligibility criteria as such for enrolling on RankPedia. However, there is a minimum requirement for either a mobile phone, laptop, or tablet to join the platform and attend online classes. Along with this, you will need a stable internet connection as well.
+                    There are no eligibility criteria as such for enrolling on Rankpedia. However, there is a minimum requirement for either a mobile phone, laptop, or tablet to join the platform and attend online classes. Along with this, you will need a stable internet connection as well.
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
@@ -115,7 +115,7 @@ const Faqsection = ({ className, ...rest }) => {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className="accordiondisc">
-                    The course fee depends on the class in which the child is currently in or the number of subjects they wish to study at RankPedia. Depending on that, the cost shall be conveyed to you. You can make the complete payment or deposit it with flexible monthly installments via online bank transfer or cheque. 
+                    The course fee depends on the class in which the child is currently in or the number of subjects they wish to study at Rankpedia. Depending on that, the cost shall be conveyed to you. You can make the complete payment or deposit it with flexible monthly installments via online bank transfer or cheque. 
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>

@@ -33,7 +33,7 @@ const Coursepolicy = () => {
                   {/* job-top-header */}
                  
                   <h2 className="font-size-10 font-weight-bold text-center mb-lg-15 mb-0">
-                  Course policy Page
+                  Course Policy Page
                   </h2>
                 </div>
               </div>
