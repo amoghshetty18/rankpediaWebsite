@@ -58,12 +58,12 @@ const Faqforschools = () => {
             <AccordionItem uuid="a">
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                   <b> What does RankPedia offer? </b>
+                   <b> What does Rankpedia offer? </b>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                 <ul className="accordiondisc">
-                RankPedia is built with scalable technology that offers:
+                Rankpedia is built with scalable technology that offers:
                 <li>Unique teaching methods for educators and schools</li>
                 <li>A detailed plan with teaching materials, case studies, mock tests, sample papers, and more.</li>
                 <li>Comprehensive and regular reports of student outcomes to teachers, learners, and school admin.</li>
@@ -73,13 +73,13 @@ const Faqforschools = () => {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                    <b>  How can RankPedia benefit the school and teachers? </b>
+                    <b>  How can Rankpedia benefit the school and teachers? </b>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className="accordiondisc">
                     The school can keep a track of the development of its students. It can check if its policies are implemented appropriately or not.<br/><br/>
-RankPedia helps teachers to learn about the subjects and topics that students are interested in. Teachers can recognise the critical areas on the topics and subjects where the students need more attention. They can provide various assignments or homework to their students for practice. 
+Rankpedia helps teachers to learn about the subjects and topics that students are interested in. Teachers can recognise the critical areas on the topics and subjects where the students need more attention. They can provide various assignments or homework to their students for practice. 
 
                     </p>
                 </AccordionItemPanel>
