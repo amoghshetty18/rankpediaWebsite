@@ -29,16 +29,16 @@ const items = [
   },
   {
     bgimage:"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624954050/Trignometry_yp3g61.jpg",
-    title: "Trignometry",
+    title: "Trigonometry",
 }
 ];
 const solutioncard =[
     {
         
-            title: "Engaging video-based learning"
+            title: "Engaging Video-based Learning"
     },
     {
-        title: "Instant doubt clearance"
+        title: "Instant Doubt Clearance"
     },
     {
         title: "Study Materials"

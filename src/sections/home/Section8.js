@@ -236,7 +236,7 @@ const Section8 = ({ className, ...rest }) => {
           <div class="col-lg-8 order-lg-1" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
             <div class="hero-content mt-11 mt-lg-0">
               <h1 class="title gr-text-2 mb-6 engag mt-6">Ready for an Experience of Blended Learning?</h1>
-              <p class="gr-text-8 mb-11 pr-md-12 clscls">Create an account or login at RankPedia to experience blended learning like never before and stay ahead of your peers in a new learning age.</p>
+              <p class="gr-text-8 mb-11 pr-md-12 clscls">Create an account or login at Rankpedia to experience blended learning like never before and stay ahead of your peers in a new learning age.</p>
             </div>
           </div>
           <div class="col-10 col-lg-4  order-lg-2">

@@ -276,7 +276,7 @@ const RevisionSection9 = ({ className, ...rest }) => {
                 >
                     {/* <InformationCrad options={items} /> */}
                     <div
-                className="card-same rounded-15 text-center px-10 pt-10 gr-hover-3 mb-9 border border-default-color"
+                className="card-same rounded-15 text-center px-10 pt-10 gr-hover-3 mb-9 border border-default-color grade-landing-subject-card"
                 data-aos="zoom-in"
                 data-aos-duration={600}
               >

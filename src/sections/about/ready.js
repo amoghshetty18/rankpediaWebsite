@@ -103,7 +103,7 @@ const Ready = ({ className, ...rest }) => {
            <div class="col-lg-8 order-lg-1" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
              <div class="hero-content mt-11 mt-lg-0">
                <h1 class="title gr-text-2 mb-6 mt-6 rdstr" id="amhver">All set to gear up!</h1>
-               <p class="gr-text-8 mb-11 pr-md-12 clscls">To dive deeper into the world of RankPedia, tap on 'Contact Us' and our team will reach out to you at the earliest.</p>
+               <p class="gr-text-8 mb-11 pr-md-12 clscls">To dive deeper into the world of Rankpedia, tap on 'Contact Us' and our team will reach out to you at the earliest.</p>
              </div>
            </div>
            <div class="col-10 col-lg-4  order-lg-2">

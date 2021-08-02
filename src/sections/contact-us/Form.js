@@ -12,6 +12,7 @@ import SelectDropdown from './SelectDropdown'
 import Popup from './popup'
 import axios from 'axios'
 import swal from 'sweetalert'
+import {districtsInfo} from '../../assets/indianStatesAndDistricts'
 
 const initialValues = {
   fullName: '',
@@ -46,9 +47,30 @@ const Form = () => {
     setSelectedState(option) 
   }
   useEffect(() => {
-    const districtList = City.getCitiesOfState("IN", `${selectedState}`)
-    setDistricts(districtList)
-    console.log(City.getCitiesOfState("IN", `${selectedState}`), 'districts')
+    // const districtList = City.getCitiesOfState("IN", `${selectedState}`)
+    // setDistricts(districtList)
+    // console.log(City.getCitiesOfState("IN", `${selectedState}`), 'districts')
+    let stateOfIndiaValue = ""
+
+    if(selectedState) {
+      stateOfIndiaValue = states.find((item) => {
+        return item.isoCode === selectedState
+      }).name
+
+      const districtList = districtsInfo.find((item) => {
+        return item.state === stateOfIndiaValue
+      }).districts
+  
+      setDistricts(districtList)
+
+      console.log("Districts", districtList)
+
+
+    }
+
+    // const stateOfIndiaValue = states.find((item) => {
+    //   return item.isoCode === selectedState
+    // }).name
   }, [selectedState])
 
   useEffect(() => {
@@ -95,6 +117,7 @@ const Form = () => {
       mobile: values.number,
       message: values.message
     };
+    console.log("Final Data", data)
     axios
       .post("https://3k06rt8n4h.execute-api.ap-south-1.amazonaws.com/local/api/admin/sendContactForm", data)
       .then(res => {
@@ -203,17 +226,16 @@ const Form = () => {
                     value={values.district}
                     onChange={(e) => {
                       handleChange(e)
-                      console.log(values, "values object")
                     }}
                   >
                     <option value=""> Select District </option>
                     {
                       districts.length ? districts.map(district => (
                         <option
-                          key={`${district.latitude}${district.longitude}`}
-                          value={district.name}
+                          key={district}
+                          value={district}
                         >
-                          {district.name}
+                          {district}
                         </option>
                       )) : ""
                     }
@@ -263,7 +285,7 @@ const Form = () => {
                 onChange={handleChange}
               />
               <Checkbox
-                label={' I agree to receive newsletters & other communications from RankPedia '}
+                label={' I agree to receive newsletters & other communications from Rankpedia '}
                 name='tAndC'
                 value={values.tAndC}
                 onChange={handleChange}

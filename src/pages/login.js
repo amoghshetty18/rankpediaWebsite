@@ -53,7 +53,7 @@ const Login = () => {
                       Login
                     </h2>
                     <p className="login-para">
-                    Enter your mobile number to sign up/register with RankPedia.
+                    Enter your mobile number to sign up/register with Rankpedia.
                     </p>
                   </div>
                   <form

@@ -37,7 +37,7 @@ export const menuItems = [
   },
   {
     name: "why-rankpedia",
-    label: "Why Rankpedia",
+    label: "Why Rankpedia?",
     isExternal: false,
   },
   // {
