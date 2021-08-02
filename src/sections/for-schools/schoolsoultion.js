@@ -24,7 +24,7 @@ const solutioncard = [
           "Help teachers to do their job with ease. Arrange classroom schedules, topic-wise revision routines, relevant additional videos, and resources for improved teaching results.",
       },
       {
-        title: "Couldn't find Leads?",
+        title: "Couldn't find leads?",
         text:
           "Devise a Systematic Learning Programme. Balance the student-teacher ratio for each class to reduce the pressure on educators and gauge the capability of students.",
       },  

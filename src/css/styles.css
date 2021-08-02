@@ -236,6 +236,7 @@ h1, h2, h3, h4, h5, h6{
   width:650px;
   height:650px;
   position:relative;
+  top: -75px;
   color:#fff;
   display:flex;
   justify-content:center;
@@ -392,4 +393,8 @@ h1, h2, h3, h4, h5, h6{
 
 #why-rankpedia-h3-correction {
   margin-top: 5rem !important;
+}
+
+.grade-landing-subject-card {
+  height: 330px;
 }

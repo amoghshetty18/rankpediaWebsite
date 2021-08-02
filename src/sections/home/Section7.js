@@ -237,7 +237,7 @@ const Section7 = ({ className, ...rest }) => {
             <div class="col-sm-10 col-lg-6">
               <div class="content-text">
                 <h2 class="simpli-nono mb-7">Expertly curated question banks with over 100,000 questions</h2>
-                <p class="clscls">Gain a competitive edge in high school with our comprehensive question banks curated by Subject Matter Experts with years of experience in education.</p>
+                <p class="clscls text-light">Gain a competitive edge in high school with our comprehensive question banks curated by Subject Matter Experts with years of experience in education.</p>
                   {/* <a href="" class="btn btn-red mx-auto gtstrdr">Learn More</a> */}
               </div>
             </div>
