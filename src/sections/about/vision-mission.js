@@ -25,13 +25,13 @@ const VisionMission = ({ className, ...rest }) => {
               <div class="col-md-6 col-lg-11 col-xl-11" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
                 <div class="single-widget mb-9">
                   <h3 class="w-title gr-text-7 abt-ourmis">Why us?</h3>
-                  <p class="gr-text-9 abt-trty">We wish to deepen our roots and provide education in almost every stream, ranging from science and commerce to arts and law. Whether it's a tedious maths problem or a tricky science experiment, RankPedia explains it in a creative and electrifying way. We have brilliant and exceptional educators with extraordinary teaching strategies, which form the base of our online education.  </p>
+                  <p class="gr-text-9 abt-trty">We wish to deepen our roots and provide education in almost every stream, ranging from science and commerce to arts and law. Whether it's a tedious maths problem or a tricky science experiment, Rankpedia explains it in a creative and electrifying way. We have brilliant and exceptional educators with extraordinary teaching strategies, which form the base of our online education.  </p>
                 </div>
               </div>
               <div class="col-md-6 col-lg-11 col-xl-11" data-aos="fade-left" data-aos-duration="1100" data-aos-once="true">
                 <div class="single-widget mb-9">
                   <h3 class="w-title gr-text-7 abt-ourmis">Our belief is in giving your child relief!</h3>
-                  <p class="gr-text-9 abt-trty">It started with a simple thought of Why can't world-class education be affordable?. This thought embedded a seed in our mind and gave us a vision of providing education to children at an affordable price. We have walked on a path to deliver world-class education by integrating pedagogy and the latest technological advancements to offer the best opportunities to students.  </p>
+                  <p class="gr-text-9 abt-trty">It started with a simple thought of 'Why can't world-class education be affordable?'. This thought embedded a seed in our mind and gave us a vision of providing education to children at an affordable price. We have walked on a path to deliver world-class education by integrating pedagogy and the latest technological advancements to offer the best opportunities to students.  </p>
                 </div>
               </div>
               <div class="col-md-6 col-lg-11 col-xl-11" data-aos="fade-left" data-aos-duration="1100" data-aos-once="true">

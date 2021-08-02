@@ -65,7 +65,7 @@ const Section1 =  ({ className, ...rest }) => {
               <div className="col-lg-6">
                 <div class="hero-content dark-mode-texts">
                   <h1 class="gr-text-2 mb-9 learnon">Smarter Learning for a Smarter Generation</h1>
-                  <p class="gr-text-8 pr-5 pl-0 pr-xl-11 mb-9 learnpar">When great teachers meet great technology, learning becomes easy. Enjoy trouble-free learning, and boost your preparation with RankPedia to unlock new possibilities.  </p>
+                  <p class="gr-text-8 pr-5 pl-0 pr-xl-11 mb-9 learnpar">When great teachers meet great technology, learning becomes easy. Enjoy trouble-free learning, and boost your preparation with Rankpedia to unlock new possibilities.  </p>
                   {/* <div class="hero-btn">
                     <a href="#" class="btn-link with-icon text-green1 gr-text-7 font-weight-bold">Get Started <i class="icon icon-tail-right font-weight-bold"></i></a>
                   </div> */}
