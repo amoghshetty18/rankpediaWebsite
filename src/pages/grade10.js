@@ -69,7 +69,7 @@ const Grade10 = () => {
 
               <div className="col-lg-8 col-md-9 col-xs-11 order-2 order-lg-2">
                 <div className="pt-9 pt-sm-13 pb-10 pb-md-15 dark-mode-texts pr-md-11 pr-lg-0">
-                  <div className="mb-11 text-right">
+                  <div className="mb-11 study-material-heading">
                     <h2
                       className="font-size-11 mb-8 pr-sm-10 pr-md-14 pr-lg-0 prct-hdr"
                       data-aos="fade-up"
