@@ -15,22 +15,22 @@ const Section5 = () => {
       <Card 
         card_image={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621597016/worldicon_bxklhm.svg"}
         title= "Real World Relevance"
-        text="Learning has never been easier"
+        text="Connects you to the real world"
       />
       <Card
         card_image={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621596942/Group_258_sbgwga.svg"}
         title="Opportunity for Creativity"
-        text="Learning has never been easier"
+        text="Fuels your vision and creativity"
       />
       <Card
         card_image={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621596943/Group_260_zntrnh.svg"}
         title="Opportunity for Reflection"
-        text="Learning has never been easier"
+        text="Reflects your inner knowledge"
       />
       <Card
         card_image={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621596943/Group_261_gic7ua.svg"}
         title="Accelerated Learning"
-        text="Learning has never been easier"
+        text="Upgrades your learning experience"
       />
       
       <a href="/why-rankpedia">
