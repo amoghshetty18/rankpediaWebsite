@@ -53,9 +53,9 @@ const JobCard2 = ({ options }) => {
         {options.title}
       </h5> */}
       </a>
-      <Modal visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} footer={null} width='900px'>
+      <Modal visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} footer={null} width='1000px'>
         <div>
-          <iframe src={options.quizlink} height='600px' width='700px' frameborder="0"></iframe>
+          <iframe src={options.quizlink} height='600px' width='100%' frameBorder="0"></iframe>
         </div>
       </Modal>
     </div>

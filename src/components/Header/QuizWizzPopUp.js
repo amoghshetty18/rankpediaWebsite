@@ -61,11 +61,11 @@ const QuizWizzPopUp = (props) => {
             window.location='/quizlisting8/'}
             else if(grade === "Grade 9")
             {
-              window.location='/contact/'
+              window.location='/quizlisting9/'
             }
             else
             {
-              window.location="/about/"
+              window.location="/quizlisting10/"
             }
             // isshowpop(true);
           }

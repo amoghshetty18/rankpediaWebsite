@@ -14,43 +14,43 @@ const items = [
     quiztime: "Full-time",
     // badgeColor: "#fff",
     quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    // quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },{
     image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
     quiztime: "Full-time",
     // badgeColor: "#fff",
     quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    // quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },{
     image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
     quiztime: "Full-time",
     // badgeColor: "#fff",
     quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    // quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },{
     image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
     quiztime: "Full-time",
     // badgeColor: "#fff",
     quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    // quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },{
     image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
     quiztime: "Full-time",
     // badgeColor: "#fff",
     quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    // quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },{
     image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
     quiztime: "Full-time",
     // badgeColor: "#fff",
     quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    // quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },{
     image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png  ",
     quiztime: "Full-time",
     // badgeColor: "#fff",
     quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    // quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },
 ];
 
