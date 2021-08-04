@@ -1,3 +1,12 @@
+.quiztitlestyling
+{
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 20px;
+ color: #000;
+ max-width: 134px;
+ /* text-transform: uppercase; */
+}
 .gradelanding-main {
   background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621595518/banner-image_rw7lnc.jpg");
   height: 100vh;
