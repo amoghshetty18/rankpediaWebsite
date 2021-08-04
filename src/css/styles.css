@@ -412,3 +412,21 @@ h1, h2, h3, h4, h5, h6{
 #curriculum-img {
   width: 170px;
 }
+
+.study-material-heading {
+  text-align: right;
+}
+
+@media screen and (max-width: 990px) {
+  .sugtrd-hgts{
+    height: auto !important;
+    margin-bottom: 10px;
+  }
+  .study-material-heading {
+    text-align: center;
+  }
+}
+
+
+
+
