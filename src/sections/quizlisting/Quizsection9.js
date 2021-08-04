@@ -2,58 +2,60 @@
 
 import React from "react";
 import JobCard2 from "../../components/JobCard2";
-
+import quiz9image1 from "../../assets/gif/9thstd/IMPROVEMENT IN FOOD RESOURCES.gif";
+import quiz9image2 from "../../assets/gif/9thstd/MATTER IN OUR SURROUNDINGS.gif";
+import quiz9image3 from "../../assets/gif/9thstd/Lines And Angles.gif";
+import quiz9image4 from "../../assets/gif/9thstd/Coordinate Geometry.gif";
+import quiz9image5 from "../../assets/gif/9thstd/Triangles.gif";
+import quiz9image6 from "../../assets/gif/9thstd/Number System.gif";
+import quiz9image7 from "../../assets/gif/9thstd/Area of Parallelograms and Triangles.gif";
+import quiz9image8 from "../../assets/gif/9thstd/Quadrilaterals.gif";
 const items = [
   {
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    image: quiz9image8,
+    bgcolor: "#1771bf",
+    quizname: "Quadrilaterals",
+    quizlink: "https://quizizz.com/pro/join?gc=46132326"
   },
   {
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    // quizlink: "https://quizizz.com/pro/join?gc=54183974"
-  },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    // quizlink: "https://quizizz.com/pro/join?gc=54183974"
-  },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    // quizlink: "https://quizizz.com/pro/join?gc=54183974"
-  },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    // quizlink: "https://quizizz.com/pro/join?gc=54183974"
-  },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    // quizlink: "https://quizizz.com/pro/join?gc=54183974"
-  },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    // quizlink: "https://quizizz.com/pro/join?gc=54183974"
-  },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png  ",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    // quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    image: quiz9image3,
+    bgcolor: "#5DE2A5",
+    quizname: "Lines and Angles",
+    quizlink: "https://quizizz.com/pro/join?gc=17833062"
   },
+  {
+    image: quiz9image2,
+    bgcolor: "#ff0000",
+    quizname: "MATTER IN OUR SURROUNDINGS",
+    quizlink: "https://quizizz.com/pro/join?gc=49310822"
+  },
+  {
+    image: quiz9image4,
+    bgcolor: "#F14D76",
+    quizname: "Coordinate Geometry",
+    quizlink: "https://quizizz.com/pro/join?gc=09301094"
+  },{
+    image: quiz9image6,
+    bgcolor: "#8854C0",
+    quizname: "Number System",
+    quizlink: "https://quizizz.com/pro/join?gc=43904102"
+  },{
+    image: quiz9image7,
+    bgcolor: "#ff0000",
+    quizname: "Area of Parellelograms and Triangles",
+    quizlink: "https://quizizz.com/pro/join?gc=18082918"
+  },{
+    image: quiz9image1,
+    bgcolor: "#1771bf",
+    quizname: "IMPROVMENT IN FOOD RESOURCES",
+    quizlink: "https://quizizz.com/pro/join?gc=41266278"
+  },
+  {
+    image: quiz9image5,
+    bgcolor: "#6B7C93",
+    quizname: "Triangles",
+    quizlink: "https://quizizz.com/pro/join?gc=34204774"
+  }
 ];
 
 const quizcard9 = () => {
@@ -71,10 +73,6 @@ const quizcard9 = () => {
               <h2 className="font-size-10 mb-7 letter-spacing-n83">
               Quiz for 9th standard students
               </h2>
-              <p className="font-size-6 font-weight-light mb-0 px-md-5 px-lg-0">
-                These companies release their own versions of the operating
-                systems with minor changes, and yet always.
-              </p>
             </div>
           </div>
         </div>

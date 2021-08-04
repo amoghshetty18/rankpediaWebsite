@@ -42,7 +42,7 @@ const Section1 =  ({ className, ...rest }) => {
                   <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625508835/banner-0ff164b5601283a714f182a6c289998b_1_-min_fcvjts.png" } class="clrs-rtd rounded-8" alt="" />
                     <div className='blob-container'>
                       <img id='main-background-img' src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626160479/home-page/banner_mggspd.png" alt="" />
-                      <img className="science" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png" alt="" />
+                      <img className="science" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627981630/logo_placeholder_sm_ra9ybv.png" alt="" />
                       <img className="bulb" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/light-bulb_1_lmqgdn.png" alt="" />
                       <img className="book" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/Books_kdj8sd.png" alt="" />
                       <img className="graduation" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/graduation_1_ueocam.png" alt="" />
@@ -65,7 +65,7 @@ const Section1 =  ({ className, ...rest }) => {
               <div className="col-lg-6">
                 <div class="hero-content dark-mode-texts">
                   <h1 class="gr-text-2 mb-9 learnon">Smarter Learning for a Smarter Generation</h1>
-                  <p class="gr-text-8 pr-5 pl-0 pr-xl-11 mb-9 learnpar">When great teachers meet great technology, learning becomes easy. Enjoy trouble-free learning, and boost your preparation with RankPedia to unlock new possibilities.  </p>
+                  <p class="gr-text-8 pr-5 pl-0 pr-xl-11 mb-9 learnpar">When great teachers meet great technology, learning becomes easy. Enjoy trouble-free learning, and boost your preparation with Rankpedia to unlock new possibilities.  </p>
                   {/* <div class="hero-btn">
                     <a href="#" class="btn-link with-icon text-green1 gr-text-7 font-weight-bold">Get Started <i class="icon icon-tail-right font-weight-bold"></i></a>
                   </div> */}

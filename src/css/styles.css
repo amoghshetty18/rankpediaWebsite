@@ -1,3 +1,12 @@
+.quiztitlestyling
+{
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 20px;
+ color: #000;
+ max-width: 134px;
+ /* text-transform: uppercase; */
+}
 .gradelanding-main {
   background-image: url("https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621595518/banner-image_rw7lnc.jpg");
   height: 100vh;
@@ -236,6 +245,7 @@ h1, h2, h3, h4, h5, h6{
   width:650px;
   height:650px;
   position:relative;
+  top: -75px;
   color:#fff;
   display:flex;
   justify-content:center;
@@ -317,6 +327,7 @@ h1, h2, h3, h4, h5, h6{
   .blob-container {
     width: 500px;
     height: 500px;
+    top: 0px;
   }
   #roller-bnr {
     height: auto;
@@ -392,4 +403,12 @@ h1, h2, h3, h4, h5, h6{
 
 #why-rankpedia-h3-correction {
   margin-top: 5rem !important;
+}
+
+.grade-landing-subject-card {
+  height: 330px;
+}
+
+#curriculum-img {
+  width: 170px;
 }

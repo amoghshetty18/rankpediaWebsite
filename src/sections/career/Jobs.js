@@ -3,50 +3,50 @@ import JobCard2 from "../../components/JobCard2";
 
 const items = [
   {
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627981630/logo_placeholder_sm_ra9ybv.png",
     quiztime: "Full-time",
     // badgeColor: "#fff",
     quizname: "Senior UX Designer",
     quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },
   {
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627981630/logo_placeholder_sm_ra9ybv.png",
     quiztime: "Full-time",
     // badgeColor: "#fff",
     quizname: "Senior UX Designer",
     // quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627981630/logo_placeholder_sm_ra9ybv.png",
     quiztime: "Full-time",
     // badgeColor: "#fff",
     quizname: "Senior UX Designer",
     // quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627981630/logo_placeholder_sm_ra9ybv.png",
     quiztime: "Full-time",
     // badgeColor: "#fff",
     quizname: "Senior UX Designer",
     // quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627981630/logo_placeholder_sm_ra9ybv.png",
     quiztime: "Full-time",
     // badgeColor: "#fff",
     quizname: "Senior UX Designer",
     // quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627981630/logo_placeholder_sm_ra9ybv.png",
     quiztime: "Full-time",
     // badgeColor: "#fff",
     quizname: "Senior UX Designer",
     // quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627981630/logo_placeholder_sm_ra9ybv.png",
     quiztime: "Full-time",
     // badgeColor: "#fff",
     quizname: "Senior UX Designer",
     // quizlink: "https://quizizz.com/pro/join?gc=54183974"
   },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png  ",
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627981630/logo_placeholder_sm_ra9ybv.png  ",
     quiztime: "Full-time",
     // badgeColor: "#fff",
     quizname: "Senior UX Designer",

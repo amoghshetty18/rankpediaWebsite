@@ -41,6 +41,7 @@ const Mentorlanding = () => {
           BannerTitle="Meet Our Expert Educators and Early Achievers!"
           BannerContent="Get comprehensive education at your fingertips."
           BannerbtnText="Get started"
+          Linkto="/contact"
         />
         {/* End of banner section */}
        {/* Start of expert cards */}
@@ -49,7 +50,7 @@ const Mentorlanding = () => {
         {/* Start of Conversation card */}
         <Converstioncard 
         id="mqschpo"
-        img="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622439453/mentors-second_jgmxvz.png"
+        img="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627646330/mentors-landing/mentors-second_jgmxvz_mzpaue.png"
         title="Mentor’s availability and doubt clarification"
         Discription="Passionate mentors and domain experts helping students improve their learning outcomes and performance."/>
         {/* End of Conversation card */}

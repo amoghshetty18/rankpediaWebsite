@@ -75,7 +75,7 @@ const MusicArea = ({ className, ...rest }) => {
                 data-aos-duration={300}
               >
                 <div className="mb-10">
-                <img className="intr-intr-omgs" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811805/Group_135_w1rq0l.png"} alt="" />
+                <img id="curriculum-img" className="intr-intr-omgs" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627905378/for-students/Group_135_w1rq0l_mkcrlf.png"} alt="" />
                   <img className="wdts-mgdtr" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1623685507/maths-icon_eszouk.svg"} alt="" />
                 </div>
                 {/* <span className="badge bg-dodger-blue-1-op1 text-dodger-blue-1 rounded-40 px-5 py-2 line-height-reset min-w-63 font-size-5 d-inline-block mb-7">
@@ -105,7 +105,7 @@ const MusicArea = ({ className, ...rest }) => {
                 data-aos-duration={600}
               >
                 <div className="mb-10">
-                <img className="intr-intr-omgs" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811805/Group_135_w1rq0l.png"} alt="" />
+                <img id="curriculum-img" className="intr-intr-omgs" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627905378/for-students/Group_135_w1rq0l_mkcrlf.png"} alt="" />
                   <img className="wdts-mgdtr" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811954/Mask_Group_22_fj8tta.png"} alt="" />
                 </div>
                 {/* <span className="badge bg-dodger-blue-1-op1 text-dodger-blue-1 rounded-40 px-5 py-2 line-height-reset min-w-63 font-size-5 d-inline-block mb-7">
@@ -136,7 +136,7 @@ const MusicArea = ({ className, ...rest }) => {
                 data-aos-duration={900}
               >
                  <div className="mb-10">
-                <img className="intr-intr-omgs" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811805/Group_135_w1rq0l.png"} alt="" />
+                <img className="intr-intr-omgs" src={""} alt="" />
                   <img className="wdts-mgdtr" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811954/Mask_Group_22_fj8tta.png"} alt="" />
                 </div>
                  <span className="badge bg-dodger-blue-1-op1 text-dodger-blue-1 rounded-40 px-5 py-2 line-height-reset min-w-63 font-size-5 d-inline-block mb-7">
@@ -163,7 +163,7 @@ const MusicArea = ({ className, ...rest }) => {
                 data-aos-duration={1200}
               >
                 <div className="mb-10">
-                <img className="intr-intr-omgs" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811805/Group_135_w1rq0l.png"} alt="" />
+                <img className="intr-intr-omgs" src={""} alt="" />
                   <img className="wdts-mgdtr" src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1622811954/Mask_Group_22_fj8tta.png"} alt="" />
                 </div>
                 <span className="badge bg-dodger-blue-1-op1 text-dodger-blue-1 rounded-40 px-5 py-2 line-height-reset min-w-63 font-size-5 d-inline-block mb-7">

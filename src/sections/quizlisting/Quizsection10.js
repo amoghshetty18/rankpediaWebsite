@@ -2,57 +2,77 @@
 
 import React from "react";
 import JobCard2 from "../../components/JobCard2";
-
+import quiz10image1 from "../../assets/gif/10thstd/REFLECTION OF LIGHT.gif";
+import quiz10image2 from "../../assets/gif/10thstd/REFRACTION OF LIGHT.gif";
+import quiz10image3 from "../../assets/gif/circles.gif";
+import quiz10image4 from "../../assets/gif/10thstd/Real Numbers.gif";
+import quiz10image5 from "../../assets/gif/10thstd/Triangles.gif";
+import quiz10image6 from "../../assets/gif/10thstd/Coordinate Geometry.gif";
+import quiz10image7 from "../../assets/gif/10thstd/Polynomials.gif";
+import quiz10image8 from "../../assets/gif/10thstd/Arithmetic Progression.gif";
+import quiz10image9 from "../../assets/gif/10thstd/Quadratic Equation.gif";
 const items = [
   {
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    image: quiz10image1,
+    // quiztime: "Full-time",
+        bgcolor: "#1771bf",
+    quizname: "Reflection of light",
+    quizlink: "https://quizizz.com/pro/join?gc=06691942"
   },
   {
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    image: quiz10image2,
+    // quiztime: "Full-time",
+        bgcolor: "#5DE2A5",
+    quizname: "Refraction of light",
+    quizlink: "https://quizizz.com/pro/join?gc=44440678"
   },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    image: quiz10image3,
+    bgcolor: "#6B7C93",
+    quizname: "Circles",
+    quizlink: "https://quizizz.com/pro/join?gc=33217638"
   },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627991038/some_application_on_trignometry_tk6q7l.gif",
+    // bgcolor: "#F14D76",
+    quizname: "Some Applications of Trigonometry",
+    quizlink: "https://quizizz.com/pro/join?gc=25615462"
   },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    image: quiz10image4,
+    // quiztime: "Full-time",
+        bgcolor: "#F14D76",
+    quizname: "Real Numbers",
+    quizlink: "https://quizizz.com/pro/join?gc=57597030"
   },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    image: quiz10image5,
+    // quiztime: "Full-time",
+        bgcolor: "#8854C0",
+    quizname: "Triangles",
+    quizlink: "https://quizizz.com/pro/join?gc=65133670"
   },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    image: quiz10image6,
+    // quiztime: "Full-time",
+        bgcolor: "#1771bf",
+    quizname: "Coordinate Geometry",
+    quizlink: "https://quizizz.com/pro/join?gc=35249254"
   },{
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png  ",
-    quiztime: "Full-time",
-    // badgeColor: "#fff",
-    quizname: "Senior UX Designer",
-    quizlink: "https://quizizz.com/pro/join?gc=54183974"
+    image: quiz10image7,
+    // quiztime: "Full-time",
+        bgcolor: "#ff0000",
+    quizname: "Polynomials",
+    quizlink: "https://quizizz.com/pro/join?gc=21355622"
+  },
+  {
+    image: quiz10image8,
+    // quiztime: "Full-time",
+        bgcolor: "#ff0000",
+    quizname: "Arithmetic Progression",
+    quizlink: "https://quizizz.com/pro/join?gc=35904614"
+  },
+  {
+    image: quiz10image9,
+    // quiztime: "Full-time",
+        bgcolor: "#ff0000",
+    quizname: "Quadratic Equation",
+    quizlink: "hhttps://quizizz.com/pro/join?gc=16768102"
   },
 ];
 
@@ -71,10 +91,6 @@ const quizcard10 = () => {
               <h2 className="font-size-10 mb-7 letter-spacing-n83">
                 Quiz for 10th Standard Students
               </h2>
-              <p className="font-size-6 font-weight-light mb-0 px-md-5 px-lg-0">
-                These companies release their own versions of the operating
-                systems with minor changes, and yet always.
-              </p>
             </div>
           </div>
         </div>

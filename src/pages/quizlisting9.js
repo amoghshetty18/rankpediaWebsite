@@ -6,6 +6,7 @@ import imgB1 from  "../assets/image/home-1/png/post-thumbnails-2.png"
 import imgB2 from "../assets/image/home-1/png/post-thumbnails-2.png";
 import imgB3 from "../assets/image/home-1/png/post-thumbnails-3.png";
 import imgB4 from "../assets/image/home-1/png/post-thumbnails-4.png";
+// import image1 from "../../assets/gif/circles.gif"
 // import Jobs from "../sections/career/Jobs";
 import Quizs from "../sections/quizlisting/Quizsection9"
 
