@@ -45,11 +45,11 @@ export const menuItems = [
   //   label: "Subscription",
   //   isExternal: false,
   //  },
-  //  {
-  //   name: "#",
-  //   label: "Quizwizz",
-  //   isExternal: true,
-  //  },
+   {
+    name: "#",
+    label: "Quizwizz",
+    isExternal: true,
+   },
    {
     name: "contact",
     label: "Contact Us",

@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { Modal, Button } from 'antd'
+import { backgroundColor } from "styled-system";
 
 const JobCard2 = ({ options }) => {
 
@@ -23,18 +24,18 @@ const JobCard2 = ({ options }) => {
       <a href='#' onClick={showModal}>
       <div className="d-flex bg-white d-xs-flex align-items-center px-9 py-10 mb-9 shadow-2 gr-hover-1">
       {/* <div className="bg-white d-xs-flex align-items-center px-9 py-10 mb-9 shadow-2 gr-hover-1"> */}
-        <div className="mr-10">
-          <img className="square-116" src={options.image} alt="" />
+        <div className="mr-6">
+          <img className="square-116" style={{background: options.bgcolor}} src={options.image} alt="" />
         </div>
         <div className="mt-8 mt-xs-0">
-          <h4 className="font-size-8 font-weight-medium text-dark-cloud mb-5 line-height-34">
+          <h5 className="quiztitlestyling mb-5">
             {options.quizname}
-          </h4>
-          <div className="d-flex align-items-center flex-wrap">
+          </h5>
+          {/* <div className="d-flex align-items-center flex-wrap">
             <span className="text-bali-gray font-size-3 pr-9">
               <i className="fa fa-clock mr-2"></i>{options.quiztime}
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* </div> */}
@@ -53,9 +54,9 @@ const JobCard2 = ({ options }) => {
         {options.title}
       </h5> */}
       </a>
-      <Modal visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} footer={null} width='900px'>
+      <Modal visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} footer={null} width='1000px'>
         <div>
-          <iframe src={options.quizlink} height='600px' width='700px' frameborder="0"></iframe>
+          <iframe src={options.quizlink} height='600px' width='100%' frameBorder="0"></iframe>
         </div>
       </Modal>
     </div>

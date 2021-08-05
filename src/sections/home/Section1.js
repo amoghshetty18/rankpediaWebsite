@@ -42,7 +42,7 @@ const Section1 =  ({ className, ...rest }) => {
                   <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625508835/banner-0ff164b5601283a714f182a6c289998b_1_-min_fcvjts.png" } class="clrs-rtd rounded-8" alt="" />
                     <div className='blob-container'>
                       <img id='main-background-img' src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626160479/home-page/banner_mggspd.png" alt="" />
-                      <img className="science" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/science_2_mde8xg.png" alt="" />
+                      <img className="science" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627981630/logo_placeholder_sm_ra9ybv.png" alt="" />
                       <img className="bulb" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/light-bulb_1_lmqgdn.png" alt="" />
                       <img className="book" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/Books_kdj8sd.png" alt="" />
                       <img className="graduation" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626324777/home-page/graduation_1_ueocam.png" alt="" />
