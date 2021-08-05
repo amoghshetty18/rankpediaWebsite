@@ -9,9 +9,10 @@ import Quizimage4 from "../../assets/gif/Linear Equation in One Variable.gif";
 import Quizimage5 from "../../assets/gif/Rational Numbers.gif";
 import Quizimage6 from "../../assets/gif/MICROORGANISMS FRIEND AND FOE.gif";
 import Quizimage7 from "../../assets/gif/CROP PRODUCTION AND MANAGEMENT.gif";
+import Quizimage8 from "../../assets/gif/synthetic.gif";
 const items = [
   {
-    image: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627981630/logo_placeholder_sm_ra9ybv.png",
+    image: Quizimage8,
     bgcolor: "#1771bf",
     quizname: "SYNTHETIC FIBRES AND PLASTICS",
     quizlink: "https://quizizz.com/pro/join?gc=13676454"
