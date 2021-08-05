@@ -71,7 +71,7 @@ const quizcard9 = () => {
               data-aos-duration={600}
             >
               <h2 className="font-size-10 mb-7 letter-spacing-n83">
-              Quiz for 9th standard students
+              Quizzes for 9th Standard Students
               </h2>
             </div>
           </div>
