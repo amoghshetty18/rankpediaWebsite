@@ -31,6 +31,7 @@ import small3 from "../../assets/image/home/small3.png";
 import small4 from "../../assets/image/home/small4.png";
 
 import homebanner from "../../assets/image/home/banner.png";
+import ReactPlayer from "react-player";
 
 const SliderStyled = styled(Slider)`
   .slick-slide div {
@@ -261,16 +262,27 @@ const Section4 = ({ className, ...rest }) => {
                   data-aos="fade-right"
                   data-aos-delay={500}
                 /> */}
-                <video className="planets-video" width="600" height="480" autoplay="autoplay" loop muted playsinline>
+                {/* <video className="planets-video" width="600" height="480" autoplay="autoplay" loop muted playsinline>
                   <source src={planetsVideo} type="video/mp4" />
-                </video>
+                </video> */}
+                <ReactPlayer 
+                  className="planets-video"
+                  url={planetsVideo}
+                  playing={true}
+                  loop={true}
+                  volume
+                  muted={true}
+                  width="100%"
+                  height="315px"
+                  playsinline={true}
+                />
               </div>
             </div>
           </div>
 
 
           </div>
-          <div class="col-10 col-lg-6 imgs-imt">
+          <div class="col-lg-6 imgs-imt">
             <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <h2 class="title gr-text-3 mb-10 mt-0 engag" id="engngnt-yrsrt">Engaging Videos</h2>
               <p class="gr-text-8 clscls">We provide a diverse field of videos ranging from biology and chemistry to physics and maths. You will get 2D and 3D animations in our videos with consistent expert guidance from the subject specialist. These engaging videos will mould you into an achiever. </p>

@@ -48,14 +48,14 @@ const Schoolfeatures = () => {
                                     </div>
                                     <div class="col-md-4 col-sm-6">
                                     {/* <a href="/program-listing/?Country=all&categoryname=Commerce %26 Finance&DegreeType=all"> */}
-                                    <a href="/english-preparation">
+                                    {/* <a href="/english-preparation"> */}
                                           <div class="image-holder">
                                                 <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1624971462/Mask_Group_55_xcthat.png" alt="" class="img-fluid" />
                                                 <div className="featured-card-details">
                                                 Custom <br/>Practice Tests
                                                 </div>
                                         </div> 
-                                        </a> 
+                                        {/* </a>  */}
                                     </div>
                                     <div class="col-md-4 col-sm-6">
                                    

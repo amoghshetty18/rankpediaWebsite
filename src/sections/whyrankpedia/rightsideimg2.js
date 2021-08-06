@@ -29,7 +29,7 @@ const Rightsideimg2 = (props) => {
               data-aos-once="true"
             >
         {/* <div className="col-8"> */}
-         <h3 className="why-pdrspt-scxr mb-12">
+         <h3 id="why-rankpedia-para-heading" className="why-pdrspt-scxr mb-12">
            3. Opportunity for Reflection
           </h3> 
           <div
