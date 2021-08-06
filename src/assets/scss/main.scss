@@ -7504,6 +7504,7 @@ button:focus {
     letter-spacing: -0.11px;
     line-height: 16px;
     margin-top: 20px;
+    font-weight: 700;
 }
 
 .flt-lft{
@@ -8958,8 +8959,8 @@ margin-top: 1%! important;
 
 @media screen and (max-width: 1350px) {
   .planets-video{
-    height: 320px;
-    width: 480px
+    height: 320px !important;
+    width: 480px !important
   }
 
   #homepage-video-container {
@@ -8969,8 +8970,8 @@ margin-top: 1%! important;
 
 @media screen and (max-width: 575px) {
   .planets-video{
-    height: 240px;
-    width: 320px;
+    height: 240px !important;
+    width: 320px !important;
   }
   #homepage-video-container {
     top: 0px;
@@ -9027,7 +9028,7 @@ margin-top: 1%! important;
 .l6-content-image-group-2-new .img-1 {
   position: absolute;
   left: 2px;
-  top: 20px;
+  top: -24px;
   z-index: -1;
   width: 50%;
 }
