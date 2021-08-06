@@ -29,7 +29,7 @@ const Different = (props) => {
           {/* <h3 className="engag mb-6">
             Rankpedia is an NEP compliant edtech solution 
           </h3> */}
-          <p className="gr-text-8 clscls">
+          <p className="gr-text-8 clscls why-rankpedia-exp-edu-text">
           Experiential education is the process of learning through doing. This form of learning allows students to explore their own interests while also enabling them to solve challenges as they arise in a real-life context. 
           </p>
           <div className="Mobile-view pb-10">

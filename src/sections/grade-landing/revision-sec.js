@@ -43,7 +43,7 @@ const items = [
           color:"#E5F5FF"
       },
       {
-        icon: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1623685507/maths-icon_eszouk.svg",
+        icon: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1628242121/subjects/download_dst3jn.png",
         title: "English",
         content:
           "Tricks to revise maps and names",

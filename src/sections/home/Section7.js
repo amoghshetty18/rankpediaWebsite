@@ -247,24 +247,53 @@ const Section7 = ({ className, ...rest }) => {
 
                 <div class="content-widget mt-7 mt-lg-0  pl-xl-19">
                   
-                  <a href="/grade8">
+                  {/* <a href="/grade8"> */}
                   
                   <div class="row align-items-center">
                     <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
                       <div class="single-widget my-sps media">
+                      
                         <div class="media-body">
-                          <div class="col-md-12 innr flt-lft">
-                            <div class="col-md-2 flt-lft mobwdts">
-                            <img src={ small1 } alt="" />
-                            </div>
-                            <div class="col-md-4 flt-lft mobwdts">
+                          <div class="col-md-12 innr flt-lft text-center expertly-curated-class">
+                            {/* <div class="col-md-2 flt-lft mobwdts">
+                              <img src={ small1 } alt="" />
+                            </div> */}
+                            {/* <div class="col-md-4 flt-lft mobwdts">
                               <h5 class="scnr">Science</h5>
+                            </div> */}
+                              <div class="col-md-3 flt-lft mobwdts">
+                                <a href="/grade8">
+                                  <p class="cltds">Class 8</p>
+                                </a>
+                              </div>
+                              <div class="col-md-3 flt-lft mobwdts">
+                                <a href="/grade8">
+                                  <p class="cltds">CBSE</p>
+                                </a>
+                              </div>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
+                      <div class="single-widget my-sps media">
+                        <div class="media-body">
+                          <div class="col-md-12 innr flt-lft expertly-curated-class">
+                            {/* <div class="col-md-2 flt-lft mobwdts">
+                            <img src={ small2 } alt="" />
+                            </div> */}
+                            {/* <div class="col-md-4 flt-lft mobwdts">
+                              <h5 class="scnr">Maths</h5>
+                            </div> */}
+                            <div class="col-md-3 flt-lft mobwdts">
+                              <a href="/grade9">
+                                <p class="cltds">Class 9</p>
+                              </a>   
                             </div>
                             <div class="col-md-3 flt-lft mobwdts">
-                              <p class="cltds">Class 8-10</p>
-                            </div>
-                            <div class="col-md-3 flt-lft mobwdts">
-                              <p class="cltds">CBSE</p>
+                              <a href="/grade9">
+                                <p class="cltds">CBSE</p>
+                              </a>                              
                             </div>
                           </div>
                         </div>
@@ -273,18 +302,22 @@ const Section7 = ({ className, ...rest }) => {
                     <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
                       <div class="single-widget my-sps media">
                         <div class="media-body">
-                          <div class="col-md-12 innr flt-lft">
-                            <div class="col-md-2 flt-lft mobwdts">
+                          <div class="col-md-12 innr flt-lft expertly-curated-class">
+                            {/* <div class="col-md-2 flt-lft mobwdts">
                             <img src={ small2 } alt="" />
-                            </div>
-                            <div class="col-md-4 flt-lft mobwdts">
+                            </div> */}
+                            {/* <div class="col-md-4 flt-lft mobwdts">
                               <h5 class="scnr">Maths</h5>
+                            </div> */}
+                            <div class="col-md-3 flt-lft mobwdts">
+                              <a href="/grade10">
+                                <p class="cltds">Class 10</p>
+                              </a>   
                             </div>
                             <div class="col-md-3 flt-lft mobwdts">
-                              <p class="cltds">Class 8-10</p>
-                            </div>
-                            <div class="col-md-3 flt-lft mobwdts">
-                              <p class="cltds">CBSE</p>
+                              <a href="/grade10">
+                                <p class="cltds">CBSE</p>
+                              </a>                              
                             </div>
                           </div>
                         </div>
@@ -337,7 +370,7 @@ const Section7 = ({ className, ...rest }) => {
                   </div> */}
                   </div>
 
-                  </a>
+                  {/* </a> */}
 
 
 

@@ -16,7 +16,7 @@ const Leftsideimg = (props) => {
   const gContext = useContext(GlobalContext);
 
   return (
-    <div className="row mt-18 mb-20 ">
+    <div id="why-rankpedia-para-margin1" className="row mt-18 mb-20 ">
       <div className="col-sm-6">
       <div
               className="l4-content-img-2  rounded-10 text-center"
@@ -68,7 +68,7 @@ const Leftsideimg = (props) => {
               data-aos-once="true"
             >
         {/* <div className="col-8"> */}
-          <p className="gr-text-8 clscls">
+          <p className="gr-text-8 clscls why-rankpedia-exp-edu-text">
           Experiential learning can significantly boost students motivation to learn. Learning by rote or repetitive learning has long been supplanted by ‘Learning by Doing’. To provide a training module, the experiential learning methodology has become a well-known approach for accelerated learning.  
           </p>
 

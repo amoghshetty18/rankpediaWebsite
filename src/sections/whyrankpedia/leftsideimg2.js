@@ -19,7 +19,7 @@ const Leftsideimg2 = (props) => {
     <div className="row" id="lfl-udragl">
       <div className="col-sm-6">
         <div className="Mobile-view">
-        <h3 className="why-pdrspt-scxr mb-6">
+        <h3 id="why-rankpedia-para-heading" className="why-pdrspt-scxr mb-6">
            2. Opportunity for Creativity 
           </h3> 
         </div>

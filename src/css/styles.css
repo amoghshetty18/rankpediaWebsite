@@ -98,6 +98,7 @@
 
 .contact-map {
   padding: 5px;
+  margin-right: 30px;
 }
 
 .contact-form {
@@ -106,11 +107,15 @@
   padding-top: 25px !important;
 }
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 990px) {
   .contact-form {
     padding-left: 40px !important; 
     padding-right: 40px !important;
     padding-top: 40px !important;
+  }
+  .contact-map {
+    padding: 15px;
+    margin-right: 0;
   }
 }
 
@@ -425,7 +430,45 @@ h1, h2, h3, h4, h5, h6{
   .study-material-heading {
     text-align: center;
   }
+  .why-rankpedia-exp-edu-text {
+    margin-top: 15px;
+  }
 }
+
+.expertly-curated-class {
+  display: flex;
+  justify-content: center;
+}
+
+.why-rankpedia-first-heading {
+  font-size: 32px !important;
+  line-height: 1.5 !important;
+  font-weight: 700 !important;
+}
+
+@media screen and (max-width: 600px) {
+  .why-rankpedia-exp-edu-text {
+    margin-top: 30px;
+  }
+  #why-rankpedia-para-margin {
+    margin-bottom: 15px !important;
+  }
+  #why-rankpedia-para-margin1 {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+  }
+  #why-rankpedia-para-heading {
+    margin-top: 30px !important;
+  }
+  #jyjn-jbnvgrd {
+    padding-top: 0 !important;
+    padding-bottom: 25px !important;
+  }
+  #esdtr-difg {
+    margin-top: 25px !important;
+  }
+}
+
 
 
 
