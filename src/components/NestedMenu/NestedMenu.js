@@ -5,6 +5,9 @@ import { FaAngleRight, FaAngleDown } from "react-icons/fa";
 import { Link } from "gatsby";
 import GlobalContext from "../../context/GlobalContext";
 import { menuItems } from "../../components/Header/menuItems";
+import QuizWizzPopUp from "../Header/QuizWizzPopUp";
+import { Modal } from 'antd';
+import 'antd/dist/antd.css';
 
 const NestedMenuContainer = styled.div`
   a {
@@ -140,6 +143,21 @@ const MenuItem = ({
 };
 
 const NestedMenu = () => {
+
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+  const showModal = () => {
+    setIsModalVisible(true);
+  };
+
+  const handleOk = () => {
+    setIsModalVisible(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalVisible(false);
+  };
+
   return (
     <NestedMenuContainer>
       <ListGroup variant="flush">
@@ -149,9 +167,18 @@ const NestedMenu = () => {
             depthStep={20}
             depth={0}
             {...menuItem}
+            onClick={ () => {
+              if (menuItem.name === '#quizwizz') {
+                showModal()
+              }
+            } }
           />
         ))}
       </ListGroup>
+      <Modal visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} footer={null}>
+        <img src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621923817/crown1_bsnzg3.png"} className="quizwizz-img" />
+        <QuizWizzPopUp handleCancel={handleCancel} />
+      </Modal>
     </NestedMenuContainer>
   );
 };
