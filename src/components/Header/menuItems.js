@@ -46,7 +46,7 @@ export const menuItems = [
   //   isExternal: false,
   //  },
    {
-    name: "#",
+    name: "#quizwizz",
     label: "Quizwizz",
     isExternal: true,
    },
