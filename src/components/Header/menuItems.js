@@ -48,7 +48,11 @@ export const menuItems = [
    {
     name: "#quizwizz",
     label: "Quizwizz",
-    isExternal: true,
+    items: [
+      { name: "quizlisting8", label: "Class 8",  isExternal: false },
+      { name: "quizlisting9", label: "Class 9",  isExternal: false, },
+      { name: "quizlisting10", label: "Class 10",  isExternal: false, },
+    ]
    },
    {
     name: "contact",

@@ -1,6 +1,4 @@
-
-
-import React from "react";
+import React, {useState} from "react";
 import JobCard2 from "../../components/JobCard2";
 import quiz10image1 from "../../assets/gif/10thstd/REFLECTION OF LIGHT.gif";
 import quiz10image2 from "../../assets/gif/10thstd/REFRACTION OF LIGHT.gif";
@@ -76,7 +74,15 @@ const items = [
   },
 ];
 
-const quizcard10 = () => {
+const Quizcard10 = () => {
+
+  const [userAttempts, setUserAttempts] = useState(0)
+
+  const handleUserAttempts = () => {
+    const result = userAttempts + 1
+    setUserAttempts(result)
+  }
+
   return (
     <div className="bg-default-3 pt-12 pt-md-18 pb-md-19 pb-15 pt-lg-22 pb-lg-26">
       <div className="container">
@@ -105,7 +111,7 @@ const quizcard10 = () => {
                 data-aos="fade-up"
                 data-aos-duration={900}
               > */}
-                <JobCard2 options={item} data-aos="fade-up" />
+                <JobCard2 options={item} handleUserAttempts={handleUserAttempts} userAttempts={userAttempts} data-aos="fade-up" />
               {/* </a> */}
             </div>
           ))}
@@ -115,4 +121,4 @@ const quizcard10 = () => {
   );
 };
 
-export default quizcard10;
+export default Quizcard10;
