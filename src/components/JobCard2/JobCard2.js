@@ -1,10 +1,12 @@
 import React, {useState} from "react";
 import { Modal, Button } from 'antd'
+import QuizWizzPopUp from "../Header/QuizWizzPopUp";
 import { backgroundColor } from "styled-system";
 
-const JobCard2 = ({ options }) => {
+const JobCard2 = ({ options, handleUserAttempts, userAttempts }) => {
 
   const [isModalVisible, setIsModalVisible] = useState(false)
+  const [isQuizModalVisible, setIsQuizModalVisible] = useState(false)
 
   const showModal = () => {
     setIsModalVisible(true);
@@ -18,10 +20,30 @@ const JobCard2 = ({ options }) => {
     setIsModalVisible(false);
   }
 
+  const showQuizModal = () => {
+    setIsQuizModalVisible(true)
+  }
+
+  const handleQuizOk = () => {
+    setIsQuizModalVisible(false);
+  }
+
+  const handleQuizCancel = () => {
+    setIsQuizModalVisible(false);
+  }
+
+  const handleModal = () => {
+    if(userAttempts === 0) {
+      showModal()
+    } else {
+      showQuizModal()
+    }
+  }
+
   return (
     <div>
       {/* <a href={options.quizlink}> */}
-      <a href='#' onClick={showModal}>
+      <a href='#' onClick={handleModal}>
       <div className="d-flex bg-white d-xs-flex align-items-center px-9 py-10 mb-9 shadow-2 gr-hover-1">
       {/* <div className="bg-white d-xs-flex align-items-center px-9 py-10 mb-9 shadow-2 gr-hover-1"> */}
         <div className="mr-6">
@@ -54,10 +76,14 @@ const JobCard2 = ({ options }) => {
         {options.title}
       </h5> */}
       </a>
-      <Modal visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} footer={null} width='1000px'>
+      <Modal visible={isQuizModalVisible} onOk={handleQuizOk} onCancel={handleQuizCancel} footer={null} width='1000px'>
         <div>
           <iframe src={options.quizlink} height='600px' width='100%' frameBorder="0"></iframe>
         </div>
+      </Modal>
+      <Modal visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} footer={null}>
+        <img src={"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621923817/crown1_bsnzg3.png"} className="quizwizz-img" />
+        <QuizWizzPopUp options={options} handleCancelForm={handleCancel} handleUserAttempts={handleUserAttempts} />
       </Modal>
     </div>
     

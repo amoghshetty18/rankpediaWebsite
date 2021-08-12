@@ -1,16 +1,31 @@
 import React, {useState} from 'react'
 import InputField from './InputField'
+import { Modal, Button } from 'antd'
+import validator from 'validator'
 import axios from 'axios'
 
 const QuizWizzPopUp = (props) => {
 
-  const {handleCancel} = props 
+  const {options, handleCancelForm, handleUserAttempts} = props 
 
   const [studentName, setStudentName] = useState("")
   const [schoolName, setSchoolName] = useState("")
   const [grade, setGrade] = useState('')
   const [parentsNumber, setParentsNumber] = useState('')
   const [formError, setFormError] = useState({})
+  const [isModalVisible, setIsModalVisible] = useState(false)
+
+  const showModal = () => {
+    setIsModalVisible(true);
+  }
+
+  const handleOk = () => {
+    setIsModalVisible(false);
+  }
+
+  const handleCancel = () => {
+    setIsModalVisible(false);
+  }
 
   const handleChange = (e) => {
     if(e.target.name === 'studentName') {
@@ -31,12 +46,11 @@ const QuizWizzPopUp = (props) => {
     temp.grade = grade ? "" : "This field is required"
     if(parentsNumber === '') {
       temp.parentsNumber = "This field is required"
+    } else if (validator.isNumeric(parentsNumber) === false ) {
+      temp.parentsNumber = "Only Numeric Values Allowed"
     } else if (parentsNumber.length < 10) {
       temp.parentsNumber = parentsNumber.length < 10 ? "10 digits required" : ""
-    } else if (parentsNumber.length > 10) {
-      temp.parentsNumber = parentsNumber.length > 10 ? "Only 10 digits allowed" : ""
-    }
-
+    } 
     setFormError({
       ...temp
     })
@@ -46,6 +60,8 @@ const QuizWizzPopUp = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault()
     if(validations()) {
+      handleCancelForm()
+      handleUserAttempts()
       const data = {
         name: studentName,
         school_name: schoolName,
@@ -57,22 +73,25 @@ const QuizWizzPopUp = (props) => {
         .then(res => {
           if(res.status === 200 )
           {
-            if(grade === "Grade 8"){
-            window.location='/quizlisting8/'}
-            else if(grade === "Grade 9")
-            {
-              window.location='/quizlisting9/'
-            }
-            else
-            {
-              window.location="/quizlisting10/"
-            }
+            showModal()
+            console.log('hello')
+            // if(grade === "Grade 8"){
+            // window.location='/quizlisting8/'}
+            // else if(grade === "Grade 9")
+            // {
+            //   window.location='/quizlisting9/'
+            // }
+            // else
+            // {
+            //   window.location="/quizlisting10/"
+            // }
             // isshowpop(true);
           }
         })
         .catch(err => console.log(err));
         // alert("we will getback to you shortly")
-      }
+        
+    }
   }
 
   return (
@@ -127,11 +146,12 @@ const QuizWizzPopUp = (props) => {
       <div className="mb-5">
         <InputField
           labelName="Parent's Number"
-          type="number"
+          type="text"
           placeholder="+91"
           name='parentsNumber'
           value={parentsNumber}
           onChange={handleChange}
+          maxlength='10'
         />
         {formError.parentsNumber && <span className="text-danger"> {formError.parentsNumber} </span>}
       </div>
@@ -144,6 +164,11 @@ const QuizWizzPopUp = (props) => {
           Submit     <i className="fas fa-arrow-right ml-5"></i>
         </button>
       </a>
+      <Modal visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} footer={null} width='1000px'>
+        <div>
+          <iframe src={options.quizlink} height='600px' width='100%' frameBorder="0"></iframe>
+        </div>
+      </Modal>
     </div>
     
   )
