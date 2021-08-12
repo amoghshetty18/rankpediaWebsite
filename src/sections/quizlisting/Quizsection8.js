@@ -1,6 +1,4 @@
-
-
-import React from "react";
+import React, {useState} from "react";
 import JobCard2 from "../../components/JobCard2";
 import Quizimage1 from "../../assets/gif/Algebraic-Expressions-and Identities.gif";
 import Quizimage2 from "../../assets/gif/CONSERVATION-OF-PLANTS-AND -ANIMALS.gif";
@@ -99,7 +97,15 @@ const items = [
 
 ];
 
-const quizcard8 = () => {
+const Quizcard8 = () => {
+
+  const [userAttempts, setUserAttempts] = useState(0)
+
+  const handleUserAttempts = () => {
+    const result = userAttempts + 1
+    setUserAttempts(result)
+  }
+
   return (
     <div className="bg-default-3 pt-12 pt-md-18 pb-md-19 pb-15 pt-lg-22 pb-lg-26">
       <div className="container">
@@ -112,7 +118,7 @@ const quizcard8 = () => {
               data-aos-duration={600}
             >
               <h2 className="font-size-10 mb-7 letter-spacing-n83">
-                Quizzes for 8th Satndard Students
+                Quizzes for 8th Standard Students
               </h2>
             </div>
           </div>
@@ -128,7 +134,7 @@ const quizcard8 = () => {
                 data-aos="fade-up"
                 data-aos-duration={900}
               > */}
-                <JobCard2 options={item} data-aos="fade-up" />
+                <JobCard2 options={item} handleUserAttempts={handleUserAttempts} userAttempts={userAttempts} data-aos="fade-up" />
               {/* </a> */}
             </div>
           ))}
@@ -138,4 +144,4 @@ const quizcard8 = () => {
   );
 };
 
-export default quizcard8;
+export default Quizcard8;
