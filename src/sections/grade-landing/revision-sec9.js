@@ -35,13 +35,13 @@ const items = [
           "Step-wise solutions with tests",
           color: "#F5F5D4"
       },
-      {
-        icon: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1623687175/geography-icon_mwtvsn.svg",
-        title: "Geography",
-        content:
-          "Tricks to revise maps and names",
-          color:"#E5F5FF"
-      },
+      // {
+      //   icon: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1623687175/geography-icon_mwtvsn.svg",
+      //   title: "Geography",
+      //   content:
+      //     "Tricks to revise maps and names",
+      //     color:"#E5F5FF"
+      // },
       {
         icon: "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1628242121/subjects/download_dst3jn.png",
         title: "English",
