@@ -1,5 +1,4 @@
 import React, {Section} from "react";
-
 import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/about/Hero";
 import Masonry from "../sections/about/Masonry";
@@ -10,8 +9,19 @@ import Banner from "../sections/about/Banner";
 import Service from "../sections/about/Service";
 import OurTeam from "../sections/about/Ourteam";
 import Ready from "../sections/about/ready";
+import TagManager from 'react-gtm-module'
+
+const tagManagerArgs = {
+  dataLayer: {
+    page: "About"
+  },
+  dataLayerName: "PageDataLayer"
+}
 
 const PricingPage = () => {
+
+  TagManager.dataLayer(tagManagerArgs)
+
   return (
     <>
       <PageWrapper

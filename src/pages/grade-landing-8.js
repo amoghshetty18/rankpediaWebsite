@@ -6,8 +6,19 @@ import Banner from "../components/BannerSection";
 import Infocard from "../sections/doubts-landing/Doubts-infocard";
 import Revisesection from "../sections/grade-landing/revision-sec";
 import TopicSection from "../sections/grade-landing/topics-sec";
+import TagManager from "react-gtm-module/dist/TagManager";
+
+const tagManagerArgs = {
+  dataLayer: {
+    page: "Grade 8"
+  },
+  dataLayerName: "PageDataLayer"
+}
 
 const Gradelanding8 = () => {
+
+  TagManager.dataLayer(tagManagerArgs)
+
   return (
     <>
       <PageWrapper

@@ -1,6 +1,5 @@
 import React from "react";
 // import '../css/styles.css'
-
 import PageWrapper from "../components/PageWrapper";
 //import Hero from "../sections/home1/Hero";
 // import Company from "../sections/home1/Compnay";
@@ -21,6 +20,7 @@ import Banner from "../components/BannerSection";
 import Hero from '../sections/home3/Hero'
 
 import GetinTouch from "../components/GetinTouch";
+import TagManager from "react-gtm-module/dist/TagManager";
 
 //import Section1 from "../sections/home/Section1";
 //import Section2 from "../sections/home/Section2";
@@ -32,7 +32,17 @@ import GetinTouch from "../components/GetinTouch";
 // import Section8 from "../sections/home/Section8";
 // import FeatureCard from "../components/JobCard1";
 
+const tagManagerArgs = {
+  dataLayer: {
+    page: "NEP Landing"
+  },
+  dataLayerName: "PageDataLayer"
+}
+
 const Neplanding = () => {
+
+  TagManager.dataLayer(tagManagerArgs)
+
   return (
     <>
        <PageWrapper
