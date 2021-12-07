@@ -2,7 +2,7 @@ import React from "react";
 import '../css/styles.css'
 import PageWrapper from "../components/PageWrapper";
 import Form from "../sections/contact-us/Form";
-import TagManager from "react-gtm-module/dist/TagManager";
+// import TagManager from "react-gtm-module/dist/TagManager";
 
 const tagManagerArgs = {
   dataLayer: {
@@ -13,7 +13,7 @@ const tagManagerArgs = {
 
 const Contact = () => {
 
-  TagManager.dataLayer(tagManagerArgs)
+  // TagManager.dataLayer(tagManagerArgs)
 
   return (
     <>

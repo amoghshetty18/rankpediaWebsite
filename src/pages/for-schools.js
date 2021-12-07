@@ -1,5 +1,5 @@
 import React, {Section} from "react";
-import TagManager from 'react-gtm-module'
+// import TagManager from 'react-gtm-module/dist/TagManager'
 import PageWrapper from "../components/PageWrapper";
 import StepsCard from "../components/StepsCard";
 import GetinTouch from "../components/GetinTouch";
@@ -22,7 +22,7 @@ const tagManagerArgs = {
 
 const Forschools = () => {
 
-  TagManager.dataLayer(tagManagerArgs)
+  // TagManager.dataLayer(tagManagerArgs)
 
   return (
     <>

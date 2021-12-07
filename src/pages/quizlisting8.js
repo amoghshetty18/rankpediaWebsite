@@ -8,7 +8,7 @@ import imgB3 from "../assets/image/home-1/png/post-thumbnails-3.png";
 import imgB4 from "../assets/image/home-1/png/post-thumbnails-4.png";
 // import Jobs from "../sections/career/Jobs";
 import Quizs from "../sections/quizlisting/Quizsection8"
-import TagManager from "react-gtm-module/dist/TagManager";
+// import TagManager from "react-gtm-module/dist/TagManager";
 
 const tagManagerArgs = {
   dataLayer: {
@@ -19,7 +19,7 @@ const tagManagerArgs = {
 
 const Quizlistingpage8 = ({ className, ...rest }) => {
 
-  TagManager.dataLayer(tagManagerArgs)
+  // TagManager.dataLayer(tagManagerArgs)
 
   return (
     <>

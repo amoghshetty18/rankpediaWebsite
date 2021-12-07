@@ -20,7 +20,7 @@ import Banner from "../components/BannerSection";
 import Hero from '../sections/home3/Hero'
 
 import GetinTouch from "../components/GetinTouch";
-import TagManager from "react-gtm-module/dist/TagManager";
+// import TagManager from "react-gtm-module/dist/TagManager";
 
 //import Section1 from "../sections/home/Section1";
 //import Section2 from "../sections/home/Section2";
@@ -41,7 +41,7 @@ const tagManagerArgs = {
 
 const Neplanding = () => {
 
-  TagManager.dataLayer(tagManagerArgs)
+  // TagManager.dataLayer(tagManagerArgs)
 
   return (
     <>

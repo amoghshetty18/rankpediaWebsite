@@ -15,7 +15,7 @@ import Section5 from "../sections/home/Section5";
 import Section6 from "../sections/home/Section6";
 import Section7 from "../sections/home/Section7";
 import Section8 from "../sections/home/Section8";
-import TagManager from "react-gtm-module";
+// import TagManager from "react-gtm-module/dist/TagManager";
 
 const tagManagerArgs = {
   dataLayer: {
@@ -26,7 +26,7 @@ const tagManagerArgs = {
 
 const IndexPage = () => {
 
-  TagManager.dataLayer(tagManagerArgs)
+  // TagManager.dataLayer(tagManagerArgs)
 
   return (
     <>

@@ -12,7 +12,7 @@ import Blog from "../sections/home1/Blog";
 import GetinTouch from "../components/GetinTouch";
 import Banner from "../components/BannerSection";
 import Infocard from "../sections/whyrankpedia/Infocard";
-import TagManager from "react-gtm-module/dist/TagManager";
+// import TagManager from "react-gtm-module/dist/TagManager";
 import Section2 from '../sections/whyrankpedia/Section2'
 import Section5 from '../sections/whyrankpedia/Section5'
 import Different from '../sections/whyrankpedia/different'
@@ -31,7 +31,7 @@ const tagManagerArgs = {
 
 const Whyrankpedia = () => {
 
-  TagManager.dataLayer(tagManagerArgs)
+  // TagManager.dataLayer(tagManagerArgs)
 
   return (
     <>

@@ -9,7 +9,7 @@ import Banner from "../sections/about/Banner";
 import Service from "../sections/about/Service";
 import OurTeam from "../sections/about/Ourteam";
 import Ready from "../sections/about/ready";
-import TagManager from 'react-gtm-module'
+// import TagManager from 'react-gtm-module/dist/TagManager'
 
 const tagManagerArgs = {
   dataLayer: {
@@ -20,7 +20,7 @@ const tagManagerArgs = {
 
 const PricingPage = () => {
 
-  TagManager.dataLayer(tagManagerArgs)
+  // TagManager.dataLayer(tagManagerArgs)
 
   return (
     <>

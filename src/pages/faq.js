@@ -1,5 +1,5 @@
 import React from "react";
-import TagManager from 'react-gtm-module'
+// import TagManager from 'react-gtm-module/dist/TagManager'
 import PageWrapper from "../components/PageWrapper";
 import Faqsection from "../sections/faq/Faqsection";
 import Infocard from "../sections/faq/Infocard";
@@ -14,7 +14,7 @@ const tagManagerArgs = {
 
 const Faq = () => {
 
-  TagManager.dataLayer(tagManagerArgs)
+  // TagManager.dataLayer(tagManagerArgs)
 
   return (
     <>

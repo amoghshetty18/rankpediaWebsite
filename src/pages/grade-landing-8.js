@@ -6,7 +6,7 @@ import Banner from "../components/BannerSection";
 import Infocard from "../sections/doubts-landing/Doubts-infocard";
 import Revisesection from "../sections/grade-landing/revision-sec";
 import TopicSection from "../sections/grade-landing/topics-sec";
-import TagManager from "react-gtm-module/dist/TagManager";
+// import TagManager from "react-gtm-module/dist/TagManager";
 
 const tagManagerArgs = {
   dataLayer: {
@@ -17,7 +17,7 @@ const tagManagerArgs = {
 
 const Gradelanding8 = () => {
 
-  TagManager.dataLayer(tagManagerArgs)
+  // TagManager.dataLayer(tagManagerArgs)
 
   return (
     <>
