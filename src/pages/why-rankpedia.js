@@ -12,7 +12,7 @@ import Blog from "../sections/home1/Blog";
 import GetinTouch from "../components/GetinTouch";
 import Banner from "../components/BannerSection";
 import Infocard from "../sections/whyrankpedia/Infocard";
-
+// import TagManager from "react-gtm-module/dist/TagManager";
 import Section2 from '../sections/whyrankpedia/Section2'
 import Section5 from '../sections/whyrankpedia/Section5'
 import Different from '../sections/whyrankpedia/different'
@@ -21,9 +21,18 @@ import Leftsideimg2 from '../sections/whyrankpedia/leftsideimg2'
 import Rightsideimg from '../sections/whyrankpedia/rightsideimg'
 import Rightsideimg2 from '../sections/whyrankpedia/rightsideimg2'
 
+const tagManagerArgs = {
+  dataLayer: {
+    page: "Why RankPedia"
+  },
+  dataLayerName: "PageDataLayer"
+}
 
 
 const Whyrankpedia = () => {
+
+  // TagManager.dataLayer(tagManagerArgs)
+
   return (
     <>
       <PageWrapper

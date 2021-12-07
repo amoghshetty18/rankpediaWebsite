@@ -9,8 +9,19 @@ import imgB4 from "../assets/image/home-1/png/post-thumbnails-4.png";
 // import image1 from "../../assets/gif/circles.gif"
 // import Jobs from "../sections/career/Jobs";
 import Quizs from "../sections/quizlisting/Quizsection9"
+// import TagManager from "react-gtm-module/dist/TagManager";
+
+const tagManagerArgs = {
+  dataLayer: {
+    page: "Quizwizz 9"
+  },
+  dataLayerName: "PageDataLayer"
+}
 
 const Quizlistingpage9 = ({ className, ...rest }) => {
+
+  // TagManager.dataLayer(tagManagerArgs)
+
   return (
     <>
     <PageWrapper

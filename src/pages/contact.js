@@ -2,8 +2,19 @@ import React from "react";
 import '../css/styles.css'
 import PageWrapper from "../components/PageWrapper";
 import Form from "../sections/contact-us/Form";
+// import TagManager from "react-gtm-module/dist/TagManager";
+
+const tagManagerArgs = {
+  dataLayer: {
+    page: "Contact Us"
+  },
+  dataLayerName: "PageDataLayer"
+}
 
 const Contact = () => {
+
+  // TagManager.dataLayer(tagManagerArgs)
+
   return (
     <>
       <PageWrapper

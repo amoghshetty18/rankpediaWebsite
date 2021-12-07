@@ -1,5 +1,5 @@
 import React, {Section} from "react";
-
+// import TagManager from 'react-gtm-module/dist/TagManager'
 import PageWrapper from "../components/PageWrapper";
 import StepsCard from "../components/StepsCard";
 import GetinTouch from "../components/GetinTouch";
@@ -13,7 +13,17 @@ import RespondSec from "../sections/doubts-landing/respondsec";
 import ThingsSec from "../sections/doubts-landing/ThingsSec";
 import ExpertSec from "../sections/doubts-landing/ExpertsSec";
 
+const tagManagerArgs = {
+  dataLayer: {
+    page: "For Schools"
+  },
+  dataLayerName: "PageDataLayer"
+}
+
 const Forschools = () => {
+
+  // TagManager.dataLayer(tagManagerArgs)
+
   return (
     <>
       <PageWrapper

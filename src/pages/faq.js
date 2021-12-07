@@ -1,10 +1,21 @@
 import React from "react";
-
+// import TagManager from 'react-gtm-module/dist/TagManager'
 import PageWrapper from "../components/PageWrapper";
 import Faqsection from "../sections/faq/Faqsection";
 import Infocard from "../sections/faq/Infocard";
 import GetinTouch from "../components/GetinTouch";
+
+const tagManagerArgs = {
+  dataLayer: {
+    page: "FAQs"
+  },
+  dataLayerName: "PageDataLayer"
+}
+
 const Faq = () => {
+
+  // TagManager.dataLayer(tagManagerArgs)
+
   return (
     <>
       <PageWrapper
