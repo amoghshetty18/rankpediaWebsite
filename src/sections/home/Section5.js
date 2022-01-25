@@ -333,7 +333,7 @@ const Section5 = ({ className, ...rest }) => {
           data-aos-once="true"
         >
           <img 
-            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643102569/home-page/Continuing-Education_1_er7hfb.png" 
+            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643104525/home-page/Continuing-Education_2_y531ld.png" 
             alt="" 
             className="img-fluid"
           />

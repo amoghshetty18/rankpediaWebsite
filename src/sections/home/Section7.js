@@ -226,168 +226,190 @@ const Section7 = ({ className, ...rest }) => {
   };
 
   return (
-    <>
-      <div className={className} {...rest}>
+    // <>
+    //   <div className={className} {...rest}>
        
-      <section id="fourimg1">
-      <div class="content-section fr-sct pb-22">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
+    //   <section id="fourimg1">
+    //   <div class="content-section fr-sct pb-22">
+    //     <div class="container">
+    //       <div class="row align-items-center justify-content-center">
 
-            <div class="col-sm-10 col-lg-6">
-              <div class="content-text">
-                <h2 class="simpli-nono mb-7">Expertly curated question banks with over 100,000 questions</h2>
-                <p class="clscls text-light">Gain a competitive edge in high school with our comprehensive question banks curated by Subject Matter Experts with years of experience in education.</p>
-                  {/* <a href="" class="btn btn-red mx-auto gtstrdr">Learn More</a> */}
-              </div>
-            </div>
+    //         <div class="col-sm-10 col-lg-6">
+    //           <div class="content-text">
+    //             <h2 class="simpli-nono mb-7">Expertly curated question banks with over 100,000 questions</h2>
+    //             <p class="clscls text-light">Gain a competitive edge in high school with our comprehensive question banks curated by Subject Matter Experts with years of experience in education.</p>
+    //           </div>
+    //         </div>
             
-            <div class="col-sm-10 col-lg-6 mb-9 mb-lg-0">
-              <div class="content-grid-image-group d-flex  mx-sm-n3">
+    //         <div class="col-sm-10 col-lg-6 mb-9 mb-lg-0">
+    //           <div class="content-grid-image-group d-flex  mx-sm-n3">
 
-                <div class="content-widget mt-7 mt-lg-0  pl-xl-19">
+    //             <div class="content-widget mt-7 mt-lg-0  pl-xl-19">
                   
-                  {/* <a href="/grade8"> */}
                   
-                  <div class="row align-items-center">
-                    <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
-                      <div class="single-widget my-sps media">
+    //               <div class="row align-items-center">
+    //                 <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
+    //                   <div class="single-widget my-sps media">
                       
-                        <div class="media-body">
-                          <div class="col-md-12 innr flt-lft text-center expertly-curated-class">
-                            {/* <div class="col-md-2 flt-lft mobwdts">
-                              <img src={ small1 } alt="" />
-                            </div> */}
-                            {/* <div class="col-md-4 flt-lft mobwdts">
-                              <h5 class="scnr">Science</h5>
-                            </div> */}
-                              <div class="col-md-3 flt-lft mobwdts">
-                                <a href="/grade8">
-                                  <p class="cltds">Class 8</p>
-                                </a>
-                              </div>
-                              <div class="col-md-3 flt-lft mobwdts">
-                                <a href="/grade8">
-                                  <p class="cltds">CBSE</p>
-                                </a>
-                              </div>                            
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
-                      <div class="single-widget my-sps media">
-                        <div class="media-body">
-                          <div class="col-md-12 innr flt-lft expertly-curated-class">
-                            {/* <div class="col-md-2 flt-lft mobwdts">
-                            <img src={ small2 } alt="" />
-                            </div> */}
-                            {/* <div class="col-md-4 flt-lft mobwdts">
-                              <h5 class="scnr">Maths</h5>
-                            </div> */}
-                            <div class="col-md-3 flt-lft mobwdts">
-                              <a href="/grade9">
-                                <p class="cltds">Class 9</p>
-                              </a>   
-                            </div>
-                            <div class="col-md-3 flt-lft mobwdts">
-                              <a href="/grade9">
-                                <p class="cltds">CBSE</p>
-                              </a>                              
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
-                      <div class="single-widget my-sps media">
-                        <div class="media-body">
-                          <div class="col-md-12 innr flt-lft expertly-curated-class">
-                            {/* <div class="col-md-2 flt-lft mobwdts">
-                            <img src={ small2 } alt="" />
-                            </div> */}
-                            {/* <div class="col-md-4 flt-lft mobwdts">
-                              <h5 class="scnr">Maths</h5>
-                            </div> */}
-                            <div class="col-md-3 flt-lft mobwdts">
-                              <a href="/grade10">
-                                <p class="cltds">Class 10</p>
-                              </a>   
-                            </div>
-                            <div class="col-md-3 flt-lft mobwdts">
-                              <a href="/grade10">
-                                <p class="cltds">CBSE</p>
-                              </a>                              
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {/* <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
-                      <div class="single-widget my-sps media">
-                        <div class="media-body">
-                          <div class="col-md-12 innr flt-lft">
-                            <div class="col-md-2 flt-lft mobwdts">
-                            <img src={ small3 } alt="" />
-                            </div>
-                            <div class="col-md-4 flt-lft mobwdts">
-                              <h5 class="scnr">Technology</h5>
-                            </div>
-                            <div class="col-md-3 flt-lft mobwdts">
-                              <p class="cltds">Class 1-8</p>
-                            </div>
-                            <div class="col-md-3 flt-lft mobwdts">
-                              <p class="cltds">CBSE</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div> */}
-                    {/* <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
-                      <div class="single-widget my-sps media">
-                        <div class="media-body">
-                          <div class="col-md-12 innr flt-lft">
-                            <div class="col-md-2 flt-lft mobwdts">
-                            <img src={ small4 } alt="" />
-                            </div>
-                            <div class="col-md-4 flt-lft mobwdts">
-                              <h5 class="scnr">Social</h5>
-                            </div>
-                            <div class="col-md-3 flt-lft mobwdts">
-                              <p class="cltds">Class 1-8</p>
-                            </div>
-                            <div class="col-md-3 flt-lft mobwdts">
-                              <p class="cltds">CBSE</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div> */}
-                    {/* <div class="col-md-6 col-lg-12" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
-                    <div class="hero-btn">
-                      <a href="#" class="btn-link with-icon text-wtr hm-frtg-ts frst-fnts">Explore course materials <i class="icon icon-tail-right font-weight-bold"></i></a>
-                    </div>
-                  </div> */}
-                  </div>
-
-                  {/* </a> */}
+    //                     <div class="media-body">
+    //                       <div class="col-md-12 innr flt-lft text-center expertly-curated-class">
+                            
+    //                           <div class="col-md-3 flt-lft mobwdts">
+    //                             <a href="/grade8">
+    //                               <p class="cltds">Class 8</p>
+    //                             </a>
+    //                           </div>
+    //                           <div class="col-md-3 flt-lft mobwdts">
+    //                             <a href="/grade8">
+    //                               <p class="cltds">CBSE</p>
+    //                             </a>
+    //                           </div>                            
+    //                       </div>
+    //                     </div>
+    //                   </div>
+    //                 </div>
+    //                 <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
+    //                   <div class="single-widget my-sps media">
+    //                     <div class="media-body">
+    //                       <div class="col-md-12 innr flt-lft expertly-curated-class">
+                            
+    //                         <div class="col-md-3 flt-lft mobwdts">
+    //                           <a href="/grade9">
+    //                             <p class="cltds">Class 9</p>
+    //                           </a>   
+    //                         </div>
+    //                         <div class="col-md-3 flt-lft mobwdts">
+    //                           <a href="/grade9">
+    //                             <p class="cltds">CBSE</p>
+    //                           </a>                              
+    //                         </div>
+    //                       </div>
+    //                     </div>
+    //                   </div>
+    //                 </div>
+    //                 <div class="col-md-6 col-lg-12 extr-clst" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
+    //                   <div class="single-widget my-sps media">
+    //                     <div class="media-body">
+    //                       <div class="col-md-12 innr flt-lft expertly-curated-class">
+                            
+    //                         <div class="col-md-3 flt-lft mobwdts">
+    //                           <a href="/grade10">
+    //                             <p class="cltds">Class 10</p>
+    //                           </a>   
+    //                         </div>
+    //                         <div class="col-md-3 flt-lft mobwdts">
+    //                           <a href="/grade10">
+    //                             <p class="cltds">CBSE</p>
+    //                           </a>                              
+    //                         </div>
+    //                       </div>
+    //                     </div>
+    //                   </div>
+    //                 </div>
+                    
+    //               </div>
 
 
 
-                </div>
+
+    //             </div>
              
                
-              </div>
-            </div>
+    //           </div>
+    //         </div>
           
-          </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </section>
+        
+        
+    //   </div>
+    // </>
+    <div 
+      className="container py-5 my-5"
+      style={{
+        backgroundColor: "#fff"
+      }}
+    >
+      <div className="row align-items-center">
+        <h2 
+          style={{
+            fontWeight: 100
+          }}
+          className="section-2-heading-phone mx-auto"
+        >
+          Best Learning Resources
+        </h2>
+        <div 
+          className="col-md-6" 
+          data-aos="flip-right" 
+          data-aos-duration="1000" 
+          data-aos-once="true"
+        >
+          <img 
+            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643104285/home-page/Best-Learning-Resources_1_rzvdfu.png" 
+            alt="" 
+            className="img-fluid"
+          />
+        </div>
+        <div className="col-md-6">
+          <h2 
+            style={{
+              fontWeight: 100
+            }}
+            className="section-2-heading-desktop"
+            data-aos="fade-left" 
+            data-aos-duration="500" 
+            data-aos-once="true"
+          >
+            Best Learning Resources
+          </h2>
+          <p>
+            Our learner-friendly resources are crafted using advanced technology to help students understand concepts in the best way possible. Our interactive videos and student-centric evaluation materials have been created with the goal of keeping all students engaged in a continuous learning cycle. Through practical learning, we strive to provide students with opportunities to promote their abilities and skills to reach the ideal career pathway. 
+          </p>
         </div>
       </div>
-    </section>
-        
-        
+
+      <div className="row align-items-center">
+        <h2 
+          style={{
+            fontWeight: 100
+          }}
+          className="section-2-heading-phone mx-auto"
+        >
+          Interactive Learning 
+        </h2>
+        <div 
+          className="col-md-6 order-md-last" 
+          data-aos="flip-right" 
+          data-aos-duration="1000" 
+          data-aos-once="true"
+        >
+          <img 
+            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643104525/home-page/Continuing-Education_2_y531ld.png" 
+            alt="" 
+            className="img-fluid"
+          />
+        </div>
+        <div className="col-md-6">
+          <h2 
+            style={{
+              fontWeight: 100
+            }}
+            className="section-2-heading-desktop"
+            data-aos="fade-left" 
+            data-aos-duration="500" 
+            data-aos-once="true"
+          >
+            Interactive Learning 
+          </h2>
+          <p>
+            Do not hesitate or block your mind when you are doubtful. Our team is available 24*7 to assist the students to improve their academic performance and progress through the learning process. Students have the provision of online doubt solving with the best teacher through live sessions.  
+          </p>
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 
