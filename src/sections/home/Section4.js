@@ -350,7 +350,7 @@ const Section4 = ({ className, ...rest }) => {
           style={{
             fontWeight: 100
           }}
-          className="section-2-heading-phone mx-auto"
+          className="section-2-heading-phone mx-auto text-center"
         >
           E-Learning
         </h2>
@@ -389,7 +389,7 @@ const Section4 = ({ className, ...rest }) => {
           style={{
             fontWeight: 100
           }}
-          className="section-2-heading-phone mx-auto"
+          className="section-2-heading-phone mx-auto text-center"
         >
           E-School
         </h2>

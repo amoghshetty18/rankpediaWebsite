@@ -286,7 +286,7 @@ const Section2 = ({ className, ...rest }) => {
             style={{
               fontWeight: 100
             }}
-            className="section-2-heading-phone mx-auto"
+            className="section-2-heading-phone mx-auto text-center"
           >
             Bringing About a Change
           </h2>
@@ -325,7 +325,7 @@ const Section2 = ({ className, ...rest }) => {
             style={{
               fontWeight: 100
             }}
-            className="section-2-heading-phone mx-auto"
+            className="section-2-heading-phone mx-auto text-center"
           >
             Learner-Centered Stratification of Rankpedia
           </h2>

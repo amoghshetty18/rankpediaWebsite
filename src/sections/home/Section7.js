@@ -337,7 +337,7 @@ const Section7 = ({ className, ...rest }) => {
           style={{
             fontWeight: 100
           }}
-          className="section-2-heading-phone mx-auto"
+          className="section-2-heading-phone mx-auto text-center"
         >
           Best Learning Resources
         </h2>
@@ -376,7 +376,7 @@ const Section7 = ({ className, ...rest }) => {
           style={{
             fontWeight: 100
           }}
-          className="section-2-heading-phone mx-auto"
+          className="section-2-heading-phone mx-auto text-center"
         >
           Interactive Learning 
         </h2>

@@ -322,7 +322,7 @@ const Section5 = ({ className, ...rest }) => {
           style={{
             fontWeight: 100
           }}
-          className="section-2-heading-phone mx-auto"
+          className="section-2-heading-phone mx-auto text-center"
         >
           Continuing Education
         </h2>
@@ -361,7 +361,7 @@ const Section5 = ({ className, ...rest }) => {
           style={{
             fontWeight: 100
           }}
-          className="section-2-heading-phone mx-auto"
+          className="section-2-heading-phone mx-auto text-center"
         >
           An Alarming fact in the Indian Education System
         </h2>

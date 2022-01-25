@@ -277,7 +277,7 @@ const Section6 = ({ className, ...rest }) => {
           style={{
             fontWeight: 100
           }}
-          className="section-2-heading-phone mx-auto"
+          className="section-2-heading-phone mx-auto text-center"
         >
           Teaching Methodology We Implement
         </h2>
@@ -288,7 +288,7 @@ const Section6 = ({ className, ...rest }) => {
           data-aos-once="true"
         >
           <img 
-            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643103621/home-page/Teaching_Methodology_We_Implement_1_mccqyc.png" 
+            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643105565/home-page/Teaching_Methodology_We_Implement_2_rhelxv.png" 
             alt="" 
             className="img-fluid"
           />
@@ -316,7 +316,7 @@ const Section6 = ({ className, ...rest }) => {
           style={{
             fontWeight: 100
           }}
-          className="section-2-heading-phone mx-auto"
+          className="section-2-heading-phone mx-auto text-center"
         >
           Our Futuristic Approach
         </h2>
@@ -327,7 +327,7 @@ const Section6 = ({ className, ...rest }) => {
           data-aos-once="true"
         >
           <img 
-            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643103883/home-page/NEP-2020_1_cnc4le.png" 
+            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643106387/home-page/NEP-2020_2_etg1p3.png" 
             alt="" 
             className="img-fluid"
           />
