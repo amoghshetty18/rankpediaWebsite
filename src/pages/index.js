@@ -35,15 +35,10 @@ const IndexPage = () => {
           headerClassName: "site-header--menu-right",
           headerButton: (
             <>
-            <a href="/login">  <button className="btn btn btn-blue-3 header-btn1 head-login">
-                Login
-              </button> </a>
-
-              {/* <div class="header-btn  ml-auto ml-lg-5 mr-6 mr-lg-0 d-none d-xs-block" id="login-tpr">
-            <a class="btn bggr gr-text-9 d-none d-xs-inline-flex " href="#">
-              Login
-            </a>
-          </div> */}
+              <a href="/login">  <button className="btn btn btn-blue-3 header-btn1 head-login">
+                  Login
+                </button> 
+              </a>
             </>
           ),
           footerStyle: "style3",
@@ -58,12 +53,6 @@ const IndexPage = () => {
         <Section6 />
         <Section7 />
         <Section8 />
-        {/* <Hero className="position-relative z-index-1" />
-        <Company className="bg-default-1 pt-13 pt-md-17 pt-lg-24 pb-13 pb-md-14 pb-lg-23" />
-        <Categories className="bg-default-1 pt-lg-13 pb-md-7 pb-lg-11 position-relative" />
-        <Jobs className="pt-14 pt-md-18 pt-lg-30 bg-default-2 pb-9 pb-md-13 pb-lg-29" />
-        <Content1 className="pt-21 pt-md-24 pt-lg-32 pb-15 pb-md-19 pb-lg-30" />
-        <Blog className="bg-default-1 pt-14 pt-md-18 pt-lg-27 pb-13 pb-md-17 pb-lg-26" /> */}
       </PageWrapper>
     </>
   );
