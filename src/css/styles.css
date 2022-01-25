@@ -328,6 +328,10 @@ h1, h2, h3, h4, h5, h6{
   animation: mover 1s infinite  alternate; */
 }
 
+.section-2-heading-phone {
+  display: none;
+}
+
 @media screen and (max-width: 990px) {
   .blob-container {
     width: 500px;
@@ -466,6 +470,15 @@ h1, h2, h3, h4, h5, h6{
   }
   #esdtr-difg {
     margin-top: 25px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-2-heading-phone {
+    display: inline-block;
+  }
+  .section-2-heading-desktop {
+    display: none;
   }
 }
 
