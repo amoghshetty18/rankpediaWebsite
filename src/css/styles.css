@@ -336,6 +336,10 @@ h1, h2, h3, h4, h5, h6{
   margin-bottom: 50px;
 }
 
+.index-first-content-section {
+  margin-top: 50px;
+}
+
 @media screen and (max-width: 990px) {
   .blob-container {
     width: 500px;
@@ -486,6 +490,9 @@ h1, h2, h3, h4, h5, h6{
   }
   .section-margins {
     margin-bottom: 25px;
+  }
+  .index-first-content-section {
+    margin-top: 25px;
   }
 }
 

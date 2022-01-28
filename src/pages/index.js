@@ -19,6 +19,7 @@ import Section9 from "../sections/home/Section9";
 import Section10 from "../sections/home/Section10";
 import Section11 from "../sections/home/Section11";
 import Section12 from "../sections/home/Section12";
+import ContentSections from "../sections/home/ContentSections";
 // import TagManager from "react-gtm-module/dist/TagManager";
 
 const tagManagerArgs = {
@@ -49,16 +50,17 @@ const IndexPage = () => {
         }}
       >
         <Section1 />
-        <Section2  
-        id="msg-hgtr"  />
+        {/* <Section2  
+        id="msg-hgtr"  /> */}
         {/* <Section3 /> */}
-        <Section4 />
+        {/* <Section4 />
         <Section5 />
         <Section6 />
         <Section7 />
         <Section9 />
         <Section10 />
-        <Section11 />
+        <Section11 /> */}
+        <ContentSections />
         <Section12 />
         {/* <Section8 /> */}
       </PageWrapper>
