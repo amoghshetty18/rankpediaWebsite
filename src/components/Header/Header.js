@@ -8,6 +8,7 @@ import Offcanvas from "../Offcanvas";
 import Menu from "./Menu";
 import NestedMenu from "../NestedMenu";
 import Logo from "../Logo";
+import { Helmet } from "react-helmet";
 
 const SiteHeader = styled.header``;
 
@@ -33,6 +34,14 @@ const Header = () => {
 
   return (
     <>
+      <Helmet>
+        <link
+            rel="icon"
+            type="image/png"
+            href="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643110810/home-page/Rankpedia_fav_dvuoem.png"
+            sizes="16x16"
+        />
+      </Helmet>
       <SiteHeader
         className={`site-header ${
           gContext.theme.headerClassName

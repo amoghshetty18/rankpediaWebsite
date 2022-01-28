@@ -226,51 +226,130 @@ const Section6 = ({ className, ...rest }) => {
   };
 
   return (
-    <>
-      <div className={className} {...rest}>
+    // <>
+    //   <div className={className} {...rest}>
        
-      <section id="fourimg">
-      <div class="content-section fr-sct">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
+    //   <section id="fourimg">
+    //   <div class="content-section fr-sct">
+    //     <div class="container">
+    //       <div class="row align-items-center justify-content-center">
 
-            <div class="col-sm-10 col-lg-6">
-              <div class="content-text">
-                <h2 class="engag mb-7">Building an Ecosystem for Students, Teachers, and Parents</h2>
-                <p class="clscls" id="cm-ash-acmash">Join this <b>educational portal </b> covering CBSE and NCERT curriculum, an insightful environment created by schools and teachers focusing on comprehensive learning to help you fulfill your dreams.</p>
-                  {/* <a href="#" class="btn btn-red mx-auto gtstrdr">Learn More</a> */}
-              </div>
-            </div>
+    //         <div class="col-sm-10 col-lg-6">
+    //           <div class="content-text">
+    //             <h2 class="engag mb-7">Building an Ecosystem for Students, Teachers, and Parents</h2>
+    //             <p class="clscls" id="cm-ash-acmash">Join this <b>educational portal </b> covering CBSE and NCERT curriculum, an insightful environment created by schools and teachers focusing on comprehensive learning to help you fulfill your dreams.</p>
+    //           </div>
+    //         </div>
             
-            <div class="col-sm-10 col-lg-6 mb-9 mb-lg-0 mstlylst">
-              <div class="content-grid-image-group d-flex  mx-sm-n3">
-                <div class="single-image d-flex flex-column pt-11 px-3 px-sm-6">
-                <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625509187/gallery1-99f71ca0b8b3c2a9f7174d02efcca499-min_kgp8kq.png" } alt=""  data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" class=" pb-6 pb-sm-9" />
-                <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625509422/gallery2-430795fe3b7f2c93f36ec5d18c3dfaad-min_uhx2dg.png" } alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000" data-aos-once="true" class=" pb-6" />
-                  {/* <img src="./image/l4/png/gallery1.png" alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" class=" pb-6 pb-sm-9" />
+    //         <div class="col-sm-10 col-lg-6 mb-9 mb-lg-0 mstlylst">
+    //           <div class="content-grid-image-group d-flex  mx-sm-n3">
+    //             <div class="single-image d-flex flex-column pt-11 px-3 px-sm-6">
+    //             <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625509187/gallery1-99f71ca0b8b3c2a9f7174d02efcca499-min_kgp8kq.png" } alt=""  data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" class=" pb-6 pb-sm-9" />
+    //             <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625509422/gallery2-430795fe3b7f2c93f36ec5d18c3dfaad-min_uhx2dg.png" } alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000" data-aos-once="true" class=" pb-6" />
+                 
+    //             </div>
+    //             <div class="single-image d-flex flex-column  px-3 px-sm-6">
+    //             <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625509335/gallery3-e98e88dee569a3f52f717c314c373c98-min_zoaa3s.png" } alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" class=" pb-6 pb-sm-9" />
+    //             <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625509488/gallery4-b3f2355127cd69b57de82e1333c09c7a-min_bikxxu.png" } alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000" data-aos-once="true" class=" pb-6" />
                   
-                  <img src="./image/l4/png/gallery2.png" alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000" data-aos-once="true" class=" pb-6" /> */}
-                </div>
-                <div class="single-image d-flex flex-column  px-3 px-sm-6">
-                <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625509335/gallery3-e98e88dee569a3f52f717c314c373c98-min_zoaa3s.png" } alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" class=" pb-6 pb-sm-9" />
-                <img src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625509488/gallery4-b3f2355127cd69b57de82e1333c09c7a-min_bikxxu.png" } alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000" data-aos-once="true" class=" pb-6" />
-                  {/* <img src="./image/l4/png/gallery3.png" alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" class=" pb-6 pb-sm-9" />
-                  
-                  <img src="./image/l4/png/gallery4.png" alt="" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000" data-aos-once="true" class=" pb-6" /> */}
-                </div>
+    //             </div>
                
                
-              </div>
-            </div>
+    //           </div>
+    //         </div>
           
-          </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </section>
+        
+        
+    //   </div>
+    // </>
+    <div 
+      className="container py-5 my-5"
+      style={{
+        backgroundColor: "#fff"
+      }}
+    >
+      <div className="row align-items-center">
+        <h2 
+          style={{
+            fontWeight: 100
+          }}
+          className="section-2-heading-phone mx-auto text-center"
+        >
+          Teaching Methodology We Implement
+        </h2>
+        <div 
+          className="col-md-6" 
+          data-aos="flip-right" 
+          data-aos-duration="1000" 
+          data-aos-once="true"
+        >
+          <img 
+            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643105565/home-page/Teaching_Methodology_We_Implement_2_rhelxv.png" 
+            alt="" 
+            className="img-fluid"
+          />
+        </div>
+        <div className="col-md-6">
+          <h2 
+            style={{
+              fontWeight: 100
+            }}
+            className="section-2-heading-desktop"
+            data-aos="fade-left" 
+            data-aos-duration="500" 
+            data-aos-once="true"
+          >
+            Teaching Methodology We Implement
+          </h2>
+          <p>
+            We have adopted the best teaching methodologies by incorporating the latest technologies to help the students in their learning journey. This enables students to learn the concepts easily and comprehensively.
+          </p>
         </div>
       </div>
-    </section>
-        
-        
+
+      <div className="row align-items-center">
+        <h2 
+          style={{
+            fontWeight: 100
+          }}
+          className="section-2-heading-phone mx-auto text-center"
+        >
+          Our Futuristic Approach
+        </h2>
+        <div 
+          className="col-md-6 order-md-last" 
+          data-aos="flip-right" 
+          data-aos-duration="1000" 
+          data-aos-once="true"
+        >
+          <img 
+            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643106387/home-page/NEP-2020_2_etg1p3.png" 
+            alt="" 
+            className="img-fluid"
+          />
+        </div>
+        <div className="col-md-6">
+          <h2 
+            style={{
+              fontWeight: 100
+            }}
+            className="section-2-heading-desktop"
+            data-aos="fade-left" 
+            data-aos-duration="500" 
+            data-aos-once="true"
+          >
+            Our Futuristic Approach
+          </h2>
+          <p>
+            We have adopted all the best practices mentioned in the National Education Policy 2020 to help the children in their holistic development. The curriculum has been reduced to the core essentials and the teaching methodologies foster inquiry-based learning and analysis-based learning methodologies build the analytical skills of the students. In alignment with NEP, we emphasize providing holistic education to every child, which promotes outcome-based experiential learning that enhances the analytical and vocational skills of the students. 
+          </p>
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -227,22 +227,20 @@ const Section2 = ({ className, ...rest }) => {
 
   return (
     <>
-      <div className={className} {...rest}>
+      {/* <div className={className} {...rest}>
        
         <div class="content-section pt-10 pb-9 new-bg">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
             <div class="content-img sxrty">
-           <img class="hmgrt" src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1621243440/blooms_pges2w.png" } alt="" />
-              {/* <img src="homesection1" alt="" class="w-100" /> */}
+           <img class="hmgrt" src={ "https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643089987/home-page/Bringing-About-a-Change_vzucke.jpg" } alt="" />
             </div>
           </div>
           <div class="col-10 col-lg-6 imgs-imt" id="hmgfre-estr">
             <div class="section-title content-text mb-13" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <h2 class="title gr-text-3 engag" >Teaching Methodology</h2>
               <p class="gr-text-8 clscls">Fun <b>online classes for CBSE </b> students to simplify complex concepts. Get access to hours of video lessons scaffolder perfectly with Bloom’s Taxonomy. The improved learning can help identify achievable learning goals. </p>
-                {/* <a href="#" class="btn btn-red mx-auto gtstrdr">Learn More</a> */}
             </div>
             <div class="content-widget">
               <div class="row">
@@ -281,6 +279,85 @@ const Section2 = ({ className, ...rest }) => {
     </div>
         
         
+      </div> */}
+      <div className="container py-5 my-5">
+        <div className="row align-items-center">
+          <h2 
+            style={{
+              fontWeight: 100
+            }}
+            className="section-2-heading-phone mx-auto text-center"
+          >
+            Bringing About a Change
+          </h2>
+          <div 
+            className="col-md-6" 
+            data-aos="flip-right" 
+            data-aos-duration="1000" 
+            data-aos-once="true"
+          >
+            <img 
+              src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643089987/home-page/Bringing-About-a-Change_vzucke.jpg" 
+              alt="" 
+              className="img-fluid"
+            />
+          </div>
+          <div className="col-md-6">
+            <h2 
+              style={{
+                fontWeight: 100
+              }}
+              className="section-2-heading-desktop"
+              data-aos="fade-left" 
+              data-aos-duration="500" 
+              data-aos-once="true"
+            >
+              Bringing About a Change
+            </h2>
+            <p>
+              Our research has provided us with an estimate of the number of students who have dropped out of school.As a result, we have devised several strategies for reintegrating these students into the system.
+            </p>
+          </div>
+        </div>
+
+        <div className="row align-items-center px-3 px-md-0">
+          <h2 
+            style={{
+              fontWeight: 100
+            }}
+            className="section-2-heading-phone mx-auto text-center"
+          >
+            Learner-Centered Stratification of Rankpedia
+          </h2>
+          <div 
+            className="col-md-6 order-md-last" 
+            data-aos="fade-left" 
+            data-aos-duration="500" 
+            data-aos-once="true"
+          >
+            <img 
+              src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643094421/home-page/3-Verticals_1_siwcwr.png" 
+              alt="" 
+              className="img-fluid"
+            />
+          </div>
+          <div className="col-md-6">
+            <h2 
+              style={{
+                fontWeight: 100
+              }}
+              className="section-2-heading-desktop"
+              data-aos="flip-right" 
+              data-aos-duration="2000" 
+              data-aos-once="true"
+            >
+              Learner-Centered Stratification of Rankpedia
+            </h2>
+            <p>
+              Rankpedia has been expanded into three verticals, namely E-Learning, E-school, and Continuing Education, in order to deliver world-class educational possibilities to students all around the world.  
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
