@@ -4,7 +4,7 @@ const Card = ({ props }) => {
   const { card_image, title, text } = props;
   return (
     <div className="col-sm-6 col-lg-3 my-5 py-7">
-      <div className="card  py-5 px-1 card-same">
+      <div className="card  py-5 px-1 card-same" style={{height:"100%"}}>
         <img
           id="card-image-gradelanding"
           className="mx-auto d-block"

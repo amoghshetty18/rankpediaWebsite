@@ -9,6 +9,7 @@ import Section6 from "../sections/e-learning/Section6";
 import Section7 from "../sections/e-learning/Section7";
 import Section8 from "../sections/e-learning/Section8";
 import Section9 from "../sections/e-learning/Section9";
+import AssesmentSection from "../sections/e-learning/AssesmentSection"
 
 const tagManagerArgs = {
   dataLayer: {
@@ -44,7 +45,7 @@ const ELearning = () => {
         />
         <Section2 />
         <Section3 />
-
+        <AssesmentSection/>
         <Section4 />
         <Section5 />
         <Section6 />

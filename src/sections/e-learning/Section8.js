@@ -7,8 +7,11 @@ function Section8({ className, ...rest }) {
       <div class="new-bg">
         <ImageLeft
           title="Our Unique Selling Points (USPs)"
-          paragraph=""
+          paragraph="Different Indian Boards- curating the content for various Indian
+          Boards to maintain the standard of learning in both Central as
+          well as State boards."
           extraParagraph=""
+          imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643447585/e-learning/Our-USP_ohsx8l.png"
         >
           <ul>
             <li>

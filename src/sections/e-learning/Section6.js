@@ -11,6 +11,7 @@ function Section6({ className, ...rest }) {
               paragraph="The 5-layered assessment is designed by our subject-matter experts keeping Bloom’s Taxonomy as an integral part with a scoring mechanism where the difficulty level increases from 1 to 10."
               extraParagraph="Learning should not simply be about regurgitating what we've learned; it should also enable students to practically apply the knowledge to make a difference. This learning standard enhances students' talents and prepares them to become tomorrow's leaders. Our assessment methodologies are designed to strengthen the critical and creative talents of our students. The assessment procedure includes different steps to engage the child in the entire learning process. The assessment will start after a child has completed all the components of a concept or chapter which includes
             "
+            imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643447597/e-learning/Why-is-our-5-layered-assessment-relevant_dwftv2.png"
             >
               <ul>
                 <li>Videos from various concepts and chapters.</li>
@@ -58,6 +59,7 @@ function Section6({ className, ...rest }) {
               title="Our Core Strengths "
               paragraph="Affordability and Accessibility, Employability Quotient, High-quality Education"
               extraParagraph=""
+              imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643447581/e-learning/Our-Core-Strengths_tvzrvj.png"
             >
               <ul>
                 <li>

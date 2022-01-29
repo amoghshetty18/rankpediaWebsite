@@ -46,7 +46,6 @@ const Section5 = () => {
   return (
       <div className="pt-10 pt-lg-12">
         <div className="container">
-          
           <h2 className="font-size-10 mb-10" style={{ textAlign: "center" }}>
             Bloom's Level of Assesment
           </h2>
@@ -67,12 +66,14 @@ const Section5 = () => {
             })}
           </div>
             <ImageLeft
-              imgPos="left"
+              imgPos="right"
               paragraph={
                 "Students get to choose the Chapter, Concept, Difficulty Level, Blooms Level, Time, etc. to create a test that they can practice at their own pace. Different sets of questions are used to analyze performance in terms of stream, subject, and overall understanding. Our portal contains both subjective and objective questions created by the system as well as questions submitted by experts. Students can upload their works, which will be examined by our Subject Matter Experts. These techniques facilitate the learning process of the students."
               }
               extraParagraph={""}
+              imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643105179/home-page/BLOOMS-pic-23_1_nujbr8.png"
             />
+            
         </div>
       </div>
   );

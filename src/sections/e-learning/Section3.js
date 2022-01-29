@@ -36,7 +36,6 @@ function Section3({ className, ...rest }) {
   return (
     <>
       <div class={className} {...rest}>
-        <div class="content-section pt-10 pb-9">
           <div class="container">
             <ImageLeft
               title="National Education Policy 2020 "
@@ -44,16 +43,18 @@ function Section3({ className, ...rest }) {
               paragraph="We've incorporated all of the best practices mentioned in the NEP 2020, such as the holistic learning system, assessment methodologies that develop analytical and critical thinking, vocational skills, etc."
               extraParagraph="The New Education Policy (NEP) highlights fundamental changes in how India perceives, teaches, and administers education. We've incorporated all of the best practices mentioned in the NEP 2020, such as the holistic learning system, assessment methodologies that develop analytical and critical thinking, vocational skills, etc. As mentioned in the NEP, we aim to provide equitable and inclusive education. We use all the new technologies involving artificial intelligence, machine learning, blockchains, smart boards, handheld computing devices, adaptive computer testing for student development, and other forms of educational software and hardware that will not just change what students learn in the classroom but how they learn, and thus these areas and beyond will require extensive research both on the technological as well as educational fronts.
               "
+              imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643447578/e-learning/NEP-2020_ezzmc3.png"
             />
 
 
             <div class="row d-flex align-items-strech justify-content-between">
               {cards.map((item) => {
-                return <Card props={item} />;
+                return (
+                  <Card props={item} />
+                );
               })}
             </div>
           </div>
-        </div>
       </div>
     </>
   );
