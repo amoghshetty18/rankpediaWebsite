@@ -7,11 +7,7 @@ function AssesmentSection({ className, ...rest }) {
     <>
       <div class={className} {...rest}>
           <div class="container">
-          <div className="Heading-styling text-center ">
-            <h1 className="mt-7 font-size-10">
-              Assesment Types
-            </h1>
-          </div>
+          
             {/* <ImageLeft
               imgPos="right"
             //   paragraph="We've incorporated all of the best practices mentioned in the NEP 2020, such as the holistic learning system, assessment methodologies that develop analytical and critical thinking, vocational skills, etc."
@@ -29,15 +25,15 @@ function AssesmentSection({ className, ...rest }) {
             data-aos="fade-right"
             data-aos-duration={500}
           >
-            {/* <div class="Mobile-view">
+            <div class="Mobile-view">
               <h2
                 className=" font-size-10 mb-8 letter-spacing-n83"
                 data-aos="fade-up"
                 data-aos-duration={600}
               >
-                {title}
+              Assesment Types
               </h2>
-            </div> */}
+            </div>
             <div
               className="bg-images d-flex align-items-center justify-content-center max-w-540 py-18 py-sm-28 rounded-10 mx-auto"
               css={`
@@ -51,13 +47,13 @@ function AssesmentSection({ className, ...rest }) {
           </div>
           <div className="col-lg-6 col-md-10 col-sm-11">
             <div className="pt-9 pt-lg-0 pr-xs-10 pr-sm-5 pr-md-25 pr-lg-0 pl-xl-10">
-              {/* <h2
+              <h2
                 className="Desktop-view font-size-10 mb-8 letter-spacing-n83"
                 data-aos="fade-up"
                 data-aos-duration={600}
               >
-                {title}
-              </h2> */}
+              Assesment Types
+              </h2>
               <p
                 className="font-size-6 mb-0 pr-xs-15 pr-sm-10 pr-xl-10"
                 data-aos="fade-up"
