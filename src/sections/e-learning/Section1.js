@@ -5,7 +5,7 @@ function Section1({ className, title, description, ...rest }) {
   return (
     <>
       <div className={className} {...rest}>
-        <div class="hero-area" id="roller-bnr" style={{backgroundImage: `url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643352084/e-learning/hero/Slide_1-pic_gprkll.png"})`}}>
+        <div class="hero-area" id="roller-bnr" style={{backgroundImage: `url(${"https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643697306/e-learning/hero/Slide_1-pic-_COrrected-FINAL_umdynh.png"})`}}>
           <div className="container-fluid px-10">
             <div className="row">
               <div className="col-lg-6 col-md-12">

@@ -42,6 +42,7 @@ function Features(){
             imgPos={"left"}
             title={"Features of CE"} 
             paragraph={"Flexible Learning, Latest Tech Platform, Personalized growth monitor, Industry mentors, Industry tie-ups, Discussion forums"}
+            imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643624932/continuing-education/CE-Features_rezosl.png"
             />
             <GrayCards
             solutioncard={solutioncard}

@@ -8,6 +8,7 @@ function StandOut() {
             imgPos={"right"}
             title={"How do we stand out?"}
             paragraph={"The courses will be delivered by a variety of national and international universities that are the best in the particular field of study."}
+            imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643624953/continuing-education/How-do-we-stand-out_kr0ley.png"
             >
                 <ul>
                     <li>

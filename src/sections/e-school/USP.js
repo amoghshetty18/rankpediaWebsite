@@ -37,7 +37,11 @@ function USP() {
   return (
     <div>
     <div class="new-bg">
-      <ImageLeft imgPos="right" title={"Our Unique Selling Points (USPs)"}>
+      <ImageLeft imgPos="right" title={"Our Unique Selling Points (USPs)"}
+      paragraph="Accredited International curricula like Montessori, American Common
+      Core, IGCSE, etc. Along with the different curriculum, the students
+      get to join the micro-courses offered by Discovery education."
+      imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643626503/e-school/Our-USP_ycztyb.png">
         <ul>
           <li>
             Accredited International curricula like Montessori, American Common

@@ -8,6 +8,7 @@ function Purpose() {
             imgPos={"right"}
             title={"Why Rankpedia's CE? "}
             paragraph={"Top-Tier International And National Universities, Make People Employable, Employment-Specific Vocational Training,  Introduce Graduates, Postgraduates"}
+            imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643625023/continuing-education/Why-Rankpedia_s-CE-program_tsldzq.png"
             >
                 <ul>
                     <li>Since theoretical knowledge alone is insufficient to make people employable, we enable the professionals to stay current with the industry's changes and open doors to new employment opportunities in their area or beyond.</li>
@@ -24,6 +25,8 @@ function Purpose() {
             </ImagePara>
             <ImagePara
             title={"Our Unique Selling Points (USPs)"}
+            paragraph="Business Incubation center helps future entrepreneurs to build their startups and run smoothly. The courses offered will be cost-effective and can be easily approachable by the students. "
+            imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643624987/continuing-education/Our-USP_i1npjc.png"
             >
                 <ul>
                     <li>

@@ -9,12 +9,13 @@ function Section2({ className, ...rest }) {
         title={"Continuing Education "}
         paragraph={"Our Continuing Education program primarily focuses on imparting knowledge and career-oriented skills to learners from any part of the world, with no boundaries around the learners with regard to their age, restricted physical classrooms, etc."}
         extraParagraph={"It refers to learning activities in which students or professionals pursue education in their field of interest with an intention to enhance their professional and personal lives.This vertical addresses the unemployment issues and lack of competency among today's youth. Rankpedia collaborates with top-class universities and industries from around the world to allow our students to grow and thrive. Since theoretical knowledge alone is insufficient to make people employable, we enable the professionals to stay current with the industry's changes and open doors to new employment opportunities in their area or beyond. The main objective of our CE program fosters the employability skills of our learners through opportunities like internships, apprenticeships, and mentorship from industry experts. We collaborate with top-tier international and national universities to provide learners with the opportunity to obtain internationally accredited certifications."}
-        
+        imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643624935/continuing-education/Continuing-Education_f148py.png"
       />
       <ImagePara
         imgPos="left"
         title={"Why Rankpedia's CE program?"}
         paragraph={"Make People Employable, Collaborate With Top-Tier International And National Universities, Employment-Specific Vocational Training, Enhance Their Career Opportunities."}
+        imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643625023/continuing-education/Why-Rankpedia_s-CE-program_tsldzq.png"
       >
         <ul>
           <li>

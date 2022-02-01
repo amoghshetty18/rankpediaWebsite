@@ -10,6 +10,7 @@ function WhyJoin() {
         paragraph={
           "Children who want to enhance their learning in any stream and homeschoolers looking for structured and systematic learning platforms."
         }
+        imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643626537/e-school/Who-shuld-join-us_uvtoom.png"
       >
         <ul>
           <li>
@@ -36,6 +37,7 @@ function WhyJoin() {
       imgPos={"right"}
       title={"Our Teachers"}
       paragraph={"Our teachers are highly qualified and go through a variety of internal training to ensure that they provide the best education possible."}
+      imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643626489/e-school/Our_teachers-png_uu6khn.png"
       >
         <ul>
             <li>
@@ -51,6 +53,7 @@ function WhyJoin() {
         imgPos={"left"}
         title={"Parents as Co-teachers "}
         paragraph={"Parents act as co-teachers to contribute to their child’s academic development reviving the Indian value system of education."}
+        imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643626519/e-school/Parents_as_co_teachers_wbgsbx.png"
       >
           <ul>
               <li>Rankpedia incorporates Parents and Grandparents in a child's learning process because we recognize the importance of elders' words and how they are imprinted in children's minds. </li>
