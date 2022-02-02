@@ -8,14 +8,39 @@ export const menuItems = [
     label: "About Us",
   },
   {
-    name: "#",
-    label: "For Students",
-    items: [
-      { name: "grade-landing-8", label: "Class 8",  isExternal: false },
-      { name: "grade-landing-9", label: "Class 9",  isExternal: false, },
-      { name: "grade-landing-10", label: "Class 10",  isExternal: false, },
-    ],
+    name: "e-learning",
+    label: "E Learning",
+    isExternal: false,
   },
+  {
+    name: "e-school",
+    label: "E School",
+    isExternal: false,
+  },
+  {
+    name: "continuing-education",
+    label: "Continuing Education",
+    isExternal: false,
+  },
+  {
+    name: "neplanding",
+    label: "NEP",
+    isExternal: false,
+  },
+  {
+    name: "contact",
+    label: "Contact Us",
+    isExternal: false,
+   },
+  // {
+  //   name: "#",
+  //   label: "For Students",
+  //   items: [
+  //     { name: "grade-landing-8", label: "Class 8",  isExternal: false },
+  //     { name: "grade-landing-9", label: "Class 9",  isExternal: false, },
+  //     { name: "grade-landing-10", label: "Class 10",  isExternal: false, },
+  //   ],
+  // },
   // {
   //   name: "#",
   //   label: "Study materials",
@@ -25,21 +50,17 @@ export const menuItems = [
   //     { name: "https://drive.google.com/drive/folders/1FUy7SVXzclaX7odateqEa0QpcPpYU1Ps?usp=sharing", label: "Class 10",  isExternal: true, },
   //   ],
   // },
-  {
-    name: "for-schools",
-    label: "For Schools",
-    isExternal: false,
-  },
-  {
-    name: "neplanding",
-    label: "NEP",
-    isExternal: false,
-  },
-  {
-    name: "why-rankpedia",
-    label: "Why Rankpedia?",
-    isExternal: false,
-  },
+  // {
+  //   name: "for-schools",
+  //   label: "For Schools",
+  //   isExternal: false,
+  // },
+  
+  // {
+  //   name: "why-rankpedia",
+  //   label: "Why Rankpedia?",
+  //   isExternal: false,
+  // },
   // {
   //   name: "#",
   //   label: "Subscription",
@@ -54,11 +75,11 @@ export const menuItems = [
       { name: "quizlisting10", label: "Class 10",  isExternal: false, },
     ]
    },
-   {
-    name: "contact",
-    label: "Contact Us",
-    isExternal: false,
-   },
+  //  {
+  //   name: "contact",
+  //   label: "Contact Us",
+  //   isExternal: false,
+  //  },
 
 
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "gatsby";
 
 const ContentSections = () => {
   return (
@@ -116,7 +117,9 @@ const ContentSections = () => {
           </h2>
           <p>
             E-learning is a Rankpedia platform that delivers online education and online tutoring to students who want to learn and develop knowledge in a more efficient manner by utilizing innovative learning methods.
+            
           </p>
+            <Link to="/e-learning" class="btn btn-red mx-auto gtstrdr">Learn More</Link>
         </div>
       </div>
 
@@ -156,6 +159,7 @@ const ContentSections = () => {
           <p>
             Rankpedia’s E-school is an Internationally accredited online school that focuses on the child’s holistic development and helps children to excel academically and throughout their lives by providing a high-quality and fun learning experience. Our mission is to provide education for all.
           </p>
+          <Link to="/e-school" class="btn btn-red mx-auto gtstrdr">Learn More</Link>
         </div>
       </div>
 
@@ -195,6 +199,7 @@ const ContentSections = () => {
           <p>
             Our Continuing Education program primarily focuses on imparting knowledge and career-oriented skills to learners from any part of the world, with no boundaries around the learners with regard to their age, restricted physical classrooms, etc.
           </p>
+          <Link to="/continuing-education" class="btn btn-red mx-auto gtstrdr">Learn More</Link>
         </div>
       </div>
 
