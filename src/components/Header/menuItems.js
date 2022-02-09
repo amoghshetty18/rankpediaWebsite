@@ -11,6 +11,13 @@ export const menuItems = [
     name: "e-learning",
     label: "E Learning",
     isExternal: false,
+    items: [
+      {
+        name: "for-schools",
+        label: "For Schools",
+        isExternal: false,
+      },
+    ],
   },
   {
     name: "e-school",
@@ -31,7 +38,7 @@ export const menuItems = [
     name: "contact",
     label: "Contact Us",
     isExternal: false,
-   },
+  },
   // {
   //   name: "#",
   //   label: "For Students",
@@ -41,21 +48,21 @@ export const menuItems = [
   //     { name: "grade-landing-10", label: "Class 10",  isExternal: false, },
   //   ],
   // },
-  // {
-  //   name: "#",
-  //   label: "Study materials",
-  //   items: [
-  //     { name: "https://drive.google.com/drive/folders/1TMn_ZQ1jHDccCJMs0rUDYyCfkuo7IW1i?usp=sharing", label: "Class 8",  isExternal: true },
-  //     { name: "https://drive.google.com/drive/folders/1UzVFzfWU3tlPfPHI60BuHbK9YpgrJTel?usp=sharing", label: "Class 9",  isExternal: true, },
-  //     { name: "https://drive.google.com/drive/folders/1FUy7SVXzclaX7odateqEa0QpcPpYU1Ps?usp=sharing", label: "Class 10",  isExternal: true, },
-  //   ],
-  // },
+  {
+    name: "#",
+    label: "Study materials",
+    items: [
+      { name: "grade-landing-8", label: "Class 8", isExternal: false },
+      { name: "grade-landing-9", label: "Class 9", isExternal: false },
+      { name: "grade-landing-10", label: "Class 10", isExternal: false },
+    ],
+  },
   // {
   //   name: "for-schools",
   //   label: "For Schools",
   //   isExternal: false,
   // },
-  
+
   // {
   //   name: "why-rankpedia",
   //   label: "Why Rankpedia?",
@@ -66,22 +73,20 @@ export const menuItems = [
   //   label: "Subscription",
   //   isExternal: false,
   //  },
-   {
+  {
     name: "#quizwizz",
     label: "Quizwizz",
     items: [
-      { name: "quizlisting8", label: "Class 8",  isExternal: false },
-      { name: "quizlisting9", label: "Class 9",  isExternal: false, },
-      { name: "quizlisting10", label: "Class 10",  isExternal: false, },
-    ]
-   },
+      { name: "quizlisting8", label: "Class 8", isExternal: false },
+      { name: "quizlisting9", label: "Class 9", isExternal: false },
+      { name: "quizlisting10", label: "Class 10", isExternal: false },
+    ],
+  },
   //  {
   //   name: "contact",
   //   label: "Contact Us",
   //   isExternal: false,
   //  },
-
-
 
   // {
   //          name: "demos",
@@ -138,4 +143,4 @@ export const menuItems = [
   //          label: "Support",
   //          isExternal: true,
   //        },
-       ];
+];

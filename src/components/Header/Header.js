@@ -75,7 +75,7 @@ const Header = () => {
             )} */}
 
             <ToggleButton
-              className={`navbar-toggler btn-close-off-canvas ml-3 ${
+              className={`navbar-toggler btn-close-off-canvas ml-3 mr-3${
                 gContext.visibleOffCanvas ? "collapsed" : ""
               }`}
               type="button"

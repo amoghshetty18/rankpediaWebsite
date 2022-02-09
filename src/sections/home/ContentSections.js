@@ -119,7 +119,7 @@ const ContentSections = () => {
             E-learning is a Rankpedia platform that delivers online education and online tutoring to students who want to learn and develop knowledge in a more efficient manner by utilizing innovative learning methods.
             
           </p>
-            <Link to="/e-learning" class="btn btn-red mx-auto gtstrdr">Learn More</Link>
+            <Link to  ="/e-learning" class="btn btn-red mx-auto gtstrdr">Learn More</Link>
         </div>
       </div>
 
