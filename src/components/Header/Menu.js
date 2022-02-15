@@ -37,20 +37,21 @@ const Menu = () => {
             const hasSubItems = Array.isArray(items);
             return (
               <React.Fragment key={name + index}>
-                {hasSubItems ? (
+                {hasSubItems ? ( 
                   <li className="nav-item dropdown" {...rest}>
-                    <a
+                    <Link
                       className="nav-link dropdown-toggle gr-toggle-arrow"
                       role="button"
                       data-toggle="dropdown"
                       aria-haspopup="true"
                       aria-expanded="false"
-                      href="/#"
-                      onClick={(e) => e.preventDefault()}
+                      to={`/${name}`}
+                      // href="/#"
+                      // onClick={(e) => e.preventDefault()}
                     >
                       {label}
                       <i className="icon icon-small-down"></i>
-                    </a>
+                    </Link>
                     <ul className="gr-menu-dropdown dropdown-menu">
                       {items.map((subItem, indexSub) => {
                         const hasInnerSubItems = Array.isArray(subItem.items);

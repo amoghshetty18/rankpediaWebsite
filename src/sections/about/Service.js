@@ -1,5 +1,6 @@
 import React from "react";
-
+import forStudents from '../../assets/image/AboutPage/About-Us-for-students.png';
+import forTeachers from '../../assets/image/AboutPage/About-Us-for-teachers.png';
 import TeamMemberCard from "../../components/TeamMemberCard";
 
 
@@ -23,7 +24,8 @@ const Service = () => {
         <div class="col-lg-4 col-md-6">
             <div class="academic-delivery-box">
                 <div class="image-holder">
-                    <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625558128/shutterstock_1958115715_d8etl4.jpg" alt="" class="img-fluid abtus-brdrs-mgs" />
+                    <img src={forStudents} alt="" class="img-fluid abtus-brdrs-mgs" />
+                    {/* <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625558128/shutterstock_1958115715_d8etl4.jpg" alt="" class="img-fluid abtus-brdrs-mgs" /> */}
                 </div>
                  <div class="text-box pt-10">
                     <h3 class="Service-heading">For Students</h3>
@@ -37,7 +39,8 @@ const Service = () => {
         <div class="col-lg-4 col-md-6">
             <div class="academic-delivery-box wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                 <div class="image-holder">
-                    <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625558206/shutterstock_1827527717_batkfq.jpg" alt="" class="img-fluid abtus-brdrs-mgs" />
+                    {/* <img src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1625558206/shutterstock_1827527717_batkfq.jpg" alt="" class="img-fluid abtus-brdrs-mgs" /> */}
+                    <img src={forTeachers} alt="" class="img-fluid abtus-brdrs-mgs" />
                 </div>
                  <div class="text-box pt-10">
                     <h3 class="Service-heading">For Teachers</h3>

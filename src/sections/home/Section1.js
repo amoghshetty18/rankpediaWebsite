@@ -5,6 +5,7 @@ import homesection1 from "../../assets/image/home/enagage.png";
 import homesection2 from "../../assets/image/home/l6-content2-img.png";
 import homesection3 from "../../assets/image/home/enrich.png";
 import homesection4 from "../../assets/image/home/prepare.png";
+import home from "../../assets/image/homePage-new/main-pic.png"
 
 import group1 from "../../assets/image/home/gallery1.png";
 import group2 from "../../assets/image/home/gallery2.png";
@@ -35,7 +36,9 @@ const Section1 =  ({ className, ...rest }) => {
               <div className="col-lg-6 d-flex justify-content-center">
                 
                 <div className="blob-container">
-                  <img id='main-background-img' src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626160479/home-page/banner_mggspd.png" alt="" />
+                  <img id="main-background-img" src={ home } alt="not found"/>
+                  {/* <img id='main-background-img' src="../../assets/image/homePage_new/main-pic.png" alt="" /> */}
+                  {/* <img id='main-background-img' src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1626160479/home-page/banner_mggspd.png" alt="" /> */}
                   <img className="science" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627282855/home-page/science_2_np2yys.png" alt="" />
                   <img className="bulb" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627282855/home-page/light-bulb_1_tq3az2.png" alt="" />
                   <img className="book" src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1627282855/home-page/agenda_1_qagpxq.png" alt="" />
