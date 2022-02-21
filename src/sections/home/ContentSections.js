@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from "gatsby";
+import GER from '../../assets/image/home/GER.png'
+import Causes from '../../assets/image/home/Causes-Of-dropping-out.png'
+import ClickToPop from './ClickToPop';
+import { borderRadius } from 'styled-system';
 
 const ContentSections = () => {
   return (
@@ -20,7 +24,7 @@ const ContentSections = () => {
           data-aos-once="true"
         >
           <img 
-            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643089987/home-page/Bringing-About-a-Change_vzucke.jpg" 
+            src={GER} 
             alt="" 
             className="img-fluid"
           />
@@ -219,7 +223,7 @@ const ContentSections = () => {
           data-aos-once="true"
         >
           <img 
-            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643103341/home-page/An-Alarming-fact-in-the-Indian-Education-System-PNG_1_huawpv.png" 
+            src={Causes} 
             alt="" 
             className="img-fluid"
           />
@@ -589,6 +593,30 @@ const ContentSections = () => {
           </h2>
           <p>
             Our comprehensive question banks, curated by our experienced Subject Matter Experts, are of various levels of difficulty, which challenge students to perform better and expand their knowledge.
+          </p>
+        </div>
+        <div className=""
+        style={{
+          borderRadius:'15px',
+          // border:"solid grey 5px",
+          width: "100%"
+        }}>
+          <h2 
+            style={{
+            fontWeight: 100
+            }}
+            className="section-2-heading-desktop"
+            data-aos="fade-left" 
+            data-aos-duration="500" 
+            data-aos-once="true"
+          ><br/>
+            Happy to help you
+          </h2>
+          <p style={{
+            padding:'10px',
+            MarginLeft:'10px'
+          }}>
+            <ClickToPop/>
           </p>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import forStudents from '../../assets/image/AboutPage/About-Us-for-students.png';
-import forTeachers from '../../assets/image/AboutPage/About-Us-for-teachers.png';
+import forTeachers from '../../assets/image/AboutPage/About-Us-For-Teachers.jpg';
 import TeamMemberCard from "../../components/TeamMemberCard";
 
 
