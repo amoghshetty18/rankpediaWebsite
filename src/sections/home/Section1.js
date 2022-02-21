@@ -12,7 +12,7 @@ import group2 from "../../assets/image/home/gallery2.png";
 import group3 from "../../assets/image/home/gallery3.png";
 import group4 from "../../assets/image/home/gallery4.png";
 
-import ClickToPop from './ClickToPop'
+import ButtonModal from "../../components/Modal/ConnectButton/ButtonModal"
 import small1 from "../../assets/image/home/small1.png";
 import small2 from "../../assets/image/home/small2.png";
 import small3 from "../../assets/image/home/small3.png";
@@ -33,7 +33,8 @@ const Section1 =  ({ className, ...rest }) => {
                   <h1 class="gr-text-2 mb-9 learnon">
                     Democratizing Global-Standard Education</h1>
                   <p class="gr-text-8 pr-5 pl-0 pr-xl-11 mb-9 learnpar">We believe in the concept of education for all, so we strive diligently to provide equal educational opportunities to students across the world. We have built an academic ecosystem that provides an affordable world-class educational experience. 
-                  <br/><br/><ClickToPop/>
+                  <br/><br/>
+                  <ButtonModal/>
                   </p>
                 </div>
               </div>
