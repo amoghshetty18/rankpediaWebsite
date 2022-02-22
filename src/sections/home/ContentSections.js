@@ -4,6 +4,7 @@ import GER from '../../assets/image/home/GER.png'
 import Causes from '../../assets/image/home/Causes-Of-dropping-out.png'
 import ClickToPop from './ClickToPop';
 import { borderRadius } from 'styled-system';
+import ButtonModal from '../../components/Modal/ConnectButton/ButtonModal';
 
 const ContentSections = () => {
   return (
@@ -616,7 +617,7 @@ const ContentSections = () => {
             padding:'10px',
             MarginLeft:'10px'
           }}>
-            <ClickToPop/>
+            <ButtonModal/>
           </p>
         </div>
       </div>

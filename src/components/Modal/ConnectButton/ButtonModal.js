@@ -17,19 +17,30 @@ function ButtonModal({ title, paragraph, extraParagraph, child }) {
         Connect Us
       </button>
       {showModal && (
-        <div className="modalWindow">
+        <div className="connectButton">
           <h2>{title}</h2>
           <p>
+            <h4 className="btn-red" onClick={closeModalHandler}
+            style={{
+                height:'25px',
+                maxWidth:'10px',
+                minWidth:'25px',
+                margin:'0px 0px 0px 320px',
+                cursor:'pointer'
+            }}>X</h4>
             <div class="mb-3">
             <Form/>
             </div>
           </p>
-          <button
+          {/* <button
             class="btn btn-red mx-auto gtstrdr"
+            style={{
+                backgroundColor: 'red'
+            }}
             onClick={closeModalHandler}
           >
-            Close
-          </button>
+            Cancel
+          </button> */}
         </div>
       )}
       {showModal && <div class="backdrops" onClick={closeModalHandler}></div>}

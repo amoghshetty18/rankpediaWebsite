@@ -11,7 +11,7 @@ function Banner({ className, title, description, ...rest }) {
           <div className="row">
             <div className="col-lg-6">
               <div class="hero-content dark-mode-texts">
-                <h4 class="gr-text-2 mb-9 learnon">E-school By Rankpedia| Study from various International Curriculum here.</h4>
+                <h4 class="gr-text-2 mb-9 learnon">Study from various International Curriculum.</h4>
                 <p class="gr-text-8 pr-5 pl-0 pr-xl-11 mb-9 learnpar">
                 Join Rankpedia's E-school & study various International curricula: Cambridge IGCSE, Montessori, American Common Core, & Discovery Education. Join the Smart Learning Online school.
                 </p>

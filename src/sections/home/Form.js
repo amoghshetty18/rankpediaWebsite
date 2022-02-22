@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import validator from 'validator';
 import emailjs from 'emailjs-com';
+import '../../css/styles.css';
 export default function Form() {
     const iValues = {
         username: '',
@@ -89,58 +90,74 @@ export default function Form() {
         {/* style={{ height:'450px', width:'600px', backgroundPosition: "center" }} */}
         {/* > */}
         <h4
-        style={{marginTop:'-10px', textAlign:'center'}}
-        >Your Details:</h4>
+        style={{marginTop:'-10px', textAlign:'center', 
+        fontSize:'20px',
+        color:'black'}}
+        >Your Details</h4>
         {/* {console.log(formErrors.email+" length " + Object.keys(formErrors).length + " isSubmit" +isSubmit )} */}
         {Object.keys(formErrors).length === 0 && isSubmit ? (
-            <div className='form-control'
-            style={{color:'white', backgroundColor:'#0D6EFD', textAlign:'center'}}>
-                Your request sent Successfully. 
+            <div 
+            className='form-control'
+            style={{color:'white', backgroundColor:'#0D6EFD', textAlign:'center',
+            maxHeight:'40px',
+            // margin:'5px 20px 10px 60px',
+            marginBottom: '10px',
+            padding:'0px 10px'}}>
+                We have received your request Successfully. 
             </div>
+            // alert("your request sent successfully")
         ):(
             <span></span>
         )}
         <div>
-        <form onSubmit={handleSubmit} className='row' style={{ margin: "25px 25px 10px 100px"}}>
+        <form onSubmit={handleSubmit} className='row' style={{ margin: "0px 25px 10px 20px"}}>
         <div className='container' style={{marginBottom: '10px'}}>
         <div>
             {/* <label>Name</label> */}
-            <input type="text" name='username' className='form-control' value={ formValues.username } 
+            <input type="text" name='username' className='form-input-value' value={ formValues.username } 
             onChange={handleChange} placeholder='Enter your Name'/>
         </div>
         <p style={{color: 'red'}}>{formErrors.username}</p>
         <div>
             {/* <label>Phone</label> */}
-            <input type="text" name='phone' className='form-control' value={ formValues.phone }
+            <input type="text" name='phone' className='form-input-value'
+            // className='form-control'
+             value={ formValues.phone }
             onChange={handleChange} placeholder='00000-00000'/>
         </div>
         <p style={{color: 'red'}}>{formErrors.phone}</p>
         <div>
             {/* <label>Email</label> */}
-            <input type="email" name='email' className='form-control' value={ formValues.email } 
+            <input type="email" name='email'
+            className='form-input-value' 
+            // className='form-control' 
+            value={ formValues.email } 
             onChange={handleChange} placeholder='abc@gmail.com'/>
         </div>      
         <p style={{color: 'red'}}>{formErrors.email}</p>      
         <div>
-            {/* <label>Class : </label> */}
-            {/* <select required onChange={handleChange}>
-                <option name='course' value=''>Select your class</option>
-                <option name='course' value='8'>Class 8</option>
-                <option name='course' value='9'>Class 9</option>
-                <option name='course' value='10'>Class 10</option>
-            </select> */}
-            <input type="text" name='course' className='form-control' value={ formValues.course } 
+            <input type="text" name='course' 
+            className='form-input-value'
+            // className='form-control' 
+            value={ formValues.course } 
             onChange={handleChange} placeholder=' Enter your Class' />
         </div>
         <p></p>
         <div>
             {/* <label>City : </label> */}
-            <input type='text' name='city' className='form-control' value={ formValues.city } 
-            onChange={handleChange} placeholder='Bengaluru'/> 
+            <input type='text' name='city' 
+            className='form-input-value'
+            // className='form-control'
+            value={ formValues.city } 
+            onChange={handleChange} placeholder='Enter City Name'/> 
         </div>            
         <p></p>
-            <button className='form-control btn btn-primary'
-            style={{marginTop:'10px'}}>submit</button> 
+            <button 
+            // className='form-control btn btn-primary'
+            className='btn btn mx-auto gtstrdr'
+            style={{
+                marginTop:'10px', borderRadius:'5px', maxHeight:'50px',
+            size:'30px'}}>Submit</button> 
         </div>          
         
         </form>

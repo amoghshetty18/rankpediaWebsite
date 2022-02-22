@@ -17,7 +17,7 @@ function Section1({ className, title, description, ...rest }) {
               <div className="col-lg-6">
                 <div class="hero-content dark-mode-texts">
                   <h4 class="gr-text-5 mb-9 learnon">
-                    Continuing Education by Rankpedia| Join any course of your
+                    Join any course of your
                     choice
                   </h4>
                   <p
