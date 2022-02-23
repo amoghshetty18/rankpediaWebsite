@@ -14,7 +14,7 @@ function ButtonModal({ title, paragraph, extraParagraph, child }) {
   return (
     <div class="mt-5">
       <button class="btn btn-red mx-auto gtstrdr" onClick={showModalHandler}>
-        Connect Us
+        Speak To Us
       </button>
       {showModal && (
         <div className="connectButton">

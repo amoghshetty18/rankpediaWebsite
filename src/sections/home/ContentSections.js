@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "gatsby";
 import GER from '../../assets/image/home/GER.png'
-import Causes from '../../assets/image/home/Causes-Of-dropping-out.png'
+// import Causes from '../../assets/image/home/Causes-Of-dropping-out.png'
 import ClickToPop from './ClickToPop';
 import { borderRadius } from 'styled-system';
 import ButtonModal from '../../components/Modal/ConnectButton/ButtonModal';
@@ -224,7 +224,7 @@ const ContentSections = () => {
           data-aos-once="true"
         >
           <img 
-            src={Causes} 
+            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1645596988/Causes-of-dropping-out_hitkar.png"
             alt="" 
             className="img-fluid"
           />
