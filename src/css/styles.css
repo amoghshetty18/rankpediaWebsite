@@ -493,11 +493,40 @@ h1, h2, h3, h4, h5, h6{
   z-index: 20;
   max-height: 100vh;
   position: fixed;
-  top: 10vh;
+  top: 23vh;
   left: 30vw;
   overflow-y: hidden;
   text-align: center;
   max-width: 400px;
+}
+.container-header-title{
+  height: 20px;
+  width: 100%;
+  display: flex;
+}
+.title-container{
+  
+  height: 18px;
+  width: 75%;
+  text-align: center;
+  color: black;
+}
+.inner-header{
+  height: 100%;
+  width: 100%;
+  color: black;
+  position: relative;
+}
+.inner-button{
+  float: left;
+  height: 25px;
+  width: 13%;
+  color: #ff0000;
+  font-weight: bolder;
+  border: 1px solid black;
+  padding: 0px;
+  margin-left: 20px;
+  cursor: pointer;
 }
 .modalWindow {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
@@ -512,6 +541,17 @@ h1, h2, h3, h4, h5, h6{
   left: 20vw;
   overflow-y: scroll;
   text-align: center;
+}
+@media screen and (max-width: 400px) {
+  .connectButton{
+    width: 90%;
+    left: 5vw;
+  }
+  .h3.btn-red{
+    width: 60%;
+    margin: 0px 0px 0px 200px;
+    
+  }
 }
 
 
@@ -540,6 +580,11 @@ h1, h2, h3, h4, h5, h6{
     width: 90%;
     left: 5vw;
   }
+  .connectButton{
+    width: 90%;
+    left: 5vw;
+  }
+  
 }
 
 @media screen and (max-width: 768px) {

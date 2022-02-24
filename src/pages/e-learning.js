@@ -10,6 +10,7 @@ import Section7 from "../sections/e-learning/Section7";
 import Section8 from "../sections/e-learning/Section8";
 import Section9 from "../sections/e-learning/Section9";
 import AssesmentSection from "../sections/e-learning/AssesmentSection"
+import ConnectForm from "../sections/home/ConnectForm";
 
 const tagManagerArgs = {
   dataLayer: {
@@ -51,6 +52,7 @@ const ELearning = () => {
         <Section6 />
         <Section7 />
         <Section8 />
+        <ConnectForm/>
         <Section9 />
       </PageWrapper>
     </>

@@ -89,11 +89,11 @@ export default function Form() {
     {/* <div className='container border' */}
         {/* style={{ height:'450px', width:'600px', backgroundPosition: "center" }} */}
         {/* > */}
-        <h4
+        {/* <h4
         style={{marginTop:'-10px', textAlign:'center', 
         fontSize:'20px',
         color:'black'}}
-        >Your Details</h4>
+        >Your Details</h4> */}
         {/* {console.log(formErrors.email+" length " + Object.keys(formErrors).length + " isSubmit" +isSubmit )} */}
         {Object.keys(formErrors).length === 0 && isSubmit ? (
             <div 
@@ -123,7 +123,7 @@ export default function Form() {
             <input type="text" name='phone' className='form-input-value'
             // className='form-control'
              value={ formValues.phone }
-            onChange={handleChange} placeholder='00000-00000'/>
+            onChange={handleChange} placeholder='Enter 10-digit Mobile number'/>
         </div>
         <p style={{color: 'red'}}>{formErrors.phone}</p>
         <div>
@@ -132,7 +132,7 @@ export default function Form() {
             className='form-input-value' 
             // className='form-control' 
             value={ formValues.email } 
-            onChange={handleChange} placeholder='abc@gmail.com'/>
+            onChange={handleChange} placeholder='eg: abc@gmail.com'/>
         </div>      
         <p style={{color: 'red'}}>{formErrors.email}</p>      
         <div>

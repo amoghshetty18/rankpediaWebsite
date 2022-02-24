@@ -4,7 +4,8 @@ import GER from '../../assets/image/home/GER.png'
 // import Causes from '../../assets/image/home/Causes-Of-dropping-out.png'
 import ClickToPop from './ClickToPop';
 import { borderRadius } from 'styled-system';
-import ButtonModal from '../../components/Modal/ConnectButton/ButtonModal';
+
+import ConnectForm from './ConnectForm';
 
 const ContentSections = () => {
   return (
@@ -596,30 +597,7 @@ const ContentSections = () => {
             Our comprehensive question banks, curated by our experienced Subject Matter Experts, are of various levels of difficulty, which challenge students to perform better and expand their knowledge.
           </p>
         </div>
-        <div className=""
-        style={{
-          borderRadius:'15px',
-          // border:"solid grey 5px",
-          width: "100%"
-        }}>
-          <h2 
-            style={{
-            fontWeight: 100
-            }}
-            className="section-2-heading-desktop"
-            data-aos="fade-left" 
-            data-aos-duration="500" 
-            data-aos-once="true"
-          ><br/>
-            Happy to help you
-          </h2>
-          <p style={{
-            padding:'10px',
-            MarginLeft:'10px'
-          }}>
-            <ButtonModal/>
-          </p>
-        </div>
+        <ConnectForm/>
       </div>
     </div>
   );
