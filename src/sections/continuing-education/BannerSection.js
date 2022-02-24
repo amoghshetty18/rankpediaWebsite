@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonModal from "../../components/Modal/ConnectButton/ButtonModal";
 import "../../css/styles.css";
 
 function Section1({ className, title, description, ...rest }) {
@@ -17,7 +18,7 @@ function Section1({ className, title, description, ...rest }) {
               <div className="col-lg-6">
                 <div class="hero-content dark-mode-texts">
                   <h4 class="gr-text-5 mb-9 learnon">
-                    Continuing Education by Rankpedia| Join any course of your
+                    Join any course of your
                     choice
                   </h4>
                   <p
@@ -28,6 +29,7 @@ function Section1({ className, title, description, ...rest }) {
                     people irrespective of any barriers or hurdles. Take up any
                     course of your choice. Get the freedom of learning with us.
                   </p>
+                  <ButtonModal/>
                 </div>
               </div>
               <div className="col-lg-6 d-flex justify-content-center">

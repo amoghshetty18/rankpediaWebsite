@@ -8,6 +8,7 @@ import GlobalExposure from "../sections/e-school/GlobalExposure";
 import StudentServices from "../sections/e-school/StudentServices";
 import WhyJoin from "../sections/e-school/WhyJoin";
 import USP from "../sections/e-school/USP"
+import ConnectForm from "../sections/home/ConnectForm";
 
 
 const E_School = () => {

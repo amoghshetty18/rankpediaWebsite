@@ -1,6 +1,6 @@
 import React from "react";
 import ImageLeft from "../../components/ImageLeft";
-
+import Computer from "../../assets/image/E-Learning/E-Learning-Computer.png"
 function Section2({ className, ...rest }) {
   return (
     <div class="new-bg">
@@ -13,7 +13,7 @@ function Section2({ className, ...rest }) {
         extraParagraph={
           "Rankpedia integrates a variety of learning methodologies as well as technologically enhanced study materials that are measurable and keep all stakeholders in the educational system accountable.  The online teaching, live tutoring, and online doubt clearing procedure help the kids to stay connected with the learning process. We have come up with the greatest possible methods to educate the students of the country and the world who have problems accessing schools and quality education. Our objective is to maintain the quality education for the students of different state boards as well as the central board. Rankpedia's main goal is to see that every child receives a good education, that dropout rates are reduced, and that educational delivery enables Future-Ready Leaders. In alignment with NEP, we have come up with the most interactive and effective learning methodologies to help students develop their holistic skills. The assessment model designed by Rankpedia is more competency-based and tests higher-order thinking skills such as analysis, critical thinking, and conceptual clarity. "
         }
-        imgUrl="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643447577/e-learning/E-Learning-2nd-page_ikqgr0.png"
+        imgUrl={Computer}
       />
       <ImageLeft
         imgPos="right"

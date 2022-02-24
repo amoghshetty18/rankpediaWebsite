@@ -7,6 +7,7 @@ import StandOut from "../sections/continuing-education/StandOut";
 import Features from "../sections/continuing-education/Features";
 import Streams from "../sections/continuing-education/Streams";
 import Purpose from "../sections/continuing-education/Purpose"
+import ConnectForm from "../sections/home/ConnectForm";
 
 const tagManagerArgs = {
   dataLayer: {
@@ -48,6 +49,7 @@ const ContinueEducation = () => {
         <Features />
         <Streams />
         <Purpose/>
+        <ConnectForm/>
       </PageWrapper>
     </>
   );

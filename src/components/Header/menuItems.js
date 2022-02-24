@@ -6,6 +6,19 @@ export const menuItems = [
   {
     name: "about",
     label: "About Us",
+    isExternal: false,
+    items: [
+      {
+        name: "neplanding",
+        label: "NEP",
+        isExternal: false,
+      },
+      {
+        name: "contact",
+        label: "Contact Us",
+        isExternal: false,
+      }
+    ]
   },
   {
     name: "e-learning",
@@ -29,16 +42,7 @@ export const menuItems = [
     label: "Continuing Education",
     isExternal: false,
   },
-  {
-    name: "neplanding",
-    label: "NEP",
-    isExternal: false,
-  },
-  {
-    name: "contact",
-    label: "Contact Us",
-    isExternal: false,
-  },
+  
   // {
   //   name: "#",
   //   label: "For Students",
