@@ -36,23 +36,27 @@ const Header = () => {
     <>
       <Helmet>
         <link
-            rel="icon"
-            type="image/png"
-            href="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643110810/home-page/Rankpedia_fav_dvuoem.png"
-            sizes="16x16"
+          rel="icon"
+          type="image/png"
+          href="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643110810/home-page/Rankpedia_fav_dvuoem.png"
+          sizes="16x16"
         />
       </Helmet>
       <SiteHeader
         className={`site-header ${
           gContext.theme.headerClassName
-        } px-7 px-lg-10 dynamic-sticky-bg site-header--absolute site-header--sticky
+        }  dynamic-sticky-bg site-header--absolute site-header--sticky
 
+        
         ${showScrolling ? "scrolling" : ""} ${
           showReveal ? "reveal-header " : ""
         }`}
       >
         <div className="header-menu-container-earlier">
-          <nav className="navbar site-navbar offcanvas-active navbar-expand-lg  px-0" id="header-nav">
+          <nav
+            className="navbar site-navbar offcanvas-active navbar-expand-lg  px-0"
+            id="header-nav"
+          >
             {/* <!-- Brand Logo--> */}
             <div className="brand-logo mt-3 mt-md-0" id="rank-lgstr-vuag">
               <Logo />
@@ -71,7 +75,7 @@ const Header = () => {
             )} */}
 
             <ToggleButton
-              className={`navbar-toggler btn-close-off-canvas ml-3 ${
+              className={`navbar-toggler btn-close-off-canvas ml-3 mr-3${
                 gContext.visibleOffCanvas ? "collapsed" : ""
               }`}
               type="button"
@@ -99,32 +103,55 @@ const Header = () => {
       </div>
 
       <div id="popup1" class="overlay">
-                  <div class="popup">
-                    
-                    <a class="close" href="#">&times;</a>
-                    <img src="./image/l4/png/crown1.png" class="popup-crown" />
+        <div class="popup">
+          <a class="close" href="#">
+            &times;
+          </a>
+          <img src="./image/l4/png/crown1.png" class="popup-crown" />
 
-                    <h2>QuizWizz</h2>
-                    <div class="">
-                      <p class="popup-para">Enter your details below to lorem ipsum Sed ut perspiciatis unde</p>
+          <h2>QuizWizz</h2>
+          <div class="">
+            <p class="popup-para">
+              Enter your details below to lorem ipsum Sed ut perspiciatis unde
+            </p>
 
-                      <form action="" id="rmdts">
-                        <label class="firstname" for="fname">Student name</label><br />
-                        <input type="text" class="plchldr" name="fname" placeholder="eg. John Doe" /><br/>
-                        <label class="firstname" for="fname">School name</label><br/>
-                        <input type="text" class="plchldr" name="fname" placeholder="eg. Hogwarts Public School"/><br/>
-                        <label class="firstname" for="fname">Grade</label><br/>
-                        <select id="cars" name="cars">
-                          <option value="volvo">Class 8</option>
-                          <option value="saab">Class 9</option>
-                          <option value="fiat">Class 10</option>
-                        </select>
-                        <input class="pop-submit" type="submit" value="Submit" />
-                      </form> 
-
-                    </div>
-                  </div>
-                </div>
+            <form action="" id="rmdts">
+              <label class="firstname" for="fname">
+                Student name
+              </label>
+              <br />
+              <input
+                type="text"
+                class="plchldr"
+                name="fname"
+                placeholder="eg. John Doe"
+              />
+              <br />
+              <label class="firstname" for="fname">
+                School name
+              </label>
+              <br />
+              <input
+                type="text"
+                class="plchldr"
+                name="fname"
+                placeholder="eg. Hogwarts Public School"
+              />
+              <br />
+              <label class="firstname" for="fname">
+                Grade
+              </label>
+              <br />
+              <select id="cars" name="cars">
+                <option value="volvo">Class 8</option>
+                <option value="saab">Class 9</option>
+                <option value="fiat">Class 10</option>
+              </select>
+              <input class="pop-submit" type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
