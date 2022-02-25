@@ -69,6 +69,7 @@ const MusicArea = ({ className, ...rest }) => {
           <div className="row  px-xl-0">
             {/* single card */}
             <div className="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-8">
+            <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/NCERT+SYLLABUS+FOR+MATHS+(Grade+10).pdf" target="_blank">
               <div
                 className="card-same rounded-15 text-center px-10 py-10 gr-hover-3 mb-9 border border-default-color"
                 data-aos="zoom-in"
@@ -86,7 +87,7 @@ const MusicArea = ({ className, ...rest }) => {
                 </h5>
                 {/* <p className="dwnlds-crts-str" onClick={()=>download('/Grade10/Syllabus/10-maths1-v1.zip')}>Download course structure</p> */}
 
-                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/NCERT+SYLLABUS+FOR+MATHS+(Grade+10).pdf" target="_blank"> <p className="dwnlds-crts-str">Download course structure</p></a>
+                 <p className="dwnlds-crts-str">Download course structure</p>
 
                 {/* <Link
                   to="/#"
@@ -95,10 +96,12 @@ const MusicArea = ({ className, ...rest }) => {
                   Buy now
                 </Link> */}
               </div>
+              </a>
             </div>
             {/* end single card */}
             {/* single card */}
             <div className="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-8">
+            <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/NCERT+SYLLABUS+FOR+SCIENCE+(Grade+10).pdf" target="_blank">
               <div
                 className="card-same rounded-15 text-center px-10 py-10 gr-hover-3 mb-9 border border-default-color"
                 data-aos="zoom-in"
@@ -116,7 +119,7 @@ const MusicArea = ({ className, ...rest }) => {
                 </h5>
                 {/* <p className="dwnlds-crts-str" onClick={()=>download1('/Grade10/Syllabus/10-science-v1.zip')}>Download course structure</p> */}
 
-                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/NCERT+SYLLABUS+FOR+SCIENCE+(Grade+10).pdf" target="_blank"> <p className="dwnlds-crts-str">Download course structure</p></a>
+                 <p className="dwnlds-crts-str">Download course structure</p>
 
 
                 {/* <Link
@@ -126,6 +129,7 @@ const MusicArea = ({ className, ...rest }) => {
                   Buy now
                 </Link> */}
               </div>
+              </a>
             </div>
             {/* end single card */}
             {/* single card */}

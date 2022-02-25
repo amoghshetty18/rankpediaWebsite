@@ -104,6 +104,7 @@ const MusicArea = ({ className, ...rest }) => {
           <div className="row justify-content-center px-xl-0">
             {/* single card */}
             <div className="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-8">
+            <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/English.zip">
               <div
                 className="card-same rounded-15 text-center px-10 py-10 gr-hover-3 mb-9 border border-default-color"
                 data-aos="zoom-in"
@@ -120,7 +121,7 @@ const MusicArea = ({ className, ...rest }) => {
                   English
                 </h5>
                 {/* <p className="dwnlds-crts-str" onClick={()=>downloadenglish('/Grade8/NCERTBooks/English.zip')}>Download course structure</p> */}
-               <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/English.zip"> <p className="dwnlds-crts-str">Download course structure</p> </a>
+                <p className="dwnlds-crts-str">Download course structure</p>
                 {/* <Link
                   to="/#"
                   className="btn btn-sunset rounded-5 min-w-144 h-55"
@@ -128,10 +129,12 @@ const MusicArea = ({ className, ...rest }) => {
                   Buy now
                 </Link> */}
               </div>
+              </a>
             </div>
             {/* end single card */}
             {/* single card */}
             <div className="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-8">
+            <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/Maths.zip">
               <div
                 className="card-same rounded-15 text-center px-10 py-10 gr-hover-3 mb-9 border border-default-color"
                 data-aos="zoom-in"
@@ -149,7 +152,7 @@ const MusicArea = ({ className, ...rest }) => {
                 </h5>
                 {/* <p className="dwnlds-crts-str" onClick={()=>downloadmaths('/Grade8/NCERTBooks/Math.zip')}>Download course structure</p> */}
                
-                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/Maths.zip">  <p className="dwnlds-crts-str">Download course structure</p> </a>
+                  <p className="dwnlds-crts-str">Download course structure</p> 
                
                 {/* <Link
                   to="/#"
@@ -158,10 +161,12 @@ const MusicArea = ({ className, ...rest }) => {
                   Buy now
                 </Link> */}
               </div>
+              </a>
             </div>
             {/* end single card */}
             {/* single card */}
             <div className="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-8">
+            <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/Science.zip"> 
               <div
                 className="card-same rounded-15 text-center px-10 py-10 gr-hover-3 mb-9 border border-default-color"
                 data-aos="zoom-in"
@@ -179,7 +184,7 @@ const MusicArea = ({ className, ...rest }) => {
                 </h5>
                 {/* <p className="dwnlds-crts-str" onClick={()=>downloadscience('/Grade8/NCERTBooks/Science.zip')}>Download course structure</p> */}
                 
-                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/Science.zip"> <p className="dwnlds-crts-str">Download course structure</p></a>
+                <p className="dwnlds-crts-str">Download course structure</p>
                 
                  {/* <Link
                   to="/#"
@@ -188,10 +193,12 @@ const MusicArea = ({ className, ...rest }) => {
                   Buy now
                 </Link> */}
               </div>
+              </a>
             </div>  
             {/* end single card */}
             {/* single card */}
             <div className="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-8">
+            <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/Ss.zip"> 
               <div
                 className="card-same rounded-15 text-center px-10 py-10 gr-hover-3 mb-9 border border-default-color"
                 data-aos="zoom-in"
@@ -209,7 +216,7 @@ const MusicArea = ({ className, ...rest }) => {
                 </h5>
                 {/* <p className="dwnlds-crts-str" onClick={()=>downloadss('/Grade8/NCERTBooks/Ss.zip')}>Download course structure</p> */}
                
-                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/Ss.zip"> <p className="dwnlds-crts-str">Download course structure</p></a>
+                <p className="dwnlds-crts-str">Download course structure</p>
                
                 {/* <Link
                   to="/#"
@@ -218,12 +225,14 @@ const MusicArea = ({ className, ...rest }) => {
                   Buy now
                 </Link>  */}
               </div>
+              </a>
             </div> 
             {/* end single card */}
           </div>
           <div className="row  px-xl-0">
             {/* single card */}
             <div className="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-8">
+            <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/10-Hindi.zip"> 
               <div
                 className="card-same rounded-15 text-center px-10 py-10 gr-hover-3 mb-9 border border-default-color"
                 data-aos="zoom-in"
@@ -241,7 +250,7 @@ const MusicArea = ({ className, ...rest }) => {
                 </h5>
                 {/* <p className="dwnlds-crts-str" onClick={()=>downloadhindi('/Grade10/NCERTBooks/Hindi.zip')}>Download course structure</p> */}
 
-                <a href="https://rankpedia-images.s3.ap-south-1.amazonaws.com/10-Hindi.zip"> <p className="dwnlds-crts-str">Download course structure</p></a>
+                <p className="dwnlds-crts-str">Download course structure</p>
 
 
                 {/* <Link
@@ -252,6 +261,7 @@ const MusicArea = ({ className, ...rest }) => {
                 </Link> */}
 
               </div>
+              </a>
             </div>
             {/* end single card */}
           </div>

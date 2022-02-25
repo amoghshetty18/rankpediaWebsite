@@ -65,9 +65,9 @@ export const menuItems = [
     name: "#",
     label: "Study materials",
     items: [
-      { name: "grade-landing-8", label: "Class 8", isExternal: false },
-      { name: "grade-landing-9", label: "Class 9", isExternal: false },
-      { name: "grade-landing-10", label: "Class 10", isExternal: false },
+      { name: "grade8", label: "Class 8", isExternal: false },
+      { name: "grade9", label: "Class 9", isExternal: false },
+      { name: "grade10", label: "Class 10", isExternal: false },
     ],
   },
   // {
