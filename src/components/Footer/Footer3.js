@@ -87,7 +87,7 @@ const Footer = ({ className, ...rest }) => {
             <div class="col-lg-6">
               <p class="copyright-text gr-text-11 mb-6 mb-lg-0 gr-text-color-opacity text-center text-lg-left">
                 {/* © 2021 Copyright, All Right Reserved */}
-                2022 Rankpedia, All Rights Reserved
+                2022 Rankpedia Private Limited, All Rights Reserved
               </p>
             </div>
             <div class="col-lg-6 text-center text-lg-right">
