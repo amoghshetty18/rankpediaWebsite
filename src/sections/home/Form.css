@@ -1,0 +1,117 @@
+.form-control{
+    /* color: white;
+    
+    text-align:center;
+    max-height: 40px; */
+    /* margin: 5px 20px 10px 0px; */
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    width: 100%;
+}
+.box-container-form{
+    width: 100%;
+    /* display: flex; */
+}
+/* .row{
+    margin: 0px 25px 10px 20px;
+} */
+.container-form{
+    margin-bottom: 10px;
+}
+.container-header{
+    display: flex;
+    width: 100%;
+}
+.form-header{
+    display: flex;
+    height: 30px;
+    width: 80%;
+    position: relative;
+    /* float: left; */
+    text-align: center;
+}
+.form-header-content{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+.form-exit{
+    display: flex;
+    width: 20%;
+    height: 30px;
+    float: right;
+    /* margin-right: ?; */
+    margin-bottom: 10px;    
+    padding: 0;
+    
+}
+.form-exit-content{
+    color: black;
+    width: 30px;
+    /* float: left; */
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 40%;
+    
+}
+.para-style{
+    color: red;
+    height: 5px;
+    font-size: 10px;
+    position: relative;
+    margin: 0px 5px 15px 15px;
+}
+.input-form{
+    width: auto;
+}
+.input-form-standard{
+    /* padding: 0px 0px 10px!important; */
+}
+.form-input-value{
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    height: 30px;
+    width: 80%;
+    margin: 5px auto;
+}
+::placeholder{
+    color: grey;
+    font-size: 14px;
+    font-weight: bolder;
+    padding-left: 8px;
+}
+select.select-form-value{
+    font-weight: bolder;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.select-form-value{
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    height: 30px;
+    width: 80%;
+    margin: 5px auto;
+    border-width: 1px;
+    border-style: inset;
+    /* border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133)); */
+}
+.select-form-value{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
+    color: grey;
+
+}
+.select-option-content{
+    font-size: 15px;
+}
+.contact-form {
+    padding-left: 80px!important;
+    padding-right: 35px!important;
+    padding-top: 25px!important;
+}

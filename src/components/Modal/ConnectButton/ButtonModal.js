@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Form from "../../../sections/home/Form";
+import './ButtonModal.css';
 
 function ButtonModal({ title, paragraph, extraParagraph, child }) {
   const [showModal, setShowModal] = useState(false);
@@ -31,33 +32,10 @@ function ButtonModal({ title, paragraph, extraParagraph, child }) {
               X
             </div>
           </div>
-          {/* <h4
-        style={{marginTop:'-10px', textAlign:'center', 
-        fontSize:'20px',
-        color:'black'}}
-        >Your Details</h4>
-          <p>
-            <div className="btn-red" onClick={closeModalHandler}
-              style={{
-                height:'25px',
-                maxWidth:'10px',
-                minWidth:'25px',
-                margin:'0px 0px 0px 320px',
-                cursor:'pointer'
-              }}>X</div> */}
             <div class="mb-3">
             <Form/>
             </div>
-          {/* </p> */}
-          {/* <button
-            class="btn btn-red mx-auto gtstrdr"
-            style={{
-                backgroundColor: 'red'
-            }}
-            onClick={closeModalHandler}
-          >
-            Cancel
-          </button> */}
+          
         </div>
       )}
       {showModal && <div class="backdrops" onClick={closeModalHandler}></div>}
