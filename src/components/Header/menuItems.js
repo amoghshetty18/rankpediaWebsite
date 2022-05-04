@@ -31,14 +31,14 @@ export const menuItems = [
         isExternal: false,
       },
       {
-    name: "#",
-    label: "Study materials",
-    items: [
-      { name: "grade-landing-8", label: "Class 8", isExternal: false },
-      { name: "grade-landing-9", label: "Class 9", isExternal: false },
-      { name: "grade-landing-10", label: "Class 10", isExternal: false },
-    ],
-  },
+        name: "#",
+        label: "Study materials",
+        items: [
+          { name: "grade-landing-8", label: "Class 8", isExternal: false },
+          { name: "grade-landing-9", label: "Class 9", isExternal: false },
+          { name: "grade-landing-10", label: "Class 10", isExternal: false },
+        ],
+      },
     ],
   },
   {
@@ -51,7 +51,7 @@ export const menuItems = [
   //   label: "Continuing Education",
   //   isExternal: false,
   // },
-  
+
   // {
   //   name: "#",
   //   label: "For Students",
