@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonModal from "../../components/Modal/ConnectButton/ButtonModal";
 import "../../css/styles.css";
 
 function Section1({ className, title, description, ...rest }) {
@@ -14,6 +15,7 @@ function Section1({ className, title, description, ...rest }) {
                   <p class="gr-text-8 pr-5 pl-0 pr-xl-11 mb-9 learnpar">
                     {description}
                   </p>
+                  <ButtonModal/>
                 </div>
               </div>
               <div className="col-lg-6 col-md-12 d-flex justify-content-center">

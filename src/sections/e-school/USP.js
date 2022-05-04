@@ -9,6 +9,7 @@ import {
 } from "react-accessible-accordion";
 
 import "react-accessible-accordion/dist/fancy-example.css";
+import ConnectForm from "../home/ConnectForm";
 
 const faqs = [
   {
@@ -83,6 +84,7 @@ function USP() {
         </ul>
       </ImageLeft>
       </div>
+      <ConnectForm/>
       <div className="container">
         <div className="Heading-styling text-center mb-7 mb-lg-9">
           <h1 className="font-size-10 mt-7">FAQs</h1>

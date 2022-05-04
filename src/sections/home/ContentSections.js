@@ -1,5 +1,11 @@
 import React from 'react';
 import { Link } from "gatsby";
+import GER from '../../assets/image/home/GER.png'
+// import Causes from '../../assets/image/home/Causes-Of-dropping-out.png'
+import ClickToPop from './ClickToPop';
+import { borderRadius } from 'styled-system';
+
+import ConnectForm from './ConnectForm';
 
 const ContentSections = () => {
   return (
@@ -20,7 +26,7 @@ const ContentSections = () => {
           data-aos-once="true"
         >
           <img 
-            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643089987/home-page/Bringing-About-a-Change_vzucke.jpg" 
+            src={GER} 
             alt="" 
             className="img-fluid"
           />
@@ -219,7 +225,7 @@ const ContentSections = () => {
           data-aos-once="true"
         >
           <img 
-            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1643103341/home-page/An-Alarming-fact-in-the-Indian-Education-System-PNG_1_huawpv.png" 
+            src="https://res.cloudinary.com/ddo1ag5nz/image/upload/v1645596988/Causes-of-dropping-out_hitkar.png"
             alt="" 
             className="img-fluid"
           />
@@ -591,6 +597,7 @@ const ContentSections = () => {
             Our comprehensive question banks, curated by our experienced Subject Matter Experts, are of various levels of difficulty, which challenge students to perform better and expand their knowledge.
           </p>
         </div>
+        <ConnectForm/>
       </div>
     </div>
   );

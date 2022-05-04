@@ -3,10 +3,23 @@ import { Link } from "gatsby";
 import logoW from "../../assets/image/logo-main-white.png";
 
 export const menuItems = [
-  {
-    name: "about",
-    label: "About Us",
-  },
+  // {
+  //   name: "about",
+  //   label: "About Us",
+  //   isExternal: false,
+  //   items: [
+  //     {
+  //       name: "neplanding",
+  //       label: "NEP",
+  //       isExternal: false,
+  //     },
+  //     {
+  //       name: "contact",
+  //       label: "Contact Us",
+  //       isExternal: false,
+  //     }
+  //   ]
+  // },
   {
     name: "e-learning",
     label: "E Learning",
@@ -17,6 +30,15 @@ export const menuItems = [
         label: "For Schools",
         isExternal: false,
       },
+      {
+    name: "#",
+    label: "Study materials",
+    items: [
+      { name: "grade-landing-8", label: "Class 8", isExternal: false },
+      { name: "grade-landing-9", label: "Class 9", isExternal: false },
+      { name: "grade-landing-10", label: "Class 10", isExternal: false },
+    ],
+  },
     ],
   },
   {
@@ -24,21 +46,12 @@ export const menuItems = [
     label: "E School",
     isExternal: false,
   },
-  {
-    name: "continuing-education",
-    label: "Continuing Education",
-    isExternal: false,
-  },
-  {
-    name: "neplanding",
-    label: "NEP",
-    isExternal: false,
-  },
-  {
-    name: "contact",
-    label: "Contact Us",
-    isExternal: false,
-  },
+  // {
+  //   name: "continuing-education",
+  //   label: "Continuing Education",
+  //   isExternal: false,
+  // },
+  
   // {
   //   name: "#",
   //   label: "For Students",

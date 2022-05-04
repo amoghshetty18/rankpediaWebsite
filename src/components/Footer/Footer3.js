@@ -22,6 +22,7 @@ const Footer = ({ className, ...rest }) => {
                 <ul class="footer-list list-unstyled">
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="/about"  >About Us</a></li>
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="/why-rankpedia"  >Why Rankpedia?</a></li>
+                  <li class="py-2"><a class="gr-text-9 gr-text-color" href="/neplanding"  >NEP</a></li>
                   {/* <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Class/Courses</a></li>
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="">Study Material</a></li> */}
                   <li class="py-2"><a class="gr-text-9 gr-text-color" href="https://medium.com/rankpedia">Blog</a></li>
@@ -86,7 +87,7 @@ const Footer = ({ className, ...rest }) => {
             <div class="col-lg-6">
               <p class="copyright-text gr-text-11 mb-6 mb-lg-0 gr-text-color-opacity text-center text-lg-left">
                 {/* © 2021 Copyright, All Right Reserved */}
-                2021 Rankpedia, All Rights Reserved
+                2022 Rankpedia Private Limited, All Rights Reserved
               </p>
             </div>
             <div class="col-lg-6 text-center text-lg-right">

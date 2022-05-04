@@ -12,7 +12,9 @@ import SelectDropdown from './SelectDropdown'
 import Popup from './popup'
 import axios from 'axios'
 import swal from 'sweetalert'
+import './Form.css'
 import {districtsInfo} from '../../assets/indianStatesAndDistricts'
+import Address from './Address'
 
 const initialValues = {
   fullName: '',
@@ -311,6 +313,7 @@ const Form = () => {
       >
         <Map />
       </div>
+      <Address/>
       {/* {showpop?
       <div className="container-full">
         <div className="popupSuccess">
